@@ -61,6 +61,29 @@ most importantly, `siteUrl`. Edit it and run `python3 build.py`.
   with every state page linked), `sitemap.xml` with lastmod/priority when
   `siteUrl` is set.
 
+### Automatic weekly update from Shopify
+
+`.github/workflows/sync-shopify.yml` runs every Monday morning (and on demand
+from the repo's Actions tab). It pulls the collection from Shopify with
+`tools/sync_shopify.py`, rebuilds the catalog with `tools/build_catalog.py`, and
+only if a title, price, description, image or variant changed does it rebuild
+the site and push a commit. Unchanged weeks do nothing.
+
+One-time setup (about five minutes):
+
+1. In Shopify admin: Settings → Apps and sales channels → Develop apps → Create
+   an app (name it "Site sync") → Configure Admin API scopes → tick
+   `read_products` → Save → Install app → copy the **Admin API access token**
+   (shown once).
+2. In the GitHub repo: Settings → Secrets and variables → Actions → New
+   repository secret, twice:
+   - `SHOPIFY_STORE_DOMAIN` = your `something.myshopify.com` domain
+   - `SHOPIFY_ADMIN_TOKEN` = the token from step 1
+3. Actions tab → "Weekly Shopify sync" → Run workflow, to test it once.
+
+The token only has read access to products; it cannot change anything in the
+store. To sync a different collection set the `SHOPIFY_COLLECTION_ID` secret.
+
 ### Uploading only what changed
 
 ```bash
