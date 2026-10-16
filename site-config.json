@@ -20,5 +20,15 @@
   "googleSiteVerification": "",
   "_googleSiteVerification_help": "Paste the code from Google Search Console (HTML tag method) to verify the site.",
   "gtagId": "",
-  "_gtagId_help": "Google Analytics 4 measurement ID like G-XXXXXXXXXX, or a Google Ads ID. Leave empty for no analytics."
+  "_gtagId_help": "Google Analytics 4 measurement ID like G-XXXXXXXXXX. Turns on page views + all button/click events. Free at analytics.google.com.",
+  "gtmId": "",
+  "_gtmId_help": "Optional Google Tag Manager container ID like GTM-XXXXXXX, if you prefer to manage tags there.",
+  "metaPixelId": "",
+  "_metaPixelId_help": "Optional Meta (Facebook/Instagram) Pixel ID for ad conversion tracking.",
+  "ga4PropertyId": "",
+  "_ga4PropertyId_help": "Numeric GA4 property ID (GA4 Admin \u2192 Property \u2192 Property details). Needed by /admin/ to read reports.",
+  "googleOAuthClientId": "",
+  "_googleOAuthClientId_help": "OAuth client ID (Google Cloud Console \u2192 APIs & Services \u2192 Credentials \u2192 Create OAuth client ID \u2192 Web application; add this site's address under Authorized JavaScript origins; enable the Google Analytics Data API). Lets /admin/ sign you in with Google.",
+  "repo": "1ExamPrep/1examprep-Electrical",
+  "_repo_help": "GitHub owner/repo, used by /admin/ to show sync runs and recent updates."
 }

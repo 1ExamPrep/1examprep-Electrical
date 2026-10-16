@@ -4,6 +4,7 @@ Disallow: /designs/
 Disallow: /gallery.html
 Disallow: /search/
 Disallow: /store/
+Disallow: /admin/
 
 User-agent: GPTBot
 Allow: /

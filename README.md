@@ -84,6 +84,52 @@ One-time setup (about five minutes):
 The token only has read access to products; it cannot change anything in the
 store. To sync a different collection set the `SHOPIFY_COLLECTION_ID` secret.
 
+### Traffic and click tracking
+
+`shared/track.js` runs on every page and sends events to Google Analytics 4
+(and to Google Tag Manager / Meta Pixel if those IDs are set). Nothing loads
+until `gtagId` is filled in. Events, with GA4 ecommerce fields where they exist:
+
+| Event | When | Key fields |
+|---|---|---|
+| `view_item` | product page opened | item id/name, state, level, package, price |
+| `select_item` | "What's inside" or a related-package card clicked | item, list location |
+| `select_variant` | add-on option changed on a product page | item + variant |
+| `begin_checkout` + `buy_now_click` | any Buy now button | item, variant, price, `button_location` (package_card, product_page, quick_view, sticky_bar, header, bottom_cta) |
+| `search`, `search_open`, `search_result_click` | site search | search term |
+| `filter_change` | state or level changed | state, level |
+| `phone_click` | phone number tapped | location |
+| `outbound_click` | link to 1examprep.com | url |
+| `faq_open`, `package_swipe` | FAQ opened, phone swiper arrows | question / direction |
+
+Register `button_location` as an event-scoped custom dimension in GA4 (Admin →
+Custom definitions) to break Buy clicks down by button.
+
+### Admin dashboard (`/admin/`)
+
+Hidden from search engines. Shows, without any sign-in: catalog counts, price
+range, duplicate listings found in Shopify, a filterable table of all products
+with links to each page and the store, the last Shopify sync runs and the latest
+site updates (from GitHub), and quick links (sitemap, robots, llms.txt, GA,
+Search Console).
+
+With Google sign-in it shows traffic and conversions for 7/28/90 days: sessions,
+users, page views, Buy clicks and rate, checkout value clicked, phone taps,
+searches; sessions and Buy clicks per day; Buy clicks by state, package, level
+and button; all events; search terms; top pages; traffic sources; devices.
+It reads GA4 directly in your browser with your own Google account (read-only),
+so only people with access to the GA property can see the numbers.
+
+Setup (one time, in `site-config.json`):
+1. `gtagId`: GA4 measurement ID (G-…). Create a free GA4 property at
+   analytics.google.com → Admin → Create property → Web data stream.
+2. `ga4PropertyId`: the numeric property ID (Admin → Property details).
+3. `googleOAuthClientId`: Google Cloud Console → APIs & Services → enable
+   "Google Analytics Data API" → Credentials → Create OAuth client ID → Web
+   application → Authorized JavaScript origins: your site's address (for now
+   `https://1examprep.github.io`). Copy the client ID.
+4. `python3 build.py` and push.
+
 ### Uploading only what changed
 
 ```bash

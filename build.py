@@ -68,7 +68,9 @@ def head_extra(path, title, desc, image, rel, noindex=False, extra_ld=()):
     h.append('<meta name="theme-color" content="#1b1f3b">')
     h.append('<link rel="icon" href="%sshared/favicon.svg" type="image/svg+xml">' % rel); h.append('<link rel="apple-touch-icon" href="%sshared/apple-touch-icon.png">' % rel); h.append('<link rel="manifest" href="%smanifest.webmanifest">' % rel)
     if CFG.get("googleSiteVerification"): h.append('<meta name="google-site-verification" content="%s">' % html.escape(CFG["googleSiteVerification"]))
-    if CFG.get("gtagId"): h.append('<script async src="https://www.googletagmanager.com/gtag/js?id=%s"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","%s");</script>' % (CFG["gtagId"], CFG["gtagId"]))
+    if CFG.get("gtagId"): h.append('<script async src="https://www.googletagmanager.com/gtag/js?id=%s"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","%s",{"send_page_view":true});</script>' % (CFG["gtagId"], CFG["gtagId"]))
+    if CFG.get("gtmId"): h.append("<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','%s');</script>" % CFG["gtmId"])
+    if CFG.get("metaPixelId"): h.append("<script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','%s');fbq('track','PageView');</script>" % CFG["metaPixelId"])
     for o in extra_ld: h.append(ld(o).rstrip())
     return "\n".join(h) + "\n"
 
@@ -114,7 +116,7 @@ def page(path_parts, route, title, desc, h1, lead, og_image=None, extra_ld=(), c
     lds = list(extra_ld)
     if crumbs: lds.append(crumbs_ld(crumbs))
     out = (tpl.replace("{{ASSETS_HEAD}}", assets_head).replace("{{ASSETS_CATALOG}}", assets_cat).replace("{{ASSETS_APP}}", assets_app)
-           .replace("{{ASSETS_SEARCH}}", '<script src="%sshared/search.js" defer></script>' % rel)
+           .replace("{{ASSETS_SEARCH}}", '<script src="%sshared/search.js" defer></script>\n<script src="%sshared/track.js" defer></script>' % (rel, rel))
            .replace("{{HEAD_EXTRA}}", head_extra(path, title, desc, og_image, rel, noindex, lds))
            .replace("{{NAV_TOOLS}}", nav_tools('<a class="btn btn-buy" href="#packs">Pick my package</a>'))
            .replace("{{FOOTER}}", footer(rel, sorted({p["year"] for p in CATALOG}, reverse=True)[0]))
@@ -165,13 +167,13 @@ def product_page(path_parts, p, siblings, state_name, level_url, other_level_url
               "offers": [{"@type": "Offer", "name": v["title"], "priceCurrency": "USD", "price": v["price"], "availability": "https://schema.org/InStock", "itemCondition": "https://schema.org/NewCondition", "url": absurl(path), "seller": {"@type": "Organization", "name": BRAND}} for v in p["variants"]]}
     crumbs = [("All states", ""), (state_name.capitalize() if state_name == "any state" else state_name, "/".join(path_parts[:3]) + "/"), (p["level"], "/".join(path_parts[:3]) + "/"), (p["tierName"], path)]
     extra = head_extra(path, clean_title(p["title"]) + " | " + BRAND, desc, imgs[0], rel, False, [crumbs_ld(crumbs), faq_ld([(q, a % p["year"] if "%s" in a else a) for q, a in PRODUCT_FAQ])])
-    pjson = json.dumps({"id": p["id"], "variants": p["variants"]})
+    pjson = json.dumps({"id": p["id"], "variants": p["variants"], "title": clean_title(p["title"]), "state": p["state"], "level": p["level"], "tierName": p["tierName"], "price": p["price"]})
     assets_head = '<link rel="stylesheet" href="%sshared/base.css">\n<link rel="stylesheet" href="%sshared/store.css">' % (rel, rel)
     out = (ptpl.replace("{{TITLE}}", html.escape(clean_title(p["title"]) + " | 1 Exam Prep")).replace("{{DESC}}", html.escape(desc))
            .replace("{{CANONICAL}}", ('<link rel="canonical" href="%s">\n' % url) if url else "")
            .replace("{{OGIMAGE}}", '<meta property="og:image" content="%s">\n' % html.escape(imgs[0]))
            .replace("{{ASSETS_HEAD}}", assets_head).replace("{{ASSETS_PRODUCT}}", '<script src="%sshared/product.js"></script>' % rel)
-           .replace("{{ASSETS_SEARCH}}", '<script src="%sshared/search.js" defer></script>' % rel).replace("{{HEAD_EXTRA}}", extra)
+           .replace("{{ASSETS_SEARCH}}", '<script src="%sshared/search.js" defer></script>\n<script src="%sshared/track.js" defer></script>' % (rel, rel)).replace("{{HEAD_EXTRA}}", extra)
            .replace("{{NAV_TOOLS}}", nav_tools('<a class="btn btn-buy" href="%s" rel="noopener">Buy now</a>' % ("https://1examprep.com/cart/%s:1" % v0["id"])))
            .replace("{{FOOTER}}", footer(rel, p["year"])).replace("{{ROUTE}}", json.dumps({"state": path_parts[0], "level": p["level"], "year": p["year"], "tier": p["tierSlug"], "depth": depth}))
            .replace("{{JSONLD}}", json.dumps(jsonld, ensure_ascii=False)).replace("{{P_JSON}}", pjson)
@@ -266,8 +268,14 @@ sp = tpl[:tpl.index("<body>")]
 sp = (sp.replace("{{ASSETS_HEAD}}", '<link rel="stylesheet" href="../shared/base.css">\n<link rel="stylesheet" href="../shared/store.css">').replace("{{TITLE}}", "Search | " + BRAND).replace("{{DESC}}", "Search %s electrician exam prep packages by state, level or product." % BRAND)
       .replace("{{CANONICAL}}", "").replace("{{OGIMAGE}}", "").replace("{{HEAD_EXTRA}}", head_extra("search/", "Search | " + BRAND, "Search electrician exam prep packages.", CFG.get("logo"), "../", noindex=True)))
 sp += ('<body><a class="skip" href="#main">Skip to content</a><header class="nav"><div class="wrap"><a class="brand" href="../" id="homeLink">1 <span>Exam</span> Prep</a>' + nav_tools('<a class="btn btn-buy" href="../#packs">Pick my package</a>') + '</div></header>'
-       + search_body + footer("../", years[0]) + '<script>window.ROUTE={"depth":1};</script><script src="../shared/catalog.js"></script><script src="../shared/search.js"></script></body></html>')
+       + search_body + footer("../", years[0]) + '<script>window.ROUTE={"depth":1};</script><script src="../shared/catalog.js"></script><script src="../shared/search.js"></script><script src="../shared/track.js"></script></body></html>')
 os.makedirs(os.path.join(ROOT, "search"), exist_ok=True); open(os.path.join(ROOT, "search", "index.html"), "w", encoding="utf-8").write(sp)
+
+# --- /admin/ dashboard (noindex; analytics needs Google sign-in) ---
+atpl = open(os.path.join(ROOT, "store", "admin.html"), encoding="utf-8").read()
+admin_cfg = {"gtagId": CFG.get("gtagId", ""), "ga4PropertyId": CFG.get("ga4PropertyId", ""), "googleOAuthClientId": CFG.get("googleOAuthClientId", ""), "repo": CFG.get("repo", ""), "siteUrl": SITE or ""}
+os.makedirs(os.path.join(ROOT, "admin"), exist_ok=True)
+open(os.path.join(ROOT, "admin", "index.html"), "w", encoding="utf-8").write(atpl.replace("{{ADMIN_JSON}}", json.dumps(admin_cfg)))
 
 # --- icons + manifest ---
 fav = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#ff5a1f"/><path d="M36 14v36h-9V24l-8 5v-9l10-6z" fill="#fff"/></svg>'
@@ -282,7 +290,7 @@ open(os.path.join(ROOT, "manifest.webmanifest"), "w").write(json.dumps({"name": 
 
 # --- robots.txt (AI crawlers explicitly welcome) + llms.txt ---
 bots = ["GPTBot", "ChatGPT-User", "OAI-SearchBot", "ClaudeBot", "Claude-User", "anthropic-ai", "PerplexityBot", "Google-Extended", "Applebot-Extended", "Bytespider", "CCBot", "Amazonbot", "meta-externalagent"]
-rb = "User-agent: *\nAllow: /\nDisallow: /designs/\nDisallow: /gallery.html\nDisallow: /search/\nDisallow: /store/\n\n" + "".join("User-agent: %s\nAllow: /\n\n" % b for b in bots)
+rb = "User-agent: *\nAllow: /\nDisallow: /designs/\nDisallow: /gallery.html\nDisallow: /search/\nDisallow: /store/\nDisallow: /admin/\n\n" + "".join("User-agent: %s\nAllow: /\n\n" % b for b in bots)
 if SITE: rb += "Sitemap: %ssitemap.xml\n" % SITE
 open(os.path.join(ROOT, "robots.txt"), "w").write(rb)
 tiers_desc = "Packages per state and level, lowest to highest: Study Guide + Flash Cards ($99.95), Study Guide + NEC with Tabs ($249.95), Study Guide + Calculations + NEC ($279.95), Super Combo ($349.95), Ultimate Combo ($399.95, adds the online test success kit)."
