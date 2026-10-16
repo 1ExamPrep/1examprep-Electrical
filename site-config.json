@@ -1,6 +1,6 @@
 {
   "_comment": "Site-wide settings. Edit, then run: python3 build.py",
-  "siteUrl": "",
+  "siteUrl": "https://1examprep.github.io/1examprep-Electrical",
   "_siteUrl_help": "Final address with https and no trailing slash, e.g. https://prep.1examprep.com. Leave empty until you have one; canonical tags, sitemap.xml and the robots Sitemap line are added only when it is set.",
   "brand": "1 Exam Prep",
   "legalName": "1 Exam Prep",
