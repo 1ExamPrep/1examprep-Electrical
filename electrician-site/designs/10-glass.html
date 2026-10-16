@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MasterPrep — Glass</title>
+<meta name="description" content="Master electrician exam prep. Glass bento hero with a live sample question, a 3D cover-flow of packs driven by scroll, straight-to-checkout buying.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../shared/base.css">
+<style>
+:root{
+  --bg:#eef0ff; --fg:#1b1b4b; --muted:#5c5f86;
+  --aqua:#0fb5a8; --accent:#1b1b4b; --accent-hover:#2a2a6b; --on-accent:#fff;
+  --card:rgba(255,255,255,.65); --line:rgba(27,27,75,.12); --chip:rgba(255,255,255,.7);
+  --radius:1.5rem; --radius-btn:1rem;
+  --font-display:"Sora",sans-serif; --font-body:"Nunito Sans",sans-serif;
+}
+html,body{overflow-x:clip}
+.bgm{position:fixed;inset:0;z-index:-1;background:var(--bg);overflow:hidden}
+.bgm i{position:absolute;border-radius:50%;filter:blur(80px);opacity:.7;will-change:transform}
+.bgm .a{width:55vmax;height:55vmax;left:-15vmax;top:-20vmax;background:#c7c3ff}
+.bgm .b{width:45vmax;height:45vmax;right:-10vmax;top:5vh;background:#a9f0e6}
+.bgm .c{width:40vmax;height:40vmax;left:30vw;bottom:-20vmax;background:#ffd6e8}
+.btn{font-weight:700;padding:1rem 1.5rem}
+.btn-buy{background:var(--aqua);color:#fff}
+.btn-buy:hover{background:#0ca094;box-shadow:0 14px 30px -12px rgba(15,181,168,.8)}
+.glass{background:rgba(255,255,255,.55);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border:1px solid rgba(255,255,255,.8);box-shadow:0 30px 60px -40px rgba(27,27,75,.35)}
+/* nav */
+.nav{position:fixed;top:1rem;left:50%;transform:translateX(-50%);z-index:50;width:min(1180px,100% - 2rem);border-radius:999px;padding:.4rem .5rem .4rem 1.25rem}
+.nav .in{display:flex;align-items:center;gap:1.5rem}
+.brand{font-family:var(--font-display);font-weight:800;font-size:1.2rem;text-decoration:none;color:var(--fg)}
+.nav-links{display:flex;gap:1.25rem;margin-left:auto;font-weight:600}
+.nav-links a{text-decoration:none;color:var(--muted)}
+.nav-links a:hover{color:var(--fg)}
+@media (max-width:720px){.nav-links{display:none}}
+.nav .btn{padding:.65rem 1.1rem;border-radius:999px}
+/* bento hero */
+.hero{padding:7rem 0 3rem}
+.bento{display:grid;grid-template-columns:repeat(12,1fr);grid-auto-rows:minmax(120px,auto);gap:1rem}
+.b1{grid-column:span 7;grid-row:span 2;padding:2.5rem;border-radius:var(--radius);display:flex;flex-direction:column;justify-content:space-between}
+.b2{grid-column:span 5;grid-row:span 3;padding:1.75rem;border-radius:var(--radius)}
+.b3{grid-column:span 4;padding:1.5rem;border-radius:var(--radius)}
+.b4{grid-column:span 3;padding:1.5rem;border-radius:var(--radius);background:var(--fg);color:#fff;border:0}
+@media (max-width:960px){.b1,.b2,.b3,.b4{grid-column:span 12;grid-row:auto}}
+.hero h1{font-family:var(--font-display);font-weight:800;font-size:clamp(2.4rem,4.8vw,4.2rem);line-height:1;letter-spacing:-.035em}
+.hero h1 .ln{display:block;overflow:hidden}.hero h1 .ln span{display:block}
+.lead{font-size:1.1rem;color:var(--muted);max-width:44ch;line-height:1.6;margin:1.25rem 0 1.75rem}
+.cta{display:flex;gap:.75rem;flex-wrap:wrap}
+.cta .btn-details{box-shadow:inset 0 0 0 1.5px var(--line);background:rgba(255,255,255,.5)}
+.b3 b,.b4 b{display:block;font-family:var(--font-display);font-size:2.2rem;letter-spacing:-.03em;line-height:1}
+.b3 > span,.b4 > span{font-size:.9rem;color:var(--muted)}
+.b4 > span{color:rgba(255,255,255,.7)}
+.b3 b{color:var(--aqua)}
+/* question */
+.q header{display:flex;justify-content:space-between;font-size:.85rem;color:var(--muted);margin-bottom:.9rem}
+.q h3{font-size:1.05rem;line-height:1.45;margin-bottom:1rem}
+.opts{display:grid;gap:.5rem}
+.opt{display:flex;align-items:center;gap:.7rem;padding:.75rem .9rem;border:1.5px solid var(--line);border-radius:.9rem;background:rgba(255,255,255,.6);text-align:left;font-weight:600;transition:border-color .2s,transform .2s}
+.opt:hover{border-color:var(--aqua);transform:translateX(3px)}
+.opt i{flex:none;width:24px;height:24px;border-radius:50%;display:grid;place-items:center;font-size:.75rem;background:var(--bg);color:var(--fg)}
+.opt.right{border-color:#17a34a;background:#eefbf2}.opt.wrong{border-color:#dc3545;background:#fdf1f2}
+.q.done .opt{pointer-events:none}
+.expl{display:none;margin-top:.9rem;padding:.9rem 1rem;border-radius:.9rem;background:rgba(27,27,75,.06);font-size:.92rem;line-height:1.5}
+.q.done .expl{display:block}
+.q .next{margin-top:.9rem;display:none;padding:.7rem 1.1rem}
+.q.done .next{display:inline-flex}
+/* cover-flow products */
+section{padding:5rem 0}
+h2{font-family:var(--font-display);font-weight:800;font-size:clamp(2rem,4.4vw,3.4rem);line-height:1;letter-spacing:-.035em}
+.sub-h{color:var(--muted);font-size:1.1rem;max-width:56ch;margin-top:1rem;line-height:1.6}
+.flow{margin-top:2.5rem;perspective:1400px}
+.products{grid-template-columns:repeat(auto-fit,minmax(210px,1fr))}
+.pc{transform-style:preserve-3d;backface-visibility:hidden;will-change:transform;padding:1.6rem;border:1px solid rgba(255,255,255,.8);background:rgba(255,255,255,.65);backdrop-filter:blur(18px);transition:box-shadow .3s}
+.pc:hover{box-shadow:0 40px 70px -40px rgba(27,27,75,.5)}
+.pc--featured{background:var(--fg);color:#fff;border-color:transparent}
+.pc--featured .pc-badge{background:var(--aqua)}
+.pc--featured .pc-short,.pc--featured .pc-access,.pc--featured .pc-was{color:rgba(255,255,255,.7);opacity:1}
+.pc--featured .pc-features li::before{border-color:var(--aqua)}
+.pc--featured .btn-details{box-shadow:inset 0 0 0 2px rgba(255,255,255,.35);color:#fff}
+.pc-now{letter-spacing:-.03em}
+/* how */
+.how{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:2rem}
+@media (max-width:800px){.how{grid-template-columns:1fr}}
+.how div{padding:1.75rem;border-radius:var(--radius)}
+.how b{display:block;font-family:var(--font-display);font-size:1.15rem;margin-bottom:.4rem;letter-spacing:-.02em}
+.how p{color:var(--muted);line-height:1.55}
+.states span{color:var(--fg)}
+.faq{max-width:760px;margin-top:2rem}
+.final{padding:0 0 6rem}
+.final .wrap{border-radius:var(--radius);padding:clamp(2rem,5vw,4rem);display:grid;grid-template-columns:1fr auto;gap:2rem;align-items:center}
+@media (max-width:800px){.final .wrap{grid-template-columns:1fr}}
+.final p{color:var(--muted);margin-top:.75rem;max-width:46ch}
+.final .btn-buy{font-size:1.1rem;padding:1.2rem 1.9rem}
+footer{padding:0 0 3rem;color:var(--muted);font-size:.88rem}
+.stickybar{position:fixed;left:1rem;right:1rem;bottom:1rem;z-index:60;display:none;align-items:center;justify-content:space-between;gap:1rem;padding:.6rem .6rem .6rem 1.2rem;border-radius:999px}
+.stickybar small{color:var(--muted);display:block}
+.stickybar .btn-buy{border-radius:999px}
+@media (max-width:720px){.stickybar{display:flex}footer{padding-bottom:7rem}}
+.modal-card{background:#fff}
+</style>
+</head>
+<body>
+<div class="bgm" aria-hidden="true"><i class="a"></i><i class="b"></i><i class="c"></i></div>
+
+<header class="nav glass"><div class="in">
+  <a class="brand" href="#" data-brand>MasterPrep</a>
+  <nav class="nav-links" aria-label="Main"><a href="#packs">Packs</a><a href="#how">How</a><a href="#faq">FAQ</a></nav>
+  <a class="btn btn-buy" href="#packs">Buy a pack</a>
+</div></header>
+
+<section class="hero"><div class="wrap bento">
+  <div class="b1 glass">
+    <div>
+      <h1><span class="ln"><span>Practice that feels</span></span><span class="ln"><span>like the real sitting.</span></span></h1>
+      <p class="lead">Timed, open-book master electrician exams weighted like the board outline, with a readiness score that tells you the day to book.</p>
+    </div>
+    <div class="cta">
+      <a class="btn btn-buy" data-buy-featured href="#packs">Buy now · <span data-featured-price>$74.95</span></a>
+      <a class="btn btn-details" href="#packs">See the packs</a>
+    </div>
+  </div>
+  <div class="b2 glass q" id="q">
+    <header><span>Try a sample · <b id="qn">1</b> of 2</span><span>Theory</span></header>
+    <h3 id="qt"></h3>
+    <div class="opts" id="opts"></div>
+    <div class="expl" id="expl"></div>
+    <button class="btn btn-buy next" id="next" type="button">Next question</button>
+  </div>
+  <div class="b3 glass"><b><span data-count="850" data-suffix="+">0</span></b><span>unique practice questions</span></div>
+  <div class="b4"><b><span data-count="70" data-suffix="%">0</span></b><span>typical passing mark</span></div>
+</div></section>
+
+<section id="packs"><div class="wrap">
+  <h2 data-reveal>Pick a pack, go straight to checkout</h2>
+  <p class="sub-h" data-reveal>Buy now opens your payment page. "What's inside" shows the full description first.</p>
+  <div class="flow"><div class="products" id="flow" data-products></div></div>
+</div></section>
+
+<section id="how" style="padding-top:0"><div class="wrap">
+  <h2 data-reveal>How it works</h2>
+  <div class="how">
+    <div class="glass" data-reveal><b>1. Buy a pack</b><p>Checkout takes a minute. Your login arrives by email.</p></div>
+    <div class="glass" data-reveal style="--d:.1s"><b>2. Practice timed, open book</b><p>Drill weak topics in training mode until the lookup is automatic.</p></div>
+    <div class="glass" data-reveal style="--d:.2s"><b>3. Book when ready</b><p>Fresh-question scores above your state's mark means schedule it.</p></div>
+  </div>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+  <h2 data-reveal>National portion for these states</h2>
+  <div class="states" data-states data-reveal style="margin-top:1.5rem"></div>
+  <p class="sub-h" data-codenote style="font-size:.95rem"></p>
+</div></section>
+
+<section id="faq" style="padding-top:0"><div class="wrap">
+  <h2 data-reveal>Before you buy</h2>
+  <div class="faq" data-reveal>
+    <details open><summary>Is this the actual exam?</summary><p>No. Real exam questions are confidential. These are original practice questions written to the same subjects, formats and difficulty.</p></details>
+    <details><summary>Which NEC edition?</summary><p>Each pack lists its edition at checkout. Match it to your candidate bulletin.</p></details>
+    <details><summary>When do I get access?</summary><p>Right after payment, by email. Works on any device.</p></details>
+    <details><summary>Does buying make me eligible to test?</summary><p>No. Eligibility comes from your state board. We get you ready for the test itself.</p></details>
+    <details><summary>Need help?</summary><p>Email <a data-email href="#">support</a>.</p></details>
+  </div>
+</div></section>
+
+<section class="final"><div class="wrap glass" data-reveal>
+  <div><h2>Liked the sample? There are 850 more.</h2><p>Grab the pack that fits your timeline and take the full diagnostic tonight.</p></div>
+  <a class="btn btn-buy" data-buy-featured href="#packs">Buy now · <span data-featured-price>$74.95</span></a>
+</div></section>
+<footer><div class="wrap"><p><strong data-brand>MasterPrep</strong> © <span data-year></span>. Practice material only. Not affiliated with any state licensing board, PSI, Prov, Pearson VUE, NFPA or NASCLA. Purchasing does not grant exam eligibility or a license.</p></div></footer>
+
+<div class="stickybar glass">
+  <div><strong data-featured-name>Master Study Pack</strong><small><span data-featured-price>$74.95</span> · instant access</small></div>
+  <a class="btn btn-buy" data-buy-featured href="#packs">Buy now</a>
+</div>
+
+<script src="../shared/products.js"></script>
+<script src="../shared/app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+  /* sample questions (original) */
+  var qs=[
+    {t:"A 240 V resistive load draws 20 A. How much energy does it use in three hours?",o:["4.8 kWh","14.4 kWh","9.6 kWh","48 kWh"],a:1,e:"<b>14.4 kWh.</b> P = 240 × 20 = 4,800 W = 4.8 kW; energy = 4.8 kW × 3 h = 14.4 kWh. The question asks for energy, not power."},
+    {t:"A motor delivers 5 kW output at 90% efficiency. What is the input real power?",o:["4.5 kW","5.56 kW","5.0 kW","6.2 kW"],a:1,e:"<b>About 5.56 kW.</b> Input = output ÷ efficiency = 5 ÷ 0.9. Don't size a branch-circuit conductor from this alone; the code motor tables control."}
+  ];
+  var i=0,card=document.getElementById("q"),qt=document.getElementById("qt"),opts=document.getElementById("opts"),expl=document.getElementById("expl"),qn=document.getElementById("qn"),next=document.getElementById("next");
+  function render(){var q=qs[i];qt.textContent=q.t;qn.textContent=i+1;card.classList.remove("done");expl.innerHTML="";
+    opts.innerHTML=q.o.map(function(o,k){return '<button class="opt" type="button" data-k="'+k+'"><i>'+"ABCD"[k]+'</i>'+o+'</button>';}).join("");
+    next.textContent=i<qs.length-1?"Next question":"Try again";}
+  opts.addEventListener("click",function(e){var b=e.target.closest(".opt");if(!b||card.classList.contains("done"))return;var k=+b.getAttribute("data-k"),q=qs[i];b.classList.add(k===q.a?"right":"wrong");opts.children[q.a].classList.add("right");expl.innerHTML=q.e;card.classList.add("done");});
+  next.addEventListener("click",function(){i=(i+1)%qs.length;render();});
+  render();
+
+  if(!window.gsap) return;
+  gsap.registerPlugin(ScrollTrigger);
+  var mm=gsap.matchMedia();
+  mm.add("(prefers-reduced-motion: no-preference)", function(){
+    gsap.to(".bgm .a",{x:100,y:60,duration:16,yoyo:true,repeat:-1,ease:"sine.inOut"});
+    gsap.to(".bgm .b",{x:-120,y:90,duration:19,yoyo:true,repeat:-1,ease:"sine.inOut"});
+    gsap.to(".bgm .c",{x:80,y:-100,duration:21,yoyo:true,repeat:-1,ease:"sine.inOut"});
+    gsap.from(".bento > *",{opacity:0,y:30,scale:.97,duration:.9,ease:"power3.out",stagger:.1,delay:.1});
+    gsap.from(".hero h1 .ln span",{yPercent:110,duration:1,ease:"expo.out",stagger:.1,delay:.4});
+  });
+  mm.add("(min-width: 861px) and (prefers-reduced-motion: no-preference)", function(){
+    // cover-flow: cards fan in 3D from the sides as the row scrolls into view, then settle flat
+    var cards=gsap.utils.toArray("#flow .pc"), n=cards.length;
+    cards.forEach(function(c,k){
+      var off=k-(n-1)/2;
+      gsap.fromTo(c,{rotateY:off*-28,x:off*-90,z:-Math.abs(off)*160,opacity:0},{rotateY:0,x:0,z:0,opacity:1,ease:"power2.out",
+        scrollTrigger:{trigger:"#flow",start:"top 90%",end:"top 35%",scrub:.4}});
+    });
+  });
+});
+</script>
+</body>
+</html>
