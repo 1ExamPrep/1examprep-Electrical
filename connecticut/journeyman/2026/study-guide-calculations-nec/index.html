@@ -17,7 +17,7 @@
 <body>
 
 <header class="nav"><div class="wrap">
-  <a class="brand" href="../../../../">1 <span>Exam</span> Prep</a>
+  <a class="brand" href="../../../../" id="homeLink">1 <span>Exam</span> Prep</a>
   <nav class="nav-links" aria-label="Main"><a href="#packs">Packages</a><a href="#compare">Compare</a><a href="#singles">Study guides</a><a href="#faq">FAQ</a></nav>
   <a class="btn btn-buy" href="#packs">Pick my package</a>
 </div></header>
@@ -147,7 +147,10 @@
   function cleanTitle(t){return t.replace(/\s*\(Based on the \d{4} NEC\)\s*/,"").replace(/: Trusted by 50k Electricians/,"");}
 
   /* ---- URL base: everything before this page's own route segments ---- */
-  var BASE=(function(){var p=location.pathname.replace(/index\.html$/,"");var parts=p.split("/");if(parts[parts.length-1]==="")parts.pop();for(var i=0;i<(ROUTE.depth||0);i++)parts.pop();return parts.join("/")+"/";})();
+  var BASE=(function(){
+    if(window.__B)return window.__B;                                   /* single-page build: computed in <head> from the URL */
+    var p=location.pathname.replace(/index\.html$/,"");var parts=p.split("/");if(parts[parts.length-1]==="")parts.pop();for(var i=0;i<(ROUTE.depth||0);i++)parts.pop();return parts.join("/")+"/";})();
+  var hl=document.getElementById("homeLink");if(hl&&window.__B)hl.setAttribute("href",BASE);
   function pathFor(s,tier){return BASE+slugState(s.state)+"/"+s.level.toLowerCase()+"/"+s.year+"/"+(tier?tier+"/":"");}
   function parsePath(){var rel=location.pathname.slice(BASE.length).replace(/index\.html$/,"").split("/").filter(Boolean);var st=unslugState(rel[0]);if(!st)return null;var lv=cap(rel[1]||"");if(lv!=="Journeyman"&&lv!=="Master")return null;return {state:st,level:lv,year:(rel[2]&&/^\d{4}$/.test(rel[2]))?rel[2]:null,tier:rel[3]||null};}
 
