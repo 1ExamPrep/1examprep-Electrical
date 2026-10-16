@@ -37,6 +37,7 @@ def page(path_parts, route, title, desc, h1, lead, og_image=None):
     url = (SITE + "/".join(path_parts) + ("/" if path_parts else "")) if SITE else None
     assets_head = '<link rel="stylesheet" href="%sshared/base.css">\n<link rel="stylesheet" href="%sshared/store.css">' % (rel, rel)
     assets_cat = '<script src="%sshared/catalog.js"></script>' % rel
+    assets_app = '<script src="%sshared/store.js"></script>' % rel
     if route.get("spa"):
         boot = ("<script>window.__B=(function(){var S=%s;var parts=location.pathname.split('/').filter(Boolean);var i=-1;"
                 "for(var k=0;k<parts.length;k++){if(S.indexOf(parts[k].toLowerCase())>-1){i=k;break;}}"
@@ -44,7 +45,7 @@ def page(path_parts, route, title, desc, h1, lead, og_image=None):
                 "document.write('<link rel=\"stylesheet\" href=\"'+__B+'shared/base.css\"><link rel=\"stylesheet\" href=\"'+__B+'shared/store.css\">');</script>") % json.dumps(sorted(slug(x) for x in STATES + [GENERAL]))
         assets_head = boot
         assets_cat = "<script>document.write('<script src=\"'+__B+'shared/catalog.js\"><\\/script>');</script>"
-    out = (tpl.replace("{{ASSETS_HEAD}}", assets_head).replace("{{ASSETS_CATALOG}}", assets_cat)
+    out = (tpl.replace("{{ASSETS_HEAD}}", assets_head).replace("{{ASSETS_CATALOG}}", assets_cat).replace("{{ASSETS_APP}}", assets_app)
            .replace("{{TITLE}}", html.escape(title)).replace("{{DESC}}", html.escape(desc))
            .replace("{{CANONICAL}}", ('<link rel="canonical" href="%s">\n' % url) if url else "")
            .replace("{{OGIMAGE}}", ('<meta property="og:image" content="%s">\n' % html.escape(og_image)) if og_image else "")
