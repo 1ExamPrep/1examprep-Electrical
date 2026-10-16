@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{TITLE}}</title>
+<meta name="description" content="{{DESC}}">
+{{CANONICAL}}<meta property="og:type" content="product">
+<meta property="og:title" content="{{TITLE}}">
+<meta property="og:description" content="{{DESC}}">
+{{OGIMAGE}}{{HEAD_EXTRA}}<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;700&display=swap" rel="stylesheet">
+{{ASSETS_HEAD}}
+<script type="application/ld+json">{{JSONLD}}</script>
+</head>
+<body class="pdp">
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav"><div class="wrap">
+  <a class="brand" href="{{HOME}}" id="homeLink" aria-label="1 Exam Prep home">1 <span>Exam</span> Prep</a>
+  <nav class="nav-links" aria-label="Main"><a href="{{LEVEL_URL}}">All {{STATE}} {{LEVEL}} packages</a><a href="#included">What's included</a><a href="#details">Details</a><a href="#faq">FAQ</a></nav>
+  {{NAV_TOOLS}}
+</div></header>
+
+<main class="wrap" id="main">
+  <p class="crumb" aria-label="Breadcrumb"><a href="{{HOME}}">All states</a><span>/</span><a href="{{LEVEL_URL}}">{{STATE}}</a><span>/</span><a href="{{LEVEL_URL}}">{{LEVEL}}</a><span>/</span><a href="{{LEVEL_URL}}">{{YEAR}}</a><span>/</span>{{TIER_NAME}}</p>
+
+  <section class="pdp-top" aria-labelledby="h1">
+    <div class="gallery" id="gallery">
+      <div class="g-main"><img id="gMain" src="{{IMAGE}}" alt="{{H1}}"></div>
+      <div class="g-thumbs" id="gThumbs">{{THUMBS}}</div>
+    </div>
+    <div class="buybox">
+      <span class="pc-tier">{{STATE}} · {{LEVEL}} · {{YEAR}} NEC</span>
+      <h1 class="pdp-h1" id="h1">{{TIER_NAME}}</h1>
+      <p class="pdp-sub">{{H1}}</p>
+      <div class="pdp-price"><span class="pc-now" id="pNow">{{PRICE}}</span>{{COMPARE_HTML}}</div>
+      <form class="variants" id="variants">{{VARIANTS_HTML}}</form>
+      <a class="btn btn-buy btn-buy--lg" id="buyBtn" href="{{BUY_URL}}" rel="noopener">Buy now — go to checkout</a>
+      <ul class="assure">
+        <li>Secure checkout at 1examprep.com</li>
+        <li>Books ship from 1 Exam Prep; online kits arrive by email</li>
+        <li>Built on the {{YEAR}} National Electrical Code</li>
+      </ul>
+      <a class="m-link" href="{{SHOP_URL}}" target="_blank" rel="noopener">See this product on 1examprep.com ↗</a>
+    </div>
+  </section>
+
+  <section class="pdp-grid" aria-labelledby="included">
+    <div>
+      <h2 id="included">What's in the {{TIER_NAME}}</h2>
+      <ul class="included">{{INCLUDED_HTML}}</ul>
+      {{ADDONS_HTML}}
+      <h2 id="details">About this package</h2>
+      <div class="desc">{{DESCRIPTION_HTML}}</div>
+    </div>
+    <aside class="side">
+      <h2 id="h-related" style="font-size:1.05rem">Other {{STATE}} {{LEVEL}} packages</h2>
+      <div class="related">{{RELATED_HTML}}</div>
+      <a class="side-link" href="{{OTHER_LEVEL_URL}}">Looking for the {{OTHER_LEVEL}} exam instead? →</a>
+      <a class="side-link" href="{{HOME}}">Choose a different state →</a>
+    </aside>
+  </section>
+
+  <section id="faq" class="pdp-faq" aria-labelledby="h-faq">
+    <h2 id="h-faq">Before you buy</h2>
+    <div class="faq">
+      <details open><summary>Which NEC edition is this based on?</summary><p>The {{YEAR}} National Electrical Code. If your state is still testing on an earlier edition, check your candidate bulletin first; 1examprep.com also carries earlier editions.</p></details>
+      <details><summary>Are these the actual exam questions?</summary><p>No. Real exam questions are confidential. These are practice questions written to the same subjects, format and difficulty, with explanations.</p></details>
+      <details><summary>When will I get it?</summary><p>Online kits and courses are delivered by email after purchase. Books and code books ship from 1 Exam Prep; shipping options are shown at checkout.</p></details>
+      <details><summary>Does buying make me eligible to test?</summary><p>No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.</p></details>
+    </div>
+  </section>
+</main>
+
+{{FOOTER}}
+
+<div class="stickybar">
+  <div><strong>{{TIER_NAME}}</strong><small><span id="sPrice">{{PRICE}}</span> · straight to checkout</small></div>
+  <a class="btn btn-buy" id="sBuy" href="{{BUY_URL}}" rel="noopener">Buy now</a>
+</div>
+
+<script>window.PRODUCT={{P_JSON}};window.ROUTE={{ROUTE}};</script>
+{{ASSETS_PRODUCT}}
+{{ASSETS_SEARCH}}
+</body>
+</html>

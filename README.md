@@ -15,7 +15,7 @@ that works when typed, shared, linked from an ad or indexed by Google:
 /                                    home, state picker
 /texas/journeyman/2026/              Texas · Journeyman · 2026 NEC (5 packages)
 /texas/master/2026/                  Texas · Master
-/texas/master/2026/ultimate-combo/   one package, opens with its details and add-ons
+/texas/master/2026/ultimate-combo/   full product page: gallery, add-ons, description, related
 /general/master/2026/                the non-state "general edition" packages
 /new-york/journeyman/2026/           multi-word states use a dash
 ```
@@ -33,6 +33,52 @@ Open Graph tags and h1 for search.
 The address never shows a file name: the page for `/texas/master/2026/` is stored
 as `texas/master/2026/index.html`, and GitHub Pages serves it whenever that folder
 is requested. Every link the site generates uses the clean form.
+
+### Settings, search, phone and SEO
+
+`site-config.json` holds the site-wide settings: brand, phone, email, social
+links, logo, Google Search Console verification code, Google Analytics ID and,
+most importantly, `siteUrl`. Edit it and run `python3 build.py`.
+
+- **Search**: the magnifier in the header (or the `/` key) opens an instant
+  search over states and all 522 products; `/search/?q=` is a full page used by
+  the schema.org SearchAction. Runs in the browser, no server.
+- **Phone**: `(877) 775-9400` in the header (tap-to-call on phones) and footer.
+- **Footer**: contact, popular states, shop links, social links.
+- **Schema.org** on every page: Organization + WebSite(SearchAction) + FAQPage on
+  the home page; CollectionPage/ItemList + BreadcrumbList + FAQPage on state
+  pages; Product (all variants as offers) + BreadcrumbList + FAQPage on product
+  pages.
+- **Head tags**: unique title and meta description, robots, canonical (when
+  `siteUrl` is set), Open Graph, Twitter card, theme-color, favicon,
+  apple-touch-icon, web manifest, optional Search Console and GA4 tags.
+- **Structure**: one `h1` with `id="h1"` per page, sections with ids and
+  `aria-labelledby`, skip link, `main`/`nav`/`footer` landmarks, alt text,
+  lazy images.
+- **Crawlers**: `robots.txt` (allows everything public, blocks the template
+  designs and the search page, explicitly welcomes AI crawlers such as GPTBot,
+  ClaudeBot and PerplexityBot), `llms.txt` (site summary for AI assistants
+  with every state page linked), `sitemap.xml` with lastmod/priority when
+  `siteUrl` is set.
+
+### Uploading only what changed
+
+```bash
+python3 make-update.py          # writes ../site-update.zip with just the changed and new files
+python3 make-update.py --mark   # run after you upload, so the next update starts from here
+```
+
+The page's behaviour lives in `shared/store.js` and its styles in `shared/store.css`,
+so a design or script fix is usually a one- or two-file upload. Only a change to
+the page *markup* (`store/template.html`) or to the catalog regenerates all pages.
+
+### Product pages
+
+Every package URL is a full product page: six-image gallery, package name,
+price with compare-at and savings, the add-on variants from Shopify (picking one
+updates the price and the Buy link), a "What's in the package" list, the complete
+Shopify description, related packages for the same state and level, and
+schema.org Product data for Google. Buy now is the Shopify cart permalink.
 
 ### How to rebuild
 
@@ -79,8 +125,13 @@ electrician-site/
 ├── build.py              ← generates all of the above from the template + catalog
 ├── 404.html              ← sends near-miss URLs to the right page
 ├── gallery.html          ← preview of the 10 template designs
-├── store/template.html   ← the product page design (edit this, then run build.py)
+├── store/template.html   ← the state listing page design (edit, then run build.py)
+├── store/product.html    ← the product page design
+├── store/products-full.json ← full descriptions + 6 images per product (from Shopify, build-time only)
+├── shared/product.js     ← product page behaviour (variant price, gallery)
 ├── shared/store.css      ← product page styles
+├── shared/store.js       ← product page behaviour (picker, routing, modal)
+├── make-update.py        ← zips only files changed since your last upload
 ├── shared/catalog.js     ← 522 products pulled from Shopify (auto-generated)
 ├── designs/
 │   ├── 1-livewire.html

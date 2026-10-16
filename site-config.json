@@ -1,0 +1,24 @@
+{
+  "_comment": "Site-wide settings. Edit, then run: python3 build.py",
+  "siteUrl": "",
+  "_siteUrl_help": "Final address with https and no trailing slash, e.g. https://prep.1examprep.com. Leave empty until you have one; canonical tags, sitemap.xml and the robots Sitemap line are added only when it is set.",
+  "brand": "1 Exam Prep",
+  "legalName": "1 Exam Prep",
+  "tagline": "Electrician exam prep for all 50 states",
+  "phone": "(877) 775-9400",
+  "phoneTel": "+18777759400",
+  "email": "sales@1examprep.com",
+  "storeUrl": "https://1examprep.com",
+  "logo": "https://1examprep.com/cdn/shop/files/blue_a4afa373-9f4c-4a78-81a2-19df6441ab68.png?v=1618354509",
+  "social": {
+    "facebook": "https://www.facebook.com/1ExamPrep/",
+    "instagram": "https://instagram.com/1examprep/",
+    "twitter": "https://twitter.com/1examprep",
+    "youtube": "http://www.youtube.com/c/1ExamPrep",
+    "pinterest": "https://www.pinterest.com/1examprep/"
+  },
+  "googleSiteVerification": "",
+  "_googleSiteVerification_help": "Paste the code from Google Search Console (HTML tag method) to verify the site.",
+  "gtagId": "",
+  "_gtagId_help": "Google Analytics 4 measurement ID like G-XXXXXXXXXX, or a Google Ads ID. Leave empty for no analytics."
+}

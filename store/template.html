@@ -7,20 +7,21 @@
 <meta name="description" content="{{DESC}}">
 {{CANONICAL}}<meta property="og:title" content="{{TITLE}}">
 <meta property="og:description" content="{{DESC}}">
-{{OGIMAGE}}
+{{OGIMAGE}}{{HEAD_EXTRA}}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;700&display=swap" rel="stylesheet">
 {{ASSETS_HEAD}}
 </head>
 <body>
-
+<a class="skip" href="#main">Skip to content</a>
 <header class="nav"><div class="wrap">
-  <a class="brand" href="{{HOME}}" id="homeLink">1 <span>Exam</span> Prep</a>
+  <a class="brand" href="{{HOME}}" id="homeLink" aria-label="1 Exam Prep home">1 <span>Exam</span> Prep</a>
   <nav class="nav-links" aria-label="Main"><a href="#packs">Packages</a><a href="#compare">Compare</a><a href="#singles">Study guides</a><a href="#faq">FAQ</a></nav>
-  <a class="btn btn-buy" href="#packs">Pick my package</a>
+  {{NAV_TOOLS}}
 </div></header>
+<main id="main">
 
-<section class="hero"><div class="wrap">
+<section class="hero" aria-labelledby="h1"><div class="wrap">
   <h1 id="h1" aria-label="{{H1_TEXT}}">{{H1_HTML}}</h1>
   <p class="lead" id="lead">{{LEAD}}</p>
   <div class="picker">
@@ -38,8 +39,8 @@
 
 <div class="marquee" aria-hidden="true"><div id="marq"></div></div>
 
-<section id="packs" class="center"><div class="wrap">
-  <h2>Pick a package. Buy now. Done.</h2>
+<section id="packs" class="center" aria-labelledby="h-packs"><div class="wrap">
+  <h2 id="h-packs">Pick a package. Buy now. Done.</h2>
   <p class="sub-h">Buy now adds it to your cart and takes you straight to checkout at 1examprep.com. "What's inside" shows the description and add-on options first.</p>
   <div class="selbar">
     <b id="selTitle">Texas · Journeyman</b>
@@ -52,8 +53,8 @@
   <div class="railnav" id="railnav"><button type="button" class="rn" data-dir="-1" aria-label="Previous package">&larr;</button><span id="railpos">1 / 5</span><button type="button" class="rn" data-dir="1" aria-label="Next package">&rarr;</button></div>
 </div></section>
 
-<section id="compare" style="background:#fff"><div class="wrap center">
-  <h2>What's in each package</h2>
+<section id="compare" style="background:#fff" aria-labelledby="h-compare"><div class="wrap center">
+  <h2 id="h-compare">What's in each package</h2>
   <p class="sub-h">Every package includes the 2026 state study guide. Move right for more help.</p>
   <div class="compare">
     <table>
@@ -78,8 +79,8 @@
   </div>
 </div></section>
 
-<section id="how" class="center"><div class="wrap">
-  <h2>How it works</h2>
+<section id="how" class="center" aria-labelledby="h-how"><div class="wrap">
+  <h2 id="h-how">How it works</h2>
   <div class="big">
     <div data-reveal style="--d:.05s"><b>1</b><h3>Pick your state and level</h3><p>Every state guide is written for that state's exam and licensing board.</p></div>
     <div data-reveal style="--d:.15s"><b>2</b><h3>Choose a package</h3><p>Start with the study guide, or get the code book, tabs, calculations and online practice in one box.</p></div>
@@ -87,14 +88,14 @@
   </div>
 </div></section>
 
-<section id="singles" class="center" style="background:#fff"><div class="wrap">
-  <h2>Study guides, flash cards and online kits</h2>
+<section id="singles" class="center" style="background:#fff" aria-labelledby="h-singles"><div class="wrap">
+  <h2 id="h-singles">Study guides, flash cards and online kits</h2>
   <p class="sub-h">Not state-specific. Good for topping up a package you already own. For a complete non-state package, choose "General (any state)" in the picker above.</p>
   <div class="singles" id="singlesGrid"></div>
 </div></section>
 
-<section id="faq"><div class="wrap center">
-  <h2>Before you buy</h2>
+<section id="faq" aria-labelledby="h-faq"><div class="wrap center">
+  <h2 id="h-faq">Before you buy</h2>
   <div class="faq" data-reveal>
     <details open><summary>Which NEC edition are these based on?</summary><p>Every product in this collection is built on the 2026 National Electrical Code. If your state is still testing on the 2023 or 2020 NEC, check your candidate bulletin first; 1examprep.com also carries earlier editions.</p></details>
     <details><summary>Are these the actual exam questions?</summary><p>No. Real exam questions are confidential. These are practice questions written to the same subjects, format and difficulty, with explanations.</p></details>
@@ -104,13 +105,14 @@
   </div>
 </div></section>
 
-<section class="final"><div class="wrap">
-  <h2>Your exam date isn't moving. <em>Start today.</em></h2>
+<section class="final" aria-labelledby="h-final"><div class="wrap">
+  <h2 id="h-final">Your exam date isn't moving. <em>Start today.</em></h2>
   <p>Pick your state above, choose a package, and your books are on the way.</p>
   <a class="btn btn-buy" href="#packs">Pick my package</a>
 </div></section>
 
-<footer><div class="wrap"><p><strong>1 Exam Prep</strong> © <span data-year></span> · 1examprep.com. Prices and availability pulled from the 1 Exam Prep store; the price at checkout is the one that applies. Not affiliated with any state licensing board or testing vendor. Purchasing does not grant exam eligibility or a license.</p></div></footer>
+</main>
+{{FOOTER}}
 
 <div class="stickybar">
   <div><strong id="stickyTitle">Ultimate Combo</strong><small id="stickyPrice">$399.95 · straight to checkout</small></div>
@@ -128,5 +130,6 @@
 {{ASSETS_CATALOG}}
 <script>window.ROUTE={{ROUTE}};</script>
 {{ASSETS_APP}}
+{{ASSETS_SEARCH}}
 </body>
 </html>
