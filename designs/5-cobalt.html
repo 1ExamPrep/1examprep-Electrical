@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MasterPrep — Cobalt</title>
+<meta name="description" content="Try a real-style master electrician practice question, then pick a pack and go straight to checkout.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../shared/base.css">
+<style>
+:root{
+  --bg:#ffffff; --fg:#0f1333; --muted:#565b7d;
+  --cobalt:#1e3fea; --cobalt-deep:#1430b8; --lime:#d9ff3d;
+  --accent:#1e3fea; --accent-hover:#1430b8; --on-accent:#fff;
+  --card:#fff; --line:rgba(15,19,51,.12); --chip:#eef1ff;
+  --radius:1.4rem; --radius-btn:.8rem;
+  --font-display:"Syne",sans-serif; --font-body:"Manrope",sans-serif;
+}
+.btn{font-weight:700;font-size:1rem}
+/* nav */
+.nav{position:absolute;top:0;left:0;right:0;z-index:50;color:#fff}
+.nav .wrap{display:flex;align-items:center;gap:1.5rem;height:76px}
+.brand{font-family:var(--font-display);font-weight:800;font-size:1.5rem;text-decoration:none;color:#fff;letter-spacing:-.02em}
+.nav-links{display:flex;gap:1.5rem;margin-left:auto;font-weight:500}
+.nav-links a{text-decoration:none;color:rgba(255,255,255,.8)}
+.nav-links a:hover{color:#fff}
+.nav .btn-buy{background:var(--lime);color:var(--fg)}
+.nav .btn-buy:hover{background:#e6ff6b}
+@media (max-width:720px){.nav-links{display:none}}
+/* hero */
+.hero{position:relative;overflow:hidden;background:var(--cobalt);color:#fff;padding:9rem 0 5rem;border-radius:0 0 3rem 3rem}
+.blob{position:absolute;width:60vmax;height:60vmax;border-radius:50%;background:radial-gradient(circle,rgba(217,255,61,.35),rgba(217,255,61,0) 60%);left:var(--x,70%);top:var(--y,30%);transform:translate(-50%,-50%);pointer-events:none;transition:left .6s ease,top .6s ease;filter:blur(10px)}
+.hero .wrap{position:relative;display:grid;grid-template-columns:1.1fr .9fr;gap:3rem;align-items:center}
+@media (max-width:900px){.hero .wrap{grid-template-columns:1fr}}
+.hero h1{font-family:var(--font-display);font-weight:800;font-size:clamp(2.8rem,6.4vw,5.4rem);line-height:.96;letter-spacing:-.035em}
+.hero h1 .lime{color:var(--lime)}
+.lead{font-size:1.2rem;color:rgba(255,255,255,.82);max-width:48ch;margin:1.5rem 0 2rem;line-height:1.6}
+.cta{display:flex;gap:1rem;flex-wrap:wrap}
+.cta .btn-buy{background:var(--lime);color:var(--fg);padding:1.1rem 1.7rem;font-size:1.05rem}
+.cta .btn-buy:hover{background:#e6ff6b;box-shadow:0 20px 40px -15px rgba(217,255,61,.6)}
+.cta .btn-details{box-shadow:inset 0 0 0 2px rgba(255,255,255,.4);color:#fff}
+.cta .btn-details:hover{box-shadow:inset 0 0 0 2px #fff}
+.mini{display:flex;gap:1.5rem;flex-wrap:wrap;margin-top:1.75rem;font-size:.9rem;color:rgba(255,255,255,.75)}
+.mini b{color:#fff}
+/* sample question card */
+.q{background:#fff;color:var(--fg);border-radius:var(--radius);padding:1.75rem;box-shadow:0 50px 100px -40px rgba(0,0,0,.6);transform-style:preserve-3d;transition:transform .15s ease-out}
+.q header{display:flex;justify-content:space-between;font-size:.85rem;color:var(--muted);margin-bottom:1rem}
+.q header b{color:var(--cobalt)}
+.q h3{font-size:1.15rem;line-height:1.45;margin-bottom:1.25rem}
+.opts{display:grid;gap:.6rem}
+.opt{display:flex;align-items:center;gap:.8rem;padding:.85rem 1rem;border:2px solid var(--line);border-radius:.8rem;background:#fff;text-align:left;font-weight:500;transition:border-color .2s,background .2s,transform .2s}
+.opt:hover{border-color:var(--cobalt);transform:translateX(3px)}
+.opt i{flex:none;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;font-size:.8rem;font-weight:700;background:var(--chip);color:var(--cobalt)}
+.opt.right{border-color:#17a34a;background:#eefbf2}
+.opt.wrong{border-color:#dc3545;background:#fdf1f2}
+.q.done .opt{pointer-events:none}
+.expl{display:none;margin-top:1.1rem;padding:1rem 1.1rem;border-radius:.8rem;background:var(--chip);font-size:.95rem;line-height:1.55}
+.expl b{color:var(--cobalt)}
+.q.done .expl{display:block;animation:up .4s cubic-bezier(.2,.8,.2,1)}
+@keyframes up{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.q .next{margin-top:1rem;display:none}
+.q.done .next{display:inline-flex}
+/* ticker strip */
+.ticker{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin:-2.5rem auto 0;position:relative;z-index:2}
+@media (max-width:800px){.ticker{grid-template-columns:repeat(2,1fr)}}
+.tk{background:#fff;border:1px solid var(--line);border-radius:1rem;padding:1.25rem 1.4rem;box-shadow:0 20px 40px -30px rgba(15,19,51,.4)}
+.tk b{display:block;font-family:var(--font-display);font-size:2.2rem;color:var(--cobalt);letter-spacing:-.02em;line-height:1}
+.tk > span{font-size:.85rem;color:var(--muted)}
+/* sections */
+section{padding:5rem 0}
+h2{font-family:var(--font-display);font-weight:800;font-size:clamp(2rem,4.6vw,3.4rem);line-height:1;letter-spacing:-.035em}
+.sub-h{color:var(--muted);font-size:1.1rem;max-width:58ch;margin-top:.9rem;line-height:1.6}
+/* tilt cards */
+.products{margin-top:3rem;perspective:1200px}
+.pc{transform-style:preserve-3d;transition:transform .2s ease-out,box-shadow .3s;will-change:transform;padding:1.75rem}
+.pc:hover{box-shadow:0 40px 80px -40px rgba(30,63,234,.45)}
+.pc--featured{background:var(--cobalt);color:#fff;border-color:transparent}
+.pc--featured .pc-badge{background:var(--lime);color:var(--fg)}
+.pc--featured .pc-short,.pc--featured .pc-access,.pc--featured .pc-was{color:rgba(255,255,255,.75);opacity:1}
+.pc--featured .pc-features li::before{border-color:var(--lime)}
+.pc--featured .btn-buy{background:var(--lime);color:var(--fg)}
+.pc--featured .btn-buy:hover{background:#e6ff6b}
+.pc--featured .btn-details{box-shadow:inset 0 0 0 2px rgba(255,255,255,.4);color:#fff}
+.pc-name{letter-spacing:-.02em}
+.pc-now{letter-spacing:-.03em}
+/* how */
+.how{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;margin-top:3rem}
+@media (max-width:800px){.how{grid-template-columns:1fr}}
+.how div{padding:1.75rem;border-radius:var(--radius);background:var(--chip)}
+.how b{display:block;font-family:var(--font-display);font-size:1.3rem;letter-spacing:-.02em;margin-bottom:.4rem}
+.how p{color:var(--muted);line-height:1.55}
+.states span{color:var(--cobalt)}
+.faq{max-width:760px;margin-top:2rem}
+.final{padding:0 0 5rem}
+.final .box{background:var(--fg);color:#fff;border-radius:var(--radius);padding:clamp(2rem,5vw,4rem);display:grid;grid-template-columns:1fr auto;gap:2rem;align-items:center}
+@media (max-width:800px){.final .box{grid-template-columns:1fr}}
+.final h2{color:#fff}.final p{color:rgba(255,255,255,.7);margin-top:.75rem;max-width:46ch}
+.final .btn-buy{background:var(--lime);color:var(--fg);font-size:1.1rem;padding:1.15rem 1.8rem}
+.final .btn-buy:hover{background:#e6ff6b}
+footer{padding:0 0 3rem;color:var(--muted);font-size:.88rem}
+.stickybar{position:fixed;left:0;right:0;bottom:0;z-index:60;display:none;align-items:center;justify-content:space-between;gap:1rem;padding:.75rem 1rem;background:var(--fg);color:#fff}
+.stickybar small{color:rgba(255,255,255,.7);display:block}
+.stickybar .btn-buy{background:var(--lime);color:var(--fg)}
+@media (max-width:720px){.stickybar{display:flex}footer{padding-bottom:7rem}}
+</style>
+</head>
+<body>
+
+<header class="nav"><div class="wrap">
+  <a class="brand" href="#" data-brand>MasterPrep</a>
+  <nav class="nav-links" aria-label="Main"><a href="#packs">Packs</a><a href="#how">How it works</a><a href="#states">States</a><a href="#faq">FAQ</a></nav>
+  <a class="btn btn-buy" href="#packs">Buy a pack</a>
+</div></header>
+
+<section class="hero" id="hero">
+  <div class="blob" id="blob"></div>
+  <div class="wrap">
+    <div>
+      <h1>Try one question. <span class="lime">Then decide.</span></h1>
+      <p class="lead">This is what every question in the bank feels like: real exam style, timed, and when you miss, the explanation shows exactly which rule to look up. Pick a pack when you're convinced.</p>
+      <div class="cta">
+        <a class="btn btn-buy" data-buy-featured href="#packs">Buy the <span data-featured-name>Master Study Pack</span> · <span data-featured-price>$74.95</span></a>
+        <a class="btn btn-details" href="#packs">See all packs</a>
+      </div>
+      <p class="mini"><span><b>Instant access</b> after checkout</span><span><b>Free diagnostic</b> included</span><span><b>Any device</b></span></p>
+    </div>
+    <div class="q" id="q" data-tilt>
+      <header><span>Sample question <b id="qn">1</b> of 2</span><span>Electrical theory</span></header>
+      <h3 id="qt">A 240 V resistive load draws 20 A. How much energy does it use in three hours?</h3>
+      <div class="opts" id="opts"></div>
+      <div class="expl" id="expl"></div>
+      <button class="btn btn-buy next" id="next" type="button">Next question</button>
+    </div>
+  </div>
+</section>
+
+<div class="wrap ticker">
+  <div class="tk"><b><span data-count="850" data-suffix="+">0</span></b><span>unique questions</span></div>
+  <div class="tk"><b><span data-count="100" data-suffix="%">0</span></b><span>answers explained</span></div>
+  <div class="tk"><b><span data-count="5">0</span></b><span>full timed exams</span></div>
+  <div class="tk"><b><span data-count="17">0</span></b><span>states covered</span></div>
+</div>
+
+<section id="packs"><div class="wrap">
+  <h2 data-reveal>Pick a pack, go straight to checkout</h2>
+  <p class="sub-h" data-reveal>Buy now takes you to the payment page. "What's inside" shows the full description first. Either way, your login arrives by email right after.</p>
+  <div class="products" data-products></div>
+</div></section>
+
+<section id="how" style="padding-top:0"><div class="wrap">
+  <h2 data-reveal>How it works</h2>
+  <div class="how">
+    <div data-reveal style="--d:.05s"><b>1. Buy a pack</b><p>Checkout takes a minute. No account to create first.</p></div>
+    <div data-reveal style="--d:.15s"><b>2. Practice like test day</b><p>Timed, open book, with your own code book. Drill weak topics in training mode.</p></div>
+    <div data-reveal style="--d:.25s"><b>3. Book when ready</b><p>When fresh-question scores clear your state's passing mark, schedule the real exam.</p></div>
+  </div>
+</div></section>
+
+<section id="states" style="background:var(--chip);border-radius:3rem"><div class="wrap">
+  <h2 data-reveal>National portion for these states</h2>
+  <p class="sub-h" data-reveal>State law and business portions are separate exams where required. Match the NEC edition to your candidate bulletin.</p>
+  <div class="states" data-states data-reveal style="margin-top:1.5rem"></div>
+  <p class="sub-h" data-reveal data-codenote style="font-size:.95rem"></p>
+</div></section>
+
+<section id="faq"><div class="wrap">
+  <h2 data-reveal>Before you buy</h2>
+  <div class="faq" data-reveal>
+    <details open><summary>Is this the actual exam?</summary><p>No. Real exam questions are confidential. These are original practice questions written to the same subjects, formats and difficulty.</p></details>
+    <details><summary>Which NEC edition do the questions use?</summary><p>Each pack lists its edition at checkout. Match it to your candidate bulletin.</p></details>
+    <details><summary>How fast do I get access?</summary><p>Right after payment. Your login is emailed and works on any device.</p></details>
+    <details><summary>Does buying make me eligible to test?</summary><p>No. Eligibility comes from your state board. We get you ready for the test itself.</p></details>
+    <details><summary>Need help?</summary><p>Email <a data-email href="#">support</a>.</p></details>
+  </div>
+</div></section>
+
+<section class="final"><div class="wrap"><div class="box" data-reveal>
+  <div><h2>Liked the sample? There are 850 more.</h2><p>Grab the pack that fits your timeline and take the full diagnostic tonight.</p></div>
+  <a class="btn btn-buy" data-buy-featured href="#packs">Buy now · <span data-featured-price>$74.95</span></a>
+</div></div></section>
+
+<footer><div class="wrap"><p><strong data-brand>MasterPrep</strong> © <span data-year></span>. Practice material only. Not affiliated with any state licensing board, PSI, Prov, Pearson VUE, NFPA or NASCLA. Purchasing does not grant exam eligibility or a license.</p></div></footer>
+
+<div class="stickybar">
+  <div><strong data-featured-name>Master Study Pack</strong><small><span data-featured-price>$74.95</span> · instant access</small></div>
+  <a class="btn btn-buy" data-buy-featured href="#packs">Buy now</a>
+</div>
+
+<script src="../shared/products.js"></script>
+<script src="../shared/app.js"></script>
+<script>
+(function(){
+  /* Sample questions (original, not from any exam) */
+  var qs=[
+    {t:"A 240 V resistive load draws 20 A. How much energy does it use in three hours?",o:["4.8 kWh","14.4 kWh","9.6 kWh","48 kWh"],a:1,
+     e:"<b>14.4 kWh.</b> P = V × I = 240 × 20 = 4,800 W = 4.8 kW. Energy = kW × hours = 4.8 × 3 = 14.4 kWh. Watch the units: the question asks for energy, not power."},
+    {t:"A balanced 208 V three-phase load draws 30 A per line. What is the apparent power?",o:["6.2 kVA","10.8 kVA","18.7 kVA","4.3 kVA"],a:1,
+     e:"<b>About 10.8 kVA.</b> Three-phase apparent power = √3 × V(line-to-line) × I = 1.732 × 208 × 30 ≈ 10,800 VA. Forgetting √3 gives 6.2 kVA, the most common wrong answer."}
+  ];
+  var i=0,card=document.getElementById("q"),qt=document.getElementById("qt"),opts=document.getElementById("opts"),expl=document.getElementById("expl"),qn=document.getElementById("qn"),next=document.getElementById("next");
+  function render(){
+    var q=qs[i]; qt.textContent=q.t; qn.textContent=i+1; card.classList.remove("done"); expl.innerHTML="";
+    opts.innerHTML=q.o.map(function(o,k){return '<button class="opt" type="button" data-k="'+k+'"><i>'+"ABCD"[k]+'</i>'+o+'</button>';}).join("");
+    next.textContent = i<qs.length-1 ? "Next question" : "Try again";
+  }
+  opts.addEventListener("click",function(e){
+    var b=e.target.closest(".opt"); if(!b||card.classList.contains("done")) return;
+    var k=+b.getAttribute("data-k"), q=qs[i];
+    b.classList.add(k===q.a?"right":"wrong");
+    opts.children[q.a].classList.add("right");
+    expl.innerHTML=q.e; card.classList.add("done");
+  });
+  next.addEventListener("click",function(){ i=(i+1)%qs.length; render(); });
+  render();
+
+  /* Pointer-following glow + 3D tilt (desktop only) */
+  var fine = matchMedia("(pointer:fine)").matches && !matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if(!fine) return;
+  var hero=document.getElementById("hero"),blob=document.getElementById("blob");
+  hero.addEventListener("pointermove",function(e){ var r=hero.getBoundingClientRect(); blob.style.setProperty("--x",((e.clientX-r.left)/r.width*100)+"%"); blob.style.setProperty("--y",((e.clientY-r.top)/r.height*100)+"%"); });
+  function tilt(el){
+    el.addEventListener("pointermove",function(e){ var r=el.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5; el.style.transform="rotateX("+(-y*8)+"deg) rotateY("+(x*10)+"deg) translateY(-4px)"; });
+    el.addEventListener("pointerleave",function(){ el.style.transform=""; });
+  }
+  tilt(card);
+  document.querySelectorAll(".pc").forEach(tilt);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MasterPrep — Depth</title>
+<meta name="description" content="Master electrician exam prep with parallax depth, a scroll-driven exam clock, and straight-to-checkout buying.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Public+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../shared/base.css">
+<style>
+:root{
+  --bg:#e9f0fa; --fg:#0d1b3d; --muted:#4e5c7a;
+  --ink:#0d1b3d; --tang:#ff8c42; --accent:#0d1b3d; --accent-hover:#16295a; --on-accent:#fff;
+  --card:#fff; --line:rgba(13,27,61,.12); --chip:#fff;
+  --radius:1.2rem; --radius-btn:.7rem;
+  --font-display:"Bricolage Grotesque",sans-serif; --font-body:"Public Sans",sans-serif;
+}
+html,body{overflow-x:clip}
+.btn{font-weight:700;padding:1rem 1.5rem}
+.btn-buy{background:var(--tang);color:var(--ink)}
+.btn-buy:hover{background:#ff9d5e;box-shadow:0 14px 30px -12px rgba(255,140,66,.8)}
+/* nav */
+.nav{position:fixed;top:0;left:0;right:0;z-index:50;transition:background .3s,box-shadow .3s}
+.nav.solid{background:rgba(233,240,250,.9);backdrop-filter:blur(10px);box-shadow:0 1px 0 var(--line)}
+.nav .wrap{display:flex;align-items:center;gap:1.5rem;height:72px}
+.brand{font-family:var(--font-display);font-weight:800;font-size:1.35rem;text-decoration:none;color:var(--ink);letter-spacing:-.02em}
+.nav-links{display:flex;gap:1.5rem;margin-left:auto;font-weight:500}
+.nav-links a{text-decoration:none;color:var(--muted)}
+.nav-links a:hover{color:var(--ink)}
+@media (max-width:720px){.nav-links{display:none}}
+.nav .btn{padding:.7rem 1.1rem}
+/* hero with parallax layers */
+.hero{position:relative;min-height:100svh;display:grid;align-items:center;padding:7rem 0 4rem;overflow:hidden}
+.hero .wrap{position:relative;z-index:2;max-width:720px;margin-left:max(1rem,calc((100vw - 1180px)/2))}
+.hero h1{font-family:var(--font-display);font-weight:800;font-size:clamp(2.8rem,6.5vw,5.6rem);line-height:.98;letter-spacing:-.03em}
+.hero h1 .ln{display:block;overflow:hidden}
+.hero h1 .ln span{display:block}
+.lead{font-size:1.2rem;color:var(--muted);max-width:46ch;margin:1.5rem 0 2rem;line-height:1.6}
+.cta{display:flex;gap:1rem;flex-wrap:wrap}
+.layer{position:absolute;z-index:1;pointer-events:none;will-change:transform}
+.fcard{background:#fff;border-radius:1rem;box-shadow:0 30px 60px -30px rgba(13,27,61,.45);padding:1.1rem 1.25rem;width:260px;font-size:.85rem;line-height:1.45}
+.fcard b{display:block;color:var(--tang);font-family:var(--font-display);font-size:.8rem;letter-spacing:.02em;margin-bottom:.3rem}
+.fcard i{display:block;height:6px;border-radius:3px;background:#e9f0fa;margin-top:.7rem;overflow:hidden}
+.fcard i::after{content:"";display:block;height:100%;width:var(--w);background:var(--ink)}
+.l1{right:12%;top:18%}.l2{right:28%;top:46%}.l3{right:6%;top:62%}
+.ring{position:absolute;right:-10vw;top:-10vh;width:60vw;height:60vw;border-radius:50%;border:1.5px solid rgba(13,27,61,.12);z-index:0}
+.ring2{position:absolute;right:5vw;top:20vh;width:30vw;height:30vw;border-radius:50%;border:1.5px dashed rgba(13,27,61,.18);z-index:0}
+@media (max-width:860px){.layer,.ring,.ring2{display:none}.hero .wrap{margin-left:auto}}
+/* diagonal section */
+.cut{background:var(--ink);color:#fff;clip-path:polygon(0 6%,100% 0,100% 100%,0 100%);padding:8rem 0 6rem;margin-top:-3rem}
+.cut .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:3rem;align-items:center}
+@media (max-width:860px){.cut .wrap{grid-template-columns:1fr}}
+h2{font-family:var(--font-display);font-weight:800;font-size:clamp(2rem,4.6vw,3.6rem);line-height:1;letter-spacing:-.03em}
+.sub-h{font-size:1.1rem;max-width:56ch;margin-top:1rem;line-height:1.6;color:var(--muted)}
+.cut .sub-h{color:rgba(255,255,255,.7)}
+.clock{display:grid;grid-template-columns:auto 1fr;gap:2rem;align-items:center}
+@media (max-width:560px){.clock{grid-template-columns:1fr}}
+.dial{width:220px;height:220px;position:relative}
+.dial svg{transform:rotate(-90deg);width:100%;height:100%}
+.dial circle{fill:none;stroke-width:14}
+.dial .bg{stroke:rgba(255,255,255,.12)}
+.dial .fg{stroke:var(--tang);stroke-linecap:round;stroke-dasharray:597;stroke-dashoffset:597}
+.dial b{position:absolute;inset:0;display:grid;place-items:center;text-align:center;font-family:var(--font-display);font-size:2.4rem;line-height:1}
+.dial b small{display:block;font:500 .8rem var(--font-body);color:rgba(255,255,255,.6);margin-top:.3rem}
+.fmt{display:grid;gap:.8rem}
+.fmt div{display:grid;grid-template-columns:5.5rem 1fr auto;gap:.8rem;align-items:center;font-size:.95rem}
+.fmt div small{color:rgba(255,255,255,.6)}
+.fmt i{height:8px;border-radius:4px;background:rgba(255,255,255,.12);overflow:hidden;display:block}
+.fmt i::after{content:"";display:block;height:100%;width:var(--w);background:var(--tang);transform:scaleX(0);transform-origin:left}
+.fmt.in i::after{transition:transform 1.2s cubic-bezier(.2,.8,.2,1);transform:scaleX(1)}
+/* products */
+section{padding:5rem 0}
+.products{margin-top:2.5rem}
+.pc{padding:1.75rem;transition:transform .3s,box-shadow .3s}
+.pc:hover{transform:translateY(-6px);box-shadow:0 40px 60px -40px rgba(13,27,61,.5)}
+.pc--featured{background:var(--ink);color:#fff;border-color:var(--ink)}
+.pc--featured .pc-badge{background:var(--tang);color:var(--ink)}
+.pc--featured .pc-short,.pc--featured .pc-access,.pc--featured .pc-was{color:rgba(255,255,255,.7);opacity:1}
+.pc--featured .pc-features li::before{border-color:var(--tang)}
+.pc--featured .btn-details{box-shadow:inset 0 0 0 2px rgba(255,255,255,.35);color:#fff}
+.pc-now{letter-spacing:-.03em}
+/* strip */
+.strip{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+@media (max-width:800px){.strip{grid-template-columns:1fr}}
+.strip div{background:#fff;border-radius:var(--radius);padding:1.75rem}
+.strip b{font-family:var(--font-display);font-size:1.3rem;display:block;margin-bottom:.4rem;letter-spacing:-.02em}
+.strip p{color:var(--muted);line-height:1.55}
+.states span{color:var(--ink);border:1px solid var(--line)}
+.faq{max-width:760px;margin-top:2rem}
+.final{background:var(--ink);color:#fff;clip-path:polygon(0 0,100% 8%,100% 100%,0 100%);padding:8rem 0 6rem}
+.final .wrap{display:grid;grid-template-columns:1fr auto;gap:2rem;align-items:center}
+@media (max-width:800px){.final .wrap{grid-template-columns:1fr}}
+.final p{color:rgba(255,255,255,.7);margin-top:.75rem;max-width:46ch}
+.final .btn-buy{font-size:1.1rem;padding:1.2rem 1.9rem}
+footer{background:var(--ink);color:rgba(255,255,255,.6);padding:0 0 3rem;font-size:.88rem}
+.stickybar{position:fixed;left:0;right:0;bottom:0;z-index:60;display:none;align-items:center;justify-content:space-between;gap:1rem;padding:.75rem 1rem;background:#fff;border-top:1px solid var(--line)}
+.stickybar small{color:var(--muted);display:block}
+@media (max-width:720px){.stickybar{display:flex}footer{padding-bottom:7rem}}
+</style>
+</head>
+<body>
+
+<header class="nav" id="nav"><div class="wrap">
+  <a class="brand" href="#" data-brand>MasterPrep</a>
+  <nav class="nav-links" aria-label="Main"><a href="#packs">Packs</a><a href="#formats">Exam formats</a><a href="#faq">FAQ</a></nav>
+  <a class="btn btn-buy" href="#packs">Buy a pack</a>
+</div></header>
+
+<section class="hero" id="hero">
+  <div class="ring" data-speed="0.3"></div><div class="ring2" data-speed="0.5"></div>
+  <div class="layer l1" data-speed="0.8" data-depth="30"><div class="fcard"><b>Services &amp; feeders</b>Q 112 · A 240 V, 3-wire service feeds a dwelling with…<i style="--w:78%"></i></div></div>
+  <div class="layer l2" data-speed="1.25" data-depth="60"><div class="fcard"><b>Motors</b>Q 207 · Size the branch-circuit conductors for a 10 hp, 230 V, three-phase…<i style="--w:54%"></i></div></div>
+  <div class="layer l3" data-speed="0.55" data-depth="18"><div class="fcard"><b>Box fill</b>Q 341 · A 4×4×1½ in. box contains four 12 AWG conductors and…<i style="--w:91%"></i></div></div>
+  <div class="wrap">
+    <h1><span class="ln"><span>Every question,</span></span><span class="ln"><span>one code reference</span></span><span class="ln"><span>away from the answer.</span></span></h1>
+    <p class="lead">Timed, open-book master electrician practice built from the published board outlines. Miss one and you see the rule, the article and how to find it faster next time.</p>
+    <div class="cta">
+      <a class="btn btn-buy" data-buy-featured href="#packs">Buy now · <span data-featured-price>$74.95</span></a>
+      <a class="btn btn-details" href="#packs">See the packs</a>
+    </div>
+  </div>
+</section>
+
+<section class="cut" id="formats"><div class="wrap">
+  <div>
+    <h2>Train on your state's clock.</h2>
+    <p class="sub-h">Exam formats differ more than most prep sites admit. Texas splits knowledge and calculations into two portions. Virginia runs one 270-minute sitting. Florida's technical portion is five hours. Our timed mode matches the one in your bulletin.</p>
+  </div>
+  <div class="clock">
+    <div class="dial"><svg viewBox="0 0 220 220"><circle class="bg" cx="110" cy="110" r="95"/><circle class="fg" id="dialfg" cx="110" cy="110" r="95"/></svg><b><span id="dialn">0</span><small>minutes on the clock</small></b></div>
+    <div class="fmt" id="fmt">
+      <div><span>Texas</span><i style="--w:100%"></i><small>150 + 170 min</small></div>
+      <div><span>Florida</span><i style="--w:94%"></i><small>300 min technical</small></div>
+      <div><span>Virginia</span><i style="--w:84%"></i><small>270 min</small></div>
+      <div><span>NASCLA</span><i style="--w:84%"></i><small>270 min</small></div>
+      <div><span>Minnesota</span><i style="--w:100%"></i><small>330 min</small></div>
+      <div><span>Mass.</span><i style="--w:75%"></i><small>240 min trade</small></div>
+    </div>
+  </div>
+</div></section>
+
+<section id="packs"><div class="wrap">
+  <h2 data-reveal>Pick a pack. Buy now goes straight to checkout.</h2>
+  <p class="sub-h" data-reveal>Every pack has timed test mode, training mode and explanations with code references. Choose by how much time you have before your date.</p>
+  <div class="products" data-products></div>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap strip">
+  <div data-reveal><b>Buy a pack</b><p>Checkout takes a minute. Your login arrives by email right after.</p></div>
+  <div data-reveal style="--d:.1s"><b>Practice timed, open book</b><p>With your own code book, the way you'll sit the real thing.</p></div>
+  <div data-reveal style="--d:.2s"><b>Book when ready</b><p>Fresh-question scores above your state's mark means schedule it.</p></div>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+  <h2 data-reveal>National portion for these states</h2>
+  <div class="states" data-states data-reveal style="margin-top:1.5rem"></div>
+  <p class="sub-h" data-codenote style="font-size:.95rem"></p>
+</div></section>
+
+<section id="faq" style="padding-top:0"><div class="wrap">
+  <h2 data-reveal>Before you buy</h2>
+  <div class="faq" data-reveal>
+    <details open><summary>Is this the actual exam?</summary><p>No. Real exam questions are confidential. These are original practice questions written to the same subjects, formats and difficulty.</p></details>
+    <details><summary>Which NEC edition?</summary><p>Each pack lists its edition at checkout. Match it to your candidate bulletin.</p></details>
+    <details><summary>When do I get access?</summary><p>Right after payment, by email. Works on any device.</p></details>
+    <details><summary>Does buying make me eligible to test?</summary><p>No. Eligibility comes from your state board. We get you ready for the test itself.</p></details>
+    <details><summary>Need help?</summary><p>Email <a data-email href="#">support</a>.</p></details>
+  </div>
+</div></section>
+
+<section class="final"><div class="wrap">
+  <div><h2>Take the free diagnostic tonight.</h2><p>Buy now, get your login by email, and know exactly where you stand by bedtime.</p></div>
+  <a class="btn btn-buy" data-buy-featured href="#packs">Buy the <span data-featured-name>Master Study Pack</span></a>
+</div></section>
+<footer><div class="wrap"><p><strong data-brand>MasterPrep</strong> © <span data-year></span>. Practice material only. Not affiliated with any state licensing board, PSI, Prov, Pearson VUE, NFPA or NASCLA. Purchasing does not grant exam eligibility or a license.</p></div></footer>
+
+<div class="stickybar">
+  <div><strong data-featured-name>Master Study Pack</strong><small><span data-featured-price>$74.95</span> · instant access</small></div>
+  <a class="btn btn-buy" data-buy-featured href="#packs">Buy now</a>
+</div>
+
+<script src="../shared/products.js"></script>
+<script src="../shared/app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+  var nav=document.getElementById("nav");
+  window.addEventListener("scroll",function(){nav.classList.toggle("solid",scrollY>40);},{passive:true});
+  if(!window.gsap) return;
+  gsap.registerPlugin(ScrollTrigger);
+  var mm=gsap.matchMedia();
+  mm.add("(prefers-reduced-motion: no-preference)", function(){
+    gsap.from(".hero h1 .ln span",{yPercent:110,duration:1.1,ease:"expo.out",stagger:.1,delay:.1});
+    gsap.from(".hero .lead,.hero .cta",{opacity:0,y:18,duration:.9,ease:"power3.out",delay:.6,stagger:.12});
+    gsap.from(".layer",{opacity:0,y:40,scale:.95,duration:1,ease:"power3.out",stagger:.12,delay:.5});
+    // parallax on scroll: each layer moves at its own speed
+    gsap.utils.toArray("[data-speed]").forEach(function(el){
+      var sp=parseFloat(el.getAttribute("data-speed"));
+      gsap.to(el,{y:function(){return -(sp-1)*300;},ease:"none",scrollTrigger:{trigger:"#hero",start:"top top",end:"bottom top",scrub:true}});
+    });
+    // exam clock scrubbed by scroll
+    var n={v:0}, dn=document.getElementById("dialn");
+    gsap.to("#dialfg",{strokeDashoffset:597-597*(270/330),ease:"none",scrollTrigger:{trigger:"#formats",start:"top 70%",end:"center 40%",scrub:true}});
+    gsap.to(n,{v:270,ease:"none",scrollTrigger:{trigger:"#formats",start:"top 70%",end:"center 40%",scrub:true,onUpdate:function(){dn.textContent=Math.round(n.v);}}});
+    ScrollTrigger.create({trigger:"#fmt",start:"top 80%",onEnter:function(){document.getElementById("fmt").classList.add("in");}});
+    gsap.from(".products .pc",{opacity:0,y:50,duration:.8,ease:"power3.out",stagger:.08,scrollTrigger:{trigger:".products",start:"top 80%"}});
+  });
+  mm.add("(pointer: fine) and (prefers-reduced-motion: no-preference)", function(){
+    // mouse depth on hero layers
+    var hero=document.getElementById("hero"), layers=gsap.utils.toArray(".layer");
+    hero.addEventListener("pointermove",function(e){
+      var r=hero.getBoundingClientRect(), x=(e.clientX-r.left)/r.width-.5, y=(e.clientY-r.top)/r.height-.5;
+      layers.forEach(function(l){var d=parseFloat(l.getAttribute("data-depth"));gsap.to(l,{x:-x*d,rotate:x*2,duration:.8,ease:"power3.out",overwrite:"auto"});});
+    });
+  });
+});
+</script>
+</body>
+</html>

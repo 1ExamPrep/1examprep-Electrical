@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pick a design — MasterPrep</title>
+<meta name="robots" content="noindex">
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,sans-serif;background:#f3f4f8;color:#14172b;padding:3rem 1rem}
+main{max-width:1100px;margin:0 auto}
+h1{font-size:2rem;margin:0 0 .5rem}
+p{color:#555b7a;max-width:70ch;line-height:1.5}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.25rem;margin-top:2rem}
+a.card{display:block;background:#fff;border-radius:1rem;overflow:hidden;text-decoration:none;color:inherit;border:1px solid rgba(0,0,0,.08);transition:transform .2s,box-shadow .2s}
+a.card:hover{transform:translateY(-4px);box-shadow:0 30px 60px -30px rgba(0,0,0,.35)}
+.swatch{height:150px;display:flex;align-items:flex-end;padding:1rem;font-weight:800;font-size:1.6rem;letter-spacing:-.02em}
+.body{padding:1.1rem 1.25rem 1.4rem}
+.body b{display:block;font-size:1.1rem;margin-bottom:.3rem}
+.body span{color:#555b7a;font-size:.95rem;line-height:1.45;display:block}
+code{background:#e9ebf4;padding:.15rem .4rem;border-radius:.3rem;font-size:.9em}
+.step{background:#fff;border-radius:1rem;padding:1.5rem;margin-top:2.5rem;border:1px solid rgba(0,0,0,.08)}
+.step ol{padding-left:1.2rem;line-height:1.7}
+</style>
+</head>
+<body>
+<main>
+  <h1>Pick your landing page design</h1>
+  <p>All five pages sell the same products from <code>shared/products.js</code>. Open each one, pick a favourite, then follow the two steps below to make it your live homepage.</p>
+
+  <div class="grid">
+    <a class="card" href="designs/1-livewire.html">
+      <div class="swatch" style="background:#0e1a2b;color:#ffd400">Live Wire</div>
+      <div class="body"><b>1 · Live Wire</b><span>Dark navy, hazard yellow, animated current pulses running through a circuit panel. Bold condensed type. Feels like the job site.</span></div>
+    </a>
+    <a class="card" href="designs/2-blueprint.html">
+      <div class="swatch" style="background:#eef3f7;color:#1246a3;background-image:linear-gradient(rgba(18,70,163,.12) 1px,transparent 1px),linear-gradient(90deg,rgba(18,70,163,.12) 1px,transparent 1px);background-size:20px 20px">Blueprint</div>
+      <div class="body"><b>2 · Blueprint</b><span>Drafting-paper grid, a one-line diagram that draws itself on load, products styled as spec sheets with an orange buy button.</span></div>
+    </a>
+    <a class="card" href="designs/3-scoreboard.html">
+      <div class="swatch" style="background:#f7f6f2;color:#ff5a1f">Scoreboard</div>
+      <div class="body"><b>3 · Scoreboard</b><span>Huge headline that animates word by word, spinning pass-mark gauge, scrolling topic marquee, swipeable product rail. Highest energy.</span></div>
+    </a>
+    <a class="card" href="designs/4-readiness.html">
+      <div class="swatch" style="background:#e3f2ec;color:#0f4c3a">Readiness</div>
+      <div class="body"><b>4 · Readiness</b><span>Calm editorial serif, a live readiness-score widget that cycles through practice sittings, side-by-side comparison table and 12-week plan.</span></div>
+    </a>
+    <a class="card" href="designs/5-cobalt.html">
+      <div class="swatch" style="background:#1e3fea;color:#d9ff3d">Cobalt</div>
+      <div class="body"><b>5 · Cobalt</b><span>Try-before-you-buy sample question in the hero, cursor-following glow, 3D tilt on product cards. Strongest for converting skeptics.</span></div>
+    </a>
+  </div>
+
+  <h2 style="font-size:1.4rem;margin:3rem 0 .25rem">Premium motion set (GSAP scroll-driven)</h2>
+  <p>Agency-grade motion: pinned sections, scroll-scrubbed animation, split-text headlines, magnetic buttons, custom cursor. Same products, same checkout flow.</p>
+  <div class="grid">
+    <a class="card" href="designs/6-kinetic.html">
+      <div class="swatch" style="background:#f2f3f5;color:#3b2bd4;font-size:2.4rem">PASS.</div>
+      <div class="body"><b>6 · Kinetic</b><span>Giant type that drifts apart as you scroll, a pinned horizontal product rail driven by the scroll wheel, line-by-line text reveals.</span></div>
+    </a>
+    <a class="card" href="designs/7-storyboard.html">
+      <div class="swatch" style="background:linear-gradient(135deg,#5b2ab3,#ff6b5e 70%,#ffb08a);color:#fff;font-family:Georgia,serif;font-style:italic">Storyboard</div>
+      <div class="body"><b>7 · Storyboard</b><span>Drifting mesh gradient, custom cursor, magnetic buttons, and a pinned three-card story that swaps as you scroll. Products in a bento grid.</span></div>
+    </a>
+    <a class="card" href="designs/8-depth.html">
+      <div class="swatch" style="background:#e9f0fa;color:#0d1b3d">Depth</div>
+      <div class="body"><b>8 · Depth</b><span>Parallax question cards floating at different speeds, mouse-reactive depth, diagonal section cuts, a scroll-scrubbed exam clock.</span></div>
+    </a>
+    <a class="card" href="designs/9-signal.html">
+      <div class="swatch" style="background:#fbfbf9;color:#e2231a;border-bottom:1.5px solid #000">Signal</div>
+      <div class="body"><b>9 · Signal</b><span>Decoding headline, giant outlined type that slides with scroll, products as an expandable list. Sharp black, white and signal red.</span></div>
+    </a>
+    <a class="card" href="designs/10-glass.html">
+      <div class="swatch" style="background:linear-gradient(135deg,#c7c3ff,#a9f0e6);color:#1b1b4b">Glass</div>
+      <div class="body"><b>10 · Glass</b><span>Frosted-glass bento hero with a live sample question, floating pill nav, and a 3D cover-flow of packs that fans in as you scroll.</span></div>
+    </a>
+  </div>
+
+  <div class="step">
+    <b>Make one of them your homepage</b>
+    <ol>
+      <li>Open <code>shared/products.js</code> and paste your checkout links where it says <code>PASTE_CHECKOUT_LINK_HERE</code>.</li>
+      <li>Copy your chosen design (for example <code>designs/3-scoreboard.html</code>) over this <code>index.html</code>, then change the two paths <code>../shared/</code> to <code>shared/</code> inside it. Full instructions are in <code>README.md</code>.</li>
+    </ol>
+  </div>
+</main>
+</body>
+</html>
