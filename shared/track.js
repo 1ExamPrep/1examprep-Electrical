@@ -15,6 +15,7 @@
   var C=window.CATALOG||[], P=window.PRODUCT||null;
   function send(name,params){
     params=params||{};
+    try{ if(window.dash&&window.dash.track&&name!=="page_view") dash.track(name,params); }catch(e){}
     try{ if(window.gtag) gtag("event",name,params); }catch(e){}
     try{ window.dataLayer=window.dataLayer||[]; if(!window.gtag) dataLayer.push(Object.assign({event:name},params)); }catch(e){}
     try{ if(window.fbq){ var map={begin_checkout:"InitiateCheckout",view_item:"ViewContent",search:"Search",select_item:"ViewContent"}; if(map[name]) fbq("track",map[name],{content_ids:(params.items||[]).map(function(i){return i.item_id;}),content_name:(params.items||[{}])[0].item_name,value:params.value,currency:"USD",search_string:params.search_term}); } }catch(e){}
@@ -25,6 +26,7 @@
     return {item_id:String(p.id),item_name:p.tierName?((p.state||"General")+" "+p.level+" "+p.tierName):(p.title||""),item_variant:v.title||"",price:Number(v.price||p.price||0),quantity:1,
             item_category:p.level||"",item_category2:p.state||"General",item_category3:p.tierName||"",item_brand:"1 Exam Prep"};
   }
+  function flat(p,it){ return p?{product_id:String(p.id),state:p.state||"General",level:p.level||"",tier:p.tierName||"",price:it?it.price:Number(p.price||0),title:it?it.item_name:(p.title||"")}:{}; }
   function byId(id){ if(P&&String(P.id)===String(id)) return P; return C.filter(function(x){return String(x.id)===String(id);})[0]||null; }
   function productFor(el){
     var card=el.closest("[data-id]"); if(card) return byId(card.getAttribute("data-id"));
@@ -48,12 +50,12 @@
     if(/\/cart\/\d+:/.test(href)){
       var p=productFor(a), vid=variantFromHref(href), it=item(p,vid);
       send("begin_checkout",{currency:"USD",value:it?it.price:undefined,items:it?[it]:[],button_location:where(a),variant_id:vid});
-      send("buy_now_click",{product_id:p?String(p.id):"",variant_id:vid,button_location:where(a)});
+      send("buy_now_click",Object.assign(flat(p,it),{variant_id:vid,button_location:where(a)}));
       return;
     }
     if(a.hasAttribute("data-details")||a.classList.contains("rel")){
       var p2=productFor(a)||byId((a.getAttribute("href")||"").split("/").filter(Boolean).slice(-1)[0]);
-      var it2=item(p2); send("select_item",{items:it2?[it2]:[],item_list_name:where(a)}); return;
+      var it2=item(p2); send("select_item",Object.assign(flat(p2,it2),{items:it2?[it2]:[],item_list_name:where(a),button_location:where(a)})); return;
     }
     if(/^tel:/.test(href)){ send("phone_click",{phone:href.replace("tel:",""),button_location:where(a)}); return; }
     if(/^https?:\/\/(www\.)?1examprep\.com/.test(href)){ send("outbound_click",{link_url:href,button_location:where(a)}); return; }
@@ -68,10 +70,10 @@
   var t; document.addEventListener("input",function(e){ if(!e.target.classList||!e.target.classList.contains("srch-q")) return; clearTimeout(t); var v=e.target.value; t=setTimeout(function(){ if(v.trim().length>=3) send("search",{search_term:v.trim()}); },900); },true);
 
   /* variant choice on product page */
-  document.addEventListener("change",function(e){ if(e.target.name==="v"&&P){ var it=item(P,e.target.value); send("select_variant",{items:it?[it]:[],variant_id:e.target.value}); } },true);
+  document.addEventListener("change",function(e){ if(e.target.name==="v"&&P){ var it=item(P,e.target.value); send("select_variant",Object.assign(flat(P,it),{items:it?[it]:[],variant_id:e.target.value})); } },true);
 
   /* product page view */
-  if(P){ var it0=item(P); send("view_item",{currency:"USD",value:it0?it0.price:undefined,items:it0?[it0]:[]}); }
+  if(P){ var it0=item(P); send("view_item",Object.assign(flat(P,it0),{currency:"USD",value:it0?it0.price:undefined,items:it0?[it0]:[]})); }
 
   /* FAQ opens */
   document.addEventListener("toggle",function(e){ var d=e.target; if(d.tagName==="DETAILS"&&d.open&&d.closest(".faq")){ send("faq_open",{question:(d.querySelector("summary")||{}).textContent||""}); } },true);

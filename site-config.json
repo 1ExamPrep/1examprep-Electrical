@@ -30,5 +30,9 @@
   "googleOAuthClientId": "",
   "_googleOAuthClientId_help": "OAuth client ID (Google Cloud Console \u2192 APIs & Services \u2192 Credentials \u2192 Create OAuth client ID \u2192 Web application; add this site's address under Authorized JavaScript origins; enable the Google Analytics Data API). Lets /admin/ sign you in with Google.",
   "repo": "1ExamPrep/1examprep-Electrical",
-  "_repo_help": "GitHub owner/repo, used by /admin/ to show sync runs and recent updates."
+  "_repo_help": "GitHub owner/repo, used by /admin/ to show sync runs and recent updates.",
+  "dashboardUrl": "",
+  "_dashboardUrl_help": "Address of your site dashboard on Render, e.g. https://site-dashboard.onrender.com. With siteKey set, every page view and click is sent there.",
+  "siteKey": "",
+  "_siteKey_help": "The site's tracker key from the dashboard (Settings \u2192 Tracker), e.g. sk_\u2026"
 }

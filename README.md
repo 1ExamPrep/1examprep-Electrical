@@ -84,6 +84,14 @@ One-time setup (about five minutes):
 The token only has read access to products; it cannot change anything in the
 store. To sync a different collection set the `SHOPIFY_COLLECTION_ID` secret.
 
+### Connecting to the site dashboard
+
+Set `dashboardUrl` and `siteKey` in `site-config.json` (from the dashboard's
+Settings → Tracker for this site), rebuild and push. Every page view and click
+then goes to the dashboard as well as to Google Analytics, and the dashboard can
+sync products into this repo (it commits `shared/catalog.js` and
+`store/products-full.json`; `.github/workflows/build.yml` rebuilds the pages).
+
 ### Traffic and click tracking
 
 `shared/track.js` runs on every page and sends events to Google Analytics 4

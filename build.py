@@ -71,6 +71,7 @@ def head_extra(path, title, desc, image, rel, noindex=False, extra_ld=()):
     if CFG.get("gtagId"): h.append('<script async src="https://www.googletagmanager.com/gtag/js?id=%s"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","%s",{"send_page_view":true});</script>' % (CFG["gtagId"], CFG["gtagId"]))
     if CFG.get("gtmId"): h.append("<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','%s');</script>" % CFG["gtmId"])
     if CFG.get("metaPixelId"): h.append("<script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','%s');fbq('track','PageView');</script>" % CFG["metaPixelId"])
+    if CFG.get("dashboardUrl") and CFG.get("siteKey"): h.append('<script>window.__dashCustom=true;</script><script src="%s/t.js" data-site="%s" defer></script>' % (html.escape(CFG["dashboardUrl"].rstrip("/")), html.escape(CFG["siteKey"])))
     for o in extra_ld: h.append(ld(o).rstrip())
     return "\n".join(h) + "\n"
 
