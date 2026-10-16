@@ -29,6 +29,8 @@ if not SITE and CFG.get("siteUrl"): SITE = CFG["siteUrl"].rstrip("/") + "/"
 BRAND = CFG.get("brand", "1 Exam Prep")
 import datetime
 TODAY = datetime.date.today().isoformat()
+sys.path.insert(0, os.path.join(ROOT, "tools")); import blogkit
+POSTS = blogkit.load_posts(os.path.join(ROOT, "content", "posts"))
 
 def absurl(path):  # path like "texas/master/2026/" -> absolute when the site URL is known, else relative to root
     return (SITE + path) if SITE else "/" + path
@@ -86,10 +88,10 @@ def footer(rel, year0):
     return ('<footer class="site-footer"><div class="wrap"><div class="cols">'
             '<div><a class="brand" href="%s">1 <span>Exam</span> Prep</a><p>%s</p><p class="contact"><a href="tel:%s">%s</a><a href="mailto:%s">%s</a></p></div>'
             '<nav aria-label="Popular states"><h2>Popular states</h2><ul>%s<li><a href="%s">All 50 states</a></li></ul></nav>'
-            '<nav aria-label="Shop"><h2>Shop</h2><ul><li><a href="%s#packs">Packages</a></li><li><a href="%s#compare">Compare packages</a></li><li><a href="%s#singles">Study guides &amp; flash cards</a></li><li><a href="%ssearch/">Search</a></li><li><a href="%s" rel="noopener" target="_blank">1examprep.com</a></li></ul></nav>'
+            '<nav aria-label="Shop"><h2>Shop</h2><ul><li><a href="%s#packs">Packages</a></li><li><a href="%s#compare">Compare packages</a></li><li><a href="%s#singles">Study guides &amp; flash cards</a></li><li><a href="%sblog/">Blog</a></li><li><a href="%ssearch/">Search</a></li><li><a href="%s" rel="noopener" target="_blank">1examprep.com</a></li></ul></nav>'
             '<nav aria-label="Follow"><h2>Follow</h2><ul>%s</ul></nav></div>'
             '<p class="fine"><strong>%s</strong> &copy; <span data-year>%s</span> &middot; <a href="%s">1examprep.com</a>. Prices and availability pulled from the 1 Exam Prep store; the price at checkout is the one that applies. Not affiliated with any state licensing board or testing vendor. Purchasing does not grant exam eligibility or a license.</p></div></footer>'
-            % (rel or "./", html.escape(CFG.get("tagline", "")), CFG["phoneTel"], html.escape(CFG["phone"]), CFG["email"], CFG["email"], quick, rel or "./", rel or "./", rel or "./", rel or "./", rel, CFG["storeUrl"], soc, html.escape(BRAND), TODAY[:4], CFG["storeUrl"]))
+            % (rel or "./", html.escape(CFG.get("tagline", "")), CFG["phoneTel"], html.escape(CFG["phone"]), CFG["email"], CFG["email"], quick, rel or "./", rel or "./", rel or "./", rel or "./", rel, rel, CFG["storeUrl"], soc, html.escape(BRAND), TODAY[:4], CFG["storeUrl"]))
 
 def slug(state): return "general" if state == GENERAL else state.lower().replace(" ", "-")
 def words(text):
@@ -194,7 +196,7 @@ manifest = os.path.join(ROOT, "generated-pages.txt")
 if os.path.exists(manifest):
     for line in open(manifest):
         top = line.strip().split("/")[0]
-        if top and os.path.isdir(os.path.join(ROOT, top)) and top not in ("shared", "designs", "store"):
+        if top and os.path.isdir(os.path.join(ROOT, top)) and top not in ("shared", "designs", "store", "content", "tools"):
             shutil.rmtree(os.path.join(ROOT, top))
 generated, urls = [], []
 
@@ -278,6 +280,87 @@ admin_cfg = {"gtagId": CFG.get("gtagId", ""), "ga4PropertyId": CFG.get("ga4Prope
 os.makedirs(os.path.join(ROOT, "admin"), exist_ok=True)
 open(os.path.join(ROOT, "admin", "index.html"), "w", encoding="utf-8").write(atpl.replace("{{ADMIN_JSON}}", json.dumps(admin_cfg)))
 
+# --- blog: content/posts/*.md -> /blog/, /blog/<slug>/, /blog/feed.xml ---
+btpl = open(os.path.join(ROOT, "store", "blog-post.html"), encoding="utf-8").read()
+bitpl = open(os.path.join(ROOT, "store", "blog-index.html"), encoding="utf-8").read()
+def nice_date(d):
+    try: return datetime.date.fromisoformat(d[:10]).strftime("%B %-d, %Y")
+    except Exception: return d
+def post_card(q, rel):
+    img = ('<img src="%s" alt="" loading="lazy">' % html.escape(q["image"])) if q["image"] else ('<div class="noimg">%s</div>' % html.escape(q["title"][:48]))
+    return ('<a class="card" href="%sblog/%s/" data-track="blog_card">%s<div class="card-body"><p class="post-meta"><time datetime="%s">%s</time><span>%d min read</span></p><h2>%s</h2><p>%s</p></div></a>'
+            % (rel, q["slug"], img, q["date"], nice_date(q["date"]), max(1, round(q["words"] / 220)), html.escape(q["title"]), html.escape(q["excerpt"])))
+def blog_common(out, rel, path, title, desc, image, lds, route, extra_noindex=False):
+    return (out.replace("{{TITLE}}", html.escape(title)).replace("{{DESC}}", html.escape(desc)).replace("{{BRAND}}", html.escape(BRAND))
+            .replace("{{CANONICAL}}", ('<link rel="canonical" href="%s">\n' % absurl(path)) if SITE else "")
+            .replace("{{OGIMAGE}}", ('<meta property="og:image" content="%s">\n' % html.escape(image)) if image else "")
+            .replace("{{HEAD_EXTRA}}", head_extra(path, title, desc, image, rel, extra_noindex, lds))
+            .replace("{{ASSETS_HEAD}}", '<link rel="stylesheet" href="%sshared/base.css">\n<link rel="stylesheet" href="%sshared/store.css">' % (rel, rel))
+            .replace("{{ASSETS_SEARCH}}", '<script src="%sshared/catalog.js" defer></script>\n<script src="%sshared/search.js" defer></script>\n<script src="%sshared/track.js" defer></script>' % (rel, rel, rel))
+            .replace("{{NAV_TOOLS}}", nav_tools('<a class="btn btn-buy" href="%s#packs">Pick my package</a>' % rel)).replace("{{FOOTER}}", footer(rel, years[0]))
+            .replace("{{ROUTE}}", json.dumps(route)).replace("{{REL}}", rel).replace("{{HOME}}", rel))
+blog_dir = os.path.join(ROOT, "blog"); shutil.rmtree(blog_dir, ignore_errors=True); os.makedirs(blog_dir, exist_ok=True)
+all_tags = sorted({t for q in POSTS for t in q["tags"]}, key=str.lower)
+def blog_index(dest_parts, posts, tag=None):
+    rel = "../" * len(dest_parts); path = "/".join(dest_parts) + "/"
+    title = ("%s | Blog | %s" % (tag.title(), BRAND)) if tag else ("Electrician Exam Prep Blog: Study Tips, NEC Changes & Licensing News | %s" % BRAND)
+    desc = ("Posts tagged %s from the %s electrician exam prep blog." % (tag, BRAND)) if tag else ("Study tips, NEC code changes, state licensing updates and exam strategy from %s. New posts every month." % BRAND)
+    h1 = ("Posts tagged \u201c%s\u201d" % tag) if tag else "The Electrician Exam Prep Blog"
+    lead = ("%d post%s." % (len(posts), "" if len(posts) == 1 else "s")) if tag else "Study strategies, code changes, licensing news and the questions we hear every day on the phone. Written by the people who write the exam prep."
+    feat, rest = (posts[0], posts[1:]) if posts and not tag else (None, posts)
+    feat_html = ""
+    if feat:
+        fimg = ('<img src="%s" alt="">' % html.escape(feat["image"])) if feat["image"] else ""
+        feat_html = ('<a class="feature%s" href="%sblog/%s/" data-track="blog_featured">%s<div><span class="pc-tier">Latest</span><h2>%s</h2><p>%s</p><p class="post-meta"><time datetime="%s">%s</time><span>%d min read</span></p></div></a>'
+                     % ("" if fimg else " noimg", rel, feat["slug"], fimg, html.escape(feat["title"]), html.escape(feat["excerpt"]), feat["date"], nice_date(feat["date"]), max(1, round(feat["words"] / 220))))
+    tagf = ('<nav class="tagbar" aria-label="Topics"><a class="tag" href="%sblog/"%s>All</a>%s</nav>' % (rel, "" if tag else ' aria-current="page"', "".join('<a class="tag" href="%sblog/tag/%s/"%s>%s</a>' % (rel, blogkit.slugify(t), ' aria-current="page"' if tag == t else "", html.escape(t)) for t in all_tags))) if all_tags else ""
+    cards = "".join(post_card(q, rel) for q in rest)
+    empty = '' if posts else '<p class="empty">No posts yet. The first one is on its way.</p>'
+    lds = [crumbs_ld([("Home", ""), ("Blog", "blog/")] + ([(tag, path)] if tag else [])),
+           {"@context": "https://schema.org", "@type": "Blog" if not tag else "CollectionPage", "name": h1, "url": absurl(path), "publisher": {"@type": "Organization", "name": BRAND},
+            "blogPost" if not tag else "hasPart": [{"@type": "BlogPosting", "headline": q["title"], "url": absurl("blog/%s/" % q["slug"]), "datePublished": q["date"], "image": q["image"] or None} for q in posts[:20]]}]
+    out = blog_common(bitpl, rel, path, title, desc, (feat or {}).get("image") or CFG.get("logo"), lds, {"depth": len(dest_parts), "blog": True})
+    out = out.replace("{{H1}}", html.escape(h1)).replace("{{LEAD}}", html.escape(lead)).replace("{{TAG_FILTER}}", tagf).replace("{{FEATURED_HTML}}", feat_html).replace("{{CARDS_HTML}}", cards).replace("{{EMPTY_HTML}}", empty)
+    d = os.path.join(ROOT, *dest_parts); os.makedirs(d, exist_ok=True); open(os.path.join(d, "index.html"), "w", encoding="utf-8").write(out)
+    if SITE: urls.append(absurl(path))
+blog_index(["blog"], POSTS)
+for t in all_tags: blog_index(["blog", "tag", blogkit.slugify(t)], [q for q in POSTS if t in q["tags"]], t)
+from urllib.parse import quote
+for q in POSTS:
+    parts = ["blog", q["slug"]]; rel = "../../"; path = "blog/%s/" % q["slug"]; url = absurl(path)
+    st_slug = slug(q["state"]) if q["state"] and q["state"] in STATES else None
+    lv = q["level"].capitalize() if q["level"].lower() in ("journeyman", "master") else None
+    if st_slug:
+        cta_url = "%s%s/%s/%s/" % (rel, st_slug, (lv or "journeyman").lower(), years[0]); cta_kicker = "%s %s exam" % (q["state"], lv or "Journeyman")
+        cta_title = "Ready to study for the %s %s exam?" % (q["state"], (lv or "journeyman").lower()); cta_text = "Packages built on the %s NEC, from the study guide alone to the Ultimate Combo. One click to checkout." % years[0]; cta_label = "See %s packages" % q["state"]
+        more_link = '<a href="%s">%s packages</a>' % (cta_url, html.escape(q["state"]))
+    else:
+        cta_url = rel + "#packs"; cta_kicker = "Ready to study?"; cta_title = "Pick your state and level, then choose a package."; cta_text = "Every package starts with the state exam prep study guide, built on the %s National Electrical Code." % years[0]; cta_label = "Pick my package"; more_link = ""
+    related = [r for r in POSTS if r["slug"] != q["slug"] and (set(r["tags"]) & set(q["tags"]))][:3] or [r for r in POSTS if r["slug"] != q["slug"]][:3]
+    rel_html = ('<section class="related-posts" aria-labelledby="h-more"><h2 id="h-more">Keep reading</h2><div class="post-grid">%s</div></section>' % "".join(post_card(r, rel) for r in related)) if related else ""
+    tags_html = ('<nav class="tagbar" aria-label="Topics">%s</nav>' % "".join('<a class="tag" href="%sblog/tag/%s/">%s</a>' % (rel, blogkit.slugify(t), html.escape(t)) for t in q["tags"])) if q["tags"] else ""
+    hero = ('<figure class="hero"><img src="%s" alt="%s" fetchpriority="high"></figure>' % (html.escape(q["image"]), html.escape(q["title"]))) if q["image"] and ('src="%s"' % q["image"]) not in q["html"] else ""
+    lds = [crumbs_ld([("Home", ""), ("Blog", "blog/"), (q["title"], path)]),
+           {"@context": "https://schema.org", "@type": "BlogPosting", "headline": q["title"][:110], "description": q["excerpt"], "image": [q["image"]] if q["image"] else None, "datePublished": q["date"], "dateModified": q["updated"],
+            "author": {"@type": "Organization" if not q["author"] or q["author"] == BRAND else "Person", "name": q["author"] or BRAND}, "publisher": {"@type": "Organization", "name": BRAND, "logo": {"@type": "ImageObject", "url": CFG.get("logo")}},
+            "mainEntityOfPage": url, "url": url, "wordCount": q["words"], "keywords": ", ".join(q["tags"]) or None, "articleSection": "Electrician Exam Prep", "inLanguage": "en-US"}]
+    lds[1] = {k: v for k, v in lds[1].items() if v}
+    out = blog_common(btpl, rel, path, "%s | %s" % (q["title"], BRAND), q["excerpt"], q["image"] or CFG.get("logo"), lds, {"depth": 2, "blog": True, "post": q["slug"]})
+    out = (out.replace("{{H1}}", html.escape(q["title"])).replace("{{TITLE_SHORT}}", html.escape(q["title"][:60] + ("…" if len(q["title"]) > 60 else ""))).replace("{{EXCERPT}}", html.escape(q["excerpt"]))
+           .replace("{{DATE}}", q["date"]).replace("{{UPDATED}}", q["updated"]).replace("{{DATE_NICE}}", nice_date(q["date"])).replace("{{AUTHOR_HTML}}", ('<span>%s</span>' % html.escape(q["author"])) if q["author"] else "")
+           .replace("{{READ_MIN}}", str(max(1, round(q["words"] / 220)))).replace("{{TAGS_HTML}}", tags_html).replace("{{HERO_HTML}}", hero).replace("{{BODY_HTML}}", q["html"])
+           .replace("{{URL_ENC}}", quote(url, safe="")).replace("{{TITLE_ENC}}", quote(q["title"], safe="")).replace("{{MORE_LINK}}", more_link)
+           .replace("{{CTA_KICKER}}", html.escape(cta_kicker)).replace("{{CTA_TITLE}}", html.escape(cta_title)).replace("{{CTA_TEXT}}", html.escape(cta_text)).replace("{{CTA_URL}}", cta_url).replace("{{CTA_LABEL}}", html.escape(cta_label))
+           .replace("{{RELATED_HTML}}", rel_html))
+    d = os.path.join(ROOT, *parts); os.makedirs(d, exist_ok=True); open(os.path.join(d, "index.html"), "w", encoding="utf-8").write(out)
+    if SITE: urls.append(url)
+# RSS feed
+feed_items = "".join("<item><title>%s</title><link>%s</link><guid isPermaLink=\"true\">%s</guid><pubDate>%s</pubDate><description>%s</description>%s</item>\n" % (
+    html.escape(q["title"]), absurl("blog/%s/" % q["slug"]), absurl("blog/%s/" % q["slug"]), datetime.datetime.fromisoformat(q["date"][:10]).strftime("%a, %d %b %Y 09:00:00 -0500"), html.escape(q["excerpt"]),
+    ("<enclosure url=\"%s\" type=\"image/jpeg\" length=\"0\"/>" % html.escape(q["image"])) if q["image"] else "") for q in POSTS[:30])
+open(os.path.join(blog_dir, "feed.xml"), "w", encoding="utf-8").write('<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel><title>%s Blog</title><link>%s</link><description>Electrician exam prep study tips, NEC changes and licensing news.</description><language>en-us</language>\n%s</channel></rss>\n' % (html.escape(BRAND), absurl("blog/"), feed_items))
+open(os.path.join(blog_dir, "posts.json"), "w", encoding="utf-8").write(json.dumps([{k: q[k] for k in ("slug", "title", "date", "updated", "excerpt", "image", "tags", "state", "level", "author", "words")} for q in POSTS], ensure_ascii=False))
+
 # --- icons + manifest ---
 fav = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#ff5a1f"/><path d="M36 14v36h-9V24l-8 5v-9l10-6z" fill="#fff"/></svg>'
 open(os.path.join(ROOT, "shared", "favicon.svg"), "w").write(fav)
@@ -302,15 +385,17 @@ for st in STATES + [GENERAL]:
     for lv in ("Journeyman", "Master"):
         pth = "%s/%s/%s/" % (slug(st), lv.lower(), years[0])
         if pth.rstrip("/") in generated: llm.append("- [%s %s](%s)" % ("Any state" if st == GENERAL else st, lv, absurl(pth)))
+if POSTS:
+    llm += ["", "## Blog", "", "- [All posts](%s)" % absurl("blog/")] + ["- [%s](%s): %s" % (q["title"], absurl("blog/%s/" % q["slug"]), q["excerpt"]) for q in POSTS[:30]]
 llm += ["", "## Facts for answering questions", "", "- Every package includes the %s state exam prep study guide (12 practice exams + 2 full final exams)." % years[0], "- Practice questions are original study material, not the confidential licensing exam.", "- Physical books ship from 1 Exam Prep; online kits are delivered by email.", "- Buying does not grant exam eligibility; state licensing boards decide that.", "- Store: %s. Phone: %s. Email: %s." % (CFG["storeUrl"], CFG["phone"], CFG["email"])]
 open(os.path.join(ROOT, "llms.txt"), "w", encoding="utf-8").write("\n".join(llm) + "\n")
 
 if SITE:
     def sm_url(u, pri, freq): return "  <url><loc>%s</loc><lastmod>%s</lastmod><changefreq>%s</changefreq><priority>%s</priority></url>\n" % (html.escape(u), TODAY, freq, pri)
-    body = "".join(sm_url(u, "1.0" if u == SITE else ("0.8" if u.count("/") - SITE.count("/") == 3 else "0.6"), "weekly") for u in urls)
+    body = "".join(sm_url(u, "1.0" if u == SITE else ("0.7" if "/blog/" in u else ("0.8" if u.count("/") - SITE.count("/") == 3 else "0.6")), "weekly") for u in urls)
     open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + body + "</urlset>\n")
 else:
     for f in ("sitemap.xml",):
         if os.path.exists(os.path.join(ROOT, f)): os.remove(os.path.join(ROOT, f))
 
-print("Built root + %d pages + /search/, robots.txt, llms.txt, manifest%s" % (len(generated), (", sitemap.xml with %d URLs" % len(urls)) if SITE else ". Set siteUrl in site-config.json to add canonical tags and sitemap.xml"))
+print("Built root + %d pages + %d blog posts + /search/, robots.txt, llms.txt, manifest%s" % (len(generated), len(POSTS), (", sitemap.xml with %d URLs" % len(urls)) if SITE else ". Set siteUrl in site-config.json to add canonical tags and sitemap.xml"))

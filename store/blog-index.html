@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{TITLE}}</title>
+<meta name="description" content="{{DESC}}">
+{{CANONICAL}}<meta property="og:type" content="website">
+<meta property="og:title" content="{{TITLE}}">
+<meta property="og:description" content="{{DESC}}">
+{{OGIMAGE}}{{HEAD_EXTRA}}<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="alternate" type="application/rss+xml" title="{{BRAND}} blog" href="{{REL}}blog/feed.xml">
+{{ASSETS_HEAD}}
+</head>
+<body class="blog">
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav"><div class="wrap">
+  <a class="brand" href="{{HOME}}" id="homeLink" aria-label="1 Exam Prep home">1 <span>Exam</span> Prep</a>
+  <nav class="nav-links" aria-label="Main"><a href="{{HOME}}#packs">Packages</a><a href="{{HOME}}#compare">Compare</a><a href="{{REL}}blog/" aria-current="page">Blog</a></nav>
+  {{NAV_TOOLS}}
+</div></header>
+
+<main class="wrap" id="main">
+  <p class="crumb" aria-label="Breadcrumb"><a href="{{HOME}}">Home</a><span>/</span>Blog</p>
+  <header class="blog-head">
+    <h1 id="h1">{{H1}}</h1>
+    <p class="post-lead">{{LEAD}}</p>
+    {{TAG_FILTER}}
+  </header>
+
+  {{FEATURED_HTML}}
+  <section class="post-grid" aria-label="All posts">
+    {{CARDS_HTML}}
+  </section>
+  {{EMPTY_HTML}}
+
+  <aside class="post-cta" aria-labelledby="cta-h">
+    <div>
+      <span class="pc-tier">Ready to study?</span>
+      <h2 id="cta-h">Pick your state and level, then choose a package.</h2>
+      <p>Every package starts with the state exam prep study guide. Buy buttons go straight to checkout.</p>
+    </div>
+    <a class="btn btn-buy" href="{{HOME}}#packs" data-track="blog_cta">Pick my package</a>
+  </aside>
+</main>
+
+{{FOOTER}}
+<script>window.ROUTE={{ROUTE}};</script>
+{{ASSETS_SEARCH}}
+</body>
+</html>

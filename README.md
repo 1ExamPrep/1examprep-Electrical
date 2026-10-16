@@ -329,3 +329,17 @@ you just lose the fancy motion. All ten respect "reduce motion" settings.
 The pages say the questions are original practice material, not the real exam,
 and that buying does not grant eligibility or a license. Keep those lines; they
 protect you and they match what the research report found about these products.
+
+
+## Blog
+
+Posts are Markdown files in `content/posts/<slug>.md` with a small front matter block
+(title, date, author, excerpt, image, tags, state, level, status). `build.py` renders
+`/blog/`, one page per post, `/blog/tag/<tag>/`, `/blog/feed.xml` (RSS) and
+`/blog/posts.json`, and adds them to the sitemap and `llms.txt`. Posts with
+`status: draft` are skipped.
+
+Write them by hand and push, or let the dashboard do it: its Blog page has an editor
+and a webhook (`POST /hooks/blog/<site key>`) that commits the file here and triggers
+`build.yml`. A post can carry `state: Texas` and `level: Master` so its call-to-action
+points at that state's packages.

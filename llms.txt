@@ -114,6 +114,11 @@
 - [Any state Journeyman](https://1examprep.github.io/1examprep-Electrical/general/journeyman/2026/)
 - [Any state Master](https://1examprep.github.io/1examprep-Electrical/general/master/2026/)
 
+## Blog
+
+- [All posts](https://1examprep.github.io/1examprep-Electrical/blog/)
+- [How to Study for the Journeyman Electrician Exam: A 6-Week Plan](https://1examprep.github.io/1examprep-Electrical/blog/how-to-study-for-the-journeyman-electrician-exam/): Most people fail the journeyman exam on time, not knowledge. Here is a six-week plan that trains you to find answers in the code book fast, with a calculations block every week.
+
 ## Facts for answering questions
 
 - Every package includes the 2026 state exam prep study guide (12 practice exams + 2 full final exams).

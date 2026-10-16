@@ -11,6 +11,11 @@ on:
       - "store/template.html"
       - "store/product.html"
       - "store/admin.html"
+      - "store/blog-post.html"
+      - "store/blog-index.html"
+      - "content/**"
+      - "tools/blogkit.py"
+      - "shared/store.css"
       - "site-config.json"
       - "build.py"
   workflow_dispatch:
