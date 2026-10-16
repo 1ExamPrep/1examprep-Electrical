@@ -1,0 +1,9 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Redirecting…</title><meta name="robots" content="noindex">
+<script>
+(function(){var S=["alabama", "alaska", "arizona", "arkansas", "california", "colorado", "connecticut", "delaware", "florida", "general", "georgia", "hawaii", "idaho", "illinois", "indiana", "iowa", "kansas", "kentucky", "louisiana", "maine", "maryland", "massachusetts", "michigan", "minnesota", "mississippi", "missouri", "montana", "nebraska", "nevada", "new-hampshire", "new-jersey", "new-mexico", "new-york", "north-carolina", "north-dakota", "ohio", "oklahoma", "oregon", "pennsylvania", "rhode-island", "south-carolina", "south-dakota", "tennessee", "texas", "utah", "vermont", "virginia", "washington", "west-virginia", "wisconsin", "wyoming"],Y=["2026"];var parts=location.pathname.split("/").filter(Boolean).map(function(x){return x.toLowerCase();});
+var i=-1;for(var k=0;k<parts.length;k++){if(S.indexOf(parts[k])>-1){i=k;break;}}
+var prefix="/"+parts.slice(0,Math.max(i,0)).join("/");if(prefix!=="/")prefix+="/";
+if(i<0){location.replace(prefix);return;}
+var lv=(parts[i+1]==="master")?"master":"journeyman";var yr=(/^\d{4}$/.test(parts[i+2]||"")&&Y.indexOf(parts[i+2])>-1)?parts[i+2]:Y[0];
+location.replace(prefix+parts[i]+"/"+lv+"/"+yr+"/");})();
+</script></head><body><p>Taking you to the right page…</p></body></html>
