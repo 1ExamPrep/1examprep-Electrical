@@ -2,9 +2,6 @@
 title: How Do I Find Study Guides Tailored for My State's Electrician Licensing Exam?
 date: 2026-10-18
 excerpt: Summary Preparing for your electrician licensing exam is easier and more efficient when you use study guides tailored specifically to your state’s requirements. Since each state adopts a particular edition of the National Electrical Code (NEC) and may have unique amendments, it's important to unders
-metaTitle: Find State-Tailored Electrician Licensing Exam Study Guides
-metaDescription: Discover how to select study guides customized for your state's electrician licensing exam and NEC edition for journeyman and master levels.
-externalId: 5a8b5f14-1470-4e9f-a21c-a3a0762dd2cc
 status: draft
 updated: 2026-10-18
 ---
