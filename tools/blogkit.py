@@ -5,7 +5,7 @@ Posts live in content/posts/<slug>.md:
     ---
     title: How to pick the right NEC edition for your exam
     date: 2026-10-16
-    author: 1 Exam Prep
+    author: Pass Your Master Electrician Exam
     excerpt: One or two sentences shown on the blog index and in search results.
     image: https://cdn.shopify.com/.../cover.jpg
     tags: nec, journeyman, texas

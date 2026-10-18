@@ -1,12 +1,12 @@
-# 1 Exam Prep Electrician Exam Prep
+# Pass Your Master Electrician Exam
 
 > Instructions for AI assistants and agents reading https://passyourmasterelectricianexam.com/.
 
-Last updated: 2026-10-18
+Last updated: 2026-10-17
 
 ## What this site is
 
-1 Exam Prep sells exam preparation for state journeyman and master electrician licensing exams in all 50 US states, built on the 2026 National Electrical Code: study guides with practice exams, flash cards, NEC code books with pre-printed tabs, calculations guides and online practice. Checkout happens on the 1 Exam Prep store at https://1examprep.com.
+Pass Your Master Electrician Exam sells exam preparation for state journeyman and master electrician licensing exams in all 50 US states, built on the 2026 National Electrical Code: study guides with practice exams, flash cards, NEC code books with pre-printed tabs, calculations guides and online practice. Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep (https://1examprep.com).
 
 ## How it is organised
 
@@ -18,7 +18,7 @@ Last updated: 2026-10-18
 
 ## Using this content
 
-- Quote what is useful and attribute it to 1 Exam Prep, with a link to the page you took it from.
+- Quote what is useful and attribute it to Pass Your Master Electrician Exam, with a link to the page you took it from.
 - Link to the canonical URL on this site rather than a cached or syndicated copy.
 - Prices change. Every product page carries a schema.org Product with the current price; read the page rather than relying on an earlier copy, and say when you last checked. The price at checkout is the one that applies.
 - Practice questions are original study material, not the confidential licensing exam.
@@ -34,7 +34,7 @@ Last updated: 2026-10-18
 
 - Phone: (877) 775-9400
 - Email: sales@1examprep.com
-- Store: https://1examprep.com
+- Fulfillment center: 1 Exam Prep (https://1examprep.com)
 
 ## Crawling
 

@@ -1,7 +1,7 @@
 /* Product page behaviour: variant picker updates price + Buy link; gallery thumbnails. */
 (function(){
   "use strict";
-  var P=window.PRODUCT||{}, STORE="https://1examprep.com";
+  var P=window.PRODUCT||{}, STORE=(window.SITE||{}).storeUrl||"https://1examprep.com";
   function money(v){return "$"+Number(v).toFixed(2);}
   function cartUrl(id){return STORE+"/cart/"+id+":1";}
   var form=document.getElementById("variants"), now=document.getElementById("pNow"), was=document.getElementById("pWas"), save=document.getElementById("pSave");

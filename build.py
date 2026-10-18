@@ -27,6 +27,12 @@ GENERAL = "General (any state)"
 CFG = json.load(open(os.path.join(ROOT, "site-config.json"), encoding="utf-8"))
 if not SITE and CFG.get("siteUrl"): SITE = CFG["siteUrl"].rstrip("/") + "/"
 BRAND = CFG.get("brand", "1 Exam Prep")
+FUL = CFG.get("fulfillment") or {"name": "1 Exam Prep", "url": CFG.get("storeUrl", "https://1examprep.com"), "note": ""}
+WM = CFG.get("wordmark") or [BRAND, "", ""]
+WORDMARK = "%s<span>%s</span>%s" % (html.escape(WM[0]), html.escape(WM[1]), html.escape(WM[2])) if WM[1] else html.escape(WM[0])
+def brand_tokens(out, rel=""):
+    """tokens every template may use"""
+    return (out.replace("{{WORDMARK}}", WORDMARK).replace("{{BRAND}}", html.escape(BRAND)).replace("{{FULFILL_NAME}}", html.escape(FUL["name"])).replace("{{FULFILL_URL}}", html.escape(FUL["url"])))
 import datetime
 TODAY = datetime.date.today().isoformat()
 sys.path.insert(0, os.path.join(ROOT, "tools")); import blogkit
@@ -38,6 +44,7 @@ def trim_desc(d, n=158):
     cut = d[:n].rsplit(" ", 1)[0].rstrip(",;:")
     return cut + ("" if cut.endswith(".") else ".")
 def anchor_ids(out):
+    out = brand_tokens(out)
     """give every h2/h3 without an id a stable, unique id made from its text (heading anchors for SEO tools and deep links)"""
     seen = set(re.findall(r'\sid="([^"]+)"', out))
     def rep2(m):
@@ -56,24 +63,25 @@ def org_ld():
     o = {"@context": "https://schema.org", "@type": "Organization", "name": BRAND, "legalName": CFG.get("legalName", BRAND), "url": SITE or CFG["storeUrl"],
          "logo": CFG.get("logo"), "telephone": CFG.get("phoneTel"), "email": CFG.get("email"),
          "sameAs": [v for v in CFG.get("social", {}).values() if v],
+         "parentOrganization": {"@type": "Organization", "name": FUL["name"], "url": FUL["url"]} if FUL["name"] != BRAND else None,
          "contactPoint": [{"@type": "ContactPoint", "telephone": CFG.get("phoneTel"), "contactType": "sales", "areaServed": "US", "availableLanguage": "English"}]}
     return {k: v for k, v in o.items() if v}
 def website_ld():
-    w = {"@context": "https://schema.org", "@type": "WebSite", "name": BRAND + " Electrician Exam Prep", "url": SITE or "/",
+    w = {"@context": "https://schema.org", "@type": "WebSite", "name": BRAND, "url": SITE or "/",
          "potentialAction": {"@type": "SearchAction", "target": {"@type": "EntryPoint", "urlTemplate": absurl("search/?q={search_term_string}")}, "query-input": "required name=search_term_string"}}
     return w
 def crumbs_ld(items):  # [(name, path)]
     return {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": n, "item": absurl(pth)} for i, (n, pth) in enumerate(items)]}
 def faq_ld(pairs):
     return {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in pairs]}
-LISTING_FAQ = [("Which NEC edition are these based on?", "Every product in this collection is built on the %s National Electrical Code. If your state is still testing on the 2023 or 2020 NEC, check your candidate bulletin first; 1examprep.com also carries earlier editions."),
+LISTING_FAQ = [("Which NEC edition are these based on?", "Every product in this collection is built on the %s National Electrical Code. If your state is still testing on the 2023 or 2020 NEC, check your candidate bulletin first; our fulfillment center, {F}, also carries earlier editions.".replace("{F}", FUL["name"])),
                ("Are these the actual exam questions?", "No. Real exam questions are confidential. These are practice questions written to the same subjects, format and difficulty, with explanations."),
                ("What's the difference between Journeyman and Master?", "Journeyman guides cover the journeyman-level exam; Master guides go deeper on calculations, planning and supervision topics for the master or contractor exam. Pick the license you are applying for."),
-               ("When will I get it?", "Online test success kits and courses are delivered by email after purchase. Books and code books ship from 1 Exam Prep; shipping options are shown at checkout."),
+               ("When will I get it?", "Online test success kits and courses are delivered by email after purchase. Books and code books ship from our fulfillment center, {F}; shipping options are shown at checkout.".replace("{F}", FUL["name"])),
                ("Does buying make me eligible to test?", "No. Eligibility, experience hours and exam approval come from your state licensing board. These materials get you ready for the test itself.")]
-PRODUCT_FAQ = [("Which NEC edition is this based on?", "The %s National Electrical Code. If your state is still testing on an earlier edition, check your candidate bulletin first; 1examprep.com also carries earlier editions."),
+PRODUCT_FAQ = [("Which NEC edition is this based on?", "The %s National Electrical Code. If your state is still testing on an earlier edition, check your candidate bulletin first; our fulfillment center, {F}, also carries earlier editions.".replace("{F}", FUL["name"])),
                ("Are these the actual exam questions?", "No. Real exam questions are confidential. These are practice questions written to the same subjects, format and difficulty, with explanations."),
-               ("When will I get it?", "Online kits and courses are delivered by email after purchase. Books and code books ship from 1 Exam Prep; shipping options are shown at checkout."),
+               ("When will I get it?", "Online kits and courses are delivered by email after purchase. Books and code books ship from our fulfillment center, {F}; shipping options are shown at checkout.".replace("{F}", FUL["name"])),
                ("Does buying make me eligible to test?", "No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.")]
 
 def head_extra(path, title, desc, image, rel, noindex=False, extra_ld=()):
@@ -86,6 +94,8 @@ def head_extra(path, title, desc, image, rel, noindex=False, extra_ld=()):
     if image: h.append('<meta name="twitter:image" content="%s">' % html.escape(image))
     if CFG.get("social", {}).get("twitter"): h.append('<meta name="twitter:site" content="@%s">' % CFG["social"]["twitter"].rstrip("/").split("/")[-1])
     h.append('<meta name="theme-color" content="#1b1f3b">')
+    h.append('<script>window.SITE=%s;</script>' % json.dumps({"brand": BRAND, "storeUrl": CFG["storeUrl"], "fulfillment": FUL["name"]}))
+    if len(BRAND) > 16: h.append('<style>.nav .brand{font-size:%s;line-height:1.05;max-width:46vw}@media (max-width:720px){.nav .brand{font-size:.95rem}}</style>' % ("1.05rem" if len(BRAND) > 24 else "1.2rem"))
     h.append('<link rel="icon" href="%sshared/favicon.svg" type="image/svg+xml">' % rel); h.append('<link rel="apple-touch-icon" href="%sshared/apple-touch-icon.png">' % rel); h.append('<link rel="manifest" href="%smanifest.webmanifest">' % rel)
     if CFG.get("googleSiteVerification"): h.append('<meta name="google-site-verification" content="%s">' % html.escape(CFG["googleSiteVerification"]))
     if CFG.get("gtagId"): h.append('<script async src="https://www.googletagmanager.com/gtag/js?id=%s"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","%s",{"send_page_view":true});</script>' % (CFG["gtagId"], CFG["gtagId"]))
@@ -104,12 +114,12 @@ def footer(rel, year0):
     soc = "".join('<li><a href="%s" rel="noopener" target="_blank">%s</a></li>' % (html.escape(u), k.capitalize()) for k, u in CFG.get("social", {}).items() if u)
     quick = "".join('<li><a href="%s%s/journeyman/%s/">%s</a></li>' % (rel, slug(x), year0, x) for x in ["Texas", "Florida", "California", "New York", "Georgia", "North Carolina"])
     return ('<footer class="site-footer"><div class="wrap"><div class="cols">'
-            '<div><a class="brand" href="%s">1 <span>Exam</span> Prep</a><p>%s</p><p class="contact"><a href="tel:%s">%s</a><a href="mailto:%s">%s</a></p></div>'
+            '<div><a class="brand" href="%s">%s</a><p>%s</p><p class="contact"><a href="tel:%s">%s</a><a href="mailto:%s">%s</a></p></div>'
             '<nav aria-label="Popular states"><h2>Popular states</h2><ul>%s<li><a href="%s">All 50 states</a></li></ul></nav>'
-            '<nav aria-label="Shop"><h2>Shop</h2><ul><li><a href="%s#packs">Packages</a></li><li><a href="%s#compare">Compare packages</a></li><li><a href="%s#singles">Study guides &amp; flash cards</a></li><li><a href="%sblog/">Blog</a></li><li><a href="%ssearch/">Search</a></li><li><a href="%s" rel="noopener" target="_blank">1examprep.com</a></li></ul></nav>'
+            '<nav aria-label="Shop"><h2>Shop</h2><ul><li><a href="%s#packs">Packages</a></li><li><a href="%s#compare">Compare packages</a></li><li><a href="%s#singles">Study guides &amp; flash cards</a></li><li><a href="%sblog/">Blog</a></li><li><a href="%ssearch/">Search</a></li><li><a href="%s" rel="noopener" target="_blank">Fulfilled by %s</a></li></ul></nav>'
             '<nav aria-label="Follow"><h2>Follow</h2><ul>%s</ul></nav></div>'
-            '<p class="fine"><strong>%s</strong> &copy; <span data-year>%s</span> &middot; <a href="%s">1examprep.com</a>. Prices and availability pulled from the 1 Exam Prep store; the price at checkout is the one that applies. Not affiliated with any state licensing board or testing vendor. Purchasing does not grant exam eligibility or a license.</p></div></footer>'
-            % (rel or "./", html.escape(CFG.get("tagline", "")), CFG["phoneTel"], html.escape(CFG["phone"]), CFG["email"], CFG["email"], quick, rel or "./", rel or "./", rel or "./", rel or "./", rel, rel, CFG["storeUrl"], soc, html.escape(BRAND), TODAY[:4], CFG["storeUrl"]))
+            '<p class="fine"><strong>%s</strong> &copy; <span data-year>%s</span> &middot; %s Prices and availability come from the fulfillment store; the price at checkout is the one that applies. Not affiliated with any state licensing board or testing vendor. Purchasing does not grant exam eligibility or a license.</p></div></footer>'
+            % (rel or "./", WORDMARK, html.escape(CFG.get("tagline", "")), CFG["phoneTel"], html.escape(CFG["phone"]), CFG["email"], CFG["email"], quick, rel or "./", rel or "./", rel or "./", rel or "./", rel, rel, FUL["url"], html.escape(FUL["name"]), soc, html.escape(BRAND), TODAY[:4], html.escape(FUL.get("note") or ("Orders are processed and shipped by %s, our fulfillment center." % FUL["name"]))))
 
 def slug(state): return "general" if state == GENERAL else state.lower().replace(" ", "-")
 def words(text):
@@ -167,6 +177,8 @@ def product_page(path_parts, p, siblings, state_name, level_url, other_level_url
     depth = len(path_parts); rel = "../" * depth
     url = (SITE + "/".join(path_parts) + "/") if SITE else None
     full = FULL.get(p["id"], {"html": "", "images": [p["image"]]})
+    if FUL["name"] != BRAND and full.get("html"):  # store descriptions talk about the fulfillment brand; this site speaks as itself
+        full = dict(full, html=re.sub(r"(?<![\w/.-])1 ?Exam ?Prep(?![\w.-])", BRAND, full["html"]))
     imgs = full["images"] or [p["image"]]
     v0 = p["variants"][0]
     c, n = float(v0.get("compareAt") or 0), float(v0["price"])
@@ -184,13 +196,13 @@ def product_page(path_parts, p, siblings, state_name, level_url, other_level_url
     desc = trim_desc(p["desc"].replace(p["title"], "").strip())
     path = "/".join(path_parts) + "/"
     jsonld = {"@context": "https://schema.org", "@type": "Product", "name": clean_title(p["title"]), "image": imgs[:6], "description": p["desc"].replace(p["title"], "").strip()[:500],
-              "brand": {"@type": "Brand", "name": BRAND}, "sku": p["id"], "productID": p["id"], "category": "%s Electrician Exam Prep" % p["level"], "url": absurl(path),
+              "brand": {"@type": "Brand", "name": FUL["name"]}, "sku": p["id"], "productID": p["id"], "category": "%s Electrician Exam Prep" % p["level"], "url": absurl(path),
               "offers": [{"@type": "Offer", "name": v["title"], "priceCurrency": "USD", "price": v["price"], "availability": "https://schema.org/InStock", "itemCondition": "https://schema.org/NewCondition", "url": absurl(path), "seller": {"@type": "Organization", "name": BRAND}} for v in p["variants"]]}
     crumbs = [("All states", ""), (state_name.capitalize() if state_name == "any state" else state_name, "/".join(path_parts[:3]) + "/"), (p["level"], "/".join(path_parts[:3]) + "/"), (p["tierName"], path)]
     extra = head_extra(path, clean_title(p["title"]) + " | " + BRAND, desc, imgs[0], rel, False, [crumbs_ld(crumbs), faq_ld([(q, a % p["year"] if "%s" in a else a) for q, a in PRODUCT_FAQ])])
     pjson = json.dumps({"id": p["id"], "variants": p["variants"], "title": clean_title(p["title"]), "state": p["state"], "level": p["level"], "tierName": p["tierName"], "price": p["price"]})
     assets_head = '<link rel="stylesheet" href="%sshared/base.css">\n<link rel="stylesheet" href="%sshared/store.css">' % (rel, rel)
-    out = (ptpl.replace("{{TITLE}}", html.escape(clean_title(p["title"]) + " | 1 Exam Prep")).replace("{{DESC}}", html.escape(desc))
+    out = (ptpl.replace("{{TITLE}}", html.escape(clean_title(p["title"]) + " | " + BRAND)).replace("{{DESC}}", html.escape(desc))
            .replace("{{CANONICAL}}", ('<link rel="canonical" href="%s">\n' % url) if url else "")
            .replace("{{OGIMAGE}}", '<meta property="og:image" content="%s">\n' % html.escape(imgs[0]))
            .replace("{{ASSETS_HEAD}}", assets_head).replace("{{ASSETS_PRODUCT}}", '<script src="%sshared/product.js"></script>' % rel)
@@ -221,7 +233,7 @@ generated, urls = [], []
 # --- root ---
 years = sorted({p["year"] for p in CATALOG}, reverse=True)
 u = page([], {"state": None, "level": None, "year": None, "tier": None, "depth": 0, "spa": not STATIC},
-         "%s Electrician Exam Prep for All 50 States | 1 Exam Prep" % years[0],
+         "%s Electrician Exam Prep for All 50 States | %s" % (years[0], BRAND),
          "%s journeyman and master electrician exam prep for all 50 states. Pick your state, pick your level, pick a package. Study guides, flash cards, NEC code books with tabs, calculations guides and online practice." % years[0],
          "Your state. *Your *license. %s code." % years[0],
          "Journeyman and master electrician exam prep for all 50 states, built on the %s National Electrical Code. Pick your state and level, then choose how much help you want." % years[0],
@@ -252,7 +264,7 @@ for state in STATES + [GENERAL]:
             lo, hi = min(float(p["price"]) for p in uniq), max(float(p["price"]) for p in uniq)
             route = {"state": slug(state), "level": level, "year": year, "tier": None, "depth": 3}
             u = page(parts, route,
-                     "%s %s %s Electrician Exam Prep (%s NEC) | 1 Exam Prep" % (year, "" if st is None else state, level, year),
+                     "%s %s %s Electrician Exam Prep (%s NEC) | %s" % (year, "" if st is None else state, level, year, BRAND),
                      "%s %s electrician exam prep for %s: %d packages from $%.2f to $%.2f. Study guide, flash cards, %s NEC with tabs, calculations guide and online practice. One click to checkout." % (year, level.lower(), name, len(uniq), lo, hi, year),
                      "%s. *%s. %s code." % ("Any state" if st is None else state, level, year),
                      "%s electrician exam prep for %s, built on the %s National Electrical Code. Choose how much help you want, from the study guide alone to the Ultimate Combo." % (level, name, year),
@@ -288,7 +300,7 @@ search_body = ('<main id="main" class="wrap search-page"><h1 id="h1">Search</h1>
 sp = tpl[:tpl.index("<body>")]
 sp = (sp.replace("{{ASSETS_HEAD}}", '<link rel="stylesheet" href="../shared/base.css">\n<link rel="stylesheet" href="../shared/store.css">').replace("{{TITLE}}", "Search | " + BRAND).replace("{{DESC}}", "Search %s electrician exam prep packages by state, level or product." % BRAND)
       .replace("{{CANONICAL}}", "").replace("{{OGIMAGE}}", "").replace("{{HEAD_EXTRA}}", head_extra("search/", "Search | " + BRAND, "Search electrician exam prep packages.", CFG.get("logo"), "../", noindex=True)))
-sp += ('<body><a class="skip" href="#main">Skip to content</a><header class="nav"><div class="wrap"><a class="brand" href="../" id="homeLink">1 <span>Exam</span> Prep</a>' + nav_tools('<a class="btn btn-buy" href="../#packs">Pick my package</a>') + '</div></header>'
+sp += ('<body><a class="skip" href="#main">Skip to content</a><header class="nav"><div class="wrap"><a class="brand" href="../" id="homeLink">' + WORDMARK + '</a>' + nav_tools('<a class="btn btn-buy" href="../#packs">Pick my package</a>') + '</div></header>'
        + search_body + footer("../", years[0]) + '<script>window.ROUTE={"depth":1};</script><script src="../shared/catalog.js"></script><script src="../shared/search.js"></script><script src="../shared/track.js"></script></body></html>')
 os.makedirs(os.path.join(ROOT, "search"), exist_ok=True); open(os.path.join(ROOT, "search", "index.html"), "w", encoding="utf-8").write(anchor_ids(sp))
 
@@ -296,7 +308,7 @@ os.makedirs(os.path.join(ROOT, "search"), exist_ok=True); open(os.path.join(ROOT
 atpl = open(os.path.join(ROOT, "store", "admin.html"), encoding="utf-8").read()
 admin_cfg = {"gtagId": CFG.get("gtagId", ""), "ga4PropertyId": CFG.get("ga4PropertyId", ""), "googleOAuthClientId": CFG.get("googleOAuthClientId", ""), "repo": CFG.get("repo", ""), "siteUrl": SITE or ""}
 os.makedirs(os.path.join(ROOT, "admin"), exist_ok=True)
-open(os.path.join(ROOT, "admin", "index.html"), "w", encoding="utf-8").write(atpl.replace("{{ADMIN_JSON}}", json.dumps(admin_cfg)))
+open(os.path.join(ROOT, "admin", "index.html"), "w", encoding="utf-8").write(brand_tokens(atpl.replace("{{ADMIN_JSON}}", json.dumps(admin_cfg))))
 
 # --- blog: content/posts/*.md -> /blog/, /blog/<slug>/, /blog/feed.xml ---
 btpl = open(os.path.join(ROOT, "store", "blog-post.html"), encoding="utf-8").read()
@@ -381,15 +393,38 @@ open(os.path.join(blog_dir, "feed.xml"), "w", encoding="utf-8").write('<?xml ver
 open(os.path.join(blog_dir, "posts.json"), "w", encoding="utf-8").write(json.dumps([{k: q[k] for k in ("slug", "title", "date", "updated", "excerpt", "image", "tags", "state", "level", "author", "words")} for q in POSTS], ensure_ascii=False))
 
 # --- icons + manifest ---
-fav = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#ff5a1f"/><path d="M36 14v36h-9V24l-8 5v-9l10-6z" fill="#fff"/></svg>'
+fav = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#1b1f3b"/><path d="M36 8 18 36h12l-4 20 20-30H34z" fill="#ff5a1f"/></svg>'
 open(os.path.join(ROOT, "shared", "favicon.svg"), "w").write(fav)
 try:
     from PIL import Image, ImageDraw
-    im = Image.new("RGBA", (180, 180), (255, 90, 31, 255)); dr = ImageDraw.Draw(im)
-    dr.polygon([(101, 40), (101, 140), (76, 140), (76, 68), (54, 82), (54, 57), (82, 40)], fill="white")
-    im.save(os.path.join(ROOT, "shared", "apple-touch-icon.png"))
+    from PIL import ImageFont
+    bolt = lambda sc, ox, oy: [(ox + x * sc, oy + y * sc) for x, y in [(36, 8), (18, 36), (30, 36), (26, 56), (46, 26), (34, 26)]]
+    im = Image.new("RGBA", (180, 180), (27, 31, 59, 255)); ImageDraw.Draw(im).polygon(bolt(2.6, 7, 7), fill=(255, 90, 31, 255)); im.save(os.path.join(ROOT, "shared", "apple-touch-icon.png"))
+    # logo.png: 1200x630 social card / Organization logo with the brand name
+    def font(sz):
+        for f in ("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf"):
+            if os.path.exists(f): return ImageFont.truetype(f, sz)
+        return ImageFont.load_default()
+    lg = Image.new("RGB", (1200, 630), (27, 31, 59)); d = ImageDraw.Draw(lg)
+    d.polygon(bolt(4.2, 90, 150), fill=(255, 90, 31))
+    words, lines, cur = BRAND.split(), [], ""
+    for w in words:
+        t = (cur + " " + w).strip()
+        if d.textlength(t, font=font(78)) > 820: lines.append(cur); cur = w
+        else: cur = t
+    lines.append(cur); y = 315 - 46 * len(lines)
+    for ln in lines: d.text((330, y), ln, font=font(78), fill="white"); y += 92
+    tl, tcur, tlines = CFG.get("tagline", "").split(), "", []
+    for w in tl:
+        t = (tcur + " " + w).strip()
+        if d.textlength(t, font=font(30)) > 820: tlines.append(tcur); tcur = w
+        else: tcur = t
+    tlines.append(tcur)
+    for ln in tlines[:2]: d.text((330, y + 10), ln, font=font(30), fill=(255, 176, 143)); y += 40
+    d.text((330, 560), "Fulfilled by %s" % FUL["name"], font=font(24), fill=(170, 175, 205))
+    lg.save(os.path.join(ROOT, "shared", "logo.png"), optimize=True)
 except Exception as e: print("apple-touch-icon skipped:", e)
-open(os.path.join(ROOT, "manifest.webmanifest"), "w").write(json.dumps({"name": BRAND + " Electrician Exam Prep", "short_name": BRAND, "start_url": "./", "display": "browser", "background_color": "#f7f6f2", "theme_color": "#1b1f3b", "icons": [{"src": "shared/apple-touch-icon.png", "sizes": "180x180", "type": "image/png"}, {"src": "shared/favicon.svg", "sizes": "any", "type": "image/svg+xml"}]}, indent=1))
+open(os.path.join(ROOT, "manifest.webmanifest"), "w").write(json.dumps({"name": BRAND, "short_name": WM[1] or BRAND[:12], "start_url": "./", "display": "browser", "background_color": "#f7f6f2", "theme_color": "#1b1f3b", "icons": [{"src": "shared/apple-touch-icon.png", "sizes": "180x180", "type": "image/png"}, {"src": "shared/favicon.svg", "sizes": "any", "type": "image/svg+xml"}]}, indent=1))
 
 # --- robots.txt (AI crawlers explicitly welcome) + llms.txt ---
 bots = ["GPTBot", "ChatGPT-User", "OAI-SearchBot", "ClaudeBot", "Claude-User", "anthropic-ai", "PerplexityBot", "Google-Extended", "Applebot-Extended", "Bytespider", "CCBot", "Amazonbot", "meta-externalagent"]
@@ -398,7 +433,7 @@ rb = ("# robots.txt for %s Electrician Exam Prep (%s)\n# Search engines and AI a
 if SITE: rb += "Sitemap: %ssitemap.xml\n# Guides for AI assistants: %sllms.txt and %sagents.md\n" % (SITE, SITE, SITE)
 open(os.path.join(ROOT, "robots.txt"), "w").write(rb)
 tiers_desc = "Packages per state and level, lowest to highest: Study Guide + Flash Cards ($99.95), Study Guide + NEC with Tabs ($249.95), Study Guide + Calculations + NEC ($279.95), Super Combo ($349.95), Ultimate Combo ($399.95, adds the online test success kit)."
-llm = ["# %s Electrician Exam Prep" % BRAND, "", "> %s journeyman and master electrician exam prep packages for all 50 US states, built on the %s National Electrical Code. Study guides, flash cards, NEC code books with pre-printed tabs, calculations guides and online practice exams. Buy buttons go straight to checkout at 1examprep.com. Phone %s, email %s." % (years[0], years[0], CFG["phone"], CFG["email"]), "",
+llm = ["# %s" % BRAND, "", "> %s journeyman and master electrician exam prep packages for all 50 US states, built on the %s National Electrical Code. Study guides, flash cards, NEC code books with pre-printed tabs, calculations guides and online practice exams. Buy buttons go straight to secure checkout; orders are fulfilled by %s. Phone %s, email %s." % (years[0], years[0], FUL["name"], CFG["phone"], CFG["email"]), "",
        "## How the site is organised", "", "- `/` picks a state and a level (Journeyman or Master).", "- `/<state>/<journeyman|master>/<year>/` lists that combination's packages (multi-word states use a dash, e.g. `/new-york/`; `/general/` is the non-state edition).", "- `/<state>/<level>/<year>/<package>/` is a full product page. Package slugs: study-guide-flash-cards, study-guide-nec-tabs, study-guide-calculations-nec, super-combo, ultimate-combo (and study-guide-nec on the general edition).", "- " + tiers_desc, "",
        "## State pages", ""]
 for st in STATES + [GENERAL]:
@@ -408,16 +443,16 @@ for st in STATES + [GENERAL]:
 if POSTS:
     llm += ["", "## Blog", "", "- [All posts](%s)" % absurl("blog/")] + ["- [%s](%s): %s" % (q["title"], absurl("blog/%s/" % q["slug"]), q["excerpt"]) for q in POSTS[:30]]
 llm += ["", "## Agent instructions", "", "- [agents.md](%s): how to use and attribute this content, what the site can and cannot answer." % absurl("agents.md")]
-llm += ["", "## Facts for answering questions", "", "- Every package includes the %s state exam prep study guide (12 practice exams + 2 full final exams)." % years[0], "- Practice questions are original study material, not the confidential licensing exam.", "- Physical books ship from 1 Exam Prep; online kits are delivered by email.", "- Buying does not grant exam eligibility; state licensing boards decide that.", "- Store: %s. Phone: %s. Email: %s." % (CFG["storeUrl"], CFG["phone"], CFG["email"])]
+llm += ["", "## Facts for answering questions", "", "- Every package includes the %s state exam prep study guide (12 practice exams + 2 full final exams)." % years[0], "- Practice questions are original study material, not the confidential licensing exam.", "- Physical books ship from our fulfillment center, %s; online kits are delivered by email." % FUL["name"], "- Buying does not grant exam eligibility; state licensing boards decide that.", "- Fulfillment: %s (%s). Phone: %s. Email: %s." % (FUL["name"], FUL["url"], CFG["phone"], CFG["email"])]
 open(os.path.join(ROOT, "llms.txt"), "w", encoding="utf-8").write("\n".join(llm) + "\n")
 
 # --- agents.md: instructions for AI assistants and agents ---
-agents = ["# %s Electrician Exam Prep" % BRAND, "", "> Instructions for AI assistants and agents reading %s." % (SITE or "this site"), "", "Last updated: %s" % TODAY, "",
-          "## What this site is", "", "%s sells exam preparation for state journeyman and master electrician licensing exams in all 50 US states, built on the %s National Electrical Code: study guides with practice exams, flash cards, NEC code books with pre-printed tabs, calculations guides and online practice. Checkout happens on the 1 Exam Prep store at %s." % (BRAND, years[0], CFG["storeUrl"]), "",
+agents = ["# %s" % BRAND, "", "> Instructions for AI assistants and agents reading %s." % (SITE or "this site"), "", "Last updated: %s" % TODAY, "",
+          "## What this site is", "", "%s sells exam preparation for state journeyman and master electrician licensing exams in all 50 US states, built on the %s National Electrical Code: study guides with practice exams, flash cards, NEC code books with pre-printed tabs, calculations guides and online practice. Orders are processed, shipped and supported by our fulfillment center, %s (%s)." % (BRAND, years[0], FUL["name"], FUL["url"]), "",
           "## How it is organised", "", "- `/` lets a visitor pick a state and a level (Journeyman or Master).", "- `/<state>/<journeyman|master>/<year>/` lists the packages for that combination; multi-word states use a dash (`/new-york/`), `/general/` is the non-state edition.", "- `/<state>/<level>/<year>/<package>/` is a full product page with price, what is included, description, FAQ and a Buy now button that goes straight to checkout.", "- `/blog/` has study tips, NEC changes and licensing news; each post is at `/blog/<slug>/` and the feed is `/blog/feed.xml`.", "- `/llms.txt` is the short list of pages; `/sitemap.xml` is every page with its last change.", "",
           "## Using this content", "", "- Quote what is useful and attribute it to %s, with a link to the page you took it from." % BRAND, "- Link to the canonical URL on this site rather than a cached or syndicated copy.", "- Prices change. Every product page carries a schema.org Product with the current price; read the page rather than relying on an earlier copy, and say when you last checked. The price at checkout is the one that applies.", "- Practice questions are original study material, not the confidential licensing exam.", "- Nothing here decides a person's eligibility to test. Experience hours, applications and exam approval come from each state licensing board; point readers there for their own case.", "",
           "## What this site cannot answer", "", "- Anything about a specific customer, order or account. None of that is public here.", "- Exact exam dates, fees or application rules for a state. Those belong to the state board and its testing vendor.", "- Anything not written on a page. If it is not in the text, we have not said it.", "",
-          "## Contact", "", "- Phone: %s" % CFG["phone"], "- Email: %s" % CFG["email"], "- Store: %s" % CFG["storeUrl"], "",
+          "## Contact", "", "- Phone: %s" % CFG["phone"], "- Email: %s" % CFG["email"], "- Fulfillment center: %s (%s)" % (FUL["name"], FUL["url"]), "",
           "## Crawling", "", "- Rules: %srobots.txt (all major search and AI crawlers are allowed)" % (SITE or "/"), "- Shortlist of pages: %sllms.txt" % (SITE or "/"), "- Every page: %ssitemap.xml" % (SITE or "/"), "- Please identify yourself with a user agent that says who you are, so we can tell you apart from a scraper.", ""]
 open(os.path.join(ROOT, "agents.md"), "w", encoding="utf-8").write("\n".join(agents))
 

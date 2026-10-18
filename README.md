@@ -1,4 +1,4 @@
-# 1 Exam Prep electrician landing pages
+# Pass Your Master Electrician Exam (electrician subsite)
 
 ## The live product page (start here)
 
@@ -343,3 +343,16 @@ Write them by hand and push, or let the dashboard do it: its Blog page has an ed
 and a webhook (`POST /hooks/blog/<site key>`) that commits the file here and triggers
 `build.yml`. A post can carry `state: Texas` and `level: Master` so its call-to-action
 points at that state's packages.
+
+
+## Brand and fulfillment
+
+The site speaks as its own brand. `site-config.json` holds `brand` (name), `wordmark`
+(three parts for the header logo: before, accent, after), `tagline`, and `fulfillment`
+(`name`, `url`, `note`): the store that processes and ships orders. Every template uses
+`{{BRAND}}`, `{{WORDMARK}}`, `{{FULFILL_NAME}}`; the JS reads `window.SITE`. `build.py`
+generates `shared/logo.png` (social card / Organization logo), the favicon and the
+apple-touch icon from the brand name. Store descriptions that mention the fulfillment
+brand are rewritten to the site's brand at build time. To spin up another subsite:
+copy the repo, change `brand`, `wordmark`, `tagline`, `siteUrl`, `repo`, `siteKey`, and
+point the dashboard at a different Shopify collection.

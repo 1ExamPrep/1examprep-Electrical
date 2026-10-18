@@ -65,6 +65,6 @@
       var h=stateRows(r,yr)+
         r.products.map(function(p){return '<a class="srch-row" href="'+esc(pathFor(p))+'"><img src="'+esc(p.image)+'" alt=""><span class="srch-t"><b>'+esc(p.tierName)+'</b><small>'+esc((p.state||"Any state")+" · "+p.level+" · "+p.year)+'</small></span><span class="srch-p">'+money(p.price)+'</span></a>';}).join("");
       out.innerHTML=h||(inp.value.trim()?'<p class="srch-none">Nothing found. Try a state name or “journeyman” / “master”.</p>':"");
-      document.title=(inp.value.trim()?"Search: "+inp.value+" | ":"Search | ")+"1 Exam Prep";});}
+      document.title=(inp.value.trim()?"Search: "+inp.value+" | ":"Search | ")+((window.SITE||{}).brand||"");});}
     inp.addEventListener("input",function(){clearTimeout(tmr);tmr=setTimeout(go,80);}); sp.addEventListener("submit",function(e){e.preventDefault();go();history.replaceState(null,"","?q="+encodeURIComponent(inp.value));}); go();}
 })();

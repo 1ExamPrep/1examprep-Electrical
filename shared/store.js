@@ -1,8 +1,8 @@
-/* 1 Exam Prep product page behaviour. Shared by every generated page; edit here, then run build.py. */
+/* Product page behaviour. Shared by every generated page; edit here, then run build.py. */
 
 (function(){
   "use strict";
-  var STORE="https://1examprep.com";
+  var SITE=window.SITE||{}, BRAND=SITE.brand||"", STORE=SITE.storeUrl||"https://1examprep.com";
   var ROUTE=window.ROUTE||{};          /* set per page by a one-line inline script */
   var C=window.CATALOG||[], STATES=window.CATALOG_STATES||[];
   var TIERS=["book-fc","nec","nec-tabs","calc","super","ultimate"];
@@ -82,7 +82,7 @@
       '</div></article>';
   }
   function h1Words(text){var i=0;return text.split(/\s+/).map(function(w){return '<span class="w'+(/^\*/.test(w)?" hl":"")+'" style="--n:'+(i++)+'">'+esc(w.replace(/^\*/,""))+'</span>';}).join(" ");}
-  function pageTitle(){return (sel.state===GENERAL?"":sel.state+" ")+sel.level+" Electrician Exam Prep ("+sel.year+" NEC) | 1 Exam Prep";}
+  function pageTitle(){return (sel.state===GENERAL?"":sel.state+" ")+sel.level+" Electrician Exam Prep ("+sel.year+" NEC) | "+BRAND;}
   function render(){
     try{localStorage.setItem("oep-sel",JSON.stringify(sel));}catch(e){}
     var ys=yearsFor(sel.state,sel.level); if(ys.length&&ys.indexOf(sel.year)<0)sel.year=ys[0];
@@ -144,12 +144,11 @@
       '<h2 id="modal-title" class="modal-title">'+esc(p.title)+'</h2>'+
       '<p class="modal-desc">'+esc(p.desc.replace(p.title,"").trim())+'</p>'+
       '<div class="m-foot"><div class="m-opts">'+opts+'</div>'+
-      '<a class="btn btn-buy btn-buy--lg" id="m-buy" href="'+esc(cartUrl(p.variants[0].id))+'" rel="noopener">Buy now — go to checkout</a>'+
-      '<a class="m-link" href="'+esc(p.url)+'" target="_blank" rel="noopener">Full details and reviews on 1examprep.com ↗</a></div></div>';
+      '<a class="btn btn-buy btn-buy--lg" id="m-buy" href="'+esc(cartUrl(p.variants[0].id))+'" rel="noopener">Buy now — go to checkout</a></div></div>';
     modal.querySelectorAll('input[name="v"]').forEach(function(r){r.addEventListener("change",function(){document.getElementById("m-buy").href=cartUrl(r.value);});});
     lastFocus=document.activeElement; modal.classList.add("is-open"); modal.setAttribute("aria-hidden","false"); document.documentElement.classList.add("modal-open");
     document.getElementById("m-buy").focus();
-    if(p.state!==undefined&&p.rank>0){ baseTitle=document.title; document.title=cleanTitle(p.title)+" | 1 Exam Prep";
+    if(p.state!==undefined&&p.rank>0){ baseTitle=document.title; document.title=cleanTitle(p.title)+" | "+BRAND;
       if(push!==false&&history.pushState){var tp=pathFor(sel,p.tierSlug);if(location.pathname!==tp)history.pushState({sel:sel,tier:p.tierSlug},"",tp);} }
   }
   function closeModal(pop){

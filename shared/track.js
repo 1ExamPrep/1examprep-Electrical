@@ -24,7 +24,7 @@
     if(!p) return null;
     var v=(p.variants||[]).filter(function(x){return String(x.id)===String(variantId);})[0]||(p.variants||[])[0]||{};
     return {item_id:String(p.id),item_name:p.tierName?((p.state||"General")+" "+p.level+" "+p.tierName):(p.title||""),item_variant:v.title||"",price:Number(v.price||p.price||0),quantity:1,
-            item_category:p.level||"",item_category2:p.state||"General",item_category3:p.tierName||"",item_brand:"1 Exam Prep"};
+            item_category:p.level||"",item_category2:p.state||"General",item_category3:p.tierName||"",item_brand:(window.SITE||{}).brand||""};
   }
   function flat(p,it){ return p?{product_id:String(p.id),state:p.state||"General",level:p.level||"",tier:p.tierName||"",price:it?it.price:Number(p.price||0),title:it?it.item_name:(p.title||"")}:{}; }
   function byId(id){ if(P&&String(P.id)===String(id)) return P; return C.filter(function(x){return String(x.id)===String(id);})[0]||null; }
