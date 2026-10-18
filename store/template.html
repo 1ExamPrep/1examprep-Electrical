@@ -37,19 +37,19 @@
   </div>
 </div></section>
 
-<div class="marquee" aria-hidden="true"><div id="marq"></div></div>
+<div class="marquee" aria-hidden="true"><div id="marq">{{MARQ_HTML}}</div></div>
 
 <section id="packs" class="center" aria-labelledby="h-packs"><div class="wrap">
   <h2 id="h-packs">Pick a package. Buy now. Done.</h2>
   <p class="sub-h">Buy now adds it to your cart and takes you straight to secure checkout, handled by our fulfillment center, {{FULFILL_NAME}}. "What's inside" shows the description and add-on options first.</p>
   <div class="selbar">
-    <b id="selTitle">Texas · Journeyman</b>
+    <b id="selTitle">{{SEL_TITLE}}</b>
     <div class="seg" role="group" aria-label="License level"><button type="button" data-level="Journeyman" aria-pressed="true">Journeyman</button><button type="button" data-level="Master" aria-pressed="false">Master</button></div>
     <div class="spick spick--dark" id="stateSel2" data-state-pick></div>
     <select class="yearfield" data-year-sel aria-label="Code year" hidden></select>
   </div>
-  <p class="crumb" id="crumb" aria-label="Breadcrumb"></p>
-  <div class="rail" id="rail"></div>
+  <p class="crumb" id="crumb" aria-label="Breadcrumb">{{CRUMB_HTML}}</p>
+  <div class="rail" id="rail">{{RAIL_HTML}}</div>
   <div class="railnav" id="railnav"><button type="button" class="rn" data-dir="-1" aria-label="Previous package">&larr;</button><span id="railpos">1 / 5</span><button type="button" class="rn" data-dir="1" aria-label="Next package">&rarr;</button></div>
 </div></section>
 
@@ -91,7 +91,7 @@
 <section id="singles" class="center" style="background:#fff" aria-labelledby="h-singles"><div class="wrap">
   <h2 id="h-singles">Study guides, flash cards and online kits</h2>
   <p class="sub-h">Not state-specific. Good for topping up a package you already own. For a complete non-state package, choose "General (any state)" in the picker above.</p>
-  <div class="singles" id="singlesGrid"></div>
+  <div class="singles" id="singlesGrid">{{SINGLES_HTML}}</div>
 </div></section>
 
 <section id="faq" aria-labelledby="h-faq"><div class="wrap center">
@@ -103,6 +103,12 @@
     <details><summary>When will I get it?</summary><p>Online test success kits and courses are delivered by email after purchase. Books and code books ship from our fulfillment center, {{FULFILL_NAME}}; shipping options are shown at checkout.</p></details>
     <details><summary>Does buying make me eligible to test?</summary><p>No. Eligibility, experience hours and exam approval come from your state licensing board. These materials get you ready for the test itself.</p></details>
   </div>
+</div></section>
+
+<section id="states" class="states-all" aria-labelledby="h-states"><div class="wrap">
+  <h2 id="h-states">Every state. Both licenses.</h2>
+  <p class="sub-h">Each page below lists the {{YEAR}} packages for that state and license level, from the study guide alone to the Ultimate Combo.</p>
+  {{STATES_HTML}}
 </div></section>
 
 <section class="final" aria-labelledby="h-final"><div class="wrap">

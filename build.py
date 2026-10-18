@@ -43,6 +43,10 @@ def brand_tokens(out, rel=None):
     return (out.replace("{{WORDMARK}}", wordmark(rel)).replace("{{WORDMARK_REL}}", wordmark(rel)).replace("{{BRAND}}", html.escape(BRAND)).replace("{{FULFILL_NAME}}", html.escape(FUL["name"])).replace("{{FULFILL_URL}}", html.escape(FUL["url"])))
 import datetime
 TODAY = datetime.date.today().isoformat()
+LAUNCH = CFG.get("launched", "2026-10-16")
+def nice_day(d):
+    try: return datetime.date.fromisoformat(d[:10]).strftime("%B %-d, %Y")
+    except Exception: return d
 sys.path.insert(0, os.path.join(ROOT, "tools")); import blogkit
 POSTS = blogkit.load_posts(os.path.join(ROOT, "content", "posts"))
 
@@ -113,6 +117,9 @@ def head_extra(path, title, desc, image, rel, noindex=False, extra_ld=()):
     if CFG.get("metaPixelId"): h.append("<script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','%s');fbq('track','PageView');</script>" % CFG["metaPixelId"])
     if CFG.get("dashboardUrl") and CFG.get("siteKey"): h.append('<script>window.__dashCustom=true;</script><script src="%s/t.js" data-site="%s" defer></script>' % (html.escape(CFG["dashboardUrl"].rstrip("/")), html.escape(CFG["siteKey"])))
     for o in extra_ld: h.append(ld(o).rstrip())
+    if url and not noindex:
+        h.append(ld({"@context": "https://schema.org", "@type": "WebPage", "@id": url, "url": url, "name": title, "description": desc, "inLanguage": "en-US", "datePublished": LAUNCH, "dateModified": TODAY,
+                     "isPartOf": {"@type": "WebSite", "url": SITE, "name": BRAND}, "publisher": {"@type": "Organization", "name": BRAND}}).rstrip())
     return "\n".join(h) + "\n"
 
 ICON_PHONE = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>'
@@ -128,8 +135,8 @@ def footer(rel, year0):
             '<nav aria-label="Popular states"><h2>Popular states</h2><ul>%s<li><a href="%s">All 50 states</a></li></ul></nav>'
             '<nav aria-label="Shop"><h2>Shop</h2><ul><li><a href="%s#packs">Packages</a></li><li><a href="%s#compare">Compare packages</a></li><li><a href="%s#singles">Study guides &amp; flash cards</a></li><li><a href="%sblog/">Blog</a></li><li><a href="%ssearch/">Search</a></li><li><a href="%s" rel="noopener" target="_blank">Fulfilled by %s</a></li></ul></nav>'
             '<nav aria-label="Follow"><h2>Follow</h2><ul>%s</ul></nav></div>'
-            '<p class="fine"><strong>%s</strong> &copy; <span data-year>%s</span> &middot; %s Prices and availability come from the fulfillment store; the price at checkout is the one that applies. Not affiliated with any state licensing board or testing vendor. Purchasing does not grant exam eligibility or a license.</p></div></footer>'
-            % (rel or "./", "{{WORDMARK}}", html.escape(CFG.get("tagline", "")), CFG["phoneTel"], html.escape(CFG["phone"]), CFG["email"], CFG["email"], quick, rel or "./", rel or "./", rel or "./", rel or "./", rel, rel, FUL["url"], html.escape(FUL["name"]), soc, html.escape(BRAND), TODAY[:4], html.escape(FUL.get("note") or ("Orders are processed and shipped by %s, our fulfillment center." % FUL["name"]))))
+            '<p class="fine"><strong>%s</strong> &copy; <span data-year>%s</span> &middot; %s Prices and availability come from the fulfillment store and were last checked <time datetime="%s">%s</time>; the price at checkout is the one that applies. Not affiliated with any state licensing board or testing vendor. Purchasing does not grant exam eligibility or a license.</p></div></footer>'
+            % (rel or "./", "{{WORDMARK}}", html.escape(CFG.get("tagline", "")), CFG["phoneTel"], html.escape(CFG["phone"]), CFG["email"], CFG["email"], quick, rel or "./", rel or "./", rel or "./", rel or "./", rel, rel, FUL["url"], html.escape(FUL["name"]), soc, html.escape(BRAND), TODAY[:4], html.escape(FUL.get("note") or ("Orders are processed and shipped by %s, our fulfillment center." % FUL["name"])), TODAY, nice_day(TODAY)))
 
 def slug(state): return "general" if state == GENERAL else state.lower().replace(" ", "-")
 def words(text):
@@ -139,6 +146,38 @@ def words(text):
         out.append('<span class="w%s" style="--n:%d">%s</span>' % (" hl" if hl else "", i, html.escape(w)))
     return " ".join(out)
 
+FEATURED = "ultimate"
+def products_for(state, level, year):
+    st = None if state == GENERAL else state
+    prods = sorted([p for p in CATALOG if p["state"] == st and p["level"] == level and p["year"] == year and p["tier"] in TIERS], key=lambda p: (p["rank"], p["id"]))
+    seen, out = set(), []
+    for p in prods:
+        if p["tier"] in seen: continue
+        seen.add(p["tier"]); out.append(p)
+    return out
+def card_html(p, href):
+    c, n = float(p.get("compareAt") or 0), float(p["price"]); feat = p["tier"] == FEATURED
+    save = ('<s class="pc-was">%s</s><span class="pc-save">Save %d%%</span>' % (money(c), round((c - n) / c * 100))) if c > n else ""
+    return ('<article class="pc%s" data-id="%s">%s<div class="pc-img"><img src="%s" alt="%s" loading="lazy"></div><div class="pc-body">'
+            '<span class="pc-tier">%s</span><h3 class="pc-name">%s</h3><p class="pc-sub">%s</p><p class="pc-desc">%s</p>'
+            '<div class="pc-price"><span class="pc-now">%s</span>%s</div>'
+            '<div class="pc-actions"><a class="btn btn-buy" href="https://1examprep.com/cart/%s:1" rel="noopener">Buy now</a><a class="btn btn-details" href="%s" data-details="%s" data-tier="%s">What\u2019s inside</a></div></div></article>'
+            % (" pc--featured" if feat else "", p["id"], '<span class="pc-badge">Most complete</span>' if feat else "", html.escape(p["image"]), html.escape(clean_title(p["title"])),
+               html.escape("%s · %s · %s" % (p["state"] or "Any state", p["level"], p["year"])), html.escape(p["tierName"]), html.escape(clean_title(p["title"])), html.escape(p["desc"].replace(p["title"], "").strip()),
+               money(n), save, p["variants"][0]["id"], href, p["id"], p["tierSlug"]))
+def singles_html():
+    singles = sorted([p for p in CATALOG if not p["state"] and p["rank"] == 0], key=lambda p: float(p["price"]))
+    return "".join('<article class="sg" data-id="%s"><div class="pc-img"><img src="%s" alt="%s" loading="lazy"></div><div class="pc-body"><span class="pc-tier">%s</span><h3 class="pc-name">%s</h3><div class="pc-price"><span class="pc-now">%s</span>%s</div>'
+                   '<div class="pc-actions"><a class="btn btn-buy" href="https://1examprep.com/cart/%s:1" rel="noopener">Buy now</a><button class="btn btn-details" type="button" data-details="%s">What\u2019s inside</button></div></div></article>'
+                   % (p["id"], html.escape(p["image"]), html.escape(clean_title(p["title"])), "All levels" if p["level"] == "General" else p["level"], html.escape(clean_title(p["title"])), money(p["price"]),
+                      ('<small style="color:var(--muted)"> to %s</small>' % money(p["maxPrice"])) if p.get("maxPrice") and p["maxPrice"] != p["price"] else "", p["variants"][0]["id"], p["id"]) for p in singles)
+def states_html(rel, year, level_first="journeyman"):
+    items = []
+    for st in STATES + [GENERAL]:
+        sl = slug(st); name = "Any state (general)" if st == GENERAL else st
+        links = "".join('<a href="%s%s/%s/%s/">%s</a>' % (rel, sl, lv, year, lv.capitalize()) for lv in ((level_first, "master" if level_first == "journeyman" else "journeyman")) if os.path.isdir(os.path.join(ROOT, sl, lv, year)) or True)
+        items.append("<li><b>%s</b><span>%s</span></li>" % (html.escape(name), links))
+    return '<ul class="states-grid">%s</ul>' % "".join(items)
 def page(path_parts, route, title, desc, h1, lead, og_image=None, extra_ld=(), crumbs=None, noindex=False):
     depth = len(path_parts)
     rel = "../" * depth
@@ -156,7 +195,17 @@ def page(path_parts, route, title, desc, h1, lead, og_image=None, extra_ld=(), c
     path = "/".join(path_parts) + ("/" if path_parts else "")
     lds = list(extra_ld)
     if crumbs: lds.append(crumbs_ld(crumbs))
-    out = (tpl.replace("{{ASSETS_HEAD}}", assets_head).replace("{{ASSETS_CATALOG}}", assets_cat).replace("{{ASSETS_APP}}", assets_app)
+    sel_state = next((st for st in STATES + [GENERAL] if slug(st) == route.get("state")), None) or "Texas"
+    sel_level = route.get("level") or "Journeyman"; sel_year = route.get("year") or sorted({p["year"] for p in CATALOG}, reverse=True)[0]
+    prods = products_for(sel_state, sel_level, sel_year)
+    pbase = "" if route.get("state") else "%s/%s/%s/" % (slug(sel_state), sel_level.lower(), sel_year)
+    rail_html = "".join(card_html(q, (rel if route.get("state") else "") + pbase + q["tierSlug"] + "/") for q in prods)
+    sel_path = (rel if route.get("state") else pbase) if route.get("state") else pbase
+    crumb_html = '<a href="%s">All states</a><span>/</span><a href="%s">%s</a><span>/</span><a href="%s">%s</a><span>/</span><a href="%s">%s</a>' % (rel or "./", sel_path or "./", html.escape(sel_state), sel_path or "./", sel_level, sel_path or "./", sel_year)
+    marq = "".join('<span><a href="%s%s/journeyman/%s/" style="color:inherit;text-decoration:none">%s</a></span>' % (rel, slug(st), sel_year, html.escape(st)) for st in STATES)
+    out = (tpl.replace("{{RAIL_HTML}}", rail_html).replace("{{SINGLES_HTML}}", singles_html()).replace("{{SEL_TITLE}}", html.escape("%s · %s · %s" % (sel_state, sel_level, sel_year)))
+           .replace("{{CRUMB_HTML}}", crumb_html).replace("{{MARQ_HTML}}", marq + marq).replace("{{STATES_HTML}}", states_html(rel, sel_year, sel_level.lower())).replace("{{YEAR}}", sel_year)
+           .replace("{{ASSETS_HEAD}}", assets_head).replace("{{ASSETS_CATALOG}}", assets_cat).replace("{{ASSETS_APP}}", assets_app)
            .replace("{{ASSETS_SEARCH}}", '<script src="%sshared/search.js" defer></script>\n<script src="%sshared/track.js" defer></script>' % (rel, rel))
            .replace("{{HEAD_EXTRA}}", head_extra(path, title, desc, og_image, rel, noindex, lds))
            .replace("{{NAV_TOOLS}}", nav_tools('<a class="btn btn-buy" href="#packs">Pick my package</a>'))
@@ -196,23 +245,27 @@ def product_page(path_parts, p, siblings, state_name, level_url, other_level_url
     variants_html = "".join('<label class="m-opt"><input type="radio" name="v" value="%s"%s><span>%s</span><b>%s%s</b></label>' % (
         v["id"], " checked" if i == 0 else "", html.escape(v["title"]), money(v["price"]),
         ('<s>%s</s>' % money(v["compareAt"])) if v.get("compareAt") and float(v["compareAt"]) > float(v["price"]) else "") for i, v in enumerate(p["variants"]))
-    thumbs = "".join('<button type="button" data-src="%s" class="%s" aria-label="Image %d"><img src="%s" alt="" loading="lazy"></button>' % (html.escape(u), "on" if i == 0 else "", i + 1, html.escape(u)) for i, u in enumerate(imgs))
+    thumbs = "".join('<button type="button" data-src="%s" class="%s" aria-label="Image %d"><img src="%s" alt="%s, image %d" loading="lazy"></button>' % (html.escape(u), "on" if i == 0 else "", i + 1, html.escape(u), html.escape(p["tierName"]), i + 1) for i, u in enumerate(imgs))
     S = "" if state_name == "any state" else state_name
     inc = "".join("<li>%s</li>" % html.escape(x.format(Y=p["year"], S=S, L=p["level"]).replace("  ", " ")) for x in INCLUDED.get(p["tier"], []))
     addons = [v["title"] for v in p["variants"][1:]]
     addons_html = ('<p class="addons"><b>Optional add-ons at checkout:</b> %s. Pick one above and the price updates.</p>' % html.escape("; ".join(addons))) if addons else ""
-    related = "".join('<a class="rel" href="../%s/"><img src="%s" alt="" loading="lazy"><span><b>%s</b><small>%s</small></span><span class="pc-now">%s</span></a>' % (
-        q["tierSlug"], html.escape(q["image"]), html.escape(q["tierName"]), html.escape(clean_title(q["title"])[:60] + ("…" if len(clean_title(q["title"])) > 60 else "")), money(q["price"])) for q in siblings if q["id"] != p["id"])
+    related = "".join('<a class="rel" href="../%s/"><img src="%s" alt="%s" loading="lazy"><span><b>%s</b><small>%s</small></span><span class="pc-now">%s</span></a>' % (
+        q["tierSlug"], html.escape(q["image"]), html.escape(q["tierName"]), html.escape(q["tierName"]), html.escape(clean_title(q["title"])[:60] + ("…" if len(clean_title(q["title"])) > 60 else "")), money(q["price"])) for q in siblings if q["id"] != p["id"])
     desc = trim_desc(p["desc"].replace(p["title"], "").strip())
     path = "/".join(path_parts) + "/"
     jsonld = {"@context": "https://schema.org", "@type": "Product", "name": clean_title(p["title"]), "image": imgs[:6], "description": p["desc"].replace(p["title"], "").strip()[:500],
               "brand": {"@type": "Brand", "name": FUL["name"]}, "sku": p["id"], "productID": p["id"], "category": "%s Electrician Exam Prep" % p["level"], "url": absurl(path),
               "offers": [{"@type": "Offer", "name": v["title"], "priceCurrency": "USD", "price": v["price"], "availability": "https://schema.org/InStock", "itemCondition": "https://schema.org/NewCondition", "url": absurl(path), "seller": {"@type": "Organization", "name": BRAND}} for v in p["variants"]]}
     crumbs = [("All states", ""), (state_name.capitalize() if state_name == "any state" else state_name, "/".join(path_parts[:3]) + "/"), (p["level"], "/".join(path_parts[:3]) + "/"), (p["tierName"], path)]
-    extra = head_extra(path, clean_title(p["title"]) + " | " + BRAND, desc, imgs[0], rel, False, [crumbs_ld(crumbs), faq_ld([(q, a % p["year"] if "%s" in a else a) for q, a in PRODUCT_FAQ])])
+    short_t = "%s %s %s" % ("" if state_name == "any state" else state_name, p["level"], p["tierName"]); short_t = re.sub(r"\s+", " ", short_t).strip()
+    if len(short_t) + len(" (%s NEC)" % p["year"]) <= 60: short_t += " (%s NEC)" % p["year"]
+    extra = head_extra(path, short_t, desc, imgs[0], rel, False, [crumbs_ld(crumbs), faq_ld([(q, a % p["year"] if "%s" in a else a) for q, a in PRODUCT_FAQ])])
     pjson = json.dumps({"id": p["id"], "variants": p["variants"], "title": clean_title(p["title"]), "state": p["state"], "level": p["level"], "tierName": p["tierName"], "price": p["price"]})
     assets_head = '<link rel="stylesheet" href="%sshared/base.css">\n<link rel="stylesheet" href="%sshared/store.css">' % (rel, rel)
-    out = (ptpl.replace("{{TITLE}}", html.escape(clean_title(p["title"]) + " | " + BRAND)).replace("{{DESC}}", html.escape(desc))
+    short_t = "%s %s %s" % ("" if state_name == "any state" else state_name, p["level"], p["tierName"]); short_t = re.sub(r"\s+", " ", short_t).strip()
+    if len(short_t) + len(" (%s NEC)" % p["year"]) <= 60: short_t += " (%s NEC)" % p["year"]
+    out = (ptpl.replace("{{TITLE}}", html.escape(short_t)).replace("{{DESC}}", html.escape(desc))
            .replace("{{CANONICAL}}", ('<link rel="canonical" href="%s">\n' % url) if url else "")
            .replace("{{OGIMAGE}}", '<meta property="og:image" content="%s">\n' % html.escape(imgs[0]))
            .replace("{{ASSETS_HEAD}}", assets_head).replace("{{ASSETS_PRODUCT}}", '<script src="%sshared/product.js"></script>' % rel)
@@ -243,7 +296,7 @@ generated, urls = [], []
 # --- root ---
 years = sorted({p["year"] for p in CATALOG}, reverse=True)
 u = page([], {"state": None, "level": None, "year": None, "tier": None, "depth": 0, "spa": not STATIC},
-         "%s Electrician Exam Prep for All 50 States | %s" % (years[0], BRAND),
+         "%s: %s Prep for All 50 States" % (BRAND, years[0]),
          "%s journeyman and master electrician exam prep for all 50 states. Pick your state, pick your level, pick a package. Study guides, flash cards, NEC code books with tabs, calculations guides and online practice." % years[0],
          "Your state. *Your *license. %s code." % years[0],
          "Journeyman and master electrician exam prep for all 50 states, built on the %s National Electrical Code. Pick your state and level, then choose how much help you want." % years[0],
@@ -274,7 +327,7 @@ for state in STATES + [GENERAL]:
             lo, hi = min(float(p["price"]) for p in uniq), max(float(p["price"]) for p in uniq)
             route = {"state": slug(state), "level": level, "year": year, "tier": None, "depth": 3}
             u = page(parts, route,
-                     "%s %s %s Electrician Exam Prep (%s NEC) | %s" % (year, "" if st is None else state, level, year, BRAND),
+                     ("%s %s Electrician Exam Prep (%s NEC)" % (state, level, year)) if st is not None else ("%s Electrician Exam Prep, Any State (%s NEC)" % (level, year)),
                      "%s %s electrician exam prep for %s: %d packages from $%.2f to $%.2f. Study guide, flash cards, %s NEC with tabs, calculations guide and online practice. One click to checkout." % (year, level.lower(), name, len(uniq), lo, hi, year),
                      "%s. *%s. %s code." % ("Any state" if st is None else state, level, year),
                      "%s electrician exam prep for %s, built on the %s National Electrical Code. Choose how much help you want, from the study guide alone to the Ultimate Combo." % (level, name, year),
@@ -302,7 +355,7 @@ var prefix="/"+parts.slice(0,Math.max(i,0)).join("/");if(prefix!=="/")prefix+="/
 if(i<0){location.replace(prefix);return;}
 var lv=(parts[i+1]==="master")?"master":"journeyman";var yr=(/^\\d{4}$/.test(parts[i+2]||"")&&Y.indexOf(parts[i+2])>-1)?parts[i+2]:Y[0];
 location.replace(prefix+parts[i]+"/"+lv+"/"+yr+"/");})();
-</script></head><body><p>Taking you to the right page…</p></body></html>""" % (json.dumps(sorted(state_slugs)), json.dumps(years))
+</script></head><body><h1>Taking you to the right page…</h1><p><a href="/">Home</a></p></body></html>""" % (json.dumps(sorted(state_slugs)), json.dumps(years))
 open(os.path.join(ROOT, "404.html"), "w", encoding="utf-8").write(nf)
 
 # --- /search/ page (also the target of the schema.org SearchAction) ---
@@ -344,7 +397,7 @@ blog_dir = os.path.join(ROOT, "blog"); shutil.rmtree(blog_dir, ignore_errors=Tru
 all_tags = sorted({t for q in POSTS for t in q["tags"]}, key=str.lower)
 def blog_index(dest_parts, posts, tag=None):
     rel = "../" * len(dest_parts); path = "/".join(dest_parts) + "/"
-    title = ("%s | Blog | %s" % (tag.title(), BRAND)) if tag else ("Electrician Exam Prep Blog: Study Tips, NEC Changes & Licensing News | %s" % BRAND)
+    title = ("Posts tagged %s | %s" % (tag, BRAND)) if tag else ("Electrician Exam Prep Blog | %s" % BRAND)
     desc = ("Posts tagged %s from the %s electrician exam prep blog." % (tag, BRAND)) if tag else ("Study tips, NEC code changes, state licensing updates and exam strategy from %s. New posts every month." % BRAND)
     h1 = ("Posts tagged \u201c%s\u201d" % tag) if tag else "The Electrician Exam Prep Blog"
     lead = ("%d post%s." % (len(posts), "" if len(posts) == 1 else "s")) if tag else "Study strategies, code changes, licensing news and the questions we hear every day on the phone. Written by the people who write the exam prep."
@@ -361,7 +414,8 @@ def blog_index(dest_parts, posts, tag=None):
            {"@context": "https://schema.org", "@type": "Blog" if not tag else "CollectionPage", "name": h1, "url": absurl(path), "publisher": {"@type": "Organization", "name": BRAND},
             "blogPost" if not tag else "hasPart": [{"@type": "BlogPosting", "headline": q["title"], "url": absurl("blog/%s/" % q["slug"]), "datePublished": q["date"], "image": q["image"] or None} for q in posts[:20]]}]
     out = blog_common(bitpl, rel, path, title, desc, (feat or {}).get("image") or CFG.get("logo"), lds, {"depth": len(dest_parts), "blog": True})
-    out = out.replace("{{H1}}", html.escape(h1)).replace("{{LEAD}}", html.escape(lead)).replace("{{TAG_FILTER}}", tagf).replace("{{FEATURED_HTML}}", feat_html).replace("{{CARDS_HTML}}", cards).replace("{{EMPTY_HTML}}", empty)
+    intro = "" if tag else ('<div class="blog-intro"><p>Most people who fail a licensing exam do not fail on knowledge. They run out of time in the code book, misread an exception, or walk in with the wrong edition. These posts are about the parts of passing that the study guide cannot do for you: how to tab and navigate the %s NEC, how to pace a timed exam, what each state board actually asks for, and what changes between code cycles.</p><p>New posts land here first and in the <a href="%sblog/feed.xml">RSS feed</a>. When a post is about one state, it links straight to that state\u2019s journeyman and master packages so you can act on it.</p></div>' % (years[0], rel))
+    out = out.replace("{{INTRO_HTML}}", intro).replace("{{H1}}", html.escape(h1)).replace("{{LEAD}}", html.escape(lead)).replace("{{TAG_FILTER}}", tagf).replace("{{FEATURED_HTML}}", feat_html).replace("{{CARDS_HTML}}", cards).replace("{{EMPTY_HTML}}", empty)
     d = os.path.join(ROOT, *dest_parts); os.makedirs(d, exist_ok=True); open(os.path.join(d, "index.html"), "w", encoding="utf-8").write(anchor_ids(out))
     if SITE: urls.append(absurl(path))
 blog_index(["blog"], POSTS)
@@ -386,7 +440,8 @@ for q in POSTS:
             "author": {"@type": "Organization" if not q["author"] or q["author"] == BRAND else "Person", "name": q["author"] or BRAND}, "publisher": {"@type": "Organization", "name": BRAND, "logo": {"@type": "ImageObject", "url": CFG.get("logo")}},
             "mainEntityOfPage": url, "url": url, "wordCount": q["words"], "keywords": ", ".join(q["tags"]) or None, "articleSection": "Electrician Exam Prep", "inLanguage": "en-US"}]
     lds[1] = {k: v for k, v in lds[1].items() if v}
-    out = blog_common(btpl, rel, path, "%s | %s" % (q["title"], BRAND), q["excerpt"], q["image"] or CFG.get("logo"), lds, {"depth": 2, "blog": True, "post": q["slug"]})
+    ptitle = q["title"] if len(q["title"]) + len(BRAND) + 3 > 60 else "%s | %s" % (q["title"], BRAND)
+    out = blog_common(btpl, rel, path, ptitle, q["excerpt"], q["image"] or CFG.get("logo"), lds, {"depth": 2, "blog": True, "post": q["slug"]})
     out = (out.replace("{{H1}}", html.escape(q["title"])).replace("{{TITLE_SHORT}}", html.escape(q["title"][:60] + ("…" if len(q["title"]) > 60 else ""))).replace("{{EXCERPT}}", html.escape(q["excerpt"]))
            .replace("{{DATE}}", q["date"]).replace("{{UPDATED}}", q["updated"]).replace("{{DATE_NICE}}", nice_date(q["date"])).replace("{{AUTHOR_HTML}}", ('<span>%s</span>' % html.escape(q["author"])) if q["author"] else "")
            .replace("{{READ_MIN}}", str(max(1, round(q["words"] / 220)))).replace("{{TAGS_HTML}}", tags_html).replace("{{HERO_HTML}}", hero).replace("{{BODY_HTML}}", q["html"])

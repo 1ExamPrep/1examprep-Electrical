@@ -6,4 +6,4 @@ var prefix="/"+parts.slice(0,Math.max(i,0)).join("/");if(prefix!=="/")prefix+="/
 if(i<0){location.replace(prefix);return;}
 var lv=(parts[i+1]==="master")?"master":"journeyman";var yr=(/^\d{4}$/.test(parts[i+2]||"")&&Y.indexOf(parts[i+2])>-1)?parts[i+2]:Y[0];
 location.replace(prefix+parts[i]+"/"+lv+"/"+yr+"/");})();
-</script></head><body><p>Taking you to the right page…</p></body></html>
+</script></head><body><h1>Taking you to the right page…</h1><p><a href="/">Home</a></p></body></html>
