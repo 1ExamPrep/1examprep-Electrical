@@ -59,7 +59,7 @@ def md_to_html(md):
             out.append("<pre><code>%s</code></pre>" % html.escape("\n".join(code))); i += 1; continue
         m = re.match(r"^(#{1,6})\s+(.*)$", ln)
         if m:
-            flush_para(buf); buf = []; lvl = min(len(m.group(1)) + 1, 4)  # '#' becomes h2 (h1 is the title)
+            flush_para(buf); buf = []; lvl = min(max(len(m.group(1)), 2), 4)  # '#' and '##' become h2 (h1 is the title), '###' h3
             txt = m.group(2).strip().rstrip("#").strip(); out.append('<h%d id="%s">%s</h%d>' % (lvl, slugify(txt), _inline(txt), lvl)); i += 1; continue
         if re.match(r"^\s*([-*_])(\s*\1){2,}\s*$", ln): flush_para(buf); buf = []; out.append("<hr>"); i += 1; continue
         if re.match(r"^\s*[-*+]\s+", ln) or re.match(r"^\s*\d+[.)]\s+", ln):

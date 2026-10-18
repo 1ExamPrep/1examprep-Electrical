@@ -163,7 +163,7 @@ def card_html(p, href):
             '<div class="pc-price"><span class="pc-now">%s</span>%s</div>'
             '<div class="pc-actions"><a class="btn btn-buy" href="https://1examprep.com/cart/%s:1" rel="noopener">Buy now</a><a class="btn btn-details" href="%s" data-details="%s" data-tier="%s">What\u2019s inside</a></div></div></article>'
             % (" pc--featured" if feat else "", p["id"], '<span class="pc-badge">Most complete</span>' if feat else "", html.escape(p["image"]), html.escape(clean_title(p["title"])),
-               html.escape("%s · %s · %s" % (p["state"] or "Any state", p["level"], p["year"])), html.escape(p["tierName"]), html.escape(clean_title(p["title"])), html.escape(p["desc"].replace(p["title"], "").strip()),
+               html.escape("%s · %s · %s" % (p["state"] or "Any state", p["level"], p["year"])), html.escape(p["tierName"]), html.escape(clean_title(p["title"])), html.escape(" ".join(p["desc"].replace(p["title"], "").strip().split()[:22]) + "…"),
                money(n), save, p["variants"][0]["id"], href, p["id"], p["tierSlug"]))
 def singles_html():
     singles = sorted([p for p in CATALOG if not p["state"] and p["rank"] == 0], key=lambda p: float(p["price"]))
@@ -238,6 +238,18 @@ def product_page(path_parts, p, siblings, state_name, level_url, other_level_url
     full = FULL.get(p["id"], {"html": "", "images": [p["image"]]})
     if FUL["name"] != BRAND and full.get("html"):  # store descriptions talk about the fulfillment brand; this site speaks as itself
         full = dict(full, html=re.sub(r"(?<![\w/.-])1 ?Exam ?Prep(?![\w.-])", BRAND, full["html"]))
+    desc_faq = []
+    if full.get("html"):  # store descriptions use h3 for their sections; on this page they are the main sections, so h2. Their FAQ block keeps h3 questions.
+        hx = full["html"]; m = re.search(r"<h3>\s*(FAQ[^<]*|Frequently Asked Questions[^<]*)</h3>", hx, re.I)
+        if m:
+            head, tail = hx[:m.start()], hx[m.end():]
+            for qm in re.finditer(r"<h3>(.*?)</h3>\s*((?:(?!<h3>).)*)", tail, re.S):
+                a = re.sub(r"<[^>]+>", " ", qm.group(2)); a = re.sub(r"\s+", " ", html.unescape(a)).strip()
+                if a: desc_faq.append((html.unescape(re.sub(r"<[^>]+>", "", qm.group(1))).strip(), a))
+            hx = re.sub(r"<(/?)h3\b", r"<\1h2", head) + "<h2>Frequently asked questions</h2>" + tail
+        else:
+            hx = re.sub(r"<(/?)h3\b", r"<\1h2", hx)
+        full = dict(full, html=hx)
     imgs = full["images"] or [p["image"]]
     v0 = p["variants"][0]
     c, n = float(v0.get("compareAt") or 0), float(v0["price"])
@@ -260,7 +272,7 @@ def product_page(path_parts, p, siblings, state_name, level_url, other_level_url
     crumbs = [("All states", ""), (state_name.capitalize() if state_name == "any state" else state_name, "/".join(path_parts[:3]) + "/"), (p["level"], "/".join(path_parts[:3]) + "/"), (p["tierName"], path)]
     short_t = "%s %s %s" % ("" if state_name == "any state" else state_name, p["level"], p["tierName"]); short_t = re.sub(r"\s+", " ", short_t).strip()
     if len(short_t) + len(" (%s NEC)" % p["year"]) <= 60: short_t += " (%s NEC)" % p["year"]
-    extra = head_extra(path, short_t, desc, imgs[0], rel, False, [crumbs_ld(crumbs), faq_ld([(q, a % p["year"] if "%s" in a else a) for q, a in PRODUCT_FAQ])])
+    extra = head_extra(path, short_t, desc, imgs[0], rel, False, [crumbs_ld(crumbs), faq_ld([(q, a % p["year"] if "%s" in a else a) for q, a in PRODUCT_FAQ] + desc_faq[:12])])
     pjson = json.dumps({"id": p["id"], "variants": p["variants"], "title": clean_title(p["title"]), "state": p["state"], "level": p["level"], "tierName": p["tierName"], "price": p["price"]})
     assets_head = '<link rel="stylesheet" href="%sshared/base.css">\n<link rel="stylesheet" href="%sshared/store.css">' % (rel, rel)
     short_t = "%s %s %s" % ("" if state_name == "any state" else state_name, p["level"], p["tierName"]); short_t = re.sub(r"\s+", " ", short_t).strip()
@@ -300,7 +312,7 @@ u = page([], {"state": None, "level": None, "year": None, "tier": None, "depth":
          "%s journeyman and master electrician exam prep for all 50 states. Pick your state, pick your level, pick a package. Study guides, flash cards, NEC code books with tabs, calculations guides and online practice." % years[0],
          "Your state. *Your *license. %s code." % years[0],
          "Journeyman and master electrician exam prep for all 50 states, built on the %s National Electrical Code. Pick your state and level, then choose how much help you want." % years[0],
-         CFG.get("logo"), extra_ld=[org_ld(), website_ld(), faq_ld([(q, a % years[0] if "%s" in a else a) for q, a in LISTING_FAQ])])
+         CFG.get("logo"), extra_ld=[org_ld(), website_ld(), faq_ld([(q, a % years[0] if "%s" in a else a) for q, a in LISTING_FAQ])], crumbs=[("Home", "")])
 if u: urls.append(u)
 
 # --- single-page mode: 404.html is the same app, so deep URLs render without folders ---
