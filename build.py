@@ -268,6 +268,19 @@ def product_page(path_parts, p, siblings, state_name, level_url, other_level_url
             hx = re.sub(r"<(/?)h3\b", r"<\1h2", head) + "<h2>Frequently asked questions</h2>" + tail
         else:
             hx = re.sub(r"<(/?)h3\b", r"<\1h2", hx)
+        # sections should stand on their own: open each H2 section with the product's name instead of "This combo" / "It"
+        subject = ("%s %s %s" % ("" if state_name == "any state" else state_name, p["level"], p["tierName"])).strip()
+        subject = re.sub(r"\s+", " ", subject)
+        def _open(m):
+            lead, first = m.group(1), m.group(2)
+            first2 = re.sub(r"^(This|this)\s+(?=(\d{4}\s+)?[A-Z][\w'’-]*\s+[A-Z])", "The ", first)           # "This 2026 Idaho Master … Combo is" -> "The 2026 Idaho …"
+            if first2 == first:
+                first2 = re.sub(r"^(This|this)\s+(?:(?:study guide and flash card|study|exam prep|complete|printed)\s+)?(combo|package|product|bundle|kit|set|study guide|guide|option)\b", "The " + subject, first)
+            if first2 == first: first2 = re.sub(r"^It\s+(?=\w)", "The " + subject + " ", first)
+            if first2 == first: first2 = re.sub(r"^(These|Those)\s+(materials|books|guides|resources|items|tools)\b", "The " + subject + " materials", first)
+            return lead + first2
+        hx = re.sub(r"(<h2[^>]*>.*?</h2>\s*(?:<p[^>]*>)?\s*)([^<]{0,200})", _open, hx, flags=re.S)
+        hx = re.sub(r"^(\s*(?:<p[^>]*>)?\s*)([^<]{0,200})", _open, hx, count=1, flags=re.S)  # the description's own first paragraph sits under the "About this package" H2
         full = dict(full, html=hx)
     imgs = full["images"] or [p["image"]]
     v0 = p["variants"][0]
