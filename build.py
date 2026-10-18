@@ -133,10 +133,10 @@ def footer(rel, year0):
     return ('<footer class="site-footer"><div class="wrap"><div class="cols">'
             '<div><a class="brand" href="%s">%s</a><p>%s</p><p class="contact"><a href="tel:%s">%s</a><a href="mailto:%s">%s</a></p></div>'
             '<nav aria-label="Popular states"><h2>Popular states</h2><ul>%s<li><a href="%s">All 50 states</a></li></ul></nav>'
-            '<nav aria-label="Shop"><h2>Shop</h2><ul><li><a href="%s#packs">Packages</a></li><li><a href="%s#compare">Compare packages</a></li><li><a href="%s#singles">Study guides &amp; flash cards</a></li><li><a href="%sblog/">Blog</a></li><li><a href="%ssearch/">Search</a></li><li><a href="%s" rel="noopener" target="_blank">Fulfilled by %s</a></li></ul></nav>'
+            '<nav aria-label="Shop"><h2>Shop</h2><ul><li><a href="%s#packs">Packages</a></li><li><a href="%s#compare">Compare packages</a></li><li><a href="%s#singles">Study guides &amp; flash cards</a></li><li><a href="%sblog/">Blog</a></li><li><a href="%ssearch/">Search</a></li></ul></nav>'
             '<nav aria-label="Follow"><h2>Follow</h2><ul>%s</ul></nav></div>'
             '<p class="fine"><strong>%s</strong> &copy; <span data-year>%s</span> &middot; %s Prices and availability come from the fulfillment store and were last checked <time datetime="%s">%s</time>; the price at checkout is the one that applies. Not affiliated with any state licensing board or testing vendor. Purchasing does not grant exam eligibility or a license.</p></div></footer>'
-            % (rel or "./", "{{WORDMARK}}", html.escape(CFG.get("tagline", "")), CFG["phoneTel"], html.escape(CFG["phone"]), CFG["email"], CFG["email"], quick, rel or "./", rel or "./", rel or "./", rel or "./", rel, rel, FUL["url"], html.escape(FUL["name"]), soc, html.escape(BRAND), TODAY[:4], html.escape(FUL.get("note") or ("Orders are processed and shipped by %s, our fulfillment center." % FUL["name"])), TODAY, nice_day(TODAY)))
+            % (rel or "./", "{{WORDMARK}}", html.escape(CFG.get("tagline", "")), CFG["phoneTel"], html.escape(CFG["phone"]), CFG["email"], CFG["email"], quick, rel or "./", rel or "./", rel or "./", rel or "./", rel, rel, soc, html.escape(BRAND), TODAY[:4], html.escape(FUL.get("note") or ("Orders are processed and shipped by %s, our fulfillment center." % FUL["name"])), TODAY, nice_day(TODAY)))
 
 def slug(state): return "general" if state == GENERAL else state.lower().replace(" ", "-")
 def words(text):
@@ -178,6 +178,43 @@ def states_html(rel, year, level_first="journeyman"):
         links = "".join('<a href="%s%s/%s/%s/">%s</a>' % (rel, sl, lv, year, lv.capitalize()) for lv in ((level_first, "master" if level_first == "journeyman" else "journeyman")) if os.path.isdir(os.path.join(ROOT, sl, lv, year)) or True)
         items.append("<li><b>%s</b><span>%s</span></li>" % (html.escape(name), links))
     return '<ul class="states-grid">%s</ul>' % "".join(items)
+NEIGHBORS = {"Alabama": ["Florida", "Georgia", "Mississippi", "Tennessee"], "Alaska": ["Washington", "Oregon", "Hawaii"], "Arizona": ["California", "Nevada", "Utah", "New Mexico", "Colorado"], "Arkansas": ["Missouri", "Tennessee", "Mississippi", "Louisiana", "Texas", "Oklahoma"],
+    "California": ["Oregon", "Nevada", "Arizona"], "Colorado": ["Wyoming", "Nebraska", "Kansas", "Oklahoma", "New Mexico", "Utah"], "Connecticut": ["New York", "Massachusetts", "Rhode Island"], "Delaware": ["Maryland", "Pennsylvania", "New Jersey"],
+    "Florida": ["Georgia", "Alabama"], "Georgia": ["Florida", "Alabama", "Tennessee", "North Carolina", "South Carolina"], "Hawaii": ["California", "Alaska", "Washington"], "Idaho": ["Washington", "Oregon", "Nevada", "Utah", "Wyoming", "Montana"],
+    "Illinois": ["Wisconsin", "Iowa", "Missouri", "Kentucky", "Indiana"], "Indiana": ["Michigan", "Ohio", "Kentucky", "Illinois"], "Iowa": ["Minnesota", "Wisconsin", "Illinois", "Missouri", "Nebraska", "South Dakota"], "Kansas": ["Nebraska", "Missouri", "Oklahoma", "Colorado"],
+    "Kentucky": ["Indiana", "Ohio", "West Virginia", "Virginia", "Tennessee", "Missouri", "Illinois"], "Louisiana": ["Texas", "Arkansas", "Mississippi"], "Maine": ["New Hampshire", "Massachusetts", "Vermont"], "Maryland": ["Virginia", "West Virginia", "Pennsylvania", "Delaware"],
+    "Massachusetts": ["Rhode Island", "Connecticut", "New York", "New Hampshire", "Vermont"], "Michigan": ["Ohio", "Indiana", "Wisconsin"], "Minnesota": ["North Dakota", "South Dakota", "Iowa", "Wisconsin"], "Mississippi": ["Louisiana", "Arkansas", "Tennessee", "Alabama"],
+    "Missouri": ["Iowa", "Illinois", "Kentucky", "Tennessee", "Arkansas", "Oklahoma", "Kansas", "Nebraska"], "Montana": ["North Dakota", "South Dakota", "Wyoming", "Idaho"], "Nebraska": ["South Dakota", "Iowa", "Missouri", "Kansas", "Colorado", "Wyoming"], "Nevada": ["California", "Oregon", "Idaho", "Utah", "Arizona"],
+    "New Hampshire": ["Maine", "Massachusetts", "Vermont"], "New Jersey": ["New York", "Pennsylvania", "Delaware"], "New Mexico": ["Arizona", "Utah", "Colorado", "Oklahoma", "Texas"], "New York": ["New Jersey", "Pennsylvania", "Connecticut", "Massachusetts", "Vermont"],
+    "North Carolina": ["Virginia", "Tennessee", "Georgia", "South Carolina"], "North Dakota": ["Minnesota", "South Dakota", "Montana"], "Ohio": ["Michigan", "Pennsylvania", "West Virginia", "Kentucky", "Indiana"], "Oklahoma": ["Kansas", "Missouri", "Arkansas", "Texas", "New Mexico", "Colorado"],
+    "Oregon": ["Washington", "Idaho", "Nevada", "California"], "Pennsylvania": ["New York", "New Jersey", "Delaware", "Maryland", "West Virginia", "Ohio"], "Rhode Island": ["Connecticut", "Massachusetts"], "South Carolina": ["North Carolina", "Georgia"],
+    "South Dakota": ["North Dakota", "Minnesota", "Iowa", "Nebraska", "Wyoming", "Montana"], "Tennessee": ["Kentucky", "Virginia", "North Carolina", "Georgia", "Alabama", "Mississippi", "Arkansas", "Missouri"], "Texas": ["New Mexico", "Oklahoma", "Arkansas", "Louisiana"],
+    "Utah": ["Idaho", "Wyoming", "Colorado", "New Mexico", "Arizona", "Nevada"], "Vermont": ["New York", "New Hampshire", "Massachusetts"], "Virginia": ["Maryland", "West Virginia", "Kentucky", "Tennessee", "North Carolina"], "Washington": ["Oregon", "Idaho"],
+    "West Virginia": ["Pennsylvania", "Maryland", "Virginia", "Kentucky", "Ohio"], "Wisconsin": ["Michigan", "Minnesota", "Iowa", "Illinois"], "Wyoming": ["Montana", "South Dakota", "Nebraska", "Colorado", "Utah", "Idaho"]}
+def state_posts(state, level, n=3):
+    out = [q for q in POSTS if (state and q.get("state") == state)] + [q for q in POSTS if (not state or q.get("state") != state) and (q.get("level", "").lower() == level.lower() or level.lower() in [t.lower() for t in q["tags"]])]
+    seen, res = set(), []
+    for q in out:
+        if q["slug"] in seen: continue
+        seen.add(q["slug"]); res.append(q)
+    return res[:n]
+def related_pages_html(rel, state, level, year, tier_slug=None, tier_name=""):
+    """Related pages block for a state page (tier_slug None) or a product page (links to the same package elsewhere)."""
+    other = "Master" if level == "Journeyman" else "Journeyman"; st = None if state == GENERAL else state
+    def L(stt, lv, label=None):
+        path = "%s%s/%s/%s/%s" % (rel, slug(stt), lv.lower(), year, (tier_slug + "/") if tier_slug and os.path.isdir(os.path.join(ROOT, slug(stt), lv.lower(), year, tier_slug)) else "")
+        return '<li><a href="%s">%s</a></li>' % (path, html.escape(label or ("%s %s %s" % ("Any state" if stt == GENERAL else stt, lv.lower(), tier_name if (tier_slug and path.endswith(tier_slug + "/")) else "packages"))))
+    cols = []
+    same = [L(state, other, "%s %s %s" % ("Any state" if not st else state, other.lower(), (tier_name + " edition") if tier_slug else "packages"))]
+    if st: same.append(L(GENERAL, level, "Any-state %s %s" % (level.lower(), tier_name if tier_slug else "packages")))
+    else: same += [L(x, level) for x in ("Texas", "Florida", "California")]
+    cols.append(("Same exam, other options", same))
+    if st and NEIGHBORS.get(st): cols.append(("Nearby states, %s" % level.lower(), [L(x, level) for x in NEIGHBORS[st][:5]]))
+    posts = state_posts(st, level)
+    if posts: cols.append(("From the blog", ['<li><a href="%sblog/%s/">%s</a></li>' % (rel, q["slug"], html.escape(q["title"])) for q in posts]))
+    cols.append(("Also on this site", ['<li><a href="%sblog/">All blog posts</a></li>' % rel, '<li><a href="%s#states">Every state and level</a></li>' % (rel or "./"), '<li><a href="%s#compare">Compare the five packages</a></li>' % (rel or "./")]))
+    inner = "".join("<div><h3>%s</h3><ul>%s</ul></div>" % (html.escape(h), "".join(items)) for h, items in cols)
+    return inner
 def takeaways_html(items):
     items = [i for i in items if i][:4]
     if not items: return ""
@@ -225,6 +262,8 @@ def page(path_parts, route, title, desc, h1, lead, og_image=None, extra_ld=(), c
     out = (tpl.replace("{{TAKEAWAYS_HTML}}", tk).replace("{{RAIL_HTML}}", rail_html).replace("{{SINGLES_HTML}}", singles_html()).replace("{{SEL_TITLE}}", html.escape("%s · %s · %s" % (sel_state, sel_level, sel_year)))
            .replace("{{CRUMB_HTML}}", crumb_html).replace("{{MARQ_HTML}}", marq + marq).replace("{{STATES_HTML}}", states_html(rel, sel_year, sel_level.lower())).replace("{{YEAR}}", sel_year)
            .replace("{{GUIDE_FOR}}", (" for the %s %s exam" % (sel_state, sel_level.lower())) if route.get("state") and sel_state != GENERAL else "")
+           .replace("{{RELATED_HTML}}", '<section class="related-pages" aria-labelledby="h-related-pages"><div class="wrap"><h2 id="h-related-pages">Related pages</h2><div class="rp-cols">%s</div></div></section>' % related_pages_html(rel, sel_state, sel_level, sel_year))
+           .replace("{{LINK_J}}", '<a href="%s%s/journeyman/%s/">journeyman exam</a>' % (rel, slug(sel_state), sel_year)).replace("{{LINK_M}}", '<a href="%s%s/master/%s/">master exam</a>' % (rel, slug(sel_state), sel_year))
            .replace("{{ASSETS_HEAD}}", assets_head).replace("{{ASSETS_CATALOG}}", assets_cat).replace("{{ASSETS_APP}}", assets_app)
            .replace("{{ASSETS_SEARCH}}", '<script src="%sshared/search.js" defer></script>\n<script src="%sshared/track.js" defer></script>' % (rel, rel))
            .replace("{{HEAD_EXTRA}}", head_extra(path, title, desc, og_image, rel, noindex, lds))
@@ -330,6 +369,7 @@ def product_page(path_parts, p, siblings, state_name, level_url, other_level_url
            .replace("{{IMAGE}}", html.escape(imgs[0])).replace("{{THUMBS}}", thumbs if len(imgs) > 1 else "")
            .replace("{{PRICE}}", money(v0["price"])).replace("{{COMPARE_HTML}}", compare_html).replace("{{VARIANTS_HTML}}", variants_html)
            .replace("{{BUY_URL}}", "https://1examprep.com/cart/%s:1" % v0["id"]).replace("{{SHOP_URL}}", html.escape(p["url"]))
+           .replace("{{MORE_LINKS_HTML}}", '<div class="more-links">%s</div>' % re.sub(r"<div><h3>(.*?)</h3><ul>(.*?)</ul></div>", lambda m: "<h3>%s</h3>%s" % (m.group(1), re.sub(r"<li>(.*?)</li>", r"\1", m.group(2))), related_pages_html(rel, GENERAL if state_name == "any state" else state_name, p["level"], p["year"], p["tierSlug"], p["tierName"]), flags=re.S))
            .replace("{{TAKEAWAYS_HTML}}", ptk).replace("{{INCLUDED_HTML}}", inc).replace("{{ADDONS_HTML}}", addons_html).replace("{{DESCRIPTION_HTML}}", full["html"]).replace("{{RELATED_HTML}}", related))
     d = os.path.join(ROOT, *path_parts); os.makedirs(d, exist_ok=True)
     with open(os.path.join(d, "index.html"), "w", encoding="utf-8") as f: f.write(anchor_ids(out))

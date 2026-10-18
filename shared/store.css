@@ -398,3 +398,18 @@ footer{padding:2.5rem 0;color:var(--muted);font-size:.88rem}
 .blog-start{max-width:760px;margin:2.5rem 0 0}
 .blog-start h2{font-family:var(--font-display);font-size:1.4rem;letter-spacing:-.01em;margin:0 0 .8rem;text-transform:none}
 .blog-start p{line-height:1.65;color:#2b2f4a;margin:0 0 1rem}
+
+/* related pages */
+.related-pages{background:var(--bg)}
+.related-pages h2{font-size:clamp(1.5rem,3.4vw,2.2rem)}
+.rp-cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.25rem 2rem;margin-top:1.25rem;text-align:left}
+.rp-cols h3{font:700 .8rem var(--font-body);letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin:0 0 .5rem}
+.rp-cols ul{list-style:none;margin:0;padding:0}
+.rp-cols li{padding:.35rem 0;border-bottom:1px solid var(--line)}
+.rp-cols a{color:var(--ink);text-decoration:none;font-weight:600}
+.rp-cols a:hover{color:var(--accent)}
+.more-links{margin-top:1rem}
+.more-links h3{font:700 .8rem var(--font-body);letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin:1rem 0 .3rem}
+.more-links a{display:block;padding:.4rem 0;color:var(--ink);text-decoration:none;font-weight:600;border-top:1px solid var(--line)}
+.more-links a:hover{color:var(--accent)}
+.guide-cols a{color:var(--accent);font-weight:600;text-decoration-thickness:1.5px;text-underline-offset:2px}
