@@ -13,6 +13,7 @@ on:
       - "store/admin.html"
       - "store/blog-post.html"
       - "store/blog-index.html"
+      - "store/faq.html"
       - "content/**"
       - "tools/blogkit.py"
       - "shared/store.css"

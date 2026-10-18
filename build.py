@@ -141,10 +141,10 @@ def footer(rel, year0):
     return ('<footer class="site-footer"><div class="wrap"><div class="cols">'
             '<div><a class="brand" href="%s">%s</a><p>%s</p><p class="contact"><a href="tel:%s">%s</a><a href="mailto:%s">%s</a></p></div>'
             '<nav aria-label="Popular states"><h2>Popular states</h2><ul>%s<li><a href="%s">All 50 states</a></li></ul></nav>'
-            '<nav aria-label="Shop"><h2>Shop</h2><ul><li><a href="%s#packs">Packages</a></li><li><a href="%s#compare">Compare packages</a></li><li><a href="%s#singles">Study guides &amp; flash cards</a></li><li><a href="%sblog/">Blog</a></li><li><a href="%ssearch/">Search</a></li></ul></nav>'
+            '<nav aria-label="Shop"><h2>Shop</h2><ul><li><a href="%s#packs">Packages</a></li><li><a href="%s#compare">Compare packages</a></li><li><a href="%s#singles">Study guides &amp; flash cards</a></li><li><a href="%sfaq/">FAQ</a></li><li><a href="%sblog/">Blog</a></li><li><a href="%ssearch/">Search</a></li></ul></nav>'
             '<nav aria-label="Follow"><h2>Follow</h2><ul>%s</ul></nav></div>'
             '<p class="fine"><strong>%s</strong> &copy; <span data-year>%s</span> &middot; %s Prices and availability come from the fulfillment store and were last checked <time datetime="%s">%s</time>; the price at checkout is the one that applies. Not affiliated with any state licensing board or testing vendor. Purchasing does not grant exam eligibility or a license.</p></div></footer>'
-            % (rel or "./", "{{WORDMARK}}", html.escape(CFG.get("tagline", "")), CFG["phoneTel"], html.escape(CFG["phone"]), CFG["email"], CFG["email"], quick, rel or "./", rel or "./", rel or "./", rel or "./", rel, rel, soc, html.escape(BRAND), TODAY[:4], html.escape(FUL.get("note") or ("Orders are processed and shipped by %s, our fulfillment center." % FUL["name"])), TODAY, nice_day(TODAY)))
+            % (rel or "./", "{{WORDMARK}}", html.escape(CFG.get("tagline", "")), CFG["phoneTel"], html.escape(CFG["phone"]), CFG["email"], CFG["email"], quick, rel or "./", rel or "./", rel or "./", rel or "./", rel, rel, rel, soc, html.escape(BRAND), TODAY[:4], html.escape(FUL.get("note") or ("Orders are processed and shipped by %s, our fulfillment center." % FUL["name"])), TODAY, nice_day(TODAY)))
 
 def slug(state): return "general" if state == GENERAL else state.lower().replace(" ", "-")
 def words(text):
@@ -581,6 +581,105 @@ feed_items = "".join("<item><title>%s</title><link>%s</link><guid isPermaLink=\"
 open(os.path.join(blog_dir, "feed.xml"), "w", encoding="utf-8").write('<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel><title>%s Blog</title><link>%s</link><description>Electrician exam prep study tips, NEC changes and licensing news.</description><language>en-us</language>\n%s</channel></rss>\n' % (html.escape(BRAND), absurl("blog/"), feed_items))
 open(os.path.join(blog_dir, "posts.json"), "w", encoding="utf-8").write(json.dumps([{k: q[k] for k in ("slug", "title", "date", "updated", "excerpt", "image", "tags", "state", "level", "author", "words")} for q in POSTS], ensure_ascii=False))
 
+# --- FAQ: /faq/ (nationwide) + /faq/<state>/<level>/ (from the product descriptions) ---
+ftpl = open(os.path.join(ROOT, "store", "faq.html"), encoding="utf-8").read()
+GEN_FAQ = json.load(open(os.path.join(ROOT, "content", "faq-general.json"), encoding="utf-8"))["categories"]
+STOP = set("the a an is are do does i my for of in on to and or what which who how can be with this that it its exam exams electrician electricians licensing license test".split())
+def qkey(q):
+    q = re.sub(r"^\s*faq\s*:\s*", "", q, flags=re.I).lower(); q = re.sub(r"[^a-z0-9 ]", " ", q)
+    return frozenset(w for w in q.split() if w not in STOP and len(w) > 2)
+PRODUCT_Q = re.compile(r"\b(this|the)\s+([\w+\- ]*?)(combo|package|product|kit|bundle|set|course|guide)\b|\bincluded\b|\binclude\b|\bcourse access\b|\bships?\b|\bshipping\b|\bdelivered\b|\brefund|\bprice|\bcost\b|\bdiscount", re.I)
+def state_faqs():
+    groups = {}
+    for p in CATALOG:
+        full = FULL.get(p["id"]); hx = full and full.get("html")
+        if not hx or p["tier"] not in TIERS: continue
+        m = re.search(r"<h3>\s*(FAQ[^<]*|Frequently Asked Questions[^<]*)</h3>", hx, re.I)
+        if not m: continue
+        key = (p["state"] or GENERAL, p["level"]); g = groups.setdefault(key, [])
+        for q, a in re.findall(r"<h3>(.*?)</h3>\s*((?:(?!<h3>).)*)", hx[m.end():], re.S):
+            q = html.unescape(re.sub(r"<[^>]+>", "", q)).strip(); q = re.sub(r"^\s*faq\s*:\s*", "", q, flags=re.I)
+            a = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", a))).strip()
+            if not a or not q or PRODUCT_Q.search(q): continue
+            if FUL["name"] != BRAND: a = re.sub(r"(?<![\w/.-])1 ?Exam ?Prep(?![\w.-])", BRAND, a)
+            k = qkey(q)
+            if not k: continue
+            dup = None
+            for item in g:
+                inter = len(k & item["k"]); uni = len(k | item["k"]) or 1
+                if inter / uni >= 0.75: dup = item; break
+            if dup:
+                if len(a) > len(dup["a"]): dup["q"], dup["a"] = q, a
+            else: g.append({"q": q, "a": a, "k": k})
+    return groups
+STATE_FAQS = state_faqs()
+def faq_details(items, open_first=True):
+    return '<div class="faq">%s</div>' % "".join('<details%s><summary>%s</summary><p>%s</p></details>' % (" open" if open_first and i == 0 else "", html.escape(q), html.escape(a)) for i, (q, a) in enumerate(items))
+def faq_page(parts, title, h1, lead, sections, pairs_for_schema, crumbs, takeaways, cta, related_html, more_link=""):
+    rel = "../" * len(parts); path = "/".join(parts) + "/"
+    jump = "".join('<a class="tag" href="#%s">%s <small>%d</small></a>' % (sid, html.escape(name), n) for sid, name, n in [(sid, name, n) for sid, name, n, _ in sections])
+    secs = "".join('<section class="faq-sec" aria-labelledby="%s"><h2 id="%s">%s</h2>%s</section>' % (sid, sid, html.escape(name), body) for sid, name, n, body in sections)
+    lds = [crumbs_ld(crumbs), faq_ld(pairs_for_schema[:80])]
+    desc = trim_desc(lead)
+    out = (ftpl.replace("{{TITLE}}", html.escape(title)).replace("{{DESC}}", html.escape(desc)).replace("{{BRAND}}", html.escape(BRAND))
+           .replace("{{CANONICAL}}", ('<link rel="canonical" href="%s">\n' % absurl(path)) if SITE else "").replace("{{OGIMAGE}}", ('<meta property="og:image" content="%s">\n' % html.escape(CFG.get("logo"))) if CFG.get("logo") else "")
+           .replace("{{HEAD_EXTRA}}", head_extra(path, title, desc, CFG.get("logo"), rel, False, lds))
+           .replace("{{ASSETS_HEAD}}", '<link rel="stylesheet" href="%sshared/base.css">\n<link rel="stylesheet" href="%sshared/store.css">' % (rel, rel))
+           .replace("{{ASSETS_SEARCH}}", '<script src="%sshared/catalog.js" defer></script>\n<script src="%sshared/search.js" defer></script>\n<script src="%sshared/track.js" defer></script>' % (rel, rel, rel))
+           .replace("{{NAV_TOOLS}}", nav_tools('<a class="btn btn-buy" href="%s#packs">Pick my package</a>' % rel)).replace("{{FOOTER}}", footer(rel, years[0]))
+           .replace("{{ROUTE}}", json.dumps({"depth": len(parts), "faq": True})).replace("{{REL}}", rel).replace("{{HOME}}", rel)
+           .replace("{{CRUMB_HTML}}", "".join(('<a href="%s">%s</a><span>/</span>' % (rel + cp, html.escape(cn))) if i < len(crumbs) - 1 else html.escape(cn) for i, (cn, cp) in enumerate(crumbs)))
+           .replace("{{H1}}", html.escape(h1)).replace("{{LEAD}}", html.escape(lead)).replace("{{TAKEAWAYS_HTML}}", takeaways_html(takeaways)).replace("{{JUMP_HTML}}", jump).replace("{{SECTIONS_HTML}}", secs)
+           .replace("{{CTA_KICKER}}", html.escape(cta[0])).replace("{{CTA_TITLE}}", html.escape(cta[1])).replace("{{CTA_TEXT}}", html.escape(cta[2])).replace("{{CTA_URL}}", cta[3]).replace("{{CTA_LABEL}}", html.escape(cta[4]))
+           .replace("{{RELATED_HTML}}", related_html).replace("{{MORE_LINK}}", more_link))
+    d = os.path.join(ROOT, *parts); os.makedirs(d, exist_ok=True); open(os.path.join(d, "index.html"), "w", encoding="utf-8").write(anchor_ids(out))
+    if SITE: urls.append(absurl(path))
+shutil.rmtree(os.path.join(ROOT, "faq"), ignore_errors=True)
+total_state_q = sum(len(v) for v in STATE_FAQS.values())
+# state/level pages
+for (st, lv), items in sorted(STATE_FAQS.items(), key=lambda kv: (kv[0][0] == GENERAL, kv[0])):
+    name = "any state" if st == GENERAL else st; parts = ["faq", slug(st), lv.lower()]; rel = "../../../"
+    pairs = [(i["q"], i["a"]) for i in items]
+    other = "Master" if lv == "Journeyman" else "Journeyman"
+    # group loosely by topic for scannability
+    buckets = [("exam", "The exam", lambda q: re.search(r"open book|question|portion|score|pass|time|minutes|hours|structure|format|administer|vendor|psi|prometric|pearson|schedul|retake|fail", q, re.I)),
+               ("license", "Licensing and experience", lambda q: re.search(r"licens|regulat|board|experience|hours|apprentice|apply|application|eligib|reciproc|renew|continuing|contractor|supervis|permit", q, re.I)),
+               ("code", "Code book and materials", lambda q: re.search(r"nec|code|edition|book|reference|calculat|allowed|bring|write|highlight", q, re.I))]
+    used, sections = set(), []
+    for sid, sname, test in buckets:
+        sel = [(q, a) for (q, a) in pairs if (q, a) not in used and test(q)]
+        if sel: sections.append((sid, sname, len(sel), faq_details(sel))); used.update(sel)
+    rest = [(q, a) for (q, a) in pairs if (q, a) not in used]
+    if rest: sections.append(("more", "More questions", len(rest), faq_details(rest, False)))
+    tk = ["%d questions and answers about the %s %s electrician exam and license, compiled from our %s package descriptions." % (len(pairs), name, lv.lower(), lv.lower()),
+          next((a for q, a in pairs if re.search(r"open book", q, re.I)), "Check the candidate bulletin for the edition of the NEC your exam is written to."),
+          next((a for q, a in pairs if re.search(r"regulat|licens.*(board|through)|who (issues|handles|administers)", q, re.I)), "Licensing rules come from the state board; the questions below name it."),
+          "Prep packages for this exam start at %s; every one includes the state study guide with 12 practice exams and 2 finals." % money(min(float(p["price"]) for p in products_for(st, lv, years[0])) if products_for(st, lv, years[0]) else "$99.95")]
+    cta = ("%s %s exam" % (name.capitalize() if st == GENERAL else st, lv.lower()), "Ready to study for the %s %s exam?" % (name, lv.lower()), "Packages built on the %s NEC, from the study guide alone to the Ultimate Combo. One click to checkout." % years[0], "%s%s/%s/%s/" % (rel, slug(st), lv.lower(), years[0]), "See %s %s packages" % (name if st != GENERAL else "any-state", lv.lower()))
+    related = '<section class="related-pages" style="background:transparent;padding:0;margin-top:2.5rem"><div class="wrap" style="padding:0"><h2 style="font-size:1.3rem;text-transform:none">Related pages</h2><div class="rp-cols">%s</div></div></section>' % (
+        related_pages_html(rel, st, lv, years[0]).replace('<li><a href="%s%s/%s/%s/">' % (rel, slug(st), other.lower(), years[0]), '<li><a href="%sfaq/%s/%s/">' % (rel, slug(st), other.lower())) )
+    related = related.replace("packages</a>", " FAQ</a>", 1)
+    faq_page(parts, "%s %s Electrician Exam FAQ (%d answers)" % ("Any-State" if st == GENERAL else st, lv, len(pairs)) if len("%s %s Electrician Exam FAQ (%d answers)" % (st, lv, len(pairs))) <= 60 else "%s %s Electrician Exam FAQ" % (st, lv),
+             "%s %s electrician exam: frequently asked questions" % (name.capitalize() if st == GENERAL else st, lv.lower()),
+             "%d answers about the %s %s electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. Filter the list or jump to a section." % (len(pairs), name, lv.lower()),
+             sections, pairs, [("Home", ""), ("FAQ", "faq/"), ("%s %s" % (name.capitalize() if st == GENERAL else st, lv), "faq/%s/%s/" % (slug(st), lv.lower()))], tk, cta, related,
+             '<a href="%s%s/%s/%s/">%s %s packages</a>' % (rel, slug(st), lv.lower(), years[0], html.escape(name.capitalize() if st == GENERAL else st), lv.lower()))
+# hub
+gen_sections = [(c["slug"], c["name"], len(c["items"]), faq_details([(q, a.replace("1 Exam Prep", FUL["name"])) for q, a in c["items"]])) for c in GEN_FAQ]
+gen_pairs = [(q, a) for c in GEN_FAQ for q, a in c["items"]]
+state_list = "".join('<li><a href="%s/%s/">%s</a><span><a href="%s/journeyman/">Journeyman %d</a><a href="%s/master/">Master %d</a></span></li>' % (slug(st), "journeyman", "Any state (general)" if st == GENERAL else st, slug(st), len(STATE_FAQS.get((st, "Journeyman"), [])), slug(st), len(STATE_FAQS.get((st, "Master"), []))) for st in STATES + [GENERAL] if (st, "Journeyman") in STATE_FAQS or (st, "Master") in STATE_FAQS)
+gen_sections.append(("states", "State by state", total_state_q, '<p class="faq-count">%d state-specific answers across %d pages. Each page covers who issues the license, the open-book rules, the NEC edition, experience and the exam format for that state and level.</p><ul class="faq-states">%s</ul>' % (total_state_q, len(STATE_FAQS), state_list)))
+faq_page(["faq"], "Electrician Exam FAQ: %d Answers | %s" % (len(gen_pairs) + total_state_q, BRAND) if len("Electrician Exam FAQ: %d Answers | %s" % (len(gen_pairs) + total_state_q, BRAND)) <= 60 else "Electrician Exam FAQ: %d Answers" % (len(gen_pairs) + total_state_q),
+         "Electrician exam FAQ", "%d answers about journeyman and master electrician exams: getting licensed, the exam itself, studying, the code book, calculations, exam day and what comes after, plus %d state-specific answers for all 50 states." % (len(gen_pairs) + total_state_q, total_state_q),
+         gen_sections, gen_pairs, [("Home", ""), ("FAQ", "faq/")],
+         ["%d questions answered on this page, nationwide, and %d more on the state pages linked at the bottom." % (len(gen_pairs), total_state_q),
+          "Most states need about 8,000 hours of supervised experience for the journeyman exam and set the pass mark at 70 to 75 percent.",
+          "Nearly every exam is open book for the code portion; the edition you bring must match the one in your state's candidate bulletin.",
+          "Six to eight weeks at about 90 minutes a day, split between code navigation, calculations and timed practice, is enough for most candidates."],
+         ("Ready to study?", "Pick your state and level, then choose a package.", "Every package starts with the state study guide, 12 practice exams and 2 full-length finals, built on the %s National Electrical Code." % years[0], "../#packs", "Pick my package"),
+         '<section class="related-pages" style="background:transparent;padding:0;margin-top:2.5rem"><div class="wrap" style="padding:0"><h2 style="font-size:1.3rem;text-transform:none">Keep reading</h2><div class="rp-cols"><div><h3>Guides</h3><ul><li><a href="../blog/">Blog: study plans and code navigation</a></li><li><a href="../#compare">Compare the five packages</a></li><li><a href="../#states">Every state and level</a></li></ul></div></div></div></section>')
+print("FAQ: %d general + %d state-specific answers on %d pages" % (len(gen_pairs), total_state_q, len(STATE_FAQS) + 1))
+
 # --- icons + manifest ---
 fav = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#1b1f3b"/><path d="M36 8 18 36h12l-4 20 20-30H34z" fill="#ff5a1f"/></svg>'
 if not HAS_PNG_ICONS: open(os.path.join(ROOT, "shared", "favicon.svg"), "w").write(fav)
@@ -633,6 +732,7 @@ for st in STATES + [GENERAL]:
         if pth.rstrip("/") in generated: llm.append("- [%s %s](%s)" % ("Any state" if st == GENERAL else st, lv, absurl(pth)))
 if POSTS:
     llm += ["", "## Blog", "", "- [All posts](%s)" % absurl("blog/")] + ["- [%s](%s): %s" % (q["title"], absurl("blog/%s/" % q["slug"]), q["excerpt"]) for q in POSTS[:30]]
+llm += ["", "## FAQ", "", "- [Electrician exam FAQ](%s): nationwide questions on licensing, the exam, studying, the code book, calculations and exam day." % absurl("faq/")] + ["- [%s %s FAQ](%s)" % ("Any state" if st == GENERAL else st, lv, absurl("faq/%s/%s/" % (slug(st), lv.lower()))) for (st, lv) in sorted(STATE_FAQS)]
 if PAGES:
     llm += ["", "## Pages", ""] + ["- [%s](%s): %s" % (q["title"], absurl("pages/%s/" % q["slug"]), q["excerpt"]) for q in PAGES[:30]]
 llm += ["", "## Agent instructions", "", "- [agents.md](%s): how to use and attribute this content, what the site can and cannot answer." % absurl("agents.md")]

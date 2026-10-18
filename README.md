@@ -357,3 +357,13 @@ social card); without them it falls back to a text wordmark and generated icons.
 brand are rewritten to the site's brand at build time. To spin up another subsite:
 copy the repo, change `brand`, `wordmark`, `tagline`, `siteUrl`, `repo`, `siteKey`, and
 point the dashboard at a different Shopify collection.
+
+
+## FAQ
+
+`/faq/` is the nationwide FAQ (edit `content/faq-general.json`), and `/faq/<state>/<level>/`
+holds the state-specific questions, which `build.py` extracts from the FAQ block inside each
+Shopify product description, de-duplicates per state and level, and groups into The exam /
+Licensing and experience / Code book and materials. Every FAQ page carries FAQPage schema,
+a Key takeaways box, a client-side filter box and links to the matching packages. Counts
+update automatically when products or descriptions change.
