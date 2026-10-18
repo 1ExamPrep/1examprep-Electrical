@@ -1,4 +1,4 @@
-# robots.txt for Pass Your Master Electrician Exam Electrician Exam Prep (https://passyourmasterelectricianexam.com)
+# robots.txt for Pass Your Electrician Exam Electrician Exam Prep (https://passyourmasterelectricianexam.com)
 # Search engines and AI assistants are both welcome. Internal search, the design gallery,
 # raw data files and the admin page are held back because they are not useful in results.
 

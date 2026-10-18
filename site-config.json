@@ -2,12 +2,12 @@
   "_comment": "Site-wide settings. Edit, then run: python3 build.py",
   "siteUrl": "https://passyourmasterelectricianexam.com",
   "_siteUrl_help": "Final address with https and no trailing slash, e.g. https://prep.1examprep.com. Leave empty until you have one; canonical tags, sitemap.xml and the robots Sitemap line are added only when it is set.",
-  "brand": "Pass Your Master Electrician Exam",
+  "brand": "Pass Your Electrician Exam",
   "_brand_help": "The site's own name. Shown in the header, titles, schema and footer.",
   "wordmark": [
     "Pass Your ",
-    "Master",
-    " Electrician Exam"
+    "Electrician",
+    " Exam"
   ],
   "_wordmark_help": "Header logo text in three parts: before, highlighted (accent colour), after. Keep it short.",
   "fulfillment": {
@@ -48,5 +48,7 @@
   "dashboardUrl": "https://site-dashboard-c32v.onrender.com",
   "_dashboardUrl_help": "Address of your site dashboard on Render, e.g. https://site-dashboard.onrender.com. With siteKey set, every page view and click is sent there.",
   "siteKey": "sk_2cab4d8dadca86036ba934dc",
-  "_siteKey_help": "The site's tracker key from the dashboard (Settings \u2192 Tracker), e.g. sk_\u2026"
+  "_siteKey_help": "The site's tracker key from the dashboard (Settings \u2192 Tracker), e.g. sk_\u2026",
+  "logoNav": "shared/logo-nav.png",
+  "_logoNav_help": "Header logo image (transparent PNG, 2x). Made by tools/make_logo.py from brand/logo-source.png. Remove to fall back to the text wordmark."
 }

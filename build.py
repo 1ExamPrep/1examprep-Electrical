@@ -29,10 +29,18 @@ if not SITE and CFG.get("siteUrl"): SITE = CFG["siteUrl"].rstrip("/") + "/"
 BRAND = CFG.get("brand", "1 Exam Prep")
 FUL = CFG.get("fulfillment") or {"name": "1 Exam Prep", "url": CFG.get("storeUrl", "https://1examprep.com"), "note": ""}
 WM = CFG.get("wordmark") or [BRAND, "", ""]
-WORDMARK = "%s<span>%s</span>%s" % (html.escape(WM[0]), html.escape(WM[1]), html.escape(WM[2])) if WM[1] else html.escape(WM[0])
-def brand_tokens(out, rel=""):
-    """tokens every template may use"""
-    return (out.replace("{{WORDMARK}}", WORDMARK).replace("{{BRAND}}", html.escape(BRAND)).replace("{{FULFILL_NAME}}", html.escape(FUL["name"])).replace("{{FULFILL_URL}}", html.escape(FUL["url"])))
+WORDMARK_TEXT = "%s<span>%s</span>%s" % (html.escape(WM[0]), html.escape(WM[1]), html.escape(WM[2])) if WM[1] else html.escape(WM[0])
+LOGO_NAV = CFG.get("logoNav") if CFG.get("logoNav") and os.path.exists(os.path.join(ROOT, CFG.get("logoNav"))) else None
+HAS_PNG_ICONS = os.path.exists(os.path.join(ROOT, "shared", "favicon.png"))
+def wordmark(rel):
+    if LOGO_NAV: return '<img class="brand-img" src="%s%s" alt="%s" width="%d" height="48" decoding="async">' % (rel, LOGO_NAV, html.escape(BRAND), round(345 / 2))
+    return WORDMARK_TEXT
+WORDMARK = "{{WORDMARK_REL}}"  # resolved per page in brand_tokens (needs the page's relative prefix)
+def brand_tokens(out, rel=None):
+    """tokens every template may use; {{WORDMARK}} needs the page's root-relative prefix, taken from the stylesheet link if not given"""
+    if rel is None:
+        m = re.search(r'href="((?:\.\./)*)shared/base\.css"', out); rel = m.group(1) if m else ""
+    return (out.replace("{{WORDMARK}}", wordmark(rel)).replace("{{WORDMARK_REL}}", wordmark(rel)).replace("{{BRAND}}", html.escape(BRAND)).replace("{{FULFILL_NAME}}", html.escape(FUL["name"])).replace("{{FULFILL_URL}}", html.escape(FUL["url"])))
 import datetime
 TODAY = datetime.date.today().isoformat()
 sys.path.insert(0, os.path.join(ROOT, "tools")); import blogkit
@@ -95,8 +103,10 @@ def head_extra(path, title, desc, image, rel, noindex=False, extra_ld=()):
     if CFG.get("social", {}).get("twitter"): h.append('<meta name="twitter:site" content="@%s">' % CFG["social"]["twitter"].rstrip("/").split("/")[-1])
     h.append('<meta name="theme-color" content="#1b1f3b">')
     h.append('<script>window.SITE=%s;</script>' % json.dumps({"brand": BRAND, "storeUrl": CFG["storeUrl"], "fulfillment": FUL["name"]}))
-    if len(BRAND) > 16: h.append('<style>.nav .brand{font-size:%s;line-height:1.05;max-width:46vw}@media (max-width:720px){.nav .brand{font-size:.95rem}}</style>' % ("1.05rem" if len(BRAND) > 24 else "1.2rem"))
-    h.append('<link rel="icon" href="%sshared/favicon.svg" type="image/svg+xml">' % rel); h.append('<link rel="apple-touch-icon" href="%sshared/apple-touch-icon.png">' % rel); h.append('<link rel="manifest" href="%smanifest.webmanifest">' % rel)
+    if len(BRAND) > 16 and not LOGO_NAV: h.append('<style>.nav .brand{font-size:%s;line-height:1.05;max-width:46vw}@media (max-width:720px){.nav .brand{font-size:.95rem}}</style>' % ("1.05rem" if len(BRAND) > 24 else "1.2rem"))
+    if HAS_PNG_ICONS: h.append('<link rel="icon" href="%sshared/favicon.png" type="image/png" sizes="64x64">' % rel)
+    else: h.append('<link rel="icon" href="%sshared/favicon.svg" type="image/svg+xml">' % rel)
+    h.append('<link rel="apple-touch-icon" href="%sshared/apple-touch-icon.png">' % rel); h.append('<link rel="manifest" href="%smanifest.webmanifest">' % rel)
     if CFG.get("googleSiteVerification"): h.append('<meta name="google-site-verification" content="%s">' % html.escape(CFG["googleSiteVerification"]))
     if CFG.get("gtagId"): h.append('<script async src="https://www.googletagmanager.com/gtag/js?id=%s"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","%s",{"send_page_view":true});</script>' % (CFG["gtagId"], CFG["gtagId"]))
     if CFG.get("gtmId"): h.append("<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','%s');</script>" % CFG["gtmId"])
@@ -119,7 +129,7 @@ def footer(rel, year0):
             '<nav aria-label="Shop"><h2>Shop</h2><ul><li><a href="%s#packs">Packages</a></li><li><a href="%s#compare">Compare packages</a></li><li><a href="%s#singles">Study guides &amp; flash cards</a></li><li><a href="%sblog/">Blog</a></li><li><a href="%ssearch/">Search</a></li><li><a href="%s" rel="noopener" target="_blank">Fulfilled by %s</a></li></ul></nav>'
             '<nav aria-label="Follow"><h2>Follow</h2><ul>%s</ul></nav></div>'
             '<p class="fine"><strong>%s</strong> &copy; <span data-year>%s</span> &middot; %s Prices and availability come from the fulfillment store; the price at checkout is the one that applies. Not affiliated with any state licensing board or testing vendor. Purchasing does not grant exam eligibility or a license.</p></div></footer>'
-            % (rel or "./", WORDMARK, html.escape(CFG.get("tagline", "")), CFG["phoneTel"], html.escape(CFG["phone"]), CFG["email"], CFG["email"], quick, rel or "./", rel or "./", rel or "./", rel or "./", rel, rel, FUL["url"], html.escape(FUL["name"]), soc, html.escape(BRAND), TODAY[:4], html.escape(FUL.get("note") or ("Orders are processed and shipped by %s, our fulfillment center." % FUL["name"]))))
+            % (rel or "./", "{{WORDMARK}}", html.escape(CFG.get("tagline", "")), CFG["phoneTel"], html.escape(CFG["phone"]), CFG["email"], CFG["email"], quick, rel or "./", rel or "./", rel or "./", rel or "./", rel, rel, FUL["url"], html.escape(FUL["name"]), soc, html.escape(BRAND), TODAY[:4], html.escape(FUL.get("note") or ("Orders are processed and shipped by %s, our fulfillment center." % FUL["name"]))))
 
 def slug(state): return "general" if state == GENERAL else state.lower().replace(" ", "-")
 def words(text):
@@ -300,7 +310,7 @@ search_body = ('<main id="main" class="wrap search-page"><h1 id="h1">Search</h1>
 sp = tpl[:tpl.index("<body>")]
 sp = (sp.replace("{{ASSETS_HEAD}}", '<link rel="stylesheet" href="../shared/base.css">\n<link rel="stylesheet" href="../shared/store.css">').replace("{{TITLE}}", "Search | " + BRAND).replace("{{DESC}}", "Search %s electrician exam prep packages by state, level or product." % BRAND)
       .replace("{{CANONICAL}}", "").replace("{{OGIMAGE}}", "").replace("{{HEAD_EXTRA}}", head_extra("search/", "Search | " + BRAND, "Search electrician exam prep packages.", CFG.get("logo"), "../", noindex=True)))
-sp += ('<body><a class="skip" href="#main">Skip to content</a><header class="nav"><div class="wrap"><a class="brand" href="../" id="homeLink">' + WORDMARK + '</a>' + nav_tools('<a class="btn btn-buy" href="../#packs">Pick my package</a>') + '</div></header>'
+sp += ('<body><a class="skip" href="#main">Skip to content</a><header class="nav"><div class="wrap"><a class="brand" href="../" id="homeLink">{{WORDMARK}}</a>' + nav_tools('<a class="btn btn-buy" href="../#packs">Pick my package</a>') + '</div></header>'
        + search_body + footer("../", years[0]) + '<script>window.ROUTE={"depth":1};</script><script src="../shared/catalog.js"></script><script src="../shared/search.js"></script><script src="../shared/track.js"></script></body></html>')
 os.makedirs(os.path.join(ROOT, "search"), exist_ok=True); open(os.path.join(ROOT, "search", "index.html"), "w", encoding="utf-8").write(anchor_ids(sp))
 
@@ -394,37 +404,39 @@ open(os.path.join(blog_dir, "posts.json"), "w", encoding="utf-8").write(json.dum
 
 # --- icons + manifest ---
 fav = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#1b1f3b"/><path d="M36 8 18 36h12l-4 20 20-30H34z" fill="#ff5a1f"/></svg>'
-open(os.path.join(ROOT, "shared", "favicon.svg"), "w").write(fav)
-try:
-    from PIL import Image, ImageDraw
-    from PIL import ImageFont
-    bolt = lambda sc, ox, oy: [(ox + x * sc, oy + y * sc) for x, y in [(36, 8), (18, 36), (30, 36), (26, 56), (46, 26), (34, 26)]]
-    im = Image.new("RGBA", (180, 180), (27, 31, 59, 255)); ImageDraw.Draw(im).polygon(bolt(2.6, 7, 7), fill=(255, 90, 31, 255)); im.save(os.path.join(ROOT, "shared", "apple-touch-icon.png"))
-    # logo.png: 1200x630 social card / Organization logo with the brand name
-    def font(sz):
-        for f in ("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf"):
-            if os.path.exists(f): return ImageFont.truetype(f, sz)
-        return ImageFont.load_default()
-    lg = Image.new("RGB", (1200, 630), (27, 31, 59)); d = ImageDraw.Draw(lg)
-    d.polygon(bolt(4.2, 90, 150), fill=(255, 90, 31))
-    words, lines, cur = BRAND.split(), [], ""
-    for w in words:
-        t = (cur + " " + w).strip()
-        if d.textlength(t, font=font(78)) > 820: lines.append(cur); cur = w
-        else: cur = t
-    lines.append(cur); y = 315 - 46 * len(lines)
-    for ln in lines: d.text((330, y), ln, font=font(78), fill="white"); y += 92
-    tl, tcur, tlines = CFG.get("tagline", "").split(), "", []
-    for w in tl:
-        t = (tcur + " " + w).strip()
-        if d.textlength(t, font=font(30)) > 820: tlines.append(tcur); tcur = w
-        else: tcur = t
-    tlines.append(tcur)
-    for ln in tlines[:2]: d.text((330, y + 10), ln, font=font(30), fill=(255, 176, 143)); y += 40
-    d.text((330, 560), "Fulfilled by %s" % FUL["name"], font=font(24), fill=(170, 175, 205))
-    lg.save(os.path.join(ROOT, "shared", "logo.png"), optimize=True)
-except Exception as e: print("apple-touch-icon skipped:", e)
-open(os.path.join(ROOT, "manifest.webmanifest"), "w").write(json.dumps({"name": BRAND, "short_name": WM[1] or BRAND[:12], "start_url": "./", "display": "browser", "background_color": "#f7f6f2", "theme_color": "#1b1f3b", "icons": [{"src": "shared/apple-touch-icon.png", "sizes": "180x180", "type": "image/png"}, {"src": "shared/favicon.svg", "sizes": "any", "type": "image/svg+xml"}]}, indent=1))
+if not HAS_PNG_ICONS: open(os.path.join(ROOT, "shared", "favicon.svg"), "w").write(fav)
+if HAS_PNG_ICONS: pass  # real logo assets from tools/make_logo.py: keep them
+else:
+  try:
+      from PIL import Image, ImageDraw
+      from PIL import ImageFont
+      bolt = lambda sc, ox, oy: [(ox + x * sc, oy + y * sc) for x, y in [(36, 8), (18, 36), (30, 36), (26, 56), (46, 26), (34, 26)]]
+      im = Image.new("RGBA", (180, 180), (27, 31, 59, 255)); ImageDraw.Draw(im).polygon(bolt(2.6, 7, 7), fill=(255, 90, 31, 255)); im.save(os.path.join(ROOT, "shared", "apple-touch-icon.png"))
+      # logo.png: 1200x630 social card / Organization logo with the brand name
+      def font(sz):
+          for f in ("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf"):
+              if os.path.exists(f): return ImageFont.truetype(f, sz)
+          return ImageFont.load_default()
+      lg = Image.new("RGB", (1200, 630), (27, 31, 59)); d = ImageDraw.Draw(lg)
+      d.polygon(bolt(4.2, 90, 150), fill=(255, 90, 31))
+      words, lines, cur = BRAND.split(), [], ""
+      for w in words:
+          t = (cur + " " + w).strip()
+          if d.textlength(t, font=font(78)) > 820: lines.append(cur); cur = w
+          else: cur = t
+      lines.append(cur); y = 315 - 46 * len(lines)
+      for ln in lines: d.text((330, y), ln, font=font(78), fill="white"); y += 92
+      tl, tcur, tlines = CFG.get("tagline", "").split(), "", []
+      for w in tl:
+          t = (tcur + " " + w).strip()
+          if d.textlength(t, font=font(30)) > 820: tlines.append(tcur); tcur = w
+          else: tcur = t
+      tlines.append(tcur)
+      for ln in tlines[:2]: d.text((330, y + 10), ln, font=font(30), fill=(255, 176, 143)); y += 40
+      d.text((330, 560), "Fulfilled by %s" % FUL["name"], font=font(24), fill=(170, 175, 205))
+      lg.save(os.path.join(ROOT, "shared", "logo.png"), optimize=True)
+  except Exception as e: print("apple-touch-icon skipped:", e)
+open(os.path.join(ROOT, "manifest.webmanifest"), "w").write(json.dumps({"name": BRAND, "short_name": WM[1] or BRAND[:12], "start_url": "./", "display": "browser", "background_color": "#f7f6f2", "theme_color": "#1b1f3b", "icons": ([{"src": "shared/logo-mark.png", "sizes": "512x512", "type": "image/png"}] if HAS_PNG_ICONS else []) + [{"src": "shared/apple-touch-icon.png", "sizes": "180x180", "type": "image/png"}] + ([] if HAS_PNG_ICONS else [{"src": "shared/favicon.svg", "sizes": "any", "type": "image/svg+xml"}])}, indent=1))
 
 # --- robots.txt (AI crawlers explicitly welcome) + llms.txt ---
 bots = ["GPTBot", "ChatGPT-User", "OAI-SearchBot", "ClaudeBot", "Claude-User", "anthropic-ai", "PerplexityBot", "Google-Extended", "Applebot-Extended", "Bytespider", "CCBot", "Amazonbot", "meta-externalagent"]

@@ -358,3 +358,9 @@ footer{padding:2.5rem 0;color:var(--muted);font-size:.88rem}
 .related-posts .post-grid{grid-template-columns:repeat(auto-fill,minmax(220px,1fr))}
 .empty{color:var(--muted);text-align:center;padding:3rem 1rem;border:1px dashed var(--line);border-radius:var(--radius)}
 @media (max-width:760px){.feature{grid-template-columns:1fr;gap:1rem}.post-cta{padding:1.25rem}.post-cta .btn{width:100%;text-align:center}}
+
+/* image logo */
+.brand-img{display:block;height:48px;width:auto;max-width:min(60vw,260px)}
+.nav .brand{display:flex;align-items:center}
+.site-footer .brand-img{height:40px;max-width:200px}
+@media (max-width:720px){.brand-img{height:40px}}

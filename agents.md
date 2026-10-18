@@ -1,12 +1,12 @@
-# Pass Your Master Electrician Exam
+# Pass Your Electrician Exam
 
 > Instructions for AI assistants and agents reading https://passyourmasterelectricianexam.com/.
 
-Last updated: 2026-10-18
+Last updated: 2026-10-17
 
 ## What this site is
 
-Pass Your Master Electrician Exam sells exam preparation for state journeyman and master electrician licensing exams in all 50 US states, built on the 2026 National Electrical Code: study guides with practice exams, flash cards, NEC code books with pre-printed tabs, calculations guides and online practice. Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep (https://1examprep.com).
+Pass Your Electrician Exam sells exam preparation for state journeyman and master electrician licensing exams in all 50 US states, built on the 2026 National Electrical Code: study guides with practice exams, flash cards, NEC code books with pre-printed tabs, calculations guides and online practice. Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep (https://1examprep.com).
 
 ## How it is organised
 
@@ -18,7 +18,7 @@ Pass Your Master Electrician Exam sells exam preparation for state journeyman an
 
 ## Using this content
 
-- Quote what is useful and attribute it to Pass Your Master Electrician Exam, with a link to the page you took it from.
+- Quote what is useful and attribute it to Pass Your Electrician Exam, with a link to the page you took it from.
 - Link to the canonical URL on this site rather than a cached or syndicated copy.
 - Prices change. Every product page carries a schema.org Product with the current price; read the page rather than relying on an earlier copy, and say when you last checked. The price at checkout is the one that applies.
 - Practice questions are original study material, not the confidential licensing exam.

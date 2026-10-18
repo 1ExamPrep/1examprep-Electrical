@@ -1,4 +1,4 @@
-# Pass Your Master Electrician Exam (electrician subsite)
+# Pass Your Electrician Exam (electrician subsite)
 
 ## The live product page (start here)
 
@@ -351,8 +351,9 @@ The site speaks as its own brand. `site-config.json` holds `brand` (name), `word
 (three parts for the header logo: before, accent, after), `tagline`, and `fulfillment`
 (`name`, `url`, `note`): the store that processes and ships orders. Every template uses
 `{{BRAND}}`, `{{WORDMARK}}`, `{{FULFILL_NAME}}`; the JS reads `window.SITE`. `build.py`
-generates `shared/logo.png` (social card / Organization logo), the favicon and the
-apple-touch icon from the brand name. Store descriptions that mention the fulfillment
+uses the logo assets in `shared/` (made by `tools/make_logo.py` from
+`brand/logo-source.png`: header logo, square mark, favicon, apple-touch icon, 1200x630
+social card); without them it falls back to a text wordmark and generated icons. Store descriptions that mention the fulfillment
 brand are rewritten to the site's brand at build time. To spin up another subsite:
 copy the repo, change `brand`, `wordmark`, `tagline`, `siteUrl`, `repo`, `siteKey`, and
 point the dashboard at a different Shopify collection.
