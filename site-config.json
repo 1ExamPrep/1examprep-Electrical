@@ -50,5 +50,7 @@
   "siteKey": "sk_2cab4d8dadca86036ba934dc",
   "_siteKey_help": "The site's tracker key from the dashboard (Settings \u2192 Tracker), e.g. sk_\u2026",
   "logoNav": "shared/logo-nav.png",
-  "_logoNav_help": "Header logo image (transparent PNG, 2x). Made by tools/make_logo.py from brand/logo-source.png. Remove to fall back to the text wordmark."
+  "_logoNav_help": "Header logo image (transparent PNG, 2x). Made by tools/make_logo.py from brand/logo-source.png. Remove to fall back to the text wordmark.",
+  "launched": "2026-10-16",
+  "_launched_help": "Date the site went live (YYYY-MM-DD); used as datePublished in the page schema."
 }

@@ -1,5 +1,7 @@
 # Pass Your Electrician Exam (electrician subsite)
 
+**Making another site from this one?** Read [NEW-SITE.md](NEW-SITE.md).
+
 ## The live product page (start here)
 
 `index.html` is the **1 Exam Prep product page**: the Scoreboard design (#3)
