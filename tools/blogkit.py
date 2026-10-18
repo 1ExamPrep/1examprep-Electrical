@@ -13,6 +13,8 @@ Posts live in content/posts/<slug>.md:
     state: Texas          (optional: links the post to /texas/...)
     level: Journeyman     (optional)
     status: published     (or draft: kept out of the build)
+    kind: page            (optional: a standalone page at /pages/<slug>/ instead of a blog post)
+    metaTitle / metaDescription   (optional: used for <title> and the meta description)
     ---
     Markdown or HTML body.
 
@@ -106,6 +108,7 @@ def load_posts(folder):
                 m = re.match(r"(.{25,220}?[.!?])(\s|$)", st)
                 if m: takeaways.append(m.group(1))
         posts.append({"slug": slug, "title": meta.get("title") or slug.replace("-", " ").title(), "date": date, "updated": (meta.get("updated") or date)[:10],
+                      "kind": (meta.get("kind") or "blog").lower(), "meta_title": meta.get("metatitle", ""), "meta_description": meta.get("metadescription", ""), "external_id": meta.get("externalid", ""),
                       "author": meta.get("author") or "", "excerpt": excerpt, "image": img, "tags": tags, "state": meta.get("state", ""), "level": meta.get("level", ""),
                       "takeaways": takeaways[:4], "html": body_html, "words": len(text.split()), "file": fn})
     posts.sort(key=lambda p: (p["date"], p["slug"]), reverse=True)

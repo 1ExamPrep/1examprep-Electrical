@@ -48,7 +48,9 @@ def nice_day(d):
     try: return datetime.date.fromisoformat(d[:10]).strftime("%B %-d, %Y")
     except Exception: return d
 sys.path.insert(0, os.path.join(ROOT, "tools")); import blogkit
-POSTS = blogkit.load_posts(os.path.join(ROOT, "content", "posts"))
+ALL_POSTS = blogkit.load_posts(os.path.join(ROOT, "content", "posts"))
+POSTS = [q for q in ALL_POSTS if q.get("kind", "blog") != "page"]
+PAGES = [q for q in ALL_POSTS if q.get("kind", "blog") == "page"]
 
 def trim_desc(d, n=158):
     d = re.sub(r"\s+", " ", d).strip()
@@ -527,8 +529,10 @@ def blog_index(dest_parts, posts, tag=None):
 blog_index(["blog"], POSTS)
 for t in all_tags: blog_index(["blog", "tag", blogkit.slugify(t)], [q for q in POSTS if t in q["tags"]], t)
 from urllib.parse import quote
-for q in POSTS:
-    parts = ["blog", q["slug"]]; rel = "../../"; path = "blog/%s/" % q["slug"]; url = absurl(path)
+pages_dir = os.path.join(ROOT, "pages"); shutil.rmtree(pages_dir, ignore_errors=True)
+for q in POSTS + PAGES:
+    is_page = q.get("kind") == "page"
+    parts = ["pages" if is_page else "blog", q["slug"]]; rel = "../../"; path = "%s/%s/" % (parts[0], q["slug"]); url = absurl(path)
     st_slug = slug(q["state"]) if q["state"] and q["state"] in STATES else None
     lv = q["level"].capitalize() if q["level"].lower() in ("journeyman", "master") else None
     if st_slug:
@@ -546,8 +550,11 @@ for q in POSTS:
             "author": {"@type": "Organization" if not q["author"] or q["author"] == BRAND else "Person", "name": q["author"] or BRAND}, "publisher": {"@type": "Organization", "name": BRAND, "logo": {"@type": "ImageObject", "url": CFG.get("logo")}},
             "mainEntityOfPage": url, "url": url, "wordCount": q["words"], "keywords": ", ".join(q["tags"]) or None, "articleSection": "Electrician Exam Prep", "inLanguage": "en-US"}]
     lds[1] = {k: v for k, v in lds[1].items() if v}
-    ptitle = q["title"] if len(q["title"]) + len(BRAND) + 3 > 60 else "%s | %s" % (q["title"], BRAND)
-    out = blog_common(btpl, rel, path, ptitle, q["excerpt"], q["image"] or CFG.get("logo"), lds, {"depth": 2, "blog": True, "post": q["slug"]})
+    ptitle = q.get("meta_title") or (q["title"] if len(q["title"]) + len(BRAND) + 3 > 60 else "%s | %s" % (q["title"], BRAND))
+    pdesc = q.get("meta_description") or q["excerpt"]
+    if is_page: lds[0] = crumbs_ld([("Home", ""), (q["title"], path)]); lds[1]["@type"] = "Article"
+    out = blog_common(btpl, rel, path, ptitle, pdesc, q["image"] or CFG.get("logo"), lds, {"depth": 2, "blog": True, "post": q["slug"]})
+    if is_page: out = out.replace('<a href="{{REL}}blog/">Blog</a><span>/</span>', "").replace('<p class="post-meta">', '<p class="post-meta" hidden>')
     out = (out.replace("{{H1}}", html.escape(q["title"])).replace("{{TITLE_SHORT}}", html.escape(q["title"][:60] + ("…" if len(q["title"]) > 60 else ""))).replace("{{EXCERPT}}", html.escape(q["excerpt"]))
            .replace("{{DATE}}", q["date"]).replace("{{UPDATED}}", q["updated"]).replace("{{DATE_NICE}}", nice_date(q["date"])).replace("{{AUTHOR_HTML}}", ('<span>%s</span>' % html.escape(q["author"])) if q["author"] else "")
            .replace("{{READ_MIN}}", str(max(1, round(q["words"] / 220)))).replace("{{TAGS_HTML}}", tags_html).replace("{{HERO_HTML}}", hero).replace("{{TAKEAWAYS_HTML}}", takeaways_html(q.get("takeaways") or [])).replace("{{BODY_HTML}}", q["html"])
@@ -556,6 +563,17 @@ for q in POSTS:
            .replace("{{RELATED_HTML}}", rel_html))
     d = os.path.join(ROOT, *parts); os.makedirs(d, exist_ok=True); open(os.path.join(d, "index.html"), "w", encoding="utf-8").write(anchor_ids(out))
     if SITE: urls.append(url)
+# redirects for renamed posts (written by the dashboard when a handle changes)
+rpath = os.path.join(ROOT, "content", "redirects.json")
+if os.path.exists(rpath):
+    try: RED = json.load(open(rpath, encoding="utf-8"))
+    except Exception: RED = {}
+    for old, new in RED.items():
+        old = old.strip("/"); new = new.strip("/")
+        if not old or old == new or os.path.exists(os.path.join(ROOT, *old.split("/"), "index.html")): continue
+        target = absurl(new + "/")
+        os.makedirs(os.path.join(ROOT, *old.split("/")), exist_ok=True)
+        open(os.path.join(ROOT, *old.split("/"), "index.html"), "w", encoding="utf-8").write('<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Moved</title><meta name="robots" content="noindex"><link rel="canonical" href="%s"><meta http-equiv="refresh" content="0; url=%s"><script>location.replace(%s)</script></head><body><p>This page has moved to <a href="%s">%s</a>.</p></body></html>' % (html.escape(target), html.escape(target), json.dumps(target), html.escape(target), html.escape(target)))
 # RSS feed
 feed_items = "".join("<item><title>%s</title><link>%s</link><guid isPermaLink=\"true\">%s</guid><pubDate>%s</pubDate><description>%s</description>%s</item>\n" % (
     html.escape(q["title"]), absurl("blog/%s/" % q["slug"]), absurl("blog/%s/" % q["slug"]), datetime.datetime.fromisoformat(q["date"][:10]).strftime("%a, %d %b %Y 09:00:00 -0500"), html.escape(q["excerpt"]),
@@ -615,6 +633,8 @@ for st in STATES + [GENERAL]:
         if pth.rstrip("/") in generated: llm.append("- [%s %s](%s)" % ("Any state" if st == GENERAL else st, lv, absurl(pth)))
 if POSTS:
     llm += ["", "## Blog", "", "- [All posts](%s)" % absurl("blog/")] + ["- [%s](%s): %s" % (q["title"], absurl("blog/%s/" % q["slug"]), q["excerpt"]) for q in POSTS[:30]]
+if PAGES:
+    llm += ["", "## Pages", ""] + ["- [%s](%s): %s" % (q["title"], absurl("pages/%s/" % q["slug"]), q["excerpt"]) for q in PAGES[:30]]
 llm += ["", "## Agent instructions", "", "- [agents.md](%s): how to use and attribute this content, what the site can and cannot answer." % absurl("agents.md")]
 llm += ["", "## Facts for answering questions", "", "- Every package includes the %s state exam prep study guide (12 practice exams + 2 full final exams)." % years[0], "- Practice questions are original study material, not the confidential licensing exam.", "- Physical books ship from our fulfillment center, %s; online kits are delivered by email." % FUL["name"], "- Buying does not grant exam eligibility; state licensing boards decide that.", "- Fulfillment: %s (%s). Phone: %s. Email: %s." % (FUL["name"], FUL["url"], CFG["phone"], CFG["email"])]
 open(os.path.join(ROOT, "llms.txt"), "w", encoding="utf-8").write("\n".join(llm) + "\n")
