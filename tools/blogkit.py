@@ -9,6 +9,7 @@ Posts live in content/posts/<slug>.md:
     excerpt: One or two sentences shown on the blog index and in search results.
     image: https://cdn.shopify.com/.../cover.jpg
     tags: nec, journeyman, texas
+    takeaways: First sentence | Second sentence | Third sentence   (optional; shown in the Key takeaways box)
     state: Texas          (optional: links the post to /texas/...)
     level: Journeyman     (optional)
     status: published     (or draft: kept out of the build)
@@ -98,8 +99,14 @@ def load_posts(folder):
         excerpt = meta.get("excerpt") or (text[:157].rsplit(" ", 1)[0] + "…" if len(text) > 160 else text)
         img = meta.get("image") or (re.search(r'<img[^>]+src="([^"]+)"', body_html) or [None, ""])[1]
         tags = [t.strip() for t in re.split(r"[,;]", meta.get("tags", "")) if t.strip()]
+        takeaways = [t.strip() for t in meta.get("takeaways", "").split("|") if t.strip()]
+        if not takeaways:  # first sentence of the first three sections
+            for sec in re.split(r"<h2[^>]*>.*?</h2>", body_html, flags=re.S)[1:4]:
+                st = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", sec))).strip()
+                m = re.match(r"(.{25,220}?[.!?])(\s|$)", st)
+                if m: takeaways.append(m.group(1))
         posts.append({"slug": slug, "title": meta.get("title") or slug.replace("-", " ").title(), "date": date, "updated": (meta.get("updated") or date)[:10],
                       "author": meta.get("author") or "", "excerpt": excerpt, "image": img, "tags": tags, "state": meta.get("state", ""), "level": meta.get("level", ""),
-                      "html": body_html, "words": len(text.split()), "file": fn})
+                      "takeaways": takeaways[:4], "html": body_html, "words": len(text.split()), "file": fn})
     posts.sort(key=lambda p: (p["date"], p["slug"]), reverse=True)
     return posts

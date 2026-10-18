@@ -178,6 +178,20 @@ def states_html(rel, year, level_first="journeyman"):
         links = "".join('<a href="%s%s/%s/%s/">%s</a>' % (rel, sl, lv, year, lv.capitalize()) for lv in ((level_first, "master" if level_first == "journeyman" else "journeyman")) if os.path.isdir(os.path.join(ROOT, sl, lv, year)) or True)
         items.append("<li><b>%s</b><span>%s</span></li>" % (html.escape(name), links))
     return '<ul class="states-grid">%s</ul>' % "".join(items)
+def takeaways_html(items):
+    items = [i for i in items if i][:4]
+    if not items: return ""
+    return '<aside class="takeaways" aria-labelledby="key-takeaways"><h2 id="key-takeaways">Key takeaways</h2><ul>%s</ul></aside>' % "".join("<li>%s</li>" % html.escape(i) for i in items)
+def listing_takeaways(state, level, year, prods):
+    if not prods: return ""
+    name = "any state" if state == GENERAL else state
+    lo, hi = min(float(p["price"]) for p in prods), max(float(p["price"]) for p in prods)
+    ult = next((p for p in prods if p["tier"] == "ultimate"), prods[-1]); c = float(ult.get("compareAt") or 0)
+    items = ["%d %s electrician exam prep packages for %s, from %s to %s, all built on the %s National Electrical Code." % (len(prods), level.lower(), name, money(lo), money(hi), year),
+             ("Every package includes the %s %s %s study guide with 12 practice exams and 2 full-length final exams." % (year, "" if state == GENERAL else state, level)).replace("  ", " "),
+             ("The %s at %s is the most complete option%s." % (ult["tierName"], money(ult["price"]), (", %d%% below the %s price of its parts" % (round((c - float(ult["price"])) / c * 100), money(c))) if c > float(ult["price"]) else "")),
+             "Buy now goes straight to secure checkout; books ship from our fulfillment center, %s, and online kits arrive by email." % FUL["name"]]
+    return takeaways_html(items)
 def page(path_parts, route, title, desc, h1, lead, og_image=None, extra_ld=(), crumbs=None, noindex=False):
     depth = len(path_parts)
     rel = "../" * depth
@@ -203,7 +217,12 @@ def page(path_parts, route, title, desc, h1, lead, og_image=None, extra_ld=(), c
     sel_path = (rel if route.get("state") else pbase) if route.get("state") else pbase
     crumb_html = '<a href="%s">All states</a><span>/</span><a href="%s">%s</a><span>/</span><a href="%s">%s</a><span>/</span><a href="%s">%s</a>' % (rel or "./", sel_path or "./", html.escape(sel_state), sel_path or "./", sel_level, sel_path or "./", sel_year)
     marq = "".join('<span><a href="%s%s/journeyman/%s/" style="color:inherit;text-decoration:none">%s</a></span>' % (rel, slug(st), sel_year, html.escape(st)) for st in STATES)
-    out = (tpl.replace("{{RAIL_HTML}}", rail_html).replace("{{SINGLES_HTML}}", singles_html()).replace("{{SEL_TITLE}}", html.escape("%s · %s · %s" % (sel_state, sel_level, sel_year)))
+    tk = listing_takeaways(sel_state, sel_level, sel_year, prods) if route.get("state") else takeaways_html([
+        "Journeyman and master electrician exam prep for all 50 states plus a general edition, built on the %s National Electrical Code." % sel_year,
+        "5 package levels per state and level, from the study guide with flash cards at %s to the Ultimate Combo at %s." % (money(min(float(p["price"]) for p in CATALOG if p["tier"] in TIERS)), money(max(float(p["price"]) for p in CATALOG if p["tier"] in TIERS))),
+        "Every package includes the state study guide with 12 practice exams and 2 full-length final exams.",
+        "Pick a state and level, press Buy now, and checkout opens at our fulfillment center, %s." % FUL["name"]])
+    out = (tpl.replace("{{TAKEAWAYS_HTML}}", tk).replace("{{RAIL_HTML}}", rail_html).replace("{{SINGLES_HTML}}", singles_html()).replace("{{SEL_TITLE}}", html.escape("%s · %s · %s" % (sel_state, sel_level, sel_year)))
            .replace("{{CRUMB_HTML}}", crumb_html).replace("{{MARQ_HTML}}", marq + marq).replace("{{STATES_HTML}}", states_html(rel, sel_year, sel_level.lower())).replace("{{YEAR}}", sel_year)
            .replace("{{ASSETS_HEAD}}", assets_head).replace("{{ASSETS_CATALOG}}", assets_cat).replace("{{ASSETS_APP}}", assets_app)
            .replace("{{ASSETS_SEARCH}}", '<script src="%sshared/search.js" defer></script>\n<script src="%sshared/track.js" defer></script>' % (rel, rel))
@@ -259,7 +278,13 @@ def product_page(path_parts, p, siblings, state_name, level_url, other_level_url
         ('<s>%s</s>' % money(v["compareAt"])) if v.get("compareAt") and float(v["compareAt"]) > float(v["price"]) else "") for i, v in enumerate(p["variants"]))
     thumbs = "".join('<button type="button" data-src="%s" class="%s" aria-label="Image %d"><img src="%s" alt="%s, image %d" loading="lazy"></button>' % (html.escape(u), "on" if i == 0 else "", i + 1, html.escape(u), html.escape(p["tierName"]), i + 1) for i, u in enumerate(imgs))
     S = "" if state_name == "any state" else state_name
-    inc = "".join("<li>%s</li>" % html.escape(x.format(Y=p["year"], S=S, L=p["level"]).replace("  ", " ")) for x in INCLUDED.get(p["tier"], []))
+    inc_items = [x.format(Y=p["year"], S=S, L=p["level"]).replace("  ", " ") for x in INCLUDED.get(p["tier"], [])]
+    inc = "".join("<li>%s</li>" % html.escape(x) for x in inc_items)
+    ptk = takeaways_html([
+        "%s %s %s: %s%s." % (state_name.capitalize() if state_name == "any state" else state_name, p["level"].lower(), p["tierName"], money(n), (", down from %s (save %d%%)" % (money(c), round((c - n) / c * 100))) if c > n else ""),
+        ("%d items in the box: %s." % (len(inc_items), "; ".join(i.replace(p["year"] + " ", "", 1) for i in inc_items))) if inc_items else "Built on the %s National Electrical Code." % p["year"],
+        ("%d optional add-on%s can be chosen at checkout, and the price updates when you pick one." % (len(p["variants"]) - 1, "" if len(p["variants"]) == 2 else "s")) if len(p["variants"]) > 1 else "Built on the %s National Electrical Code; check your candidate bulletin for the edition your state tests on." % p["year"],
+        "Online kits arrive by email; books ship from our fulfillment center, %s. Buying does not grant exam eligibility, which comes from the state licensing board." % FUL["name"]])
     addons = [v["title"] for v in p["variants"][1:]]
     addons_html = ('<p class="addons"><b>Optional add-ons at checkout:</b> %s. Pick one above and the price updates.</p>' % html.escape("; ".join(addons))) if addons else ""
     related = "".join('<a class="rel" href="../%s/"><img src="%s" alt="%s" loading="lazy"><span><b>%s</b><small>%s</small></span><span class="pc-now">%s</span></a>' % (
@@ -291,7 +316,7 @@ def product_page(path_parts, p, siblings, state_name, level_url, other_level_url
            .replace("{{IMAGE}}", html.escape(imgs[0])).replace("{{THUMBS}}", thumbs if len(imgs) > 1 else "")
            .replace("{{PRICE}}", money(v0["price"])).replace("{{COMPARE_HTML}}", compare_html).replace("{{VARIANTS_HTML}}", variants_html)
            .replace("{{BUY_URL}}", "https://1examprep.com/cart/%s:1" % v0["id"]).replace("{{SHOP_URL}}", html.escape(p["url"]))
-           .replace("{{INCLUDED_HTML}}", inc).replace("{{ADDONS_HTML}}", addons_html).replace("{{DESCRIPTION_HTML}}", full["html"]).replace("{{RELATED_HTML}}", related))
+           .replace("{{TAKEAWAYS_HTML}}", ptk).replace("{{INCLUDED_HTML}}", inc).replace("{{ADDONS_HTML}}", addons_html).replace("{{DESCRIPTION_HTML}}", full["html"]).replace("{{RELATED_HTML}}", related))
     d = os.path.join(ROOT, *path_parts); os.makedirs(d, exist_ok=True)
     with open(os.path.join(d, "index.html"), "w", encoding="utf-8") as f: f.write(anchor_ids(out))
     return url
@@ -427,7 +452,12 @@ def blog_index(dest_parts, posts, tag=None):
             "blogPost" if not tag else "hasPart": [{"@type": "BlogPosting", "headline": q["title"], "url": absurl("blog/%s/" % q["slug"]), "datePublished": q["date"], "image": q["image"] or None} for q in posts[:20]]}]
     out = blog_common(bitpl, rel, path, title, desc, (feat or {}).get("image") or CFG.get("logo"), lds, {"depth": len(dest_parts), "blog": True})
     intro = "" if tag else ('<div class="blog-intro"><p>Most people who fail a licensing exam do not fail on knowledge. They run out of time in the code book, misread an exception, or walk in with the wrong edition. These posts are about the parts of passing that the study guide cannot do for you: how to tab and navigate the %s NEC, how to pace a timed exam, what each state board actually asks for, and what changes between code cycles.</p><p>New posts land here first and in the <a href="%sblog/feed.xml">RSS feed</a>. When a post is about one state, it links straight to that state\u2019s journeyman and master packages so you can act on it.</p></div>' % (years[0], rel))
-    out = out.replace("{{INTRO_HTML}}", intro).replace("{{H1}}", html.escape(h1)).replace("{{LEAD}}", html.escape(lead)).replace("{{TAG_FILTER}}", tagf).replace("{{FEATURED_HTML}}", feat_html).replace("{{CARDS_HTML}}", cards).replace("{{EMPTY_HTML}}", empty)
+    btk = takeaways_html([
+        "%d post%s so far%s, written for people sitting the journeyman or master electrician exam." % (len(posts), "" if len(posts) == 1 else "s", (" tagged %s" % tag) if tag else ""),
+        "Topics: %s." % ", ".join(all_tags[:8]) if all_tags else "Topics cover study strategy, NEC navigation and state licensing rules.",
+        "Every post links to the matching state packages, built on the %s National Electrical Code." % years[0],
+        "New posts appear in the RSS feed at /blog/feed.xml the moment they are published."])
+    out = out.replace("{{TAKEAWAYS_HTML}}", btk).replace("{{INTRO_HTML}}", intro).replace("{{H1}}", html.escape(h1)).replace("{{LEAD}}", html.escape(lead)).replace("{{TAG_FILTER}}", tagf).replace("{{FEATURED_HTML}}", feat_html).replace("{{CARDS_HTML}}", cards).replace("{{EMPTY_HTML}}", empty)
     d = os.path.join(ROOT, *dest_parts); os.makedirs(d, exist_ok=True); open(os.path.join(d, "index.html"), "w", encoding="utf-8").write(anchor_ids(out))
     if SITE: urls.append(absurl(path))
 blog_index(["blog"], POSTS)
@@ -456,7 +486,7 @@ for q in POSTS:
     out = blog_common(btpl, rel, path, ptitle, q["excerpt"], q["image"] or CFG.get("logo"), lds, {"depth": 2, "blog": True, "post": q["slug"]})
     out = (out.replace("{{H1}}", html.escape(q["title"])).replace("{{TITLE_SHORT}}", html.escape(q["title"][:60] + ("…" if len(q["title"]) > 60 else ""))).replace("{{EXCERPT}}", html.escape(q["excerpt"]))
            .replace("{{DATE}}", q["date"]).replace("{{UPDATED}}", q["updated"]).replace("{{DATE_NICE}}", nice_date(q["date"])).replace("{{AUTHOR_HTML}}", ('<span>%s</span>' % html.escape(q["author"])) if q["author"] else "")
-           .replace("{{READ_MIN}}", str(max(1, round(q["words"] / 220)))).replace("{{TAGS_HTML}}", tags_html).replace("{{HERO_HTML}}", hero).replace("{{BODY_HTML}}", q["html"])
+           .replace("{{READ_MIN}}", str(max(1, round(q["words"] / 220)))).replace("{{TAGS_HTML}}", tags_html).replace("{{HERO_HTML}}", hero).replace("{{TAKEAWAYS_HTML}}", takeaways_html(q.get("takeaways") or [])).replace("{{BODY_HTML}}", q["html"])
            .replace("{{URL_ENC}}", quote(url, safe="")).replace("{{TITLE_ENC}}", quote(q["title"], safe="")).replace("{{MORE_LINK}}", more_link)
            .replace("{{CTA_KICKER}}", html.escape(cta_kicker)).replace("{{CTA_TITLE}}", html.escape(cta_title)).replace("{{CTA_TEXT}}", html.escape(cta_text)).replace("{{CTA_URL}}", cta_url).replace("{{CTA_LABEL}}", html.escape(cta_label))
            .replace("{{RELATED_HTML}}", rel_html))
