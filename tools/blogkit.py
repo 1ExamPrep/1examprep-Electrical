@@ -87,7 +87,7 @@ def md_to_html(md):
     flush_para(buf)
     return "\n".join(out)
 
-def load_posts(folder):
+def load_posts(folder, site_url=""):
     posts = []
     if not os.path.isdir(folder): return posts
     for fn in sorted(os.listdir(folder)):
@@ -100,8 +100,13 @@ def load_posts(folder):
         text = re.sub(r"<[^>]+>", " ", body_html); text = re.sub(r"\s+", " ", html.unescape(text)).strip()
         excerpt = meta.get("excerpt") or (text[:157].rsplit(" ", 1)[0] + "…" if len(text) > 160 else text)
         img = meta.get("image") or (re.search(r'<img[^>]+src="([^"]+)"', body_html) or [None, ""])[1]
+        if img.startswith("/") and site_url: img = site_url.rstrip("/") + img
+        excerpt = re.sub(r"^summary\s*:?\s*", "", excerpt, flags=re.I) if excerpt else excerpt
         tags = [t.strip() for t in re.split(r"[,;]", meta.get("tags", "")) if t.strip()]
         takeaways = [t.strip() for t in meta.get("takeaways", "").split("|") if t.strip()]
+        if not takeaways:  # a "Key takeaways" list inside the post wins over guessing
+            km = re.search(r"<h[2-4][^>]*>\s*key\s+takeaways?\s*</h[2-4]>\s*(?:<p[^>]*>.*?</p>\s*)?<[uo]l[^>]*>(.*?)</[uo]l>", body_html, re.S | re.I)
+            if km: takeaways = [re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", li))).strip() for li in re.findall(r"<li[^>]*>(.*?)</li>", km.group(1), re.S)]
         if not takeaways:  # first sentence of the first three sections
             for sec in re.split(r"<h2[^>]*>.*?</h2>", body_html, flags=re.S)[1:4]:
                 st = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", sec))).strip()

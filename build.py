@@ -48,7 +48,7 @@ def nice_day(d):
     try: return datetime.date.fromisoformat(d[:10]).strftime("%B %-d, %Y")
     except Exception: return d
 sys.path.insert(0, os.path.join(ROOT, "tools")); import blogkit
-ALL_POSTS = blogkit.load_posts(os.path.join(ROOT, "content", "posts"))
+ALL_POSTS = blogkit.load_posts(os.path.join(ROOT, "content", "posts"), SITE or "")
 POSTS = [q for q in ALL_POSTS if q.get("kind", "blog") != "page"]
 PAGES = [q for q in ALL_POSTS if q.get("kind", "blog") == "page"]
 
