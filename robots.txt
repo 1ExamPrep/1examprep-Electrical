@@ -45,4 +45,4 @@ Allow: /
 User-agent: meta-externalagent
 Allow: /
 
-Sitemap: https://1examprep.github.io/1examprep-Electrical/sitemap.xml
+Sitemap: https://passyourmasterelectricianexam.com/sitemap.xml

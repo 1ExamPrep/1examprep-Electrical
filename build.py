@@ -32,6 +32,23 @@ TODAY = datetime.date.today().isoformat()
 sys.path.insert(0, os.path.join(ROOT, "tools")); import blogkit
 POSTS = blogkit.load_posts(os.path.join(ROOT, "content", "posts"))
 
+def trim_desc(d, n=158):
+    d = re.sub(r"\s+", " ", d).strip()
+    if len(d) <= n: return d
+    cut = d[:n].rsplit(" ", 1)[0].rstrip(",;:")
+    return cut + ("" if cut.endswith(".") else ".")
+def anchor_ids(out):
+    """give every h2/h3 without an id a stable, unique id made from its text (heading anchors for SEO tools and deep links)"""
+    seen = set(re.findall(r'\sid="([^"]+)"', out))
+    def rep2(m):
+        tag, attrs, inner = m.group(1), m.group(2) or "", m.group(3)
+        if re.search(r'\sid=', attrs): return m.group(0)
+        base = re.sub(r"[^a-z0-9]+", "-", html.unescape(re.sub(r"<[^>]+>", "", inner)).lower()).strip("-")[:60] or "section"
+        i, hid = 1, base
+        while hid in seen: i += 1; hid = "%s-%d" % (base, i)
+        seen.add(hid)
+        return '<%s%s id="%s">%s</%s>' % (tag, attrs, hid, inner, tag)
+    return re.sub(r"<(h[23])(\s[^>]*)?>(.*?)</\1>", rep2, out, flags=re.S)
 def absurl(path):  # path like "texas/master/2026/" -> absolute when the site URL is known, else relative to root
     return (SITE + path) if SITE else "/" + path
 def ld(obj): return '<script type="application/ld+json">%s</script>\n' % json.dumps(obj, ensure_ascii=False)
@@ -60,6 +77,7 @@ PRODUCT_FAQ = [("Which NEC edition is this based on?", "The %s National Electric
                ("Does buying make me eligible to test?", "No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.")]
 
 def head_extra(path, title, desc, image, rel, noindex=False, extra_ld=()):
+    desc = trim_desc(desc)
     url = absurl(path) if SITE else None
     h = ['<meta name="robots" content="%s">' % ("noindex, nofollow" if noindex else "index, follow, max-image-preview:large")]
     if url: h.append('<meta property="og:url" content="%s">' % html.escape(url))
@@ -123,7 +141,7 @@ def page(path_parts, route, title, desc, h1, lead, og_image=None, extra_ld=(), c
            .replace("{{HEAD_EXTRA}}", head_extra(path, title, desc, og_image, rel, noindex, lds))
            .replace("{{NAV_TOOLS}}", nav_tools('<a class="btn btn-buy" href="#packs">Pick my package</a>'))
            .replace("{{FOOTER}}", footer(rel, sorted({p["year"] for p in CATALOG}, reverse=True)[0]))
-           .replace("{{TITLE}}", html.escape(title)).replace("{{DESC}}", html.escape(desc))
+           .replace("{{TITLE}}", html.escape(title)).replace("{{DESC}}", html.escape(trim_desc(desc)))
            .replace("{{CANONICAL}}", ('<link rel="canonical" href="%s">\n' % url) if url else "")
            .replace("{{OGIMAGE}}", ('<meta property="og:image" content="%s">\n' % html.escape(og_image)) if og_image else "")
            .replace("{{REL}}", rel).replace("{{HOME}}", rel if rel else "./")
@@ -131,7 +149,7 @@ def page(path_parts, route, title, desc, h1, lead, og_image=None, extra_ld=(), c
            .replace("{{LEAD}}", html.escape(lead)).replace("{{ROUTE}}", json.dumps(route)))
     d = os.path.join(ROOT, *path_parts) if path_parts else ROOT
     os.makedirs(d, exist_ok=True)
-    with open(os.path.join(d, "index.html"), "w", encoding="utf-8") as f: f.write(out)
+    with open(os.path.join(d, "index.html"), "w", encoding="utf-8") as f: f.write(anchor_ids(out))
     return url
 
 INCLUDED = {
@@ -163,7 +181,7 @@ def product_page(path_parts, p, siblings, state_name, level_url, other_level_url
     addons_html = ('<p class="addons"><b>Optional add-ons at checkout:</b> %s. Pick one above and the price updates.</p>' % html.escape("; ".join(addons))) if addons else ""
     related = "".join('<a class="rel" href="../%s/"><img src="%s" alt="" loading="lazy"><span><b>%s</b><small>%s</small></span><span class="pc-now">%s</span></a>' % (
         q["tierSlug"], html.escape(q["image"]), html.escape(q["tierName"]), html.escape(clean_title(q["title"])[:60] + ("…" if len(clean_title(q["title"])) > 60 else "")), money(q["price"])) for q in siblings if q["id"] != p["id"])
-    desc = (p["desc"].replace(p["title"], "").strip()[:158]).rsplit(" ", 1)[0] + "…"
+    desc = trim_desc(p["desc"].replace(p["title"], "").strip())
     path = "/".join(path_parts) + "/"
     jsonld = {"@context": "https://schema.org", "@type": "Product", "name": clean_title(p["title"]), "image": imgs[:6], "description": p["desc"].replace(p["title"], "").strip()[:500],
               "brand": {"@type": "Brand", "name": BRAND}, "sku": p["id"], "productID": p["id"], "category": "%s Electrician Exam Prep" % p["level"], "url": absurl(path),
@@ -188,7 +206,7 @@ def product_page(path_parts, p, siblings, state_name, level_url, other_level_url
            .replace("{{BUY_URL}}", "https://1examprep.com/cart/%s:1" % v0["id"]).replace("{{SHOP_URL}}", html.escape(p["url"]))
            .replace("{{INCLUDED_HTML}}", inc).replace("{{ADDONS_HTML}}", addons_html).replace("{{DESCRIPTION_HTML}}", full["html"]).replace("{{RELATED_HTML}}", related))
     d = os.path.join(ROOT, *path_parts); os.makedirs(d, exist_ok=True)
-    with open(os.path.join(d, "index.html"), "w", encoding="utf-8") as f: f.write(out)
+    with open(os.path.join(d, "index.html"), "w", encoding="utf-8") as f: f.write(anchor_ids(out))
     return url
 
 # --- remove previously generated folders ---
@@ -272,7 +290,7 @@ sp = (sp.replace("{{ASSETS_HEAD}}", '<link rel="stylesheet" href="../shared/base
       .replace("{{CANONICAL}}", "").replace("{{OGIMAGE}}", "").replace("{{HEAD_EXTRA}}", head_extra("search/", "Search | " + BRAND, "Search electrician exam prep packages.", CFG.get("logo"), "../", noindex=True)))
 sp += ('<body><a class="skip" href="#main">Skip to content</a><header class="nav"><div class="wrap"><a class="brand" href="../" id="homeLink">1 <span>Exam</span> Prep</a>' + nav_tools('<a class="btn btn-buy" href="../#packs">Pick my package</a>') + '</div></header>'
        + search_body + footer("../", years[0]) + '<script>window.ROUTE={"depth":1};</script><script src="../shared/catalog.js"></script><script src="../shared/search.js"></script><script src="../shared/track.js"></script></body></html>')
-os.makedirs(os.path.join(ROOT, "search"), exist_ok=True); open(os.path.join(ROOT, "search", "index.html"), "w", encoding="utf-8").write(sp)
+os.makedirs(os.path.join(ROOT, "search"), exist_ok=True); open(os.path.join(ROOT, "search", "index.html"), "w", encoding="utf-8").write(anchor_ids(sp))
 
 # --- /admin/ dashboard (noindex; analytics needs Google sign-in) ---
 atpl = open(os.path.join(ROOT, "store", "admin.html"), encoding="utf-8").read()
@@ -291,6 +309,7 @@ def post_card(q, rel):
     return ('<a class="card" href="%sblog/%s/" data-track="blog_card">%s<div class="card-body"><p class="post-meta"><time datetime="%s">%s</time><span>%d min read</span></p><h2>%s</h2><p>%s</p></div></a>'
             % (rel, q["slug"], img, q["date"], nice_date(q["date"]), max(1, round(q["words"] / 220)), html.escape(q["title"]), html.escape(q["excerpt"])))
 def blog_common(out, rel, path, title, desc, image, lds, route, extra_noindex=False):
+    desc = trim_desc(desc)
     return (out.replace("{{TITLE}}", html.escape(title)).replace("{{DESC}}", html.escape(desc)).replace("{{BRAND}}", html.escape(BRAND))
             .replace("{{CANONICAL}}", ('<link rel="canonical" href="%s">\n' % absurl(path)) if SITE else "")
             .replace("{{OGIMAGE}}", ('<meta property="og:image" content="%s">\n' % html.escape(image)) if image else "")
@@ -321,7 +340,7 @@ def blog_index(dest_parts, posts, tag=None):
             "blogPost" if not tag else "hasPart": [{"@type": "BlogPosting", "headline": q["title"], "url": absurl("blog/%s/" % q["slug"]), "datePublished": q["date"], "image": q["image"] or None} for q in posts[:20]]}]
     out = blog_common(bitpl, rel, path, title, desc, (feat or {}).get("image") or CFG.get("logo"), lds, {"depth": len(dest_parts), "blog": True})
     out = out.replace("{{H1}}", html.escape(h1)).replace("{{LEAD}}", html.escape(lead)).replace("{{TAG_FILTER}}", tagf).replace("{{FEATURED_HTML}}", feat_html).replace("{{CARDS_HTML}}", cards).replace("{{EMPTY_HTML}}", empty)
-    d = os.path.join(ROOT, *dest_parts); os.makedirs(d, exist_ok=True); open(os.path.join(d, "index.html"), "w", encoding="utf-8").write(out)
+    d = os.path.join(ROOT, *dest_parts); os.makedirs(d, exist_ok=True); open(os.path.join(d, "index.html"), "w", encoding="utf-8").write(anchor_ids(out))
     if SITE: urls.append(absurl(path))
 blog_index(["blog"], POSTS)
 for t in all_tags: blog_index(["blog", "tag", blogkit.slugify(t)], [q for q in POSTS if t in q["tags"]], t)
@@ -352,7 +371,7 @@ for q in POSTS:
            .replace("{{URL_ENC}}", quote(url, safe="")).replace("{{TITLE_ENC}}", quote(q["title"], safe="")).replace("{{MORE_LINK}}", more_link)
            .replace("{{CTA_KICKER}}", html.escape(cta_kicker)).replace("{{CTA_TITLE}}", html.escape(cta_title)).replace("{{CTA_TEXT}}", html.escape(cta_text)).replace("{{CTA_URL}}", cta_url).replace("{{CTA_LABEL}}", html.escape(cta_label))
            .replace("{{RELATED_HTML}}", rel_html))
-    d = os.path.join(ROOT, *parts); os.makedirs(d, exist_ok=True); open(os.path.join(d, "index.html"), "w", encoding="utf-8").write(out)
+    d = os.path.join(ROOT, *parts); os.makedirs(d, exist_ok=True); open(os.path.join(d, "index.html"), "w", encoding="utf-8").write(anchor_ids(out))
     if SITE: urls.append(url)
 # RSS feed
 feed_items = "".join("<item><title>%s</title><link>%s</link><guid isPermaLink=\"true\">%s</guid><pubDate>%s</pubDate><description>%s</description>%s</item>\n" % (
