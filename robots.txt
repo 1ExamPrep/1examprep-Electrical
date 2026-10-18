@@ -52,4 +52,5 @@ User-agent: meta-externalagent
 Allow: /
 
 Sitemap: https://passyourmasterelectricianexam.com/sitemap.xml
+# Blog: https://passyourmasterelectricianexam.com/blog/ (RSS at https://passyourmasterelectricianexam.com/blog/feed.xml). FAQ: https://passyourmasterelectricianexam.com/faq/
 # Guides for AI assistants: https://passyourmasterelectricianexam.com/llms.txt and https://passyourmasterelectricianexam.com/agents.md
