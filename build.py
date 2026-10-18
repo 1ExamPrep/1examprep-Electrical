@@ -224,6 +224,7 @@ def page(path_parts, route, title, desc, h1, lead, og_image=None, extra_ld=(), c
         "Pick a state and level, press Buy now, and checkout opens at our fulfillment center, %s." % FUL["name"]])
     out = (tpl.replace("{{TAKEAWAYS_HTML}}", tk).replace("{{RAIL_HTML}}", rail_html).replace("{{SINGLES_HTML}}", singles_html()).replace("{{SEL_TITLE}}", html.escape("%s · %s · %s" % (sel_state, sel_level, sel_year)))
            .replace("{{CRUMB_HTML}}", crumb_html).replace("{{MARQ_HTML}}", marq + marq).replace("{{STATES_HTML}}", states_html(rel, sel_year, sel_level.lower())).replace("{{YEAR}}", sel_year)
+           .replace("{{GUIDE_FOR}}", (" for the %s %s exam" % (sel_state, sel_level.lower())) if route.get("state") and sel_state != GENERAL else "")
            .replace("{{ASSETS_HEAD}}", assets_head).replace("{{ASSETS_CATALOG}}", assets_cat).replace("{{ASSETS_APP}}", assets_app)
            .replace("{{ASSETS_SEARCH}}", '<script src="%sshared/search.js" defer></script>\n<script src="%sshared/track.js" defer></script>' % (rel, rel))
            .replace("{{HEAD_EXTRA}}", head_extra(path, title, desc, og_image, rel, noindex, lds))
@@ -463,7 +464,8 @@ def blog_index(dest_parts, posts, tag=None):
     lds = [crumbs_ld([("Home", ""), ("Blog", "blog/")] + ([(tag, path)] if tag else [])),
            {"@context": "https://schema.org", "@type": "Blog" if not tag else "CollectionPage", "name": h1, "url": absurl(path), "publisher": {"@type": "Organization", "name": BRAND},
             "blogPost" if not tag else "hasPart": [{"@type": "BlogPosting", "headline": q["title"], "url": absurl("blog/%s/" % q["slug"]), "datePublished": q["date"], "image": q["image"] or None} for q in posts[:20]]}]
-    out = blog_common(bitpl, rel, path, title, desc, (feat or {}).get("image") or CFG.get("logo"), lds, {"depth": len(dest_parts), "blog": True})
+    out = blog_common(bitpl, rel, path, title, desc, (feat or {}).get("image") or CFG.get("logo"), lds, {"depth": len(dest_parts), "blog": True}, extra_noindex=bool(tag))
+    out = out.replace("{{YEAR}}", years[0])
     intro = "" if tag else ('<div class="blog-intro"><p>Most people who fail a licensing exam do not fail on knowledge. They run out of time in the code book, misread an exception, or walk in with the wrong edition. These posts are about the parts of passing that the study guide cannot do for you: how to tab and navigate the %s NEC, how to pace a timed exam, what each state board actually asks for, and what changes between code cycles.</p><p>New posts land here first and in the <a href="%sblog/feed.xml">RSS feed</a>. When a post is about one state, it links straight to that state\u2019s journeyman and master packages so you can act on it.</p></div>' % (years[0], rel))
     btk = takeaways_html([
         "%d post%s so far%s, written for people sitting the journeyman or master electrician exam." % (len(posts), "" if len(posts) == 1 else "s", (" tagged %s" % tag) if tag else ""),
@@ -472,7 +474,7 @@ def blog_index(dest_parts, posts, tag=None):
         "New posts appear in the RSS feed at /blog/feed.xml the moment they are published."])
     out = out.replace("{{TAKEAWAYS_HTML}}", btk).replace("{{INTRO_HTML}}", intro).replace("{{H1}}", html.escape(h1)).replace("{{LEAD}}", html.escape(lead)).replace("{{TAG_FILTER}}", tagf).replace("{{FEATURED_HTML}}", feat_html).replace("{{CARDS_HTML}}", cards).replace("{{EMPTY_HTML}}", empty)
     d = os.path.join(ROOT, *dest_parts); os.makedirs(d, exist_ok=True); open(os.path.join(d, "index.html"), "w", encoding="utf-8").write(anchor_ids(out))
-    if SITE: urls.append(absurl(path))
+    if SITE and not tag: urls.append(absurl(path))  # tag pages are thin by nature: noindex, not in the sitemap
 blog_index(["blog"], POSTS)
 for t in all_tags: blog_index(["blog", "tag", blogkit.slugify(t)], [q for q in POSTS if t in q["tags"]], t)
 from urllib.parse import quote

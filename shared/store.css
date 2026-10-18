@@ -386,3 +386,15 @@ footer{padding:2.5rem 0;color:var(--muted);font-size:.88rem}
 .blog .takeaways{margin:0 0 2rem}
 .post .takeaways{margin:0 0 2rem}
 @media (max-width:720px){.hero+.takeaways{margin:1rem 16px 1.5rem}}
+
+/* guide section */
+.guide{background:#fff}
+.guide h2{font-size:clamp(1.6rem,3.6vw,2.4rem)}
+.guide-cols{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem 3rem;margin-top:1.5rem;text-align:left}
+.guide-cols h3{font-family:var(--font-display);font-size:1.1rem;letter-spacing:-.01em;margin:1.4rem 0 .5rem}
+.guide-cols h3:first-child{margin-top:0}
+.guide-cols p{line-height:1.65;color:#2b2f4a;margin:0 0 .5rem}
+@media (max-width:820px){.guide-cols{grid-template-columns:1fr}}
+.blog-start{max-width:760px;margin:2.5rem 0 0}
+.blog-start h2{font-family:var(--font-display);font-size:1.4rem;letter-spacing:-.01em;margin:0 0 .8rem;text-transform:none}
+.blog-start p{line-height:1.65;color:#2b2f4a;margin:0 0 1rem}
