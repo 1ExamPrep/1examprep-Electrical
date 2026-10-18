@@ -1,3 +1,7 @@
+# robots.txt for 1 Exam Prep Electrician Exam Prep (https://passyourmasterelectricianexam.com)
+# Search engines and AI assistants are both welcome. Internal search, the design gallery,
+# raw data files and the admin page are held back because they are not useful in results.
+
 User-agent: *
 Allow: /
 Disallow: /designs/
@@ -5,7 +9,9 @@ Disallow: /gallery.html
 Disallow: /search/
 Disallow: /store/
 Disallow: /admin/
+Disallow: /*?q=
 
+# Named so the allow is explicit for AI crawlers.
 User-agent: GPTBot
 Allow: /
 
@@ -46,3 +52,4 @@ User-agent: meta-externalagent
 Allow: /
 
 Sitemap: https://passyourmasterelectricianexam.com/sitemap.xml
+# Guides for AI assistants: https://passyourmasterelectricianexam.com/llms.txt and https://passyourmasterelectricianexam.com/agents.md

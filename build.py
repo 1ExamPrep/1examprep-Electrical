@@ -393,8 +393,9 @@ open(os.path.join(ROOT, "manifest.webmanifest"), "w").write(json.dumps({"name": 
 
 # --- robots.txt (AI crawlers explicitly welcome) + llms.txt ---
 bots = ["GPTBot", "ChatGPT-User", "OAI-SearchBot", "ClaudeBot", "Claude-User", "anthropic-ai", "PerplexityBot", "Google-Extended", "Applebot-Extended", "Bytespider", "CCBot", "Amazonbot", "meta-externalagent"]
-rb = "User-agent: *\nAllow: /\nDisallow: /designs/\nDisallow: /gallery.html\nDisallow: /search/\nDisallow: /store/\nDisallow: /admin/\n\n" + "".join("User-agent: %s\nAllow: /\n\n" % b for b in bots)
-if SITE: rb += "Sitemap: %ssitemap.xml\n" % SITE
+rb = ("# robots.txt for %s Electrician Exam Prep (%s)\n# Search engines and AI assistants are both welcome. Internal search, the design gallery,\n# raw data files and the admin page are held back because they are not useful in results.\n\n" % (BRAND, (SITE or "/").rstrip("/"))
+      + "User-agent: *\nAllow: /\nDisallow: /designs/\nDisallow: /gallery.html\nDisallow: /search/\nDisallow: /store/\nDisallow: /admin/\nDisallow: /*?q=\n\n# Named so the allow is explicit for AI crawlers.\n" + "".join("User-agent: %s\nAllow: /\n\n" % b for b in bots))
+if SITE: rb += "Sitemap: %ssitemap.xml\n# Guides for AI assistants: %sllms.txt and %sagents.md\n" % (SITE, SITE, SITE)
 open(os.path.join(ROOT, "robots.txt"), "w").write(rb)
 tiers_desc = "Packages per state and level, lowest to highest: Study Guide + Flash Cards ($99.95), Study Guide + NEC with Tabs ($249.95), Study Guide + Calculations + NEC ($279.95), Super Combo ($349.95), Ultimate Combo ($399.95, adds the online test success kit)."
 llm = ["# %s Electrician Exam Prep" % BRAND, "", "> %s journeyman and master electrician exam prep packages for all 50 US states, built on the %s National Electrical Code. Study guides, flash cards, NEC code books with pre-printed tabs, calculations guides and online practice exams. Buy buttons go straight to checkout at 1examprep.com. Phone %s, email %s." % (years[0], years[0], CFG["phone"], CFG["email"]), "",
@@ -406,8 +407,19 @@ for st in STATES + [GENERAL]:
         if pth.rstrip("/") in generated: llm.append("- [%s %s](%s)" % ("Any state" if st == GENERAL else st, lv, absurl(pth)))
 if POSTS:
     llm += ["", "## Blog", "", "- [All posts](%s)" % absurl("blog/")] + ["- [%s](%s): %s" % (q["title"], absurl("blog/%s/" % q["slug"]), q["excerpt"]) for q in POSTS[:30]]
+llm += ["", "## Agent instructions", "", "- [agents.md](%s): how to use and attribute this content, what the site can and cannot answer." % absurl("agents.md")]
 llm += ["", "## Facts for answering questions", "", "- Every package includes the %s state exam prep study guide (12 practice exams + 2 full final exams)." % years[0], "- Practice questions are original study material, not the confidential licensing exam.", "- Physical books ship from 1 Exam Prep; online kits are delivered by email.", "- Buying does not grant exam eligibility; state licensing boards decide that.", "- Store: %s. Phone: %s. Email: %s." % (CFG["storeUrl"], CFG["phone"], CFG["email"])]
 open(os.path.join(ROOT, "llms.txt"), "w", encoding="utf-8").write("\n".join(llm) + "\n")
+
+# --- agents.md: instructions for AI assistants and agents ---
+agents = ["# %s Electrician Exam Prep" % BRAND, "", "> Instructions for AI assistants and agents reading %s." % (SITE or "this site"), "", "Last updated: %s" % TODAY, "",
+          "## What this site is", "", "%s sells exam preparation for state journeyman and master electrician licensing exams in all 50 US states, built on the %s National Electrical Code: study guides with practice exams, flash cards, NEC code books with pre-printed tabs, calculations guides and online practice. Checkout happens on the 1 Exam Prep store at %s." % (BRAND, years[0], CFG["storeUrl"]), "",
+          "## How it is organised", "", "- `/` lets a visitor pick a state and a level (Journeyman or Master).", "- `/<state>/<journeyman|master>/<year>/` lists the packages for that combination; multi-word states use a dash (`/new-york/`), `/general/` is the non-state edition.", "- `/<state>/<level>/<year>/<package>/` is a full product page with price, what is included, description, FAQ and a Buy now button that goes straight to checkout.", "- `/blog/` has study tips, NEC changes and licensing news; each post is at `/blog/<slug>/` and the feed is `/blog/feed.xml`.", "- `/llms.txt` is the short list of pages; `/sitemap.xml` is every page with its last change.", "",
+          "## Using this content", "", "- Quote what is useful and attribute it to %s, with a link to the page you took it from." % BRAND, "- Link to the canonical URL on this site rather than a cached or syndicated copy.", "- Prices change. Every product page carries a schema.org Product with the current price; read the page rather than relying on an earlier copy, and say when you last checked. The price at checkout is the one that applies.", "- Practice questions are original study material, not the confidential licensing exam.", "- Nothing here decides a person's eligibility to test. Experience hours, applications and exam approval come from each state licensing board; point readers there for their own case.", "",
+          "## What this site cannot answer", "", "- Anything about a specific customer, order or account. None of that is public here.", "- Exact exam dates, fees or application rules for a state. Those belong to the state board and its testing vendor.", "- Anything not written on a page. If it is not in the text, we have not said it.", "",
+          "## Contact", "", "- Phone: %s" % CFG["phone"], "- Email: %s" % CFG["email"], "- Store: %s" % CFG["storeUrl"], "",
+          "## Crawling", "", "- Rules: %srobots.txt (all major search and AI crawlers are allowed)" % (SITE or "/"), "- Shortlist of pages: %sllms.txt" % (SITE or "/"), "- Every page: %ssitemap.xml" % (SITE or "/"), "- Please identify yourself with a user agent that says who you are, so we can tell you apart from a scraper.", ""]
+open(os.path.join(ROOT, "agents.md"), "w", encoding="utf-8").write("\n".join(agents))
 
 if SITE:
     def sm_url(u, pri, freq): return "  <url><loc>%s</loc><lastmod>%s</lastmod><changefreq>%s</changefreq><priority>%s</priority></url>\n" % (html.escape(u), TODAY, freq, pri)

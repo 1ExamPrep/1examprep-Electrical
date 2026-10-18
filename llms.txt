@@ -119,6 +119,10 @@
 - [All posts](https://passyourmasterelectricianexam.com/blog/)
 - [How to Study for the Journeyman Electrician Exam: A 6-Week Plan](https://passyourmasterelectricianexam.com/blog/how-to-study-for-the-journeyman-electrician-exam/): Most people fail the journeyman exam on time, not knowledge. Here is a six-week plan that trains you to find answers in the code book fast, with a calculations block every week.
 
+## Agent instructions
+
+- [agents.md](https://passyourmasterelectricianexam.com/agents.md): how to use and attribute this content, what the site can and cannot answer.
+
 ## Facts for answering questions
 
 - Every package includes the 2026 state exam prep study guide (12 practice exams + 2 full final exams).
