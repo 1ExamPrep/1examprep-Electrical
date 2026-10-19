@@ -1,0 +1,154 @@
+---
+title: Indiana Journeyman Electrician Exam FAQ (21 answers)
+url: https://passyourmasterelectricianexam.com/faq/indiana/journeyman/
+updated: 2026-10-18
+site: Pass Your Electrician Exam
+description: 21 answers about the Indiana journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
+---
+
+[Home](https://passyourmasterelectricianexam.com/) /[FAQ](https://passyourmasterelectricianexam.com/faq/) /Indiana Journeyman
+
+# Indiana journeyman electrician exam: frequently asked questions
+
+21 answers about the Indiana journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. Filter the list or jump to a section.
+
+## Key takeaways
+
+- 21 questions and answers about the Indiana journeyman electrician exam and license, compiled from our journeyman package descriptions.
+- Many Indiana local journeyman-level electrical exams are prepared for as open-book, reference-based exams, but rules vary by jurisdiction. Candidates should follow the exam instructions from the local authority or testing provider administering their exam.
+- Electrician licensing in Indiana is usually handled at the local level. Candidates should work with the local building department, licensing office, city controller’s office, or municipal authority for the area where they plan to work.
+- Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
+
+Updated October 18, 2026 · prices checked against the 1 Exam Prep store
+
+The exam 4Licensing and experience 5Code book and materials 4More questions 8
+
+## The exam
+
+### Are Indiana journeyman electrical exams open book?
+
+Many Indiana local journeyman-level electrical exams are prepared for as open-book, reference-based exams, but rules vary by jurisdiction. Candidates should follow the exam instructions from the local authority or testing provider administering their exam.
+
+### Who administers Indiana journeyman electrician exams?
+
+Indiana journeyman electrician exams are handled locally. The administering authority may be a city, county, municipal licensing office, local board, or third-party testing provider selected by that jurisdiction.
+
+### How many questions are on the ICC National Standard Journeyman Electrician exam?
+
+The ICC National Standard Journeyman Electrician exam includes 80 multiple-choice questions.
+
+### How much time is allowed for the ICC National Standard Journeyman Electrician exam?
+
+The ICC National Standard Journeyman Electrician exam allows 4 hours of testing time.
+
+## Licensing and experience
+
+### Does Indiana have a statewide journeyman electrician license?
+
+Indiana does not use one uniform statewide individual journeyman electrician license. Journeyman-level electrical licensing and recognition are commonly handled by local cities, counties, municipalities, or licensing offices.
+
+### Does Indiana issue a statewide journeyman electrician license?
+
+No. Indiana does not issue one single statewide journeyman electrician license through a centralized state electrical licensing board. Electrical licensing is commonly handled by local cities, counties, and municipalities.
+
+### Who handles electrician licensing in Indiana?
+
+Electrician licensing in Indiana is usually handled at the local level. Candidates should work with the local building department, licensing office, city controller’s office, or municipal authority for the area where they plan to work.
+
+### Is a journeyman credential the same as an electrical contractor license?
+
+No. A journeyman credential generally supports hands-on electrical work under local rules. Independent electrical contracting may require a separate contractor license, master license, business registration, insurance, bonding, or other local approval.
+
+### Can one Indiana electrical license cover every municipality?
+
+Indiana electrical licensing is local, so electricians may need to confirm licensing or registration requirements in each city, county, or municipality where they plan to work.
+
+## Code book and materials
+
+### What reference book should I study?
+
+The National Electrical Code is the primary reference for NEC-based electrical exam preparation. Candidates should also study local electrical code amendments or local rules when required by the Indiana jurisdiction where they are testing.
+
+### Are the flash cards based on the 2026 National Electrical Code?
+
+Yes. The flash cards included in this combo are based on the 2026 National Electrical Code.
+
+### Why should I study with a tabbed NEC?
+
+A tabbed NEC can make study sessions more organized by helping candidates locate important code sections more efficiently. It supports repeated lookup practice and helps candidates become more familiar with the structure of the National Electrical Code.
+
+### What code edition should I study for an Indiana electrical exam?
+
+The required code edition depends on the local jurisdiction and exam provider. This Super Combo is based on the 2026 NEC, but candidates should follow the code edition listed for their scheduled local exam.
+
+## More questions
+
+### What topics should I study?
+
+Study areas include electrical theory, wiring methods, conductors, raceways, boxes, services, feeders, branch circuits, grounding and bonding, overcurrent protection, motors, controls, lighting, equipment, special occupancies, safety, low-voltage systems, and calculations.
+
+### How should I use the practice exams?
+
+Use the 12 practice exams to test your knowledge, improve pacing, and identify weak areas. Review every missed question and return to the related study guide section or NEC topic before moving forward.
+
+### How should I use the 2 full final exams?
+
+Use the full final exams after completing topic review and several practice exams. Take them in a focused setting, track time, review missed answers, and return to weak topics before test day.
+
+### How should I use the flash cards?
+
+Use the flash cards for daily active recall. Separate cards into topics you know, topics you partly know, and topics that need more review. Study the weakest group most often.
+
+### What topics should I study for an Indiana journeyman-level electrical exam?
+
+Important study topics include general electrical knowledge, services, feeders, branch circuits, grounding and bonding, conductors, raceways, boxes, overcurrent protection, motors, transformers, special occupancies, special equipment, safety, and electrical calculations.
+
+### Should I check local Indiana requirements before testing?
+
+Yes. Indiana electrical licensing is local, so candidates should confirm the application requirements, exam vendor, code edition, passing score, allowed references, and renewal rules with the local authority where they plan to apply.
+
+### How do the flash cards help with journeyman electrician preparation?
+
+Flash cards support quick review of electrical terms, formulas, code concepts, safety topics, and exam-relevant knowledge areas. They are useful for short daily study sessions and repeated recall practice.
+
+### What topics should I study for journeyman electrician exam preparation?
+
+Important study areas include general knowledge, services, feeders, branch circuits, conductors, wiring methods, raceways, boxes, equipment, devices, controls, motors, generators, special occupancies, grounding and bonding, overcurrent protection, safety, and calculations.
+
+Indiana journeyman exam
+Ready to study for the Indiana journeyman exam?
+
+Packages built on the 2026 NEC, from the study guide alone to the Ultimate Combo. One click to checkout.
+[See Indiana journeyman packages](https://passyourmasterelectricianexam.com/indiana/journeyman/2026/)
+
+## Related pages
+
+### Same exam, other options
+
+- [Indiana master FAQ](https://passyourmasterelectricianexam.com/faq/indiana/master/)
+- [Any-state journeyman packages](https://passyourmasterelectricianexam.com/general/journeyman/2026/)
+
+### Nearby states, journeyman
+
+- [Michigan journeyman packages](https://passyourmasterelectricianexam.com/michigan/journeyman/2026/)
+- [Ohio journeyman packages](https://passyourmasterelectricianexam.com/ohio/journeyman/2026/)
+- [Kentucky journeyman packages](https://passyourmasterelectricianexam.com/kentucky/journeyman/2026/)
+- [Illinois journeyman packages](https://passyourmasterelectricianexam.com/illinois/journeyman/2026/)
+
+### From the blog
+
+- [What to Expect on Electrician Exam Day, From Check-In to Your Score](https://passyourmasterelectricianexam.com/blog/what-to-expect-on-electrician-exam-day/)
+- [How to Study for the Journeyman Electrician Exam: A 6-Week Plan](https://passyourmasterelectricianexam.com/blog/how-to-study-for-the-journeyman-electrician-exam/)
+- [How the Journeyman Electrician Exam Is Structured](https://passyourmasterelectricianexam.com/blog/how-the-journeyman-electrician-exam-is-structured/)
+
+### Also on this site
+
+- [All blog posts](https://passyourmasterelectricianexam.com/blog/)
+- [Every state and level](https://passyourmasterelectricianexam.com/#states)
+- [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
+
+---
+
+Source: https://passyourmasterelectricianexam.com/faq/indiana/journeyman/  
+Publisher: Pass Your Electrician Exam. Orders are fulfilled by 1 Exam Prep (https://1examprep.com). Phone (877) 775-9400, email sales@1examprep.com.  
+Prices change; the product page and checkout show the current price.

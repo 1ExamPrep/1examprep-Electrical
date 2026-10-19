@@ -2,7 +2,7 @@
 
 > Instructions for AI assistants and agents reading https://passyourmasterelectricianexam.com/.
 
-Last updated: 2026-10-19
+Last updated: 2026-10-18
 
 ## What this site is
 
@@ -15,6 +15,7 @@ Pass Your Electrician Exam sells exam preparation for state journeyman and maste
 - `/<state>/<level>/<year>/<package>/` is a full product page with price, what is included, description, FAQ and a Buy now button that goes straight to checkout.
 - `/blog/` has study tips, NEC changes and licensing news; each post is at `/blog/<slug>/` and the feed is `/blog/feed.xml`.
 - `/llms.txt` is the short list of pages; `/sitemap.xml` is every page with its last change.
+- Every page has a plain Markdown copy at its address plus `index.md`, linked with rel="alternate" type="text/markdown". Prefer it over parsing the HTML.
 
 ## Blog
 

@@ -386,6 +386,10 @@ footer{padding:2.5rem 0;color:var(--muted);font-size:.88rem}
 .blog .takeaways{margin:0 0 2rem}
 .post .takeaways{margin:0 0 2rem}
 @media (max-width:720px){.hero+.takeaways{margin:1rem 16px 1.5rem}}
+.takeaways .upd{margin:.7rem 0 0;font-size:.8rem;color:var(--muted)}
+.qa .qa-item{padding:.55rem 0;border-top:1px solid var(--line)}.qa .qa-item:first-of-type{border-top:0;padding-top:0}
+.qa .qa-item h3{font-size:1rem;margin:0 0 .2rem;text-transform:none;letter-spacing:0}.qa .qa-item p{margin:0;line-height:1.55}
+@media (max-width:720px){.hero+.qa{margin:1rem 16px .75rem}.hero+.qa+.takeaways{margin:0 16px 1.5rem}}
 
 /* guide section */
 .guide{background:#fff}

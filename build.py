@@ -80,6 +80,10 @@ def org_ld():
          "parentOrganization": {"@type": "Organization", "name": FUL["name"], "url": FUL["url"]} if FUL["name"] != BRAND else None,
          "contactPoint": [{"@type": "ContactPoint", "telephone": CFG.get("phoneTel"), "contactType": "sales", "areaServed": "US", "availableLanguage": "English"}]}
     return {k: v for k, v in o.items() if v}
+def publisher_ld():
+    o = {"@type": "Organization", "name": BRAND, "url": SITE or CFG["storeUrl"], "logo": {"@type": "ImageObject", "url": CFG.get("logo")} if CFG.get("logo") else None,
+         "telephone": CFG.get("phoneTel"), "email": CFG.get("email"), "parentOrganization": {"@type": "Organization", "name": FUL["name"], "url": FUL["url"]} if FUL["name"] != BRAND else None}
+    return {k: v for k, v in o.items() if v}
 def website_ld():
     w = {"@context": "https://schema.org", "@type": "WebSite", "name": BRAND, "url": SITE or "/",
          "potentialAction": {"@type": "SearchAction", "target": {"@type": "EntryPoint", "urlTemplate": absurl("search/?q={search_term_string}")}, "query-input": "required name=search_term_string"}}
@@ -109,6 +113,7 @@ def head_extra(path, title, desc, image, rel, noindex=False, extra_ld=()):
     url = absurl(path) if SITE else None
     h = ['<meta name="robots" content="%s">' % ("noindex, nofollow" if noindex else "index, follow, max-image-preview:large")]
     if url: h.append('<meta property="og:url" content="%s">' % html.escape(url))
+    if url and not noindex: h.append('<link rel="alternate" type="text/markdown" title="Markdown version for AI assistants" href="%s">' % html.escape(url + "index.md"))
     h.append('<meta property="og:site_name" content="%s">' % html.escape(BRAND)); h.append('<meta property="og:locale" content="en_US">')
     h.append('<meta name="twitter:card" content="summary_large_image">'); h.append('<meta name="twitter:title" content="%s">' % html.escape(title)); h.append('<meta name="twitter:description" content="%s">' % html.escape(desc))
     if image: h.append('<meta name="twitter:image" content="%s">' % html.escape(image))
@@ -127,7 +132,8 @@ def head_extra(path, title, desc, image, rel, noindex=False, extra_ld=()):
     for o in extra_ld: h.append(ld(o).rstrip())
     if url and not noindex:
         h.append(ld({"@context": "https://schema.org", "@type": "WebPage", "@id": url, "url": url, "name": title, "description": desc, "inLanguage": "en-US", "datePublished": LAUNCH, "dateModified": TODAY,
-                     "isPartOf": {"@type": "WebSite", "url": SITE, "name": BRAND}, "publisher": {"@type": "Organization", "name": BRAND}}).rstrip())
+                     "isPartOf": {"@type": "WebSite", "url": SITE, "name": BRAND}, "publisher": publisher_ld(), "about": {"@type": "Thing", "name": "Journeyman and master electrician licensing exams"},
+                     "encoding": {"@type": "MediaObject", "encodingFormat": "text/markdown", "contentUrl": url + "index.md"}}).rstrip())
     return "\n".join(h) + "\n"
 
 ICON_PHONE = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>'
@@ -226,7 +232,8 @@ def related_pages_html(rel, state, level, year, tier_slug=None, tier_name=""):
 def takeaways_html(items):
     items = [i for i in items if i][:4]
     if not items: return ""
-    return '<aside class="takeaways" aria-labelledby="key-takeaways"><h2 id="key-takeaways">Key takeaways</h2><ul>%s</ul></aside>' % "".join("<li>%s</li>" % html.escape(i) for i in items)
+    return ('<aside class="takeaways" aria-labelledby="key-takeaways"><h2 id="key-takeaways">Key takeaways</h2><ul>%s</ul><p class="upd">Updated <time datetime="%s">%s</time> \u00b7 prices checked against the %s store</p></aside>'
+            % ("".join("<li>%s</li>" % html.escape(i) for i in items), TODAY, nice_day(TODAY), html.escape(FUL["name"])))
 def listing_takeaways(state, level, year, prods):
     if not prods: return ""
     name = "any state" if state == GENERAL else state
@@ -253,12 +260,26 @@ def page(path_parts, route, title, desc, h1, lead, og_image=None, extra_ld=(), c
         assets_cat = "<script>document.write('<script src=\"'+__B+'shared/catalog.js\"><\\/script>');</script>"
     path = "/".join(path_parts) + ("/" if path_parts else "")
     lds = list(extra_ld)
+    qa_html = ""
+    if route.get("state") and route.get("level"):
+        _st = next((x for x in STATES + [GENERAL] if slug(x) == route["state"]), None); _lv = route["level"]; _yr = route.get("year")
+        _ps = products_for(_st, _lv, _yr) if _st else []
+        if _ps:
+            _nm = "any state" if _st == GENERAL else _st; _lo, _hi = min(float(p["price"]) for p in _ps), max(float(p["price"]) for p in _ps)
+            _ult = next((p for p in _ps if p["tier"] == "ultimate"), None)
+            qa = [("How much does %s %s electrician exam prep cost?" % (_nm, _lv.lower()), "%s %s electrician exam prep runs from %s to %s: %s." % (_nm.capitalize() if _st == GENERAL else _st, _lv.lower(), money(_lo), money(_hi), "; ".join("%s %s" % (p["tierName"], money(p["price"])) for p in _ps))),
+                  ("Which %s %s exam prep package should I choose?" % (_nm, _lv.lower()), "Pick by how much help you want. The %s at %s is the lightest option%s. Every package includes the %s %s study guide with 12 practice exams and 2 full-length final exams." % (_ps[0]["tierName"], money(_ps[0]["price"]), (", and the %s at %s is the most complete, adding the NEC with tabs, flash cards and the online test success kit" % (_ult["tierName"], money(_ult["price"]))) if _ult else "", _yr, _lv.lower())),
+                  ("Which NEC edition are these %s %s packages built on?" % (_nm, _lv.lower()), "The %s National Electrical Code. If your state still tests on an earlier edition, check the candidate bulletin first; %s also carries earlier editions." % (_yr, FUL["name"]))]
+            qa_html = '<aside class="takeaways qa" aria-labelledby="quick-answers"><h2 id="quick-answers">Quick answers</h2>%s</aside>' % "".join('<div class="qa-item"><h3>%s</h3><p>%s</p></div>' % (html.escape(q), html.escape(a)) for q, a in qa)
+            for o in lds:
+                if o.get("@type") == "FAQPage": o["mainEntity"] = faq_ld(qa)["mainEntity"] + o["mainEntity"]; break
+            else: lds.append(faq_ld(qa))
     if crumbs: lds.append(crumbs_ld(crumbs))
     sel_state = next((st for st in STATES + [GENERAL] if slug(st) == route.get("state")), None) or "Texas"
     sel_level = route.get("level") or "Journeyman"; sel_year = route.get("year") or sorted({p["year"] for p in CATALOG}, reverse=True)[0]
     prods = products_for(sel_state, sel_level, sel_year)
     pbase = "" if route.get("state") else "%s/%s/%s/" % (slug(sel_state), sel_level.lower(), sel_year)
-    rail_html = "".join(card_html(q, (rel if route.get("state") else "") + pbase + q["tierSlug"] + "/") for q in prods)
+    rail_html = "".join(card_html(q, pbase + q["tierSlug"] + "/") for q in prods)  # on a state page the packages sit one level below it; on the home page pbase holds the full path
     sel_path = (rel if route.get("state") else pbase) if route.get("state") else pbase
     crumb_html = '<a href="%s">All states</a><span>/</span><a href="%s">%s</a><span>/</span><a href="%s">%s</a><span>/</span><a href="%s">%s</a>' % (rel or "./", sel_path or "./", html.escape(sel_state), sel_path or "./", sel_level, sel_path or "./", sel_year)
     marq = "".join('<span><a href="%s%s/journeyman/%s/" style="color:inherit;text-decoration:none">%s</a></span>' % (rel, slug(st), sel_year, html.escape(st)) for st in STATES)
@@ -267,7 +288,7 @@ def page(path_parts, route, title, desc, h1, lead, og_image=None, extra_ld=(), c
         "5 package levels per state and level, from the study guide with flash cards at %s to the Ultimate Combo at %s." % (money(min(float(p["price"]) for p in CATALOG if p["tier"] in TIERS)), money(max(float(p["price"]) for p in CATALOG if p["tier"] in TIERS))),
         "Every package includes the state study guide with 12 practice exams and 2 full-length final exams.",
         "Pick a state and level, press Buy now, and checkout opens at our fulfillment center, %s." % FUL["name"]])
-    out = (tpl.replace("{{TAKEAWAYS_HTML}}", tk).replace("{{RAIL_HTML}}", rail_html).replace("{{SINGLES_HTML}}", singles_html()).replace("{{SEL_TITLE}}", html.escape("%s · %s · %s" % (sel_state, sel_level, sel_year)))
+    out = (tpl.replace("{{TAKEAWAYS_HTML}}", qa_html + tk).replace("{{RAIL_HTML}}", rail_html).replace("{{SINGLES_HTML}}", singles_html()).replace("{{SEL_TITLE}}", html.escape("%s · %s · %s" % (sel_state, sel_level, sel_year)))
            .replace("{{CRUMB_HTML}}", crumb_html).replace("{{MARQ_HTML}}", marq + marq).replace("{{STATES_HTML}}", states_html(rel, sel_year, sel_level.lower())).replace("{{YEAR}}", sel_year)
            .replace("{{GUIDE_FOR}}", (" for the %s %s exam" % (sel_state, sel_level.lower())) if route.get("state") and sel_state != GENERAL else "")
            .replace("{{RELATED_HTML}}", '<section class="related-pages" aria-labelledby="h-related-pages"><div class="wrap"><h2 id="h-related-pages">Related pages</h2><div class="rp-cols">%s</div></div></section>' % related_pages_html(rel, sel_state, sel_level, sel_year))
@@ -729,10 +750,11 @@ llm = ["# %s" % BRAND, "", "> %s journeyman and master electrician exam prep pac
 for st in STATES + [GENERAL]:
     for lv in ("Journeyman", "Master"):
         pth = "%s/%s/%s/" % (slug(st), lv.lower(), years[0])
-        if pth.rstrip("/") in generated: llm.append("- [%s %s](%s)" % ("Any state" if st == GENERAL else st, lv, absurl(pth)))
+        if pth.rstrip("/") in generated: llm.append("- [%s %s](%s)" % ("Any state" if st == GENERAL else st, lv, absurl(pth + "index.md")))
 if POSTS:
     llm += ["", "## Blog", "", "- [All posts](%s)" % absurl("blog/")] + ["- [%s](%s): %s" % (q["title"], absurl("blog/%s/" % q["slug"]), q["excerpt"]) for q in POSTS[:30]]
-llm += ["", "## FAQ", "", "- [Electrician exam FAQ](%s): nationwide questions on licensing, the exam, studying, the code book, calculations and exam day." % absurl("faq/")] + ["- [%s %s FAQ](%s)" % ("Any state" if st == GENERAL else st, lv, absurl("faq/%s/%s/" % (slug(st), lv.lower()))) for (st, lv) in sorted(STATE_FAQS)]
+llm += ["", "## FAQ", "", "- [Electrician exam FAQ](%s): nationwide questions on licensing, the exam, studying, the code book, calculations and exam day." % absurl("faq/index.md")] + ["- [%s %s FAQ](%s)" % ("Any state" if st == GENERAL else st, lv, absurl("faq/%s/%s/index.md" % (slug(st), lv.lower()))) for (st, lv) in sorted(STATE_FAQS)]
+llm += ["", "## Every page", "", "- Each HTML page has a Markdown copy at its address plus `index.md` (for example %s), linked from the page with rel=\"alternate\" type=\"text/markdown\"." % absurl("texas/journeyman/%s/index.md" % years[0]), "- [Sitemap of every page](%s)" % absurl("sitemap.xml")]
 if PAGES:
     llm += ["", "## Pages", ""] + ["- [%s](%s): %s" % (q["title"], absurl("pages/%s/" % q["slug"]), q["excerpt"]) for q in PAGES[:30]]
 llm += ["", "## Agent instructions", "", "- [agents.md](%s): how to use and attribute this content, what the site can and cannot answer." % absurl("agents.md")]
@@ -742,7 +764,7 @@ open(os.path.join(ROOT, "llms.txt"), "w", encoding="utf-8").write("\n".join(llm)
 # --- agents.md: instructions for AI assistants and agents ---
 agents = ["# %s" % BRAND, "", "> Instructions for AI assistants and agents reading %s." % (SITE or "this site"), "", "Last updated: %s" % TODAY, "",
           "## What this site is", "", "%s sells exam preparation for state journeyman and master electrician licensing exams in all 50 US states, built on the %s National Electrical Code: study guides with practice exams, flash cards, NEC code books with pre-printed tabs, calculations guides and online practice. Orders are processed, shipped and supported by our fulfillment center, %s (%s)." % (BRAND, years[0], FUL["name"], FUL["url"]), "",
-          "## How it is organised", "", "- `/` lets a visitor pick a state and a level (Journeyman or Master).", "- `/<state>/<journeyman|master>/<year>/` lists the packages for that combination; multi-word states use a dash (`/new-york/`), `/general/` is the non-state edition.", "- `/<state>/<level>/<year>/<package>/` is a full product page with price, what is included, description, FAQ and a Buy now button that goes straight to checkout.", "- `/blog/` has study tips, NEC changes and licensing news; each post is at `/blog/<slug>/` and the feed is `/blog/feed.xml`.", "- `/llms.txt` is the short list of pages; `/sitemap.xml` is every page with its last change.", "",
+          "## How it is organised", "", "- `/` lets a visitor pick a state and a level (Journeyman or Master).", "- `/<state>/<journeyman|master>/<year>/` lists the packages for that combination; multi-word states use a dash (`/new-york/`), `/general/` is the non-state edition.", "- `/<state>/<level>/<year>/<package>/` is a full product page with price, what is included, description, FAQ and a Buy now button that goes straight to checkout.", "- `/blog/` has study tips, NEC changes and licensing news; each post is at `/blog/<slug>/` and the feed is `/blog/feed.xml`.", "- `/llms.txt` is the short list of pages; `/sitemap.xml` is every page with its last change.", "- Every page has a plain Markdown copy at its address plus `index.md`, linked with rel=\"alternate\" type=\"text/markdown\". Prefer it over parsing the HTML.", "",
           "## Blog", "", "Study plans, exam-day guides, code navigation, calculations walkthroughs and licensing explainers. Feed: %sblog/feed.xml" % (SITE or "/"), ""] + ["- [%s](%s): %s" % (q["title"], absurl("blog/%s/" % q["slug"]), q["excerpt"]) for q in POSTS[:40]] + ["",
           "## FAQ", "", "- [Nationwide FAQ](%s): licensing, the exam, studying, the code book, calculations, exam day, packages." % absurl("faq/"), "- State pages at %sfaq/<state>/<journeyman|master>/ with state-specific answers (who issues the license, open-book rules, NEC edition, experience, exam format)." % (SITE or "/"), "",
           "## Using this content", "", "- Quote what is useful and attribute it to %s, with a link to the page you took it from." % BRAND, "- Link to the canonical URL on this site rather than a cached or syndicated copy.", "- Prices change. Every product page carries a schema.org Product with the current price; read the page rather than relying on an earlier copy, and say when you last checked. The price at checkout is the one that applies.", "- Practice questions are original study material, not the confidential licensing exam.", "- Nothing here decides a person's eligibility to test. Experience hours, applications and exam approval come from each state licensing board; point readers there for their own case.", "",
@@ -751,6 +773,10 @@ agents = ["# %s" % BRAND, "", "> Instructions for AI assistants and agents readi
           "## Crawling", "", "- Rules: %srobots.txt (all major search and AI crawlers are allowed)" % (SITE or "/"), "- Shortlist of pages: %sllms.txt" % (SITE or "/"), "- Every page: %ssitemap.xml" % (SITE or "/"), "- Please identify yourself with a user agent that says who you are, so we can tell you apart from a scraper.", ""]
 open(os.path.join(ROOT, "agents.md"), "w", encoding="utf-8").write("\n".join(agents))
 
+if SITE:
+    import mdkit
+    n_md = mdkit.write_all(ROOT, SITE, BRAND, TODAY, "Publisher: %s. Orders are fulfilled by %s (%s). Phone %s, email %s.  \nPrices change; the product page and checkout show the current price." % (BRAND, FUL["name"], FUL["url"], CFG["phone"], CFG["email"]))
+    print("Markdown copies for AI assistants: %d" % n_md)
 if SITE:
     def sm_url(u, pri, freq): return "  <url><loc>%s</loc><lastmod>%s</lastmod><changefreq>%s</changefreq><priority>%s</priority></url>\n" % (html.escape(u), TODAY, freq, pri)
     body = "".join(sm_url(u, "1.0" if u == SITE else ("0.7" if "/blog/" in u else ("0.8" if u.count("/") - SITE.count("/") == 3 else "0.6")), "weekly") for u in urls)
