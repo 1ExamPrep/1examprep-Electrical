@@ -33,7 +33,7 @@
   },
   "googleSiteVerification": "",
   "_googleSiteVerification_help": "Paste the code from Google Search Console (HTML tag method) to verify the site.",
-  "gtagId": "",
+  "gtagId": "G-0CC9H99T33",
   "_gtagId_help": "Google Analytics 4 measurement ID like G-XXXXXXXXXX. Turns on page views + all button/click events. Free at analytics.google.com.",
   "gtmId": "",
   "_gtmId_help": "Optional Google Tag Manager container ID like GTM-XXXXXXX, if you prefer to manage tags there.",
