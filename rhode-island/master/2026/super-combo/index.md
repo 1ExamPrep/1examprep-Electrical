@@ -14,7 +14,7 @@ Rhode Island · Master · 2026 NEC
 
 2026 Rhode Island Master Electrician + Electrician Calculations Study Guides + Flash Cards & National Electrical Code + Tabs Super Combo
 
-$349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/46213818941497:1)
+$349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/46213818941497:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
 - Secure checkout, fulfilled by 1 Exam Prep
 - Books ship from our fulfillment center; online kits arrive by email

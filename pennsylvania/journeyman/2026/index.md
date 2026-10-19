@@ -48,7 +48,7 @@ Pennsylvania · Journeyman · 2026
 2026 Pennsylvania Journeyman Electrician Exam Prep and Study Guide + Flash Card Combo: 12 Practice Exams + 2 Full Final Exams: Trusted…
 
 $99.95 (was $125.00) Save 20%
-[Buy now](https://1examprep.com/cart/45947336163385:1) · [What’s inside](https://passyourmasterelectricianexam.com/pennsylvania/journeyman/2026/study-guide-flash-cards/)
+[Buy now](https://1examprep.com/cart/45947336163385:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com) · [What’s inside](https://passyourmasterelectricianexam.com/pennsylvania/journeyman/2026/study-guide-flash-cards/)
 
 Pennsylvania · Journeyman · 2026
 
@@ -59,7 +59,7 @@ Pennsylvania · Journeyman · 2026
 2026 Pennsylvania Journeyman Electrician Study Guide & National Electrical Code Combo with Tabs The 2026 Pennsylvania Journeyman Electrician Study Guide & National…
 
 $249.95 (was $350.00) Save 29%
-[Buy now](https://1examprep.com/cart/45960267006009:1) · [What’s inside](https://passyourmasterelectricianexam.com/pennsylvania/journeyman/2026/study-guide-nec-tabs/)
+[Buy now](https://1examprep.com/cart/45960267006009:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com) · [What’s inside](https://passyourmasterelectricianexam.com/pennsylvania/journeyman/2026/study-guide-nec-tabs/)
 
 Pennsylvania · Journeyman · 2026
 
@@ -70,7 +70,7 @@ Pennsylvania · Journeyman · 2026
 The 2026 Pennsylvania Journeyman Electrician + Electrician Calculations Study Guides & National Electrical Code Combo is designed for electricians who want a…
 
 $279.95 (was $315.00) Save 11%
-[Buy now](https://1examprep.com/cart/46207397199929:1) · [What’s inside](https://passyourmasterelectricianexam.com/pennsylvania/journeyman/2026/study-guide-calculations-nec/)
+[Buy now](https://1examprep.com/cart/46207397199929:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com) · [What’s inside](https://passyourmasterelectricianexam.com/pennsylvania/journeyman/2026/study-guide-calculations-nec/)
 
 Pennsylvania · Journeyman · 2026
 
@@ -81,7 +81,7 @@ Pennsylvania · Journeyman · 2026
 The 2026 Pennsylvania Journeyman Electrician Super Combo is a complete study bundle for electrical professionals preparing for journeyman-level electrical exams, local Pennsylvania…
 
 $349.95 (was $395.00) Save 11%
-[Buy now](https://1examprep.com/cart/46213818351673:1) · [What’s inside](https://passyourmasterelectricianexam.com/pennsylvania/journeyman/2026/super-combo/)
+[Buy now](https://1examprep.com/cart/46213818351673:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com) · [What’s inside](https://passyourmasterelectricianexam.com/pennsylvania/journeyman/2026/super-combo/)
 
 Pennsylvania · Journeyman · 2026
 
@@ -92,7 +92,7 @@ Pennsylvania · Journeyman · 2026
 The 2026 Pennsylvania Journeyman Electrician Exam Prep Study Guides & Code Book Ultimate Combo is a complete preparation package for electrical professionals…
 
 $399.95 (was $495.00) Save 19%
-[Buy now](https://1examprep.com/cart/46454096101433:1) · [What’s inside](https://passyourmasterelectricianexam.com/pennsylvania/journeyman/2026/ultimate-combo/)
+[Buy now](https://1examprep.com/cart/46454096101433:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com) · [What’s inside](https://passyourmasterelectricianexam.com/pennsylvania/journeyman/2026/ultimate-combo/)
 
 ## What's in each package
 
@@ -154,49 +154,49 @@ Master
 ### 2026 Master Electrician Exam Flash Cards 200+
 
 $49.00  to $99.00
-[Buy now](https://1examprep.com/cart/46290881314873:1)
+[Buy now](https://1examprep.com/cart/46290881314873:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
 Journeyman
 
 ### 2026 Journeyman Electrician Exam Flash Cards 150+
 
 $49.00  to $99.00
-[Buy now](https://1examprep.com/cart/46290879545401:1)
+[Buy now](https://1examprep.com/cart/46290879545401:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
 Journeyman
 
 ### 2026 Journeyman Electrician Exam Prep and Study Guide: 400+ Questions & Study Guide for the 2026 National Electrical Code
 
 $49.95  to $134.45
-[Buy now](https://1examprep.com/cart/45899853037625:1)
+[Buy now](https://1examprep.com/cart/45899853037625:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
 Master
 
 ### 2026 Master Electrician Exam Prep and Study Guide: 12 Practice Exams +2 Full Final Exams to Help You Easily Pass the Exam
 
 $49.95  to $144.95
-[Buy now](https://1examprep.com/cart/45899895603257:1)
+[Buy now](https://1examprep.com/cart/45899895603257:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
 All levels
 
 ### 2026 Practical Calculations for Electricians: Exam Questions & Study Guide for the 2026 National Electrical Code
 
 $49.95
-[Buy now](https://1examprep.com/cart/45253231935545:1)
+[Buy now](https://1examprep.com/cart/45253231935545:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
 Master
 
 ### 2026 Master Electrician Exam Questions and Study Guide - Online Test Success Kit
 
 $99.45
-[Buy now](https://1examprep.com/cart/45264003694649:1)
+[Buy now](https://1examprep.com/cart/45264003694649:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
 Journeyman
 
 ### 2026 Journeyman Electrician Exam Questions and Study Guide - Online Test Success Kit
 
 $99.45
-[Buy now](https://1examprep.com/cart/45264116875321:1)
+[Buy now](https://1examprep.com/cart/45264116875321:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
 ## Before you buy
 

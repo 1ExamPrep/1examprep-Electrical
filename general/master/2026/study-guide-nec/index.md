@@ -14,7 +14,7 @@ Any state · Master · 2026 NEC
 
 2026 Master Electrician Study Guide & National Electrical Code Combo
 
-$229.95 (was $275.00) Save 16% [Buy now — go to checkout](https://1examprep.com/cart/45959077625913:1)
+$229.95 (was $275.00) Save 16% [Buy now — go to checkout](https://1examprep.com/cart/45959077625913:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
 - Secure checkout, fulfilled by 1 Exam Prep
 - Books ship from our fulfillment center; online kits arrive by email

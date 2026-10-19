@@ -14,7 +14,7 @@ New Mexico · Journeyman · 2026 NEC
 
 2026 New Mexico Journeyman Electrician Study Guide & National Electrical Code Combo with Tabs
 
-$249.95 (was $350.00) Save 29% [Buy now — go to checkout](https://1examprep.com/cart/45960257732665:1)
+$249.95 (was $350.00) Save 29% [Buy now — go to checkout](https://1examprep.com/cart/45960257732665:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
 - Secure checkout, fulfilled by 1 Exam Prep
 - Books ship from our fulfillment center; online kits arrive by email

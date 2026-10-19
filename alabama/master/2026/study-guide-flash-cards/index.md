@@ -14,7 +14,7 @@ Alabama · Master · 2026 NEC
 
 2026 Alabama Master Electrician Exam Prep and Study Guide + Flash Card Combo: 12 Practice Exams +2 Full Final Exams
 
-$99.95 (was $125.00) Save 20% [Buy now — go to checkout](https://1examprep.com/cart/45937039966265:1)
+$99.95 (was $125.00) Save 20% [Buy now — go to checkout](https://1examprep.com/cart/45937039966265:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
 - Secure checkout, fulfilled by 1 Exam Prep
 - Books ship from our fulfillment center; online kits arrive by email

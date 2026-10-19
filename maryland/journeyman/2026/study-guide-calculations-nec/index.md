@@ -14,7 +14,7 @@ Maryland · Journeyman · 2026 NEC
 
 2026 Maryland Journeyman Electrician + Electrician Calculations Study Guides & National Electrical Code Combo
 
-$279.95 (was $315.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/46207320752185:1)
+$279.95 (was $315.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/46207320752185:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
 - Secure checkout, fulfilled by 1 Exam Prep
 - Books ship from our fulfillment center; online kits arrive by email

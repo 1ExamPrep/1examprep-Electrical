@@ -14,7 +14,7 @@ Ohio · Master · 2026 NEC
 
 2026 Ohio Master Electrician + Electrician Calculations Study Guides + Flash Cards & National Electrical Code + Tabs Super Combo
 
-$349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/46213817040953:1)
+$349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/46213817040953:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
 - Secure checkout, fulfilled by 1 Exam Prep
 - Books ship from our fulfillment center; online kits arrive by email

@@ -48,7 +48,7 @@ Hawaii · Journeyman · 2026
 2026 Hawaii Journeyman Electrician Exam Prep and Study Guide + Flash Card Combo: 12 Practice Exams + 2 Full Final Exams: Trusted…
 
 $99.95 (was $125.00) Save 20%
-[Buy now](https://1examprep.com/cart/45937078566969:1) · [What’s inside](https://passyourmasterelectricianexam.com/hawaii/journeyman/2026/study-guide-flash-cards/)
+[Buy now](https://1examprep.com/cart/45937078566969:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com) · [What’s inside](https://passyourmasterelectricianexam.com/hawaii/journeyman/2026/study-guide-flash-cards/)
 
 Hawaii · Journeyman · 2026
 
@@ -59,7 +59,7 @@ Hawaii · Journeyman · 2026
 Prepare for the Hawaii journey worker electrician exam with a focused printed study combo designed for electrical code review, trade knowledge reinforcement,…
 
 $249.95 (was $350.00) Save 29%
-[Buy now](https://1examprep.com/cart/45959396294713:1) · [What’s inside](https://passyourmasterelectricianexam.com/hawaii/journeyman/2026/study-guide-nec-tabs/)
+[Buy now](https://1examprep.com/cart/45959396294713:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com) · [What’s inside](https://passyourmasterelectricianexam.com/hawaii/journeyman/2026/study-guide-nec-tabs/)
 
 Hawaii · Journeyman · 2026
 
@@ -70,7 +70,7 @@ Hawaii · Journeyman · 2026
 The 2026 Hawaii Journeyman Electrician + Electrician Calculations Study Guides & National Electrical Code Combo is designed for electricians preparing for Hawaii…
 
 $279.95 (was $315.00) Save 11%
-[Buy now](https://1examprep.com/cart/46207247548473:1) · [What’s inside](https://passyourmasterelectricianexam.com/hawaii/journeyman/2026/study-guide-calculations-nec/)
+[Buy now](https://1examprep.com/cart/46207247548473:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com) · [What’s inside](https://passyourmasterelectricianexam.com/hawaii/journeyman/2026/study-guide-calculations-nec/)
 
 Hawaii · Journeyman · 2026
 
@@ -81,7 +81,7 @@ Hawaii · Journeyman · 2026
 This 2026 Hawaii Journeyman Electrician Super Combo is designed for apprentices, electrical helpers, trainees, and working electricians who want a complete printed…
 
 $349.95 (was $395.00) Save 11%
-[Buy now](https://1examprep.com/cart/46213691932729:1) · [What’s inside](https://passyourmasterelectricianexam.com/hawaii/journeyman/2026/super-combo/)
+[Buy now](https://1examprep.com/cart/46213691932729:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com) · [What’s inside](https://passyourmasterelectricianexam.com/hawaii/journeyman/2026/super-combo/)
 
 Hawaii · Journeyman · 2026
 
@@ -92,7 +92,7 @@ Hawaii · Journeyman · 2026
 The 2026 Hawaii Journeyman Electrician Exam Prep Study Guides & Code Book Ultimate Combo is built for candidates preparing for the Hawaii…
 
 $399.95 (was $495.00) Save 19%
-[Buy now](https://1examprep.com/cart/46454000746553:1) · [What’s inside](https://passyourmasterelectricianexam.com/hawaii/journeyman/2026/ultimate-combo/)
+[Buy now](https://1examprep.com/cart/46454000746553:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com) · [What’s inside](https://passyourmasterelectricianexam.com/hawaii/journeyman/2026/ultimate-combo/)
 
 ## What's in each package
 
@@ -154,49 +154,49 @@ Master
 ### 2026 Master Electrician Exam Flash Cards 200+
 
 $49.00  to $99.00
-[Buy now](https://1examprep.com/cart/46290881314873:1)
+[Buy now](https://1examprep.com/cart/46290881314873:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
 Journeyman
 
 ### 2026 Journeyman Electrician Exam Flash Cards 150+
 
 $49.00  to $99.00
-[Buy now](https://1examprep.com/cart/46290879545401:1)
+[Buy now](https://1examprep.com/cart/46290879545401:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
 Journeyman
 
 ### 2026 Journeyman Electrician Exam Prep and Study Guide: 400+ Questions & Study Guide for the 2026 National Electrical Code
 
 $49.95  to $134.45
-[Buy now](https://1examprep.com/cart/45899853037625:1)
+[Buy now](https://1examprep.com/cart/45899853037625:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
 Master
 
 ### 2026 Master Electrician Exam Prep and Study Guide: 12 Practice Exams +2 Full Final Exams to Help You Easily Pass the Exam
 
 $49.95  to $144.95
-[Buy now](https://1examprep.com/cart/45899895603257:1)
+[Buy now](https://1examprep.com/cart/45899895603257:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
 All levels
 
 ### 2026 Practical Calculations for Electricians: Exam Questions & Study Guide for the 2026 National Electrical Code
 
 $49.95
-[Buy now](https://1examprep.com/cart/45253231935545:1)
+[Buy now](https://1examprep.com/cart/45253231935545:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
 Master
 
 ### 2026 Master Electrician Exam Questions and Study Guide - Online Test Success Kit
 
 $99.45
-[Buy now](https://1examprep.com/cart/45264003694649:1)
+[Buy now](https://1examprep.com/cart/45264003694649:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
 Journeyman
 
 ### 2026 Journeyman Electrician Exam Questions and Study Guide - Online Test Success Kit
 
 $99.45
-[Buy now](https://1examprep.com/cart/45264116875321:1)
+[Buy now](https://1examprep.com/cart/45264116875321:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
 ## Before you buy
 
