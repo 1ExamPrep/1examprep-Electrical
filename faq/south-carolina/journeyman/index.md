@@ -1,7 +1,7 @@
 ---
 title: South Carolina Journeyman Electrician Exam FAQ (29 answers)
 url: https://passyourmasterelectricianexam.com/faq/south-carolina/journeyman/
-updated: 2026-10-18
+updated: 2026-10-19
 site: Pass Your Electrician Exam
 description: 29 answers about the South Carolina journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam.
 ---
@@ -19,7 +19,7 @@ description: 29 answers about the South Carolina journeyman electrician exam and
 - Commercial electrical contractor licensing is regulated through the South Carolina Contractor’s Licensing Board, while residential electrical specialty contractor licensing is regulated through the Residential Builders Commission.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 18, 2026 · prices checked against the 1 Exam Prep store
+Updated October 19, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 7Licensing and experience 9Code book and materials 6More questions 7
 

@@ -1,7 +1,7 @@
 ---
 title: Moving Your Electrician License to Another State: How Reciprocity Works
 url: https://passyourmasterelectricianexam.com/blog/moving-your-electrician-license-to-another-state-reciprocity/
-updated: 2026-10-18
+updated: 2026-10-19
 site: Pass Your Electrician Exam
 description: What reciprocity actually means, the conditions nearly every agreement attaches, what happens when there is no agreement, and how to avoid the mistakes that.
 ---
@@ -22,7 +22,7 @@ What reciprocity actually means, the conditions nearly every agreement attaches,
 - Master and contractor licenses rarely transfer because they carry business, insurance and state-law requirements.
 - City and county licenses in states without statewide licensing are a separate problem; a state license may not be enough there.
 
-Updated October 18, 2026 · prices checked against the 1 Exam Prep store
+Updated October 19, 2026 · prices checked against the 1 Exam Prep store
 
 Electricians move for work more than most trades, and the license does not always come along. Reciprocity is the mechanism that lets it, when it exists. Here is what it is, what it is not, and how to handle the states where it does not apply.
 

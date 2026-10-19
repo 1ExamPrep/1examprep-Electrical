@@ -1,7 +1,7 @@
 ---
 title: Minnesota Journeyman Electrician Exam FAQ (21 answers)
 url: https://passyourmasterelectricianexam.com/faq/minnesota/journeyman/
-updated: 2026-10-18
+updated: 2026-10-19
 site: Pass Your Electrician Exam
 description: 21 answers about the Minnesota journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
 ---
@@ -19,7 +19,7 @@ description: 21 answers about the Minnesota journeyman electrician exam and lice
 - Minnesota electrical licensing is administered by the Minnesota Department of Labor and Industry.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 18, 2026 · prices checked against the 1 Exam Prep store
+Updated October 19, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 9Licensing and experience 7Code book and materials 2More questions 3
 

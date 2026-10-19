@@ -1,7 +1,7 @@
 ---
 title: California Journeyman Study Guide + NEC with Tabs (2026 NEC)
 url: https://passyourmasterelectricianexam.com/california/journeyman/2026/study-guide-nec-tabs/
-updated: 2026-10-18
+updated: 2026-10-19
 site: Pass Your Electrician Exam
 description: Prepare for California electrician certification study with a focused printed combo designed for electrical code review, trade knowledge reinforcement, and.
 ---
@@ -27,7 +27,7 @@ $249.95 (was $340.00) Save 26% [Buy now — go to checkout](https://1examprep.co
 - 2 optional add-ons can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 18, 2026 · prices checked against the 1 Exam Prep store
+Updated October 19, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Study Guide + NEC with Tabs
 

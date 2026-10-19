@@ -1,7 +1,7 @@
 ---
 title: What to Expect on Electrician Exam Day, From Check-In to Your Score
 url: https://passyourmasterelectricianexam.com/blog/what-to-expect-on-electrician-exam-day/
-updated: 2026-10-18
+updated: 2026-10-19
 site: Pass Your Electrician Exam
 description: A walk through the day itself: what to bring, what the check-in looks like, how the testing room works, how to pace the clock, and what happens to your.
 ---
@@ -22,7 +22,7 @@ A walk through the day itself: what to bring, what the check-in looks like, how 
 - Answer every question; there is no penalty for a wrong answer, and a flagged question you never return to is a guaranteed zero.
 - A preliminary pass or fail usually prints before you leave; the license itself comes from the board two to six weeks later.
 
-Updated October 18, 2026 · prices checked against the 1 Exam Prep store
+Updated October 19, 2026 · prices checked against the 1 Exam Prep store
 
 Most candidates know the code better than they know the testing centre. The day has its own rules, and losing ten minutes to a surprise at the front desk is a bad way to start a timed exam. Here is how it runs at the computer-based centres that most states use, so nothing about the room is new to you.
 

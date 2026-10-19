@@ -1,7 +1,7 @@
 ---
 title: Alaska Master Electrician Exam FAQ (25 answers)
 url: https://passyourmasterelectricianexam.com/faq/alaska/master/
-updated: 2026-10-18
+updated: 2026-10-19
 site: Pass Your Electrician Exam
 description: 25 answers about the Alaska master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
 ---
@@ -19,7 +19,7 @@ description: 25 answers about the Alaska master electrician exam and license: wh
 - The Alaska Division of Corporations, Business and Professional Licensing staffs the electrical administrator program, and the Department of Commerce, Community, and Economic Development adopts regulations governing electrical administrators.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 18, 2026 · prices checked against the 1 Exam Prep store
+Updated October 19, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 12Licensing and experience 4Code book and materials 5More questions 4
 

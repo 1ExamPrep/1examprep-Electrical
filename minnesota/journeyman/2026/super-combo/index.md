@@ -1,7 +1,7 @@
 ---
 title: Minnesota Journeyman Super Combo (2026 NEC)
 url: https://passyourmasterelectricianexam.com/minnesota/journeyman/2026/super-combo/
-updated: 2026-10-18
+updated: 2026-10-19
 site: Pass Your Electrician Exam
 description: This 2026 Minnesota Journeyman Electrician Super Combo is designed for registered unlicensed electricians, apprentices, electrical trainees, helpers, and.
 ---
@@ -27,7 +27,7 @@ $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.co
 - 1 optional add-on can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 18, 2026 · prices checked against the 1 Exam Prep store
+Updated October 19, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Super Combo
 

@@ -1,7 +1,7 @@
 ---
 title: The Calculations You Must Be Able to Do Before Exam Day
 url: https://passyourmasterelectricianexam.com/blog/electrician-exam-calculations-checklist/
-updated: 2026-10-18
+updated: 2026-10-19
 site: Pass Your Electrician Exam
 description: A checklist of the eight calculation families on journeyman and master exams, what each one needs from the code book, and the mistake that costs the most.
 ---
@@ -22,7 +22,7 @@ A checklist of the eight calculation families on journeyman and master exams, wh
 - Work each family until you can do a problem without the study guide, then mix them under a timer.
 - Keep a one-page formula sheet and rewrite it from memory at the start of every session.
 
-Updated October 18, 2026 · prices checked against the 1 Exam Prep store
+Updated October 19, 2026 · prices checked against the 1 Exam Prep store
 
 Calculations are a quarter of a journeyman exam and up to a third of a master exam, and they are where scores separate. Not because the maths is hard, but because each problem needs the right table and the right rule, in the right order, under a clock. Here are the families, what each needs, and where candidates go wrong.
 

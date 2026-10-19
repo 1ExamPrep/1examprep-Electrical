@@ -1,7 +1,7 @@
 ---
 title: How to Tab Your NEC for the Electrician Exam
 url: https://passyourmasterelectricianexam.com/blog/how-to-tab-your-nec-for-the-electrician-exam/
-updated: 2026-10-18
+updated: 2026-10-19
 site: Pass Your Electrician Exam
 description: Which articles and tables deserve a tab, how to place them so they stay useful, what the testing centres allow, and why doing it yourself is part of the.
 ---
@@ -22,7 +22,7 @@ Which articles and tables deserve a tab, how to place them so they stay useful, 
 - Permanent tabs and highlighting are allowed almost everywhere; loose paper, sticky notes and handwritten notes beyond the bulletin's limit are not.
 - Placing the tabs yourself is a full pass through the book and teaches you the layout faster than reading about it.
 
-Updated October 18, 2026 · prices checked against the 1 Exam Prep store
+Updated October 19, 2026 · prices checked against the 1 Exam Prep store
 
 A well-tabbed code book is the difference between a two-minute lookup and a twenty-second one, and over an exam that is the difference between finishing and not. Pre-printed tab sets are the right tool, but where they go and how you use them matters more than whether you own them.
 

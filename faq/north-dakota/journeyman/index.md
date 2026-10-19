@@ -1,7 +1,7 @@
 ---
 title: North Dakota Journeyman Electrician Exam FAQ (26 answers)
 url: https://passyourmasterelectricianexam.com/faq/north-dakota/journeyman/
-updated: 2026-10-18
+updated: 2026-10-19
 site: Pass Your Electrician Exam
 description: 26 answers about the North Dakota journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure.
 ---
@@ -19,7 +19,7 @@ description: 26 answers about the North Dakota journeyman electrician exam and l
 - The North Dakota Journeyman Electrician examination is administered through the North Dakota State Electrical Board. Applicants must apply and be approved before selecting an exam date.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 18, 2026 · prices checked against the 1 Exam Prep store
+Updated October 19, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 5Licensing and experience 9Code book and materials 3More questions 9
 

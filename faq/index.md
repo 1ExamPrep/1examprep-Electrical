@@ -1,7 +1,7 @@
 ---
 title: Electrician Exam FAQ: 2337 Answers
 url: https://passyourmasterelectricianexam.com/faq/
-updated: 2026-10-18
+updated: 2026-10-19
 site: Pass Your Electrician Exam
 description: 2337 answers about journeyman and master electrician exams: getting licensed, the exam itself, studying, the code book, calculations, exam day and what comes.
 ---
@@ -19,7 +19,7 @@ description: 2337 answers about journeyman and master electrician exams: getting
 - Nearly every exam is open book for the code portion; the edition you bring must match the one in your state's candidate bulletin.
 - Six to eight weeks at about 90 minutes a day, split between code navigation, calculations and timed practice, is enough for most candidates.
 
-Updated October 18, 2026 · prices checked against the 1 Exam Prep store
+Updated October 19, 2026 · prices checked against the 1 Exam Prep store
 
 Getting licensed 10The exam itself 10Studying 10The code book 8Calculations 8Exam day 6After the exam 5Packages and ordering 7State by state 2273
 

@@ -1,7 +1,7 @@
 ---
 title: Wyoming Master Electrician Exam FAQ (23 answers)
 url: https://passyourmasterelectricianexam.com/faq/wyoming/master/
-updated: 2026-10-18
+updated: 2026-10-19
 site: Pass Your Electrician Exam
 description: 23 answers about the Wyoming master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
 ---
@@ -19,7 +19,7 @@ description: 23 answers about the Wyoming master electrician exam and license: w
 - Wyoming Master Electrician licensing is administered by the Department of Fire Prevention and Electrical Safety through the Wyoming State Fire Marshal’s Office.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 18, 2026 · prices checked against the 1 Exam Prep store
+Updated October 19, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 5Licensing and experience 8Code book and materials 8More questions 2
 

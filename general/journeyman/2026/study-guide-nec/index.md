@@ -1,7 +1,7 @@
 ---
 title: Journeyman Study Guide + NEC (2026 NEC)
 url: https://passyourmasterelectricianexam.com/general/journeyman/2026/study-guide-nec/
-updated: 2026-10-18
+updated: 2026-10-19
 site: Pass Your Electrician Exam
 description: 2026 JOURNEYMAN ELECTRICIAN STUDY GUIDE & NATIONAL ELECTRICAL CODE COMBO (BASED ON 2026 NATIONAL ELECTRICAL CODE) The from 1 Exam Prep provides a.
 ---
@@ -27,7 +27,7 @@ $229.95 (was $275.00) Save 16% [Buy now — go to checkout](https://1examprep.co
 - Built on the 2026 National Electrical Code; check your candidate bulletin for the edition your state tests on.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 18, 2026 · prices checked against the 1 Exam Prep store
+Updated October 19, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Study Guide + NEC
 

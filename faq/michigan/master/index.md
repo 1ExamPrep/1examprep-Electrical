@@ -1,7 +1,7 @@
 ---
 title: Michigan Master Electrician Exam FAQ (17 answers)
 url: https://passyourmasterelectricianexam.com/faq/michigan/master/
-updated: 2026-10-18
+updated: 2026-10-19
 site: Pass Your Electrician Exam
 description: 17 answers about the Michigan master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
 ---
@@ -19,7 +19,7 @@ description: 17 answers about the Michigan master electrician exam and license: 
 - PSI administers the Bureau of Construction Codes examination program for approved Michigan electrical candidates.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 18, 2026 · prices checked against the 1 Exam Prep store
+Updated October 19, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 6Licensing and experience 5Code book and materials 5More questions 1
 

@@ -1,7 +1,7 @@
 ---
 title: Mississippi Master Electrician Exam FAQ (22 answers)
 url: https://passyourmasterelectricianexam.com/faq/mississippi/master/
-updated: 2026-10-18
+updated: 2026-10-19
 site: Pass Your Electrician Exam
 description: 22 answers about the Mississippi master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
 ---
@@ -19,7 +19,7 @@ description: 22 answers about the Mississippi master electrician exam and licens
 - Electrical contractor licensing is handled through the Mississippi State Board of Contractors. Contractor applicants follow the Board’s application, classification, testing, and licensing requirements.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 18, 2026 · prices checked against the 1 Exam Prep store
+Updated October 19, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 6Licensing and experience 7Code book and materials 6More questions 3
 

@@ -1,7 +1,7 @@
 ---
 title: How the Journeyman Electrician Exam Is Structured
 url: https://passyourmasterelectricianexam.com/blog/how-the-journeyman-electrician-exam-is-structured/
-updated: 2026-10-18
+updated: 2026-10-19
 site: Pass Your Electrician Exam
 description: Question counts, time limits, the content outline, how the pass mark works, and which code articles carry most of the weight on a typical state journeyman.
 ---
@@ -22,7 +22,7 @@ Question counts, time limits, the content outline, how the pass mark works, and 
 - Chapters 1 through 3 of the NEC, plus Article 430 and the Chapter 9 tables, carry most of the questions.
 - Around a quarter of the questions are calculations; in some states they are scored as a separate section you must pass on its own.
 
-Updated October 18, 2026 · prices checked against the 1 Exam Prep store
+Updated October 19, 2026 · prices checked against the 1 Exam Prep store
 
 Every state writes its own journeyman exam, but they are more alike than different because they are built on the same code and, in most states, delivered by the same handful of testing vendors. If you know the shape of a typical exam you can plan your study around it, then adjust for the details in your own state's candidate bulletin.
 

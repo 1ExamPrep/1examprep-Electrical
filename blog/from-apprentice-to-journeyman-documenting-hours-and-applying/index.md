@@ -1,7 +1,7 @@
 ---
 title: From Apprentice to Journeyman: Documenting Your Hours and Applying to Test
 url: https://passyourmasterelectricianexam.com/blog/from-apprentice-to-journeyman-documenting-hours-and-applying/
-updated: 2026-10-18
+updated: 2026-10-19
 site: Pass Your Electrician Exam
 description: What counts toward the experience requirement, how to prove it, what the application usually asks for, and how long the approval takes so you can study while.
 ---
@@ -22,7 +22,7 @@ What counts toward the experience requirement, how to prove it, what the applica
 - Approval typically takes four to eight weeks, and your eligibility usually stays valid for about a year, so apply as soon as you qualify and study in the meantime.
 - Buying study material does not start the application; the board does, and only the board can authorise a test date.
 
-Updated October 18, 2026 · prices checked against the 1 Exam Prep store
+Updated October 19, 2026 · prices checked against the 1 Exam Prep store
 
 The exam gets the attention, but plenty of qualified electricians lose months on the step before it: proving they have the hours. Boards do not take your word for it, employers close or forget, and an application missing one signature goes to the back of the queue. Here is how the process usually runs and how to keep it moving.
 
