@@ -10,7 +10,7 @@
   var FEATURED="ultimate";
   function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];});}
   function money(v){return "$"+Number(v).toFixed(2);}
-  function cartUrl(variantId){return STORE+"/cart/"+variantId+":1";}
+  function cartUrl(variantId){return STORE+"/cart/"+variantId+":1"+((window.SITE||{}).cartTag||"");}
   function saving(p){var c=parseFloat(p.compareAt||0),n=parseFloat(p.price);return c>n?Math.round((c-n)/c*100):0;}
   function slugState(s){return s===GENERAL?"general":s.toLowerCase().replace(/ /g,"-");}
   function unslugState(x){x=String(x||"").toLowerCase();return STATES.concat([GENERAL]).filter(function(s){return slugState(s)===x;})[0]||null;}

@@ -27,6 +27,9 @@ GENERAL = "General (any state)"
 CFG = json.load(open(os.path.join(ROOT, "site-config.json"), encoding="utf-8"))
 if not SITE and CFG.get("siteUrl"): SITE = CFG["siteUrl"].rstrip("/") + "/"
 BRAND = CFG.get("brand", "1 Exam Prep")
+SITE_HOST = re.sub(r"^www\.", "", (SITE or "").split("//")[-1].strip("/"))
+CART_TAG = ("?attributes%%5BSite%%5D=%s&ref=%s" % (SITE_HOST, SITE_HOST)) if SITE_HOST else ""  # tags the Shopify order with this site so the dashboard counts it here
+def cart(vid): return "https://1examprep.com/cart/%s:1%s" % (vid, CART_TAG)
 FUL = CFG.get("fulfillment") or {"name": "1 Exam Prep", "url": CFG.get("storeUrl", "https://1examprep.com"), "note": ""}
 WM = CFG.get("wordmark") or [BRAND, "", ""]
 WORDMARK_TEXT = "%s<span>%s</span>%s" % (html.escape(WM[0]), html.escape(WM[1]), html.escape(WM[2])) if WM[1] else html.escape(WM[0])
@@ -119,7 +122,7 @@ def head_extra(path, title, desc, image, rel, noindex=False, extra_ld=()):
     if image: h.append('<meta name="twitter:image" content="%s">' % html.escape(image))
     if CFG.get("social", {}).get("twitter"): h.append('<meta name="twitter:site" content="@%s">' % CFG["social"]["twitter"].rstrip("/").split("/")[-1])
     h.append('<meta name="theme-color" content="#1b1f3b">')
-    h.append('<script>window.SITE=%s;</script>' % json.dumps({"brand": BRAND, "storeUrl": CFG["storeUrl"], "fulfillment": FUL["name"]}))
+    h.append('<script>window.SITE=%s;</script>' % json.dumps({"brand": BRAND, "storeUrl": CFG["storeUrl"], "fulfillment": FUL["name"], "cartTag": CART_TAG}))
     if len(BRAND) > 16 and not LOGO_NAV: h.append('<style>.nav .brand{font-size:%s;line-height:1.05;max-width:46vw}@media (max-width:720px){.nav .brand{font-size:.95rem}}</style>' % ("1.05rem" if len(BRAND) > 24 else "1.2rem"))
     if HAS_PNG_ICONS: h.append('<link rel="icon" href="%sshared/favicon.png" type="image/png" sizes="64x64">' % rel)
     else: h.append('<link rel="icon" href="%sshared/favicon.svg" type="image/svg+xml">' % rel)
@@ -175,16 +178,16 @@ def card_html(p, href):
     return ('<article class="pc%s" data-id="%s">%s<div class="pc-img"><img src="%s" alt="%s" loading="lazy"></div><div class="pc-body">'
             '<span class="pc-tier">%s</span><h3 class="pc-name">%s</h3><p class="pc-sub">%s</p><p class="pc-desc">%s</p>'
             '<div class="pc-price"><span class="pc-now">%s</span>%s</div>'
-            '<div class="pc-actions"><a class="btn btn-buy" href="https://1examprep.com/cart/%s:1" rel="noopener">Buy now</a><a class="btn btn-details" href="%s" data-details="%s" data-tier="%s">What\u2019s inside</a></div></div></article>'
+            '<div class="pc-actions"><a class="btn btn-buy" href="%s" rel="noopener">Buy now</a><a class="btn btn-details" href="%s" data-details="%s" data-tier="%s">What\u2019s inside</a></div></div></article>'
             % (" pc--featured" if feat else "", p["id"], '<span class="pc-badge">Most complete</span>' if feat else "", html.escape(p["image"]), html.escape(clean_title(p["title"])),
                html.escape("%s · %s · %s" % (p["state"] or "Any state", p["level"], p["year"])), html.escape(p["tierName"]), html.escape(clean_title(p["title"])), html.escape(" ".join(p["desc"].replace(p["title"], "").strip().split()[:22]) + "…"),
-               money(n), save, p["variants"][0]["id"], href, p["id"], p["tierSlug"]))
+               money(n), save, cart(p["variants"][0]["id"]), href, p["id"], p["tierSlug"]))
 def singles_html():
     singles = sorted([p for p in CATALOG if not p["state"] and p["rank"] == 0], key=lambda p: float(p["price"]))
     return "".join('<article class="sg" data-id="%s"><div class="pc-img"><img src="%s" alt="%s" loading="lazy"></div><div class="pc-body"><span class="pc-tier">%s</span><h3 class="pc-name">%s</h3><div class="pc-price"><span class="pc-now">%s</span>%s</div>'
-                   '<div class="pc-actions"><a class="btn btn-buy" href="https://1examprep.com/cart/%s:1" rel="noopener">Buy now</a><button class="btn btn-details" type="button" data-details="%s">What\u2019s inside</button></div></div></article>'
+                   '<div class="pc-actions"><a class="btn btn-buy" href="%s" rel="noopener">Buy now</a><button class="btn btn-details" type="button" data-details="%s">What\u2019s inside</button></div></div></article>'
                    % (p["id"], html.escape(p["image"]), html.escape(clean_title(p["title"])), "All levels" if p["level"] == "General" else p["level"], html.escape(clean_title(p["title"])), money(p["price"]),
-                      ('<small style="color:var(--muted)"> to %s</small>' % money(p["maxPrice"])) if p.get("maxPrice") and p["maxPrice"] != p["price"] else "", p["variants"][0]["id"], p["id"]) for p in singles)
+                      ('<small style="color:var(--muted)"> to %s</small>' % money(p["maxPrice"])) if p.get("maxPrice") and p["maxPrice"] != p["price"] else "", cart(p["variants"][0]["id"]), p["id"]) for p in singles)
 def states_html(rel, year, level_first="journeyman"):
     items = []
     for st in STATES + [GENERAL]:
@@ -389,7 +392,7 @@ def product_page(path_parts, p, siblings, state_name, level_url, other_level_url
            .replace("{{OGIMAGE}}", '<meta property="og:image" content="%s">\n' % html.escape(imgs[0]))
            .replace("{{ASSETS_HEAD}}", assets_head).replace("{{ASSETS_PRODUCT}}", '<script src="%sshared/product.js"></script>' % rel)
            .replace("{{ASSETS_SEARCH}}", '<script src="%sshared/search.js" defer></script>\n<script src="%sshared/track.js" defer></script>' % (rel, rel)).replace("{{HEAD_EXTRA}}", extra)
-           .replace("{{NAV_TOOLS}}", nav_tools('<a class="btn btn-buy" href="%s" rel="noopener">Buy now</a>' % ("https://1examprep.com/cart/%s:1" % v0["id"])))
+           .replace("{{NAV_TOOLS}}", nav_tools('<a class="btn btn-buy" href="%s" rel="noopener">Buy now</a>' % cart(v0["id"])))
            .replace("{{FOOTER}}", footer(rel, p["year"])).replace("{{ROUTE}}", json.dumps({"state": path_parts[0], "level": p["level"], "year": p["year"], "tier": p["tierSlug"], "depth": depth}))
            .replace("{{JSONLD}}", json.dumps(jsonld, ensure_ascii=False)).replace("{{P_JSON}}", pjson)
            .replace("{{HOME}}", rel).replace("{{LEVEL_URL}}", "../").replace("{{OTHER_LEVEL_URL}}", other_level_url).replace("{{OTHER_LEVEL}}", other_level)
@@ -397,7 +400,7 @@ def product_page(path_parts, p, siblings, state_name, level_url, other_level_url
            .replace("{{TIER_NAME}}", html.escape(p["tierName"])).replace("{{H1}}", html.escape(clean_title(p["title"])))
            .replace("{{IMAGE}}", html.escape(imgs[0])).replace("{{THUMBS}}", thumbs if len(imgs) > 1 else "")
            .replace("{{PRICE}}", money(v0["price"])).replace("{{COMPARE_HTML}}", compare_html).replace("{{VARIANTS_HTML}}", variants_html)
-           .replace("{{BUY_URL}}", "https://1examprep.com/cart/%s:1" % v0["id"]).replace("{{SHOP_URL}}", html.escape(p["url"]))
+           .replace("{{BUY_URL}}", cart(v0["id"])).replace("{{SHOP_URL}}", html.escape(p["url"]))
            .replace("{{MORE_LINKS_HTML}}", '<div class="more-links">%s</div>' % re.sub(r"<div><h3>(.*?)</h3><ul>(.*?)</ul></div>", lambda m: "<h3>%s</h3>%s" % (m.group(1), re.sub(r"<li>(.*?)</li>", r"\1", m.group(2))), related_pages_html(rel, GENERAL if state_name == "any state" else state_name, p["level"], p["year"], p["tierSlug"], p["tierName"]), flags=re.S))
            .replace("{{TAKEAWAYS_HTML}}", ptk).replace("{{INCLUDED_HTML}}", inc).replace("{{ADDONS_HTML}}", addons_html).replace("{{DESCRIPTION_HTML}}", full["html"]).replace("{{RELATED_HTML}}", related))
     d = os.path.join(ROOT, *path_parts); os.makedirs(d, exist_ok=True)
