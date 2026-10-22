@@ -122,7 +122,7 @@ def head_extra(path, title, desc, image, rel, noindex=False, extra_ld=()):
     if image: h.append('<meta name="twitter:image" content="%s">' % html.escape(image))
     if CFG.get("social", {}).get("twitter"): h.append('<meta name="twitter:site" content="@%s">' % CFG["social"]["twitter"].rstrip("/").split("/")[-1])
     h.append('<meta name="theme-color" content="#1b1f3b">')
-    h.append('<script>window.SITE=%s;</script>' % json.dumps({"brand": BRAND, "storeUrl": CFG["storeUrl"], "fulfillment": FUL["name"], "cartTag": CART_TAG, "aiFinder": CFG.get("aiFinderUrl", "")}))
+    h.append('<script>window.SITE=%s;</script>' % json.dumps({"brand": BRAND, "storeUrl": CFG["storeUrl"], "fulfillment": FUL["name"], "cartTag": CART_TAG, "aiFinder": CFG.get("aiFinderUrl", ""), "phone": CFG.get("phone", "")}))
     if len(BRAND) > 16 and not LOGO_NAV: h.append('<style>.nav .brand{font-size:%s;line-height:1.05;max-width:46vw}@media (max-width:720px){.nav .brand{font-size:.95rem}}</style>' % ("1.05rem" if len(BRAND) > 24 else "1.2rem"))
     if HAS_PNG_ICONS: h.append('<link rel="icon" href="%sshared/favicon.png" type="image/png" sizes="64x64">' % rel)
     else: h.append('<link rel="icon" href="%sshared/favicon.svg" type="image/svg+xml">' % rel)
