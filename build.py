@@ -789,3 +789,14 @@ else:
         if os.path.exists(os.path.join(ROOT, f)): os.remove(os.path.join(ROOT, f))
 
 print("Built root + %d pages + %d blog posts + /search/, robots.txt, llms.txt, manifest%s" % (len(generated), len(POSTS), (", sitemap.xml with %d URLs" % len(urls)) if SITE else ". Set siteUrl in site-config.json to add canonical tags and sitemap.xml"))
+
+# Version tag on the search scripts so visitors get the new copy as soon as it changes.
+import hashlib as _hl
+_sv = _hl.md5((open(os.path.join(ROOT, "shared", "search.js"), "rb").read() + (open(os.path.join(ROOT, "shared", "ai-finder.js"), "rb").read() if os.path.exists(os.path.join(ROOT, "shared", "ai-finder.js")) else b""))).hexdigest()[:8]
+for _d, _subs, _files in os.walk(ROOT):
+    _subs[:] = [x for x in _subs if not x.startswith(".") and x not in ("store", "tools", "node_modules", "brand")]
+    for _f in _files:
+        if not _f.endswith(".html"): continue
+        _p = os.path.join(_d, _f); _t = open(_p, encoding="utf-8").read()
+        _n = re.sub(r'shared/search\.js(\?v=[0-9a-f]+)?"', 'shared/search.js?v=%s"' % _sv, _t)
+        if _n != _t: open(_p, "w", encoding="utf-8").write(_n)
