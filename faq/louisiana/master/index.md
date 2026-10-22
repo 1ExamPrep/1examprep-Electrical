@@ -1,7 +1,7 @@
 ---
 title: Louisiana Master Electrician Exam FAQ (19 answers)
 url: https://passyourmasterelectricianexam.com/faq/louisiana/master/
-updated: 2026-10-19
+updated: 2026-10-22
 site: Pass Your Electrician Exam
 description: 19 answers about the Louisiana master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
 ---
@@ -19,7 +19,7 @@ description: 19 answers about the Louisiana master electrician exam and license:
 - Licensing rules come from the state board; the questions below name it.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 19, 2026 · prices checked against the 1 Exam Prep store
+Updated October 22, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 6Licensing and experience 5Code book and materials 6More questions 2
 

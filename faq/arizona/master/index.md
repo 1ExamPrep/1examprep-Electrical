@@ -1,7 +1,7 @@
 ---
 title: Arizona Master Electrician Exam FAQ (27 answers)
 url: https://passyourmasterelectricianexam.com/faq/arizona/master/
-updated: 2026-10-19
+updated: 2026-10-22
 site: Pass Your Electrician Exam
 description: 27 answers about the Arizona master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
 ---
@@ -19,7 +19,7 @@ description: 27 answers about the Arizona master electrician exam and license: w
 - Arizona Registrar of Contractors examinations are administered through PSI for applicants taking Arizona ROC contractor exams.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 19, 2026 · prices checked against the 1 Exam Prep store
+Updated October 22, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 13Licensing and experience 4Code book and materials 2More questions 8
 

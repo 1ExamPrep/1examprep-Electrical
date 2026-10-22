@@ -1,7 +1,7 @@
 ---
 title: Wisconsin Master Electrician Exam FAQ (29 answers)
 url: https://passyourmasterelectricianexam.com/faq/wisconsin/master/
-updated: 2026-10-19
+updated: 2026-10-22
 site: Pass Your Electrician Exam
 description: 29 answers about the Wisconsin master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
 ---
@@ -19,7 +19,7 @@ description: 29 answers about the Wisconsin master electrician exam and license:
 - Wisconsin Master Electrician licensing is administered by the Wisconsin Department of Safety and Professional Services.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 19, 2026 · prices checked against the 1 Exam Prep store
+Updated October 22, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 4Licensing and experience 7Code book and materials 12More questions 6
 

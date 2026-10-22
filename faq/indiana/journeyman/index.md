@@ -1,7 +1,7 @@
 ---
 title: Indiana Journeyman Electrician Exam FAQ (21 answers)
 url: https://passyourmasterelectricianexam.com/faq/indiana/journeyman/
-updated: 2026-10-19
+updated: 2026-10-22
 site: Pass Your Electrician Exam
 description: 21 answers about the Indiana journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
 ---
@@ -19,7 +19,7 @@ description: 21 answers about the Indiana journeyman electrician exam and licens
 - Electrician licensing in Indiana is usually handled at the local level. Candidates should work with the local building department, licensing office, city controller’s office, or municipal authority for the area where they plan to work.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 19, 2026 · prices checked against the 1 Exam Prep store
+Updated October 22, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 4Licensing and experience 5Code book and materials 4More questions 8
 

@@ -1,7 +1,7 @@
 ---
 title: Montana Journeyman Electrician Exam FAQ (23 answers)
 url: https://passyourmasterelectricianexam.com/faq/montana/journeyman/
-updated: 2026-10-19
+updated: 2026-10-22
 site: Pass Your Electrician Exam
 description: 23 answers about the Montana journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
 ---
@@ -19,7 +19,7 @@ description: 23 answers about the Montana journeyman electrician exam and licens
 - PSI administers the examination for the Montana State Electrical Board after the applicant has been approved by the Board.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 19, 2026 · prices checked against the 1 Exam Prep store
+Updated October 22, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 6Licensing and experience 5Code book and materials 6More questions 6
 

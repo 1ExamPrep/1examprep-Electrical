@@ -1,7 +1,7 @@
 ---
 title: Electrician Exam Prep Blog | Pass Your Electrician Exam
 url: https://passyourmasterelectricianexam.com/blog/
-updated: 2026-10-19
+updated: 2026-10-22
 site: Pass Your Electrician Exam
 description: Study tips, NEC code changes, state licensing updates and exam strategy from Pass Your Electrician Exam. New posts every month.
 ---
@@ -20,7 +20,7 @@ Study strategies, code changes, licensing news and the questions we hear every d
 - Every post links to the matching state packages, built on the 2026 National Electrical Code.
 - New posts appear in the RSS feed at /blog/feed.xml the moment they are published.
 
-Updated October 19, 2026 · prices checked against the 1 Exam Prep store
+Updated October 22, 2026 · prices checked against the 1 Exam Prep store
 
 Most people who fail a licensing exam do not fail on knowledge. They run out of time in the code book, misread an exception, or walk in with the wrong edition. These posts are about the parts of passing that the study guide cannot do for you: how to tab and navigate the 2026 NEC, how to pace a timed exam, what each state board actually asks for, and what changes between code cycles.
 

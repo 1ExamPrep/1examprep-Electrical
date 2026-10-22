@@ -1,7 +1,7 @@
 ---
 title: Illinois Journeyman Electrician Exam Prep (2026 NEC)
 url: https://passyourmasterelectricianexam.com/illinois/journeyman/2026/
-updated: 2026-10-19
+updated: 2026-10-22
 site: Pass Your Electrician Exam
 description: 2026 journeyman electrician exam prep for Illinois: 5 packages from $99.95 to $399.95. Study guide, flash cards, 2026 NEC with tabs, calculations guide and.
 ---
@@ -31,7 +31,7 @@ The 2026 National Electrical Code. If your state still tests on an earlier editi
 - The Ultimate Combo at $399.95 is the most complete option, 19% below the $495.00 price of its parts.
 - Buy now goes straight to secure checkout; books ship from our fulfillment center, 1 Exam Prep, and online kits arrive by email.
 
-Updated October 19, 2026 · prices checked against the 1 Exam Prep store
+Updated October 22, 2026 · prices checked against the 1 Exam Prep store
 
 ## Pick a package. Buy now. Done.
 

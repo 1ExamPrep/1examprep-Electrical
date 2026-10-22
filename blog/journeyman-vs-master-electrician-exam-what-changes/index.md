@@ -1,7 +1,7 @@
 ---
 title: Journeyman vs Master Electrician Exam: What Actually Changes
 url: https://passyourmasterelectricianexam.com/blog/journeyman-vs-master-electrician-exam-what-changes/
-updated: 2026-10-19
+updated: 2026-10-22
 site: Pass Your Electrician Exam
 description: The master exam is not the journeyman exam with harder questions. It adds services, load calculations, transformers, design and supervision, and in many.
 ---
@@ -22,7 +22,7 @@ The master exam is not the journeyman exam with harder questions. It adds servic
 - Master exams tend to be longer, with more calculations, and some states score the sections separately.
 - Study materials are written separately for each level because the question mix is different, not just harder.
 
-Updated October 19, 2026 · prices checked against the 1 Exam Prep store
+Updated October 22, 2026 · prices checked against the 1 Exam Prep store
 
 Candidates who passed the journeyman exam a few years ago often assume the master exam is the same test with more difficult questions. It is a different test. The subject list is longer, the calculations are heavier, and in many states there is a whole section the journeyman exam never touched. Here is what changes.
 

@@ -1,7 +1,7 @@
 ---
 title: Alabama Journeyman Electrician Exam FAQ (18 answers)
 url: https://passyourmasterelectricianexam.com/faq/alabama/journeyman/
-updated: 2026-10-19
+updated: 2026-10-22
 site: Pass Your Electrician Exam
 description: 18 answers about the Alabama journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
 ---
@@ -19,7 +19,7 @@ description: 18 answers about the Alabama journeyman electrician exam and licens
 - The Alabama Electrical Contractors Board has contracted with Prov, Inc. to administer the licensing examination program for state licensed electrical contractors and electrical journeymen.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 19, 2026 · prices checked against the 1 Exam Prep store
+Updated October 22, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 9Licensing and experience 2Code book and materials 3More questions 4
 

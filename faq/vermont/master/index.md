@@ -1,7 +1,7 @@
 ---
 title: Vermont Master Electrician Exam FAQ (22 answers)
 url: https://passyourmasterelectricianexam.com/faq/vermont/master/
-updated: 2026-10-19
+updated: 2026-10-22
 site: Pass Your Electrician Exam
 description: 22 answers about the Vermont master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
 ---
@@ -19,7 +19,7 @@ description: 22 answers about the Vermont master electrician exam and license: w
 - Vermont Master Electrician licensing is handled through the Vermont Department of Public Safety, Division of Fire Safety, and the Vermont Electricians’ Licensing Board.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 19, 2026 · prices checked against the 1 Exam Prep store
+Updated October 22, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 4Licensing and experience 10Code book and materials 7More questions 1
 

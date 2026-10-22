@@ -1,7 +1,7 @@
 ---
 title: Box Fill and Conduit Fill, Step by Step
 url: https://passyourmasterelectricianexam.com/blog/box-fill-and-conduit-fill-step-by-step/
-updated: 2026-10-19
+updated: 2026-10-22
 site: Pass Your Electrician Exam
 description: The two fill calculations on every exam, worked from the tables that govern them: how to count conductors in a box under 314.16, and how to size a raceway.
 ---
@@ -22,7 +22,7 @@ The two fill calculations on every exam, worked from the tables that govern them
 - Conduit fill is 40 percent for three or more conductors per Chapter 9 Table 1; add Table 5 conductor areas and pick the raceway from Table 4.
 - Annex C gives the same answer as Tables 4 and 5 when all conductors are one size and type, and is faster.
 
-Updated October 19, 2026 · prices checked against the 1 Exam Prep store
+Updated October 22, 2026 · prices checked against the 1 Exam Prep store
 
 Fill questions are gifts if you know the two tables and the counting rules, and a time sink if you try to reason them out from scratch. Here is each one as a procedure.
 

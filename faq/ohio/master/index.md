@@ -1,7 +1,7 @@
 ---
 title: Ohio Master Electrician Exam FAQ (22 answers)
 url: https://passyourmasterelectricianexam.com/faq/ohio/master/
-updated: 2026-10-19
+updated: 2026-10-22
 site: Pass Your Electrician Exam
 description: 22 answers about the Ohio master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing.
 ---
@@ -19,7 +19,7 @@ description: 22 answers about the Ohio master electrician exam and license: who 
 - Ohio electrical contractor licensing is regulated by the Ohio Construction Industry Licensing Board, which is part of the Ohio Department of Commerce, Division of Industrial Compliance.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 19, 2026 · prices checked against the 1 Exam Prep store
+Updated October 22, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 6Licensing and experience 10Code book and materials 4More questions 2
 

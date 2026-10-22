@@ -1,7 +1,7 @@
 ---
 title: California Journeyman Electrician Exam FAQ (21 answers)
 url: https://passyourmasterelectricianexam.com/faq/california/journeyman/
-updated: 2026-10-19
+updated: 2026-10-22
 site: Pass Your Electrician Exam
 description: 21 answers about the California journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure.
 ---
@@ -19,7 +19,7 @@ description: 21 answers about the California journeyman electrician exam and lic
 - California electrician certification is administered by the Department of Industrial Relations, Division of Labor Standards Enforcement, Electrician Certification Unit.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 19, 2026 · prices checked against the 1 Exam Prep store
+Updated October 22, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 9Licensing and experience 2Code book and materials 1More questions 9
 

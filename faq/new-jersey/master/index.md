@@ -1,7 +1,7 @@
 ---
 title: New Jersey Master Electrician Exam FAQ (19 answers)
 url: https://passyourmasterelectricianexam.com/faq/new-jersey/master/
-updated: 2026-10-19
+updated: 2026-10-22
 site: Pass Your Electrician Exam
 description: 19 answers about the New Jersey master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
 ---
@@ -19,7 +19,7 @@ description: 19 answers about the New Jersey master electrician exam and license
 - New Jersey electrical contractor licensing is administered through the New Jersey State Board of Examiners of Electrical Contractors.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 19, 2026 · prices checked against the 1 Exam Prep store
+Updated October 22, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 7Licensing and experience 9Code book and materials 3
 

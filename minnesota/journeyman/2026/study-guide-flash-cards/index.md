@@ -1,7 +1,7 @@
 ---
 title: Minnesota Journeyman Study Guide + Flash Cards (2026 NEC)
 url: https://passyourmasterelectricianexam.com/minnesota/journeyman/2026/study-guide-flash-cards/
-updated: 2026-10-19
+updated: 2026-10-22
 site: Pass Your Electrician Exam
 description: 2026 Minnesota Journeyman Electrician Exam Prep and Study Guide + Flash Card Combo: 12 Practice Exams + 2 Full Final Exams: Trusted by 50k Electricians The.
 ---
@@ -27,7 +27,7 @@ $99.95 (was $125.00) Save 20% [Buy now — go to checkout](https://1examprep.com
 - 2 optional add-ons can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 19, 2026 · prices checked against the 1 Exam Prep store
+Updated October 22, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Study Guide + Flash Cards
 

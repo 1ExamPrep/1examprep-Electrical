@@ -1,7 +1,7 @@
 ---
 title: Louisiana Journeyman Electrician Exam FAQ (28 answers)
 url: https://passyourmasterelectricianexam.com/faq/louisiana/journeyman/
-updated: 2026-10-19
+updated: 2026-10-22
 site: Pass Your Electrician Exam
 description: 28 answers about the Louisiana journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
 ---
@@ -19,7 +19,7 @@ description: 28 answers about the Louisiana journeyman electrician exam and lice
 - Statewide electrical contractor licensing is regulated by the Louisiana State Licensing Board for Contractors. This is different from a local journeyman electrician credential.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 19, 2026 · prices checked against the 1 Exam Prep store
+Updated October 22, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 9Licensing and experience 4Code book and materials 4More questions 11
 

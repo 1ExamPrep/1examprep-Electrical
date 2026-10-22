@@ -1,7 +1,7 @@
 ---
 title: Dwelling Load Calculations: Standard Method vs Optional Method
 url: https://passyourmasterelectricianexam.com/blog/dwelling-load-calculations-standard-vs-optional/
-updated: 2026-10-19
+updated: 2026-10-22
 site: Pass Your Electrician Exam
 description: The two ways to size a dwelling service under Article 220, worked side by side on the same house, with the demand factors each one uses and the places the.
 ---
@@ -22,7 +22,7 @@ The two ways to size a dwelling service under Article 220, worked side by side o
 - Optional: all loads at nameplate, first 10 kVA at 100 percent and the remainder at 40 percent, plus the larger of heating or cooling.
 - The question tells you which method to use; if it says optional, do not apply the 35 percent lighting factor.
 
-Updated October 19, 2026 · prices checked against the 1 Exam Prep store
+Updated October 22, 2026 · prices checked against the 1 Exam Prep store
 
 Every journeyman exam has at least one dwelling calculation and master exams have several. There are two methods, they live in different parts of Article 220, and the exam checks whether you can keep them apart. Here they are on the same house.
 

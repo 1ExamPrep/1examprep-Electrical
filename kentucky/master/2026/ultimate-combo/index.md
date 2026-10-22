@@ -1,7 +1,7 @@
 ---
 title: Kentucky Master Ultimate Combo (2026 NEC)
 url: https://passyourmasterelectricianexam.com/kentucky/master/2026/ultimate-combo/
-updated: 2026-10-19
+updated: 2026-10-22
 site: Pass Your Electrician Exam
 description: The 2026 Kentucky Master Electrician Exam Prep Study Guides & Code Book Ultimate Combo is a complete exam preparation package for electrical professionals.
 ---
@@ -27,7 +27,7 @@ $399.95 (was $495.00) Save 19% [Buy now — go to checkout](https://1examprep.co
 - 1 optional add-on can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 19, 2026 · prices checked against the 1 Exam Prep store
+Updated October 22, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Ultimate Combo
 
