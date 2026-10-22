@@ -121,11 +121,77 @@ def build(catalog, full):
     return files
 
 
+NUM_WORDS = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7, "eight": 8}
+EXP_SENT = re.compile(r"([^.]*?\b(\d{1,2},\d{3}|\d{3,5}|\d{1,2}|one|two|three|four|five|six|seven|eight)\s*(?:\+\s*)?(hours|years)\b[^.]*\.)", re.I)
+
+
+def to_hours(num, unit):
+    n = NUM_WORDS.get(num.lower()) or int(num.replace(",", ""))
+    return n * 2000 if unit.lower().startswith("year") else n
+
+
+def requirements(files):
+    """One line per state and level saying how much work experience is needed, plus a nationwide summary,
+    so 'is 3 years enough?' gets a real answer even before the customer names a state."""
+    out, by_level = [], {"Journeyman": [], "Master": []}
+    local = {"Journeyman": [], "Master": []}
+    for key, pieces in files.items():
+        if key in ("general", "requirements"):
+            continue
+        for level in ("Journeyman", "Master"):
+            best = None
+            for p in pieces:
+                if p.get("l") != level:
+                    continue
+                rank = 0 if p["h"].startswith("Q:") and re.search(r"experience|hours|years|qualif", p["h"], re.I) else (1 if p["h"] in ("Licensing Steps", "State Requirements", "Exam Details") else 2)
+                for m in EXP_SENT.finditer(p["t"]):
+                    sent = m.group(1).strip()
+                    if not re.search(r"experience|training|on-the-job|work|apprentic|license for", sent, re.I):
+                        continue
+                    if re.search(r"minutes|time limit|renew|continuing|exam lasts|to complete the exam|substitut", sent, re.I):
+                        continue
+                    hrs = to_hours(m.group(2), m.group(3))
+                    if hrs < 1000:          # "2 years" of holding a license etc. still counts below via the sentence
+                        hrs = None
+                    cand = (rank, sent, hrs, p["s"])
+                    if best is None or cand[0] < best[0]:
+                        best = cand
+            if best:
+                rank, sent, hrs, state = best
+                out.append({"s": state, "l": level, "h": "Experience required", "t": sent, "hrs": hrs})
+                if hrs:
+                    by_level[level].append((state, hrs))
+            else:
+                st = next((p["s"] for p in pieces if p.get("s")), None)
+                if st and any(p.get("l") == level for p in pieces):
+                    local[level].append(st)
+    j = [h for _, h in by_level["Journeyman"] if h >= 4000]
+    if j:
+        common = max(set(j), key=j.count)
+        more = sorted({(st, h) for st, h in by_level["Journeyman"] if h > common}, key=lambda r: -r[1])[:3]
+        text = ("It depends on the state, but most states ask for %s hours of supervised electrical work (about %s years full time) "
+                "before you can get a journeyman license." % (format(common, ","), common // 2000))
+        if more:
+            text += " A few ask for more, like " + " and ".join("%s (%s hours)" % (st, format(h, ",")) for st, h in more) + "."
+        text += " Some states let school or an apprenticeship count toward the hours. Tell me your state for the exact rule."
+        out.insert(0, {"s": None, "l": "Journeyman", "h": "Experience required by state", "t": text})
+    m = [(st, h) for st, h in by_level["Master"] if h >= 10000]
+    if by_level["Master"]:
+        text = ("A master license takes more than journeyman. Many states want about 2 more years of work after you hold a journeyman license, "
+                "and some count total hours instead")
+        if m:
+            text += ", like " + " and ".join("%s (%s hours)" % (st, format(h, ",")) for st, h in sorted(m, key=lambda r: -r[1])[:3])
+        text += ". Tell me your state for the exact rule."
+        out.insert(1 if j else 0, {"s": None, "l": "Master", "h": "Experience required by state", "t": text})
+    return out
+
+
 def main():
     cat_js = open(os.path.join(ROOT, "shared", "catalog.js"), encoding="utf-8").read()
     catalog = json.loads(re.search(r"window\.CATALOG\s*=\s*(\[.*?\]);", cat_js, re.S).group(1))
     full = json.load(open(os.path.join(ROOT, "store", "products-full.json"), encoding="utf-8"))
     files = build(catalog, full)
+    files["requirements"] = requirements(files)
     outdir = os.path.join(ROOT, "shared", "kb")
     os.makedirs(outdir, exist_ok=True)
     for old in os.listdir(outdir):
