@@ -28,18 +28,48 @@
   function tokens(s){return s.toLowerCase().replace(/[^a-z0-9+ ]/g," ").split(/\s+/).filter(Boolean);}
   /* words that say nothing about which product, so they never decide a match */
   var STOP={looking:1,look:1,for:1,the:1,a:1,an:1,in:1,of:1,to:1,my:1,me:1,i:1,im:1,need:1,want:1,get:1,buy:1,best:1,find:1,show:1,what:1,which:1,is:1,are:1,and:1,or:1,with:1,on:1,exam:1,exams:1,test:1,prep:1,preparation:1,study:1,license:1,licence:1,electrician:1,electrical:1,electric:1,package:1,packages:1,course:1,state:1,please:1,help:1,pass:1,passing:1,materials:1,material:1,stuff:1,good:1,cheap:1};
+  /* forgiving matching: typos ("florda", "jouneyman"), abbreviations ("FL", "tx") */
+  var ABBR={al:"Alabama",ak:"Alaska",az:"Arizona",ar:"Arkansas",ca:"California",co:"Colorado",ct:"Connecticut",de:"Delaware",fl:"Florida",ga:"Georgia",hi:"Hawaii",id:"Idaho",il:"Illinois","in":"Indiana",ia:"Iowa",ks:"Kansas",ky:"Kentucky",la:"Louisiana",me:"Maine",md:"Maryland",ma:"Massachusetts",mi:"Michigan",mn:"Minnesota",ms:"Mississippi",mo:"Missouri",mt:"Montana",ne:"Nebraska",nv:"Nevada",nh:"New Hampshire",nj:"New Jersey",nm:"New Mexico",ny:"New York",nc:"North Carolina",nd:"North Dakota",oh:"Ohio",ok:"Oklahoma",or:"Oregon",pa:"Pennsylvania",ri:"Rhode Island",sc:"South Carolina",sd:"South Dakota",tn:"Tennessee",tx:"Texas",ut:"Utah",vt:"Vermont",va:"Virginia",wa:"Washington",wv:"West Virginia",wi:"Wisconsin",wy:"Wyoming"};
+  /* two-letter codes that are also everyday words only count when typed in capitals */
+  var ABBR_WORDS={"in":1,or:1,me:1,hi:1,ok:1,oh:1,de:1,la:1,pa:1,ma:1,al:1,id:1,co:1,ga:1,mo:1,ne:1,wa:1,ar:1,mi:1,ia:1,ms:1,mt:1};
+  function lev(a,b){ if(a===b) return 0; var m=a.length,n=b.length; if(Math.abs(m-n)>2) return 9; var d=[],i,j; for(i=0;i<=m;i++){d[i]=[i];} for(j=1;j<=n;j++) d[0][j]=j;
+    for(i=1;i<=m;i++) for(j=1;j<=n;j++) { d[i][j]=Math.min(d[i-1][j]+1,d[i][j-1]+1,d[i-1][j-1]+(a[i-1]===b[j-1]?0:1)); if(i>1&&j>1&&a[i-1]===b[j-2]&&a[i-2]===b[j-1]) d[i][j]=Math.min(d[i][j],d[i-2][j-2]+1); } return d[m][n]; }
+  function okTypo(word,name){ var l=word.length; if(l<5) return false; return lev(word,name)<=(l>=8?2:1); }
+  function matchStates(q,n){
+    var S0=(window.CATALOG_STATES||[]), v=String(q||"").toLowerCase().replace(/[^a-z ]/g," ").replace(/\s+/g," ").trim(); if(!v) return [];
+    if(v.length===2&&ABBR[v]&&S0.indexOf(ABBR[v])>-1) return [ABBR[v]];
+    var scored=S0.map(function(s){ var l=s.toLowerCase(), sc=9;
+      if(l===v) sc=0; else if(l.indexOf(v)===0) sc=1; else if(l.split(" ").some(function(w){return w.indexOf(v)===0;})) sc=2; else if(v.length>2&&l.indexOf(v)>-1) sc=3; else if(okTypo(v,l)||(v.length>=4&&lev(v,l.slice(0,v.length))<=1)) sc=4;
+      return {s:s,sc:sc}; }).filter(function(x){return x.sc<9;}).sort(function(a,b){return a.sc-b.sc||a.s.localeCompare(b.s);});
+    return scored.slice(0,n||6).map(function(x){return x.s;});
+  }
   function findState(text){
     var l=" "+text.toLowerCase().replace(/[^a-z ]/g," ").replace(/\s+/g," ")+" ", S=(window.CATALOG_STATES||[]).slice().sort(function(a,b){return b.length-a.length;});
-    for(var i=0;i<S.length;i++){ if(l.indexOf(" "+S[i].toLowerCase()+" ")>-1) return S[i]; }
+    for(var i=0;i<S.length;i++){ if(l.indexOf(" "+S[i].toLowerCase()+" ")>-1) return {state:S[i],words:tokens(S[i])}; }
+    var raw=String(text).replace(/[^A-Za-z ]/g," ").split(/\s+/).filter(Boolean);
+    for(i=0;i<raw.length;i++){ var w=raw[i].toLowerCase(); if(w.length===2&&ABBR[w]&&S.indexOf(ABBR[w])>-1&&(!ABBR_WORDS[w]||raw[i]===raw[i].toUpperCase())) return {state:ABBR[w],words:[w]}; }
+    var t=tokens(text);
+    for(i=0;i<t.length;i++){
+      var two=t[i+1]?t[i]+" "+t[i+1]:null;
+      for(var k=0;k<S.length;k++){ var nm=S[k].toLowerCase();
+        if(two&&nm.indexOf(" ")>-1&&okTypo(two,nm)) return {state:S[k],words:[t[i],t[i+1]]};
+        if(nm.indexOf(" ")<0&&okTypo(t[i],nm)) return {state:S[k],words:[t[i]]}; }
+    }
+    return null;
+  }
+  function findLevel(t){
+    for(var i=0;i<t.length;i++){ var w=t[i];
+      if(/^journ/.test(w)||w==="jman"||w==="jmen"||w==="jw"||lev(w,"journeyman")<=2||lev(w,"journeymen")<=2) return {level:"Journeyman",word:w};
+      if(w==="master"||w==="masters"||(w.length>=5&&lev(w,"master")<=1)) return {level:"Master",word:w}; }
     return null;
   }
   function search(text){
     var C=window.CATALOG||[], STATES=window.CATALOG_STATES||[], all=tokens(text); if(!all.length) return {states:[],products:[]};
-    var lv=all.indexOf("master")>-1?"Master":(all.indexOf("journeyman")>-1||all.indexOf("journeymen")>-1?"Journeyman":null);
-    var state=findState(text);
-    var stWords=state?tokens(state):[];
+    var L=findLevel(all), lv=L?L.level:null;
+    var F=findState(text), state=F?F.state:null;
+    var stWords=F?F.words:[];
     /* what is left once state, level and filler words are taken out, e.g. "flash cards" or "ultimate" */
-    var rest=all.filter(function(w){return !STOP[w]&&w!=="master"&&w!=="journeyman"&&w!=="journeymen"&&stWords.indexOf(w)<0&&!/^20\d\d$/.test(w);});
+    var rest=all.filter(function(w){return !STOP[w]&&(!L||w!==L.word)&&stWords.indexOf(w)<0&&!/^20\d\d$/.test(w);});
     var stateHits;
     if(state) stateHits=[state];
     else stateHits=rest.length?STATES.concat([GENERAL]).filter(function(s){var l=s.toLowerCase();return rest.every(function(w){return l.indexOf(w)>-1;})||rest.some(function(w){return w.length>2&&l.indexOf(w)===0;});}).slice(0,4):[];
@@ -83,7 +113,7 @@
     if(e.key==="/"&&ov.hidden&&!/input|textarea|select/i.test((document.activeElement||{}).tagName||"")){e.preventDefault();open();}
   });
   /* AI exam advisor (shared/ai-finder.js), only when aiFinderUrl is set in site-config.json */
-  window.SRCH={open:open,close:close,ensureCatalog:ensureCatalog,pathFor:pathFor,BASE:BASE,q:q};
+  window.SRCH={open:open,close:close,ensureCatalog:ensureCatalog,pathFor:pathFor,BASE:BASE,q:q,matchStates:matchStates,findState:findState};
   if((window.SITE||{}).aiFinder){var ai=document.createElement("script");ai.src=BASE+"shared/ai-finder.js"+(VER?"?"+VER:"");ai.defer=true;document.head.appendChild(ai);}
   /* /search/?q= page support */
   var sp=document.getElementById("searchPage");
