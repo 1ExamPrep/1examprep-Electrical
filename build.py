@@ -793,10 +793,12 @@ print("Built root + %d pages + %d blog posts + /search/, robots.txt, llms.txt, m
 # Version tag on the search scripts so visitors get the new copy as soon as it changes.
 import hashlib as _hl
 _sv = _hl.md5((open(os.path.join(ROOT, "shared", "search.js"), "rb").read() + (open(os.path.join(ROOT, "shared", "ai-finder.js"), "rb").read() if os.path.exists(os.path.join(ROOT, "shared", "ai-finder.js")) else b""))).hexdigest()[:8]
+_cv = _hl.md5(open(os.path.join(ROOT, "shared", "store.css"), "rb").read()).hexdigest()[:8]
 for _d, _subs, _files in os.walk(ROOT):
     _subs[:] = [x for x in _subs if not x.startswith(".") and x not in ("store", "tools", "node_modules", "brand")]
     for _f in _files:
         if not _f.endswith(".html"): continue
         _p = os.path.join(_d, _f); _t = open(_p, encoding="utf-8").read()
         _n = re.sub(r'shared/search\.js(\?v=[0-9a-f]+)?"', 'shared/search.js?v=%s"' % _sv, _t)
+        _n = re.sub(r'shared/store\.css(\?v=[0-9a-f]+)?"', 'shared/store.css?v=%s"' % _cv, _n)
         if _n != _t: open(_p, "w", encoding="utf-8").write(_n)
