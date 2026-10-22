@@ -49,7 +49,7 @@
   "_dashboardUrl_help": "Address of your site dashboard on Render, e.g. https://site-dashboard.onrender.com. With siteKey set, every page view and click is sent there.",
   "siteKey": "sk_2cab4d8dadca86036ba934dc",
   "_siteKey_help": "The site's tracker key from the dashboard (Settings \u2192 Tracker), e.g. sk_\u2026",
-  "aiFinderUrl": "",
+  "aiFinderUrl": "https://exam-prep-ai-finder.ori-972.workers.dev",
   "_aiFinderUrl_help": "Address of the AI exam advisor Worker (from the ai-product-finder kit), e.g. https://exam-prep-ai-finder.yourname.workers.dev. When set, the site search gets an \"Ask the exam advisor\" option. Leave empty to turn it off.",
   "logoNav": "shared/logo-nav.png",
   "_logoNav_help": "Header logo image (transparent PNG, 2x). Made by tools/make_logo.py from brand/logo-source.png. Remove to fall back to the text wordmark.",
