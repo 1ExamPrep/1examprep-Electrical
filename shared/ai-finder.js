@@ -187,19 +187,20 @@
     return {remove:function(){ r.remove(); var p=log.lastElementChild; if(p&&p.classList.contains("bot")) p.classList.remove("cont"); status.textContent="Exam helper · online"; }};
   }
   function wait(ms){return new Promise(function(r){setTimeout(r,reduceMotion?0:ms);});}
-  function pause(text){return Math.min(700,200+String(text).length*5);}
+  /* each line takes 1 to 2 seconds of "typing", longer lines a bit longer */
+  function pause(text){return Math.max(1000,Math.min(2000,700+String(text).length*12));}
   function setBusy(b){busy=b;sendBtn.disabled=b;input.disabled=b;}
   function track(name,params){try{if(window.dash&&dash.track)dash.track(name,params||{});}catch(e){} try{if(window.gtag)gtag("event",name,params||{});}catch(e){}}
 
   var greetRun=null;
-  function deliver(reply,prods,sugg,ctl){
+  function deliver(reply,prods,sugg,ctl,waited){
     var list=parts(reply), i=0, t=null;
     function next(){
       if(ctl&&ctl.stop){ if(t) t.remove(); return Promise.resolve(); }
       if(i>=list.length){ if(t) t.remove(); cards(prods); setChips(sugg); return Promise.resolve(); }
       var text=list[i++];
       if(!t) t=typing();
-      return wait(i===1?(ctl?350:250):pause(text)).then(function(){ if(ctl&&ctl.stop){ if(t) t.remove(); return; } t.remove(); t=null; bubble("bot",text,true); if(i<list.length) t=typing(); return next(); });
+      return wait(i===1?Math.max(0,pause(text)-(waited||0)):pause(text)).then(function(){ if(ctl&&ctl.stop){ if(t) t.remove(); return; } t.remove(); t=null; bubble("bot",text,true); if(i<list.length) t=typing(); return next(); });
     }
     return next();
   }
@@ -211,7 +212,7 @@
     log.querySelectorAll(".ai-pickwrap").forEach(function(n){n.remove();}); setChips([]);
     st.messages.push({role:"user",content:text}); st.view.push({type:"user",text:text}); bubble("user",text,true);
     input.value=""; setBusy(true);
-    var dots=null, slow=setTimeout(function(){dots=typing();},120);
+    var dots=null, t0=Date.now(), slow=setTimeout(function(){dots=typing();},120);
     track("ai_advisor_message",{search_term:text.slice(0,100)});
     var slots={state:st.slots.state,level:st.slots.level,want:(st.slots.want&&st.slots.want!=="help")?st.slots.want:null};
     fetch(ENDPOINT,{method:"POST",headers:{"Content-Type":"application/json"},
@@ -226,7 +227,7 @@
         st.messages.push({role:"assistant",content:reply+(prods.length?" [Shown: "+prods.map(function(p){return p.state?p.state+" "+p.level+" "+p.tierName:p.tierName;}).join("; ")+"]":"")});
         st.view.push({type:"bot",text:reply,products:prods,suggestions:sugg,step:step}); save();
         if(prods.length) track("ai_advisor_recommend",{products:prods.map(function(p){return p.id;}).join(","),mode:"chat"});
-        return new Promise(function(r){S.ensureCatalog(r);}).then(function(){return deliver(reply,prods,sugg);}).then(function(){ if(step) showPicker(step); });
+        return new Promise(function(r){S.ensureCatalog(r);}).then(function(){ var w=Date.now()-t0; return deliver(reply,prods,sugg,null,w); }).then(function(){ if(step) showPicker(step); });
       })
       .catch(function(){clearTimeout(slow); if(dots) dots.remove(); bubble("bot","Sorry, I couldn't connect just now. You can still tap the buttons"+(PHONE?", or call us at "+PHONE:"")+".",true); var s=needStep(st.slots); if(s!=="done") showPicker(s);})
       .then(function(){setBusy(false);});
