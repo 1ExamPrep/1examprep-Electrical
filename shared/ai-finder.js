@@ -86,7 +86,7 @@
   }
   function wait(ms){return new Promise(function(r){setTimeout(r,reduceMotion?0:ms);});}
   /* a short "typing" pause sized to the message, so replies arrive like a person sending them one by one */
-  function pause(text){return Math.min(1700,450+String(text).length*16);}
+  function pause(text){return Math.min(900,250+String(text).length*6);}
   function setBusy(b){busy=b;sendBtn.disabled=b;input.disabled=b;}
   function track(name,params){try{if(window.dash&&dash.track)dash.track(name,params||{});}catch(e){} try{if(window.gtag)gtag("event",name,params||{});}catch(e){}}
 
@@ -98,7 +98,7 @@
       if(i>=list.length){ if(t) t.remove(); cards(prods); setChips(sugg); return Promise.resolve(); }
       var text=list[i++];
       if(!t) t=typing();
-      return wait(i===1?Math.max(250,pause(text)-500):pause(text)).then(function(){ if(ctl&&ctl.stop){ if(t) t.remove(); return; } t.remove(); t=null; bubble("bot",text,true); if(i<list.length) t=typing(); return next(); });
+      return wait(i===1?(ctl?400:0):pause(text)).then(function(){ if(ctl&&ctl.stop){ if(t) t.remove(); return; } t.remove(); t=null; bubble("bot",text,true); if(i<list.length) t=typing(); return next(); });
     }
     return next();
   }
@@ -109,7 +109,7 @@
     setChips([]);
     st.messages.push({role:"user",content:text}); st.view.push({type:"user",text:text}); bubble("user",text,true);
     input.value=""; setBusy(true);
-    var dots=null, slow=setTimeout(function(){dots=typing();},350);
+    var dots=null, slow=setTimeout(function(){dots=typing();},120);
     track("ai_advisor_message",{search_term:text.slice(0,100)});
     fetch(ENDPOINT,{method:"POST",headers:{"Content-Type":"application/json"},
       body:JSON.stringify({messages:st.messages.slice(-12),slots:st.slots,site:{profile:"electrician",brand:SITE.brand||"",fulfillment:SITE.fulfillment||"",phone:PHONE,catalog:new URL(S.BASE+"shared/catalog.js",location.href).href}})})
