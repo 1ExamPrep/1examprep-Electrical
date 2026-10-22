@@ -790,6 +790,14 @@ else:
 
 print("Built root + %d pages + %d blog posts + /search/, robots.txt, llms.txt, manifest%s" % (len(generated), len(POSTS), (", sitemap.xml with %d URLs" % len(urls)) if SITE else ". Set siteUrl in site-config.json to add canonical tags and sitemap.xml"))
 
+# Knowledge for the exam advisor (Max), cut from the full product descriptions: shared/kb/<state>.json
+try:
+    import importlib.util as _ilu
+    _spec = _ilu.spec_from_file_location("make_kb", os.path.join(ROOT, "tools", "make_kb.py")); _mk = _ilu.module_from_spec(_spec); _spec.loader.exec_module(_mk)
+    _n, _nf, _sz = _mk.main(); print("Advisor knowledge: %d pieces in %d files, %.1f MB" % (_n, _nf, _sz / 1e6))
+except Exception as _e:
+    print("Advisor knowledge skipped:", _e)
+
 # Version tag on the search scripts so visitors get the new copy as soon as it changes.
 import hashlib as _hl
 _sv = _hl.md5((open(os.path.join(ROOT, "shared", "search.js"), "rb").read() + (open(os.path.join(ROOT, "shared", "ai-finder.js"), "rb").read() if os.path.exists(os.path.join(ROOT, "shared", "ai-finder.js")) else b""))).hexdigest()[:8]
