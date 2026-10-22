@@ -12,7 +12,7 @@
   var STORE=SITE.storeUrl||"https://1examprep.com", KEY="ai_advisor_v3", NAME="Max";
   var PHONE=SITE.phone||((document.querySelector('a[href^="tel:"]')||{}).textContent||"").trim();
   function hello(){var h=new Date().getHours();return h<5?"Hi":h<12?"Good morning":h<18?"Good afternoon":"Good evening";}
-  function greeting(){return hello()+"! I'm "+NAME+". I'll help you find the right books for your electrician test.\n\nIt's easy. Just tap your answers.";}
+  function greeting(){return hello()+"! I'm "+NAME+". I'll help you find the right books for your electrician test, and I understand full sentences, so you can ask me anything in your own words.\n\nOr just tap your answers below.";}
 
   /* ---- the guided questions ---- */
   var POPULAR=["Texas","Florida","California","New York","Georgia","North Carolina"];

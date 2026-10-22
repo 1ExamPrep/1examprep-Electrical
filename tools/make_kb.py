@@ -192,6 +192,24 @@ def main():
     full = json.load(open(os.path.join(ROOT, "store", "products-full.json"), encoding="utf-8"))
     files = build(catalog, full)
     files["requirements"] = requirements(files)
+    # Slim product list for the advisor's server: just what it needs to pick packages (the full catalog.js
+    # carries long descriptions and is too heavy to read on every question).
+    files["products"] = [{"id": str(p["id"]), "state": p.get("state"), "level": p.get("level"),
+                          "year": p.get("year"), "tier": p.get("tier"), "tierName": p.get("tierName"), "rank": p.get("rank") or 0,
+                          "price": p.get("price"), "variants": [{"available": v.get("available", True)} for v in p.get("variants", [])[:1]]}
+                         for p in catalog]
+    # Ready-made word lists so the advisor's server does not have to split the text on every question.
+    stop = set(("a an the and or of to in on for is are am be do does did i im my me we you your it its this that "
+                "what which who how when where why can could would should will with from at by as about if so get need want "
+                "electrician electrical exam test license licence state").split())
+    def words(t):
+        return " ".join(sorted({w for w in re.sub(r"[^a-z0-9 ]", " ", t.lower()).split() if len(w) > 1 and w not in stop}))
+    for key, pieces in files.items():
+        if key == "products":
+            continue
+        for p in pieces:
+            p["k"] = words(p["h"] + " " + p["t"])
+            p["kh"] = words(p["h"])
     outdir = os.path.join(ROOT, "shared", "kb")
     os.makedirs(outdir, exist_ok=True)
     for old in os.listdir(outdir):
@@ -201,7 +219,7 @@ def main():
     for key, pieces in files.items():
         path = os.path.join(outdir, key + ".json")
         with open(path, "w", encoding="utf-8") as f:
-            json.dump({"v": 1, "pieces": pieces}, f, ensure_ascii=False, separators=(",", ":"))
+            json.dump({"v": 1, ("items" if key == "products" else "pieces"): pieces}, f, ensure_ascii=False, separators=(",", ":"))
         total += os.path.getsize(path)
     old = os.path.join(ROOT, "shared", "advisor-kb.json")
     if os.path.exists(old):
