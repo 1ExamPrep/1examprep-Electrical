@@ -32,7 +32,7 @@
   };
 
   var panel=document.createElement("div"); panel.className="ai"; panel.hidden=true;
-  panel.innerHTML='<div class="ai-head">'+AVATAR+'<div class="ai-who"><b>'+NAME+'</b><small><i class="ai-on-dot"></i><span class="ai-status">AI exam advisor · online</span></small></div><span class="ai-sp"></span><button type="button" class="ai-link" data-ai-reset>Start over</button><button type="button" class="ai-link" data-ai-back>Back to search</button><button type="button" class="srch-x" data-sclose aria-label="Close">×</button></div>'+
+  panel.innerHTML='<div class="ai-head">'+AVATAR+'<div class="ai-who"><b>'+NAME+'</b><small><i class="ai-on-dot"></i><span class="ai-status">AI exam advisor · online</span></small></div><span class="ai-sp"></span><button type="button" class="ai-link" data-ai-reset>Start over</button><button type="button" class="ai-link" data-ai-back>Search products instead</button><button type="button" class="srch-x" data-sclose aria-label="Close">×</button></div>'+
     '<div class="ai-log" aria-live="polite"></div><div class="ai-chips"></div>'+
     '<form class="ai-form" autocomplete="off"><input class="ai-in" type="text" maxlength="400" placeholder="Message '+NAME+'…" aria-label="Your message"><button class="ai-send" type="submit" aria-label="Send"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M3 11.5 21 3l-8.5 18-2.2-7.3L3 11.5Z" fill="currentColor"/></svg></button></form>'+
     '<p class="ai-foot">'+NAME+' is an AI and only recommends products we actually sell.'+(PHONE?' Rather talk to a person? Call <a href="tel:'+esc(PHONE.replace(/[^0-9+]/g,""))+'">'+esc(PHONE)+'</a>.':'')+'</p>';
@@ -69,8 +69,9 @@
   function setChips(list){
     chips.innerHTML=(list||[]).map(function(s){return '<button type="button" class="ai-chip">'+esc(s)+'</button>';}).join("");
   }
-  function render(){
+  function render(animate){
     log.innerHTML="";
+    if(animate&&!st.messages.length){ setChips([]); var g=greetRun={stop:false}; deliver(st.greet||greeting(),[],STARTERS,g).then(function(){if(greetRun===g)greetRun=null;}); return; }
     parts(st.greet||greeting()).forEach(function(t){bubble("bot",t);});
     st.view.forEach(function(v){ if(v.type==="user") bubble("user",v.text); else { parts(v.text).forEach(function(t){bubble("bot",t);}); cards(v.products); } });
     var last=st.view[st.view.length-1];
@@ -89,19 +90,22 @@
   function setBusy(b){busy=b;sendBtn.disabled=b;input.disabled=b;}
   function track(name,params){try{if(window.dash&&dash.track)dash.track(name,params||{});}catch(e){} try{if(window.gtag)gtag("event",name,params||{});}catch(e){}}
 
-  function deliver(reply,prods,sugg){
+  var greetRun=null;
+  function deliver(reply,prods,sugg,ctl){
     var list=parts(reply), i=0, t=null;
     function next(){
+      if(ctl&&ctl.stop){ if(t) t.remove(); return Promise.resolve(); }
       if(i>=list.length){ if(t) t.remove(); cards(prods); setChips(sugg); return Promise.resolve(); }
       var text=list[i++];
       if(!t) t=typing();
-      return wait(i===1?Math.max(250,pause(text)-500):pause(text)).then(function(){ t.remove(); t=null; bubble("bot",text,true); if(i<list.length) t=typing(); return next(); });
+      return wait(i===1?Math.max(250,pause(text)-500):pause(text)).then(function(){ if(ctl&&ctl.stop){ if(t) t.remove(); return; } t.remove(); t=null; bubble("bot",text,true); if(i<list.length) t=typing(); return next(); });
     }
     return next();
   }
 
   function send(text){
     text=(text||"").trim(); if(!text||busy) return;
+    if(greetRun){ greetRun.stop=true; greetRun=null; render(false); }   /* they started typing before the greeting finished */
     setChips([]);
     st.messages.push({role:"user",content:text}); st.view.push({type:"user",text:text}); bubble("user",text,true);
     input.value=""; setBusy(true);
@@ -126,7 +130,7 @@
   function chatMode(on,prefill){
     panel.hidden=!on; form.hidden=on; res.hidden=on; if(hint) hint.hidden=on;
     box.classList.toggle("ai-on",on);
-    if(on){ S.ensureCatalog(render); if(prefill) send(prefill); else setTimeout(function(){input.focus();},20); track("ai_advisor_open",{}); }
+    if(on){ S.ensureCatalog(function(){render(!prefill);}); if(prefill) send(prefill); else setTimeout(function(){input.focus();},20); track("ai_advisor_open",{}); }
     else setTimeout(function(){S.q.focus();},20);
   }
 
@@ -134,11 +138,14 @@
   box.addEventListener("click",function(e){
     var ask=e.target.closest("[data-ai-ask]"); if(ask){e.preventDefault();var t=ask.getAttribute("data-ai-ask");S.q.value="";chatMode(true,t);return;}
     if(e.target.closest("[data-ai-back]")){chatMode(false);return;}
-    if(e.target.closest("[data-ai-reset]")){st=fresh();save();render();input.focus();return;}
+    if(e.target.closest("[data-ai-reset]")){st=fresh();save();render(true);input.focus();return;}
     var chip=e.target.closest(".ai-chip"); if(chip){send(chip.textContent);}
   });
-  /* each time the search opens it starts on normal search, with the advisor row on top */
-  document.addEventListener("click",function(e){ if(e.target.closest("[data-sopen]")) chatMode(false); },true);
+  /* opening search (the icon, the "/" key or a link) goes straight into the chat with Max.
+     "Back to search" switches to the regular instant search. */
+  var ov=document.getElementById("search");
+  new MutationObserver(function(){ if(!ov.hidden&&panel.hidden&&!ov.dataset.aiSkip) chatMode(true); }).observe(ov,{attributes:true,attributeFilter:["hidden"]});
+  if(!ov.hidden) chatMode(true);
   /* a question typed into the search box (several words, or ends with ?) goes to the advisor on Enter */
   form.addEventListener("submit",function(e){
     var t=S.q.value.trim();
