@@ -41,23 +41,26 @@
   function stateRows(r,yr){return r.states.map(function(s){var rows="";if(!r.level||r.level==="Journeyman")rows+='<a class="srch-row" href="'+esc(levelPath(s,"Journeyman",yr))+'"><b>'+esc(s)+'</b><span>Journeyman packages</span></a>';if(!r.level||r.level==="Master")rows+='<a class="srch-row" href="'+esc(levelPath(s,"Master",yr))+'"><b>'+esc(s)+'</b><span>Master packages</span></a>';return rows;}).join("");}
   function render(text){
     var r=search(text);
-    if(!text.trim()){res.innerHTML="";return;}
+    var AI=window.AI_ROW; if(!text.trim()){res.innerHTML=AI?AI(""):"";return;}
     var yr=(window.CATALOG||[]).map(function(p){return p.year;}).sort().reverse()[0]||"2026";
-    var h="";
+    var h=AI?AI(text):"";
     if(r.states.length) h+='<div class="srch-sec">States</div>'+stateRows(r,yr);
     if(r.products.length) h+='<div class="srch-sec">Products</div>'+r.products.map(function(p){return '<a class="srch-row" href="'+esc(pathFor(p))+'"><img src="'+esc(p.image)+'" alt="" loading="lazy"><span class="srch-t"><b>'+esc(p.tierName)+'</b><small>'+esc((p.state||"Any state")+" · "+p.level+" · "+p.year)+'</small></span><span class="srch-p">'+money(p.price)+'</span></a>';}).join("");
-    if(!h) h='<p class="srch-none">Nothing found for “'+esc(text)+'”. Try a state name or “journeyman” / “master”.</p>';
+    if(!r.states.length&&!r.products.length) h+='<p class="srch-none">Nothing found for “'+esc(text)+'”. Try a state name or “journeyman” / “master”.</p>';
     res.innerHTML=h;
   }
   function open(){opener=document.activeElement;ov.hidden=false;ov.setAttribute("aria-hidden","false");document.documentElement.classList.add("modal-open");setTimeout(function(){q.focus();},20);ensureCatalog(function(){render(q.value);});}
   function close(){ov.hidden=true;ov.setAttribute("aria-hidden","true");document.documentElement.classList.remove("modal-open");if(opener&&opener.focus)opener.focus();}
   var tmr; q.addEventListener("input",function(){clearTimeout(tmr);tmr=setTimeout(function(){ensureCatalog(function(){render(q.value);});},80);});
-  q.closest("form").addEventListener("submit",function(e){var first=res.querySelector(".srch-row");if(first){e.preventDefault();location.href=first.href;}});
+  q.closest("form").addEventListener("submit",function(e){var first=res.querySelector("a.srch-row");if(first){e.preventDefault();location.href=first.href;}});
   document.addEventListener("click",function(e){if(e.target.closest("[data-sopen]")){e.preventDefault();open();}else if(e.target.closest("[data-sclose]")){e.preventDefault();close();}});
   document.addEventListener("keydown",function(e){
     if(e.key==="Escape"&&!ov.hidden){close();return;}
     if(e.key==="/"&&ov.hidden&&!/input|textarea|select/i.test((document.activeElement||{}).tagName||"")){e.preventDefault();open();}
   });
+  /* AI exam advisor (shared/ai-finder.js), only when aiFinderUrl is set in site-config.json */
+  window.SRCH={open:open,close:close,ensureCatalog:ensureCatalog,pathFor:pathFor,BASE:BASE,q:q};
+  if((window.SITE||{}).aiFinder){var ai=document.createElement("script");ai.src=BASE+"shared/ai-finder.js";ai.defer=true;document.head.appendChild(ai);}
   /* /search/?q= page support */
   var sp=document.getElementById("searchPage");
   if(sp){var m=location.search.match(/[?&]q=([^&]*)/);var val=m?decodeURIComponent(m[1].replace(/\+/g," ")):"";var inp=sp.querySelector("input");inp.value=val;

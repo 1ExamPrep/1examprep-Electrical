@@ -41,6 +41,7 @@
     if(el.closest("#rail")) return "package_card";
     if(el.closest("#singlesGrid")) return "singles_card";
     if(el.closest(".final")) return "bottom_cta";
+    if(el.closest(".ai-card")) return "ai_advisor";
     return "other";
   }
 
