@@ -1,7 +1,7 @@
 ---
 title: Delaware Journeyman Electrician Exam FAQ (26 answers)
 url: https://passyourmasterelectricianexam.com/faq/delaware/journeyman/
-updated: 2026-10-22
+updated: 2026-10-28
 site: Pass Your Electrician Exam
 description: 26 answers about the Delaware journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
 ---
@@ -19,7 +19,7 @@ description: 26 answers about the Delaware journeyman electrician exam and licen
 - Delaware uses Prov, Inc. to administer required licensure examinations for the electrical trade after the Board approves the candidate to sit for the exam.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 22, 2026 · prices checked against the 1 Exam Prep store
+Updated October 28, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 12Licensing and experience 4Code book and materials 5More questions 5
 

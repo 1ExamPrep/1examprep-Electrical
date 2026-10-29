@@ -1,7 +1,7 @@
 ---
 title: New Mexico Journeyman Electrician Exam FAQ (23 answers)
 url: https://passyourmasterelectricianexam.com/faq/new-mexico/journeyman/
-updated: 2026-10-22
+updated: 2026-10-28
 site: Pass Your Electrician Exam
 description: 23 answers about the New Mexico journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure.
 ---
@@ -19,7 +19,7 @@ description: 23 answers about the New Mexico journeyman electrician exam and lic
 - New Mexico journeyman electrical certification is regulated through the Construction Industries Division of the New Mexico Regulation and Licensing Department.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 22, 2026 · prices checked against the 1 Exam Prep store
+Updated October 28, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 8Licensing and experience 5Code book and materials 3More questions 7
 

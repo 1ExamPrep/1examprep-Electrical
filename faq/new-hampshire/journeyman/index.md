@@ -1,7 +1,7 @@
 ---
 title: New Hampshire Journeyman Electrician Exam FAQ (21 answers)
 url: https://passyourmasterelectricianexam.com/faq/new-hampshire/journeyman/
-updated: 2026-10-22
+updated: 2026-10-28
 site: Pass Your Electrician Exam
 description: 21 answers about the New Hampshire journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure.
 ---
@@ -19,7 +19,7 @@ description: 21 answers about the New Hampshire journeyman electrician exam and 
 - Prov administers the New Hampshire Journeyman Electrician examination for the New Hampshire Office of Professional Licensure and Certification and the State of New Hampshire Electrician Board.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 22, 2026 · prices checked against the 1 Exam Prep store
+Updated October 28, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 5Licensing and experience 7Code book and materials 5More questions 4
 

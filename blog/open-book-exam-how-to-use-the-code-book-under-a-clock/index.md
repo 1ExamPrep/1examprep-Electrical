@@ -1,7 +1,7 @@
 ---
 title: Open-Book Exam: How to Use the Code Book Under a Clock
 url: https://passyourmasterelectricianexam.com/blog/open-book-exam-how-to-use-the-code-book-under-a-clock/
-updated: 2026-10-22
+updated: 2026-10-28
 site: Pass Your Electrician Exam
 description: Open book is where most candidates lose. A method for deciding what to look up, how to get to the right section in seconds, and how to read an exception.
 ---
@@ -22,7 +22,7 @@ Open book is where most candidates lose. A method for deciding what to look up, 
 - Read the whole section, including the exceptions and the informational notes, before answering; the exam loves the exception.
 - Drill the index with a timer until an average lookup takes under 30 seconds.
 
-Updated October 22, 2026 · prices checked against the 1 Exam Prep store
+Updated October 28, 2026 · prices checked against the 1 Exam Prep store
 
 An open-book exam feels like a gift until you are 40 questions in with half the time gone. The book does not answer questions for you; it answers them for people who already know where to look. This post is about becoming one of those people.
 

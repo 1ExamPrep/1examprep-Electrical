@@ -1,7 +1,7 @@
 ---
 title: Idaho Master Electrician Exam FAQ (21 answers)
 url: https://passyourmasterelectricianexam.com/faq/idaho/master/
-updated: 2026-10-22
+updated: 2026-10-28
 site: Pass Your Electrician Exam
 description: 21 answers about the Idaho master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing.
 ---
@@ -19,7 +19,7 @@ description: 21 answers about the Idaho master electrician exam and license: who
 - Idaho master electricians are regulated by the Idaho Electrical Board under the Division of Occupational and Professional Licenses.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 22, 2026 · prices checked against the 1 Exam Prep store
+Updated October 28, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 8Licensing and experience 3Code book and materials 6More questions 4
 

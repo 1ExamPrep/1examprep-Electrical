@@ -1,7 +1,7 @@
 ---
 title: How to Use Practice Exams: The Error Log Method
 url: https://passyourmasterelectricianexam.com/blog/how-to-use-practice-exams-the-error-log-method/
-updated: 2026-10-22
+updated: 2026-10-28
 site: Pass Your Electrician Exam
 description: Practice exams are not for finding out whether you would pass. They are for finding the code sections you keep missing. A method for taking them, logging.
 ---
@@ -22,7 +22,7 @@ Practice exams are not for finding out whether you would pass. They are for find
 - Three causes need three different fixes: index drills, slower reading of exceptions, and a tighter time budget per question.
 - The last two weeks are spent on whatever the log names most often, not on another pass through the whole guide.
 
-Updated October 22, 2026 · prices checked against the 1 Exam Prep store
+Updated October 28, 2026 · prices checked against the 1 Exam Prep store
 
 A practice exam tells you your score, and your score is the least useful thing on the page. What it can tell you, if you make it, is which sections of the code you keep getting wrong and why. That list is the study plan for your final two weeks. Here is how to build it.
 

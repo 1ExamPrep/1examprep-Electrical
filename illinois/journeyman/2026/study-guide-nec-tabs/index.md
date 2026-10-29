@@ -1,7 +1,7 @@
 ---
 title: Illinois Journeyman Study Guide + NEC with Tabs (2026 NEC)
 url: https://passyourmasterelectricianexam.com/illinois/journeyman/2026/study-guide-nec-tabs/
-updated: 2026-10-22
+updated: 2026-10-28
 site: Pass Your Electrician Exam
 description: Prepare for Illinois journeyman-level electrical exam study with a focused printed combo designed for electrical code review, trade knowledge reinforcement.
 ---
@@ -27,7 +27,7 @@ $249.95 (was $350.00) Save 29% [Buy now — go to checkout](https://1examprep.co
 - 2 optional add-ons can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 22, 2026 · prices checked against the 1 Exam Prep store
+Updated October 28, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Study Guide + NEC with Tabs
 

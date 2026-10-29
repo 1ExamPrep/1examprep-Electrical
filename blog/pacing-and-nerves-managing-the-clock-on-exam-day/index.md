@@ -1,7 +1,7 @@
 ---
 title: Pacing and Nerves: Managing the Clock on Exam Day
 url: https://passyourmasterelectricianexam.com/blog/pacing-and-nerves-managing-the-clock-on-exam-day/
-updated: 2026-10-22
+updated: 2026-10-28
 site: Pass Your Electrician Exam
 description: A time budget for a 100-question exam, the three-pass method, what to do when a question will not come, and the small physical habits that keep your head.
 ---
@@ -22,7 +22,7 @@ A time budget for a 100-question exam, the three-pass method, what to do when a 
 - A question that is taking more than three minutes gets a best guess and a flag; two easier questions are waiting.
 - Checkpoints every 20 questions tell you early whether to speed up, and the review screen in the last ten minutes catches blanks.
 
-Updated October 22, 2026 · prices checked against the 1 Exam Prep store
+Updated October 28, 2026 · prices checked against the 1 Exam Prep store
 
 Most candidates who fail know enough to pass. They lose to the clock, and the clock wins because nobody taught them to manage it. This post is the method: a budget, three passes, a rule for the question that will not come, and the habits that keep the budget intact when the nerves arrive.
 

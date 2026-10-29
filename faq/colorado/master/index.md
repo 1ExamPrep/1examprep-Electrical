@@ -1,7 +1,7 @@
 ---
 title: Colorado Master Electrician Exam FAQ (19 answers)
 url: https://passyourmasterelectricianexam.com/faq/colorado/master/
-updated: 2026-10-22
+updated: 2026-10-28
 site: Pass Your Electrician Exam
 description: 19 answers about the Colorado master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
 ---
@@ -19,7 +19,7 @@ description: 19 answers about the Colorado master electrician exam and license: 
 - The Colorado State Electrical Board within the Division of Professions and Occupations licenses, registers, and regulates electricians, apprentices, and electrical contractors in Colorado.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 22, 2026 · prices checked against the 1 Exam Prep store
+Updated October 28, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 8Licensing and experience 2Code book and materials 5More questions 4
 

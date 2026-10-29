@@ -51,6 +51,7 @@ def nice_day(d):
     try: return datetime.date.fromisoformat(d[:10]).strftime("%B %-d, %Y")
     except Exception: return d
 sys.path.insert(0, os.path.join(ROOT, "tools")); import blogkit
+import schemakit
 ALL_POSTS = blogkit.load_posts(os.path.join(ROOT, "content", "posts"), SITE or "")
 POSTS = [q for q in ALL_POSTS if q.get("kind", "blog") != "page"]
 PAGES = [q for q in ALL_POSTS if q.get("kind", "blog") == "page"]
@@ -376,9 +377,9 @@ def product_page(path_parts, p, siblings, state_name, level_url, other_level_url
         q["tierSlug"], html.escape(q["image"]), html.escape(q["tierName"]), html.escape(q["tierName"]), html.escape(clean_title(q["title"])[:60] + ("…" if len(clean_title(q["title"])) > 60 else "")), money(q["price"])) for q in siblings if q["id"] != p["id"])
     desc = trim_desc(p["desc"].replace(p["title"], "").strip())
     path = "/".join(path_parts) + "/"
-    jsonld = {"@context": "https://schema.org", "@type": "Product", "name": clean_title(p["title"]), "image": imgs[:6], "description": p["desc"].replace(p["title"], "").strip()[:500],
-              "brand": {"@type": "Brand", "name": FUL["name"]}, "sku": p["id"], "productID": p["id"], "category": "%s Electrician Exam Prep" % p["level"], "url": absurl(path),
-              "offers": [{"@type": "Offer", "name": v["title"], "priceCurrency": "USD", "price": v["price"], "availability": "https://schema.org/InStock", "itemCondition": "https://schema.org/NewCondition", "url": absurl(path), "seller": {"@type": "Organization", "name": BRAND}} for v in p["variants"]]}
+    _ft = html.unescape(re.sub(r"<[^>]+>", " ", full.get("html") or "")).replace(p["title"], "").strip()
+    jsonld = schemakit.product_ld(clean_title(p["title"]), absurl(path), imgs, _ft if len(_ft) > 120 else p["desc"].replace(p["title"], "").strip(), p["id"],
+                                  "%s Electrician Exam Prep" % p["level"], p["variants"], p.get("type", ""), brand=FUL["name"], fallback=desc)
     crumbs = [("All states", ""), (state_name.capitalize() if state_name == "any state" else state_name, "/".join(path_parts[:3]) + "/"), (p["level"], "/".join(path_parts[:3]) + "/"), (p["tierName"], path)]
     short_t = "%s %s %s" % ("" if state_name == "any state" else state_name, p["level"], p["tierName"]); short_t = re.sub(r"\s+", " ", short_t).strip()
     if len(short_t) + len(" (%s NEC)" % p["year"]) <= 60: short_t += " (%s NEC)" % p["year"]

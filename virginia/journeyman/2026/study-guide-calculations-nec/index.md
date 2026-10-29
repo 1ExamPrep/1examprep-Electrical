@@ -1,7 +1,7 @@
 ---
 title: Virginia Journeyman Study Guide + Calculations + NEC
 url: https://passyourmasterelectricianexam.com/virginia/journeyman/2026/study-guide-calculations-nec/
-updated: 2026-10-22
+updated: 2026-10-28
 site: Pass Your Electrician Exam
 description: The 2026 Virginia Journeyman Electrician + Electrician Calculations Study Guides & National Electrical Code Combo is designed for electrical professionals.
 ---
@@ -27,7 +27,7 @@ $279.95 (was $315.00) Save 11% [Buy now — go to checkout](https://1examprep.co
 - 2 optional add-ons can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 22, 2026 · prices checked against the 1 Exam Prep store
+Updated October 28, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Study Guide + Calculations + NEC
 

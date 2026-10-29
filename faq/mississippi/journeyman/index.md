@@ -1,7 +1,7 @@
 ---
 title: Mississippi Journeyman Electrician Exam FAQ (22 answers)
 url: https://passyourmasterelectricianexam.com/faq/mississippi/journeyman/
-updated: 2026-10-22
+updated: 2026-10-28
 site: Pass Your Electrician Exam
 description: 22 answers about the Mississippi journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure.
 ---
@@ -19,7 +19,7 @@ description: 22 answers about the Mississippi journeyman electrician exam and li
 - Mississippi State Board of Contractors examinations are administered through PSI after MSBOC determines the applicant’s eligibility to test.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 22, 2026 · prices checked against the 1 Exam Prep store
+Updated October 28, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 9Licensing and experience 4Code book and materials 2More questions 7
 

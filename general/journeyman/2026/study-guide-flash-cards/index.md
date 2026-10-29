@@ -1,7 +1,7 @@
 ---
 title: Journeyman Study Guide + Flash Cards (2026 NEC)
 url: https://passyourmasterelectricianexam.com/general/journeyman/2026/study-guide-flash-cards/
-updated: 2026-10-22
+updated: 2026-10-28
 site: Pass Your Electrician Exam
 description: (Based on the 2026 National Electrical Code) Ace Your 2026 Journeyman Electrician Exam with Confidence! The 2026 Journeyman Electrician Exam Prep Study Guide.
 ---
@@ -27,7 +27,7 @@ $99.95 (was $125.00) Save 20% [Buy now — go to checkout](https://1examprep.com
 - 2 optional add-ons can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 22, 2026 · prices checked against the 1 Exam Prep store
+Updated October 28, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Study Guide + Flash Cards
 

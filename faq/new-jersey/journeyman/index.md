@@ -1,7 +1,7 @@
 ---
 title: New Jersey Journeyman Electrician Exam FAQ (25 answers)
 url: https://passyourmasterelectricianexam.com/faq/new-jersey/journeyman/
-updated: 2026-10-22
+updated: 2026-10-28
 site: Pass Your Electrician Exam
 description: 25 answers about the New Jersey journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure.
 ---
@@ -19,7 +19,7 @@ description: 25 answers about the New Jersey journeyman electrician exam and lic
 - New Jersey electrical licensing is regulated through the New Jersey Board of Examiners of Electrical Contractors under the Division of Consumer Affairs.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 22, 2026 · prices checked against the 1 Exam Prep store
+Updated October 28, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 4Licensing and experience 9Code book and materials 4More questions 8
 

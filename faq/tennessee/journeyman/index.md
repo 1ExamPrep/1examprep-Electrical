@@ -1,7 +1,7 @@
 ---
 title: Tennessee Journeyman Electrician Exam FAQ (31 answers)
 url: https://passyourmasterelectricianexam.com/faq/tennessee/journeyman/
-updated: 2026-10-22
+updated: 2026-10-28
 site: Pass Your Electrician Exam
 description: 31 answers about the Tennessee journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
 ---
@@ -19,7 +19,7 @@ description: 31 answers about the Tennessee journeyman electrician exam and lice
 - Electrical contractor licensing is regulated through the Tennessee Board for Licensing Contractors when contractor licensing requirements apply. Contractor licensing is separate from local journeyman credentialing.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 22, 2026 · prices checked against the 1 Exam Prep store
+Updated October 28, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 9Licensing and experience 12Code book and materials 4More questions 6
 

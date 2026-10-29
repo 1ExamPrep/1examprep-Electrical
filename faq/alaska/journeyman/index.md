@@ -1,7 +1,7 @@
 ---
 title: Alaska Journeyman Electrician Exam FAQ (20 answers)
 url: https://passyourmasterelectricianexam.com/faq/alaska/journeyman/
-updated: 2026-10-22
+updated: 2026-10-28
 site: Pass Your Electrician Exam
 description: 20 answers about the Alaska journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
 ---
@@ -19,7 +19,7 @@ description: 20 answers about the Alaska journeyman electrician exam and license
 - The Alaska Department of Labor and Workforce Development Mechanical Inspection Section issues electrical Certificates of Fitness, including the Electrician Journeyman classification.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 22, 2026 · prices checked against the 1 Exam Prep store
+Updated October 28, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 9Licensing and experience 1Code book and materials 2More questions 8
 
