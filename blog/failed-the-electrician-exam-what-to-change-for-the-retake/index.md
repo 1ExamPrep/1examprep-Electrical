@@ -1,7 +1,7 @@
 ---
 title: Failed the Electrician Exam? What to Change for the Retake
 url: https://passyourmasterelectricianexam.com/blog/failed-the-electrician-exam-what-to-change-for-the-retake/
-updated: 2026-10-28
+updated: 2026-10-29
 site: Pass Your Electrician Exam
 description: How to read the score report, why most second attempts fail for the same reason as the first, and a four-week plan that changes the thing that actually went.
 ---
@@ -22,7 +22,7 @@ How to read the score report, why most second attempts fail for the same reason 
 - Rebuild your study with timed drills from day one and an error log by code section.
 - Most states allow a retake after 30 days with a new fee; use the waiting period in full rather than rushing back.
 
-Updated October 28, 2026 · prices checked against the 1 Exam Prep store
+Updated October 29, 2026 · prices checked against the 1 Exam Prep store
 
 A fail is a data point, and a surprisingly precise one. The score report that came with it tells you which areas were weak, and the way the exam went tells you whether the problem was knowledge, the book or the clock. The candidates who pass on the second attempt are the ones who change something specific. Here is how to decide what.
 

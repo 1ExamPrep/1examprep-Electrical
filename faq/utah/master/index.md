@@ -1,7 +1,7 @@
 ---
 title: Utah Master Electrician Exam FAQ (24 answers)
 url: https://passyourmasterelectricianexam.com/faq/utah/master/
-updated: 2026-10-28
+updated: 2026-10-29
 site: Pass Your Electrician Exam
 description: 24 answers about the Utah master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing.
 ---
@@ -19,7 +19,7 @@ description: 24 answers about the Utah master electrician exam and license: who 
 - Utah Master Electrician licensing is regulated by the Utah Division of Professional Licensing under the Utah Department of Commerce.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 28, 2026 · prices checked against the 1 Exam Prep store
+Updated October 29, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 7Licensing and experience 10Code book and materials 4More questions 3
 

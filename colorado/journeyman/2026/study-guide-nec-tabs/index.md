@@ -1,7 +1,7 @@
 ---
 title: Colorado Journeyman Study Guide + NEC with Tabs (2026 NEC)
 url: https://passyourmasterelectricianexam.com/colorado/journeyman/2026/study-guide-nec-tabs/
-updated: 2026-10-28
+updated: 2026-10-29
 site: Pass Your Electrician Exam
 description: Prepare for the Colorado journeyman electrician exam with a focused printed study combo designed for code-based review, trade knowledge reinforcement, and.
 ---
@@ -27,7 +27,7 @@ $249.95 (was $350.00) Save 29% [Buy now — go to checkout](https://1examprep.co
 - 2 optional add-ons can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 28, 2026 · prices checked against the 1 Exam Prep store
+Updated October 29, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Study Guide + NEC with Tabs
 

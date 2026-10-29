@@ -1,7 +1,7 @@
 ---
 title: South Carolina Master Electrician Exam FAQ (30 answers)
 url: https://passyourmasterelectricianexam.com/faq/south-carolina/master/
-updated: 2026-10-28
+updated: 2026-10-29
 site: Pass Your Electrician Exam
 description: 30 answers about the South Carolina master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure.
 ---
@@ -19,7 +19,7 @@ description: 30 answers about the South Carolina master electrician exam and lic
 - Commercial electrical contractor licensing is regulated by the South Carolina Contractor’s Licensing Board, under the South Carolina Department of Labor, Licensing and Regulation.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 28, 2026 · prices checked against the 1 Exam Prep store
+Updated October 29, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 9Licensing and experience 11Code book and materials 3More questions 7
 

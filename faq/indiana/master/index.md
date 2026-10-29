@@ -1,7 +1,7 @@
 ---
 title: Indiana Master Electrician Exam FAQ (19 answers)
 url: https://passyourmasterelectricianexam.com/faq/indiana/master/
-updated: 2026-10-28
+updated: 2026-10-29
 site: Pass Your Electrician Exam
 description: 19 answers about the Indiana master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
 ---
@@ -19,7 +19,7 @@ description: 19 answers about the Indiana master electrician exam and license: w
 - Licensing rules come from the state board; the questions below name it.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 28, 2026 · prices checked against the 1 Exam Prep store
+Updated October 29, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 7Licensing and experience 3Code book and materials 4More questions 5
 

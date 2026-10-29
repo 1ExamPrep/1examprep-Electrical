@@ -1,7 +1,7 @@
 ---
 title: Voltage Drop on the Electrician Exam: Formula, Traps and a Worked Example
 url: https://passyourmasterelectricianexam.com/blog/voltage-drop-on-the-electrician-exam/
-updated: 2026-10-28
+updated: 2026-10-29
 site: Pass Your Electrician Exam
 description: The two voltage-drop formulas, where the constants come from, the 3 and 5 percent recommendations, and a worked example that shows why the obvious conductor.
 ---
@@ -22,7 +22,7 @@ The two voltage-drop formulas, where the constants come from, the 3 and 5 percen
 - The code recommends no more than 3 percent on a branch circuit and 5 percent total; questions use those limits to ask which conductor to install.
 - The common trap is doubling the length when the formula already includes the return path.
 
-Updated October 28, 2026 · prices checked against the 1 Exam Prep store
+Updated October 29, 2026 · prices checked against the 1 Exam Prep store
 
 Voltage drop questions look like arithmetic and are really about reading. The formula is short, the constants are given or in a table, and the trap is always in the setup: one-way or round-trip length, single or three phase, copper or aluminium, and which limit the question is holding you to.
 

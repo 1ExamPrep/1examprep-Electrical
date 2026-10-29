@@ -1,7 +1,7 @@
 ---
 title: The NEC Articles That Carry Most of the Exam Questions
 url: https://passyourmasterelectricianexam.com/blog/nec-articles-that-carry-most-exam-questions/
-updated: 2026-10-28
+updated: 2026-10-29
 site: Pass Your Electrician Exam
 description: Twelve articles and a handful of tables account for most of the questions on journeyman and master exams. What each one covers, what gets asked, and the.
 ---
@@ -22,7 +22,7 @@ Twelve articles and a handful of tables account for most of the questions on jou
 - Table lookups (310.16, 250.66, 250.122, 430.248 to 430.250, Chapter 9) are the fastest points on the exam if you know which table answers which question.
 - Master exams shift weight toward 220, 230 and 450 and the design articles.
 
-Updated October 28, 2026 · prices checked against the 1 Exam Prep store
+Updated October 29, 2026 · prices checked against the 1 Exam Prep store
 
 If you spread your study evenly across the code's 900 pages you will know a little about everything and not enough about the parts that are tested. Exam writers draw from the same articles year after year because those are the ones a working electrician uses. Here they are, with the sections that come up again and again.
 

@@ -1,7 +1,7 @@
 ---
 title: Motor Circuits on the Exam: Why Candidates Miss Them
 url: https://passyourmasterelectricianexam.com/blog/motor-circuits-on-the-exam-why-candidates-miss-them/
-updated: 2026-10-28
+updated: 2026-10-29
 site: Pass Your Electrician Exam
 description: Motor questions use table currents for some things and nameplate currents for others, and the percentages change by device. The four-step method, a worked.
 ---
@@ -22,7 +22,7 @@ Motor questions use table currents for some things and nameplate currents for ot
 - Branch-circuit short-circuit protection uses the percentages in Table 430.52, with the next standard size up allowed by the exception.
 - A 10 horsepower 230 volt three-phase motor needs 35 ampere conductors (10 AWG at 75 degrees) and may have a 70 ampere inverse-time breaker.
 
-Updated October 28, 2026 · prices checked against the 1 Exam Prep store
+Updated October 29, 2026 · prices checked against the 1 Exam Prep store
 
 Article 430 breaks the habit most electricians bring to the exam: that one current number drives everything. For motors, two numbers matter, they come from different places, and each part of the circuit uses its own percentage. Once that is clear the questions are mechanical.
 

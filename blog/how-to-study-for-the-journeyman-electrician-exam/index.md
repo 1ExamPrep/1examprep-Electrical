@@ -1,7 +1,7 @@
 ---
 title: How to Study for the Journeyman Electrician Exam: A 6-Week Plan
 url: https://passyourmasterelectricianexam.com/blog/how-to-study-for-the-journeyman-electrician-exam/
-updated: 2026-10-28
+updated: 2026-10-29
 site: Pass Your Electrician Exam
 description: Most people fail the journeyman exam on time, not knowledge. Here is a six-week plan that trains you to find answers in the code book fast, with a.
 ---
@@ -22,7 +22,7 @@ Most people fail the journeyman exam on time, not knowledge. Here is a six-week 
 - Take 3 full timed practice exams in weeks 5 and 6 and log every miss by code section, not by topic.
 - Stop studying the night before and bring two calculators plus the exact NEC edition your state tests on.
 
-Updated October 28, 2026 · prices checked against the 1 Exam Prep store
+Updated October 29, 2026 · prices checked against the 1 Exam Prep store
 
 Most people who fail the journeyman exam do not fail because they don't know electrical work. They fail because the clock runs out while they are flipping through the code book. The exam is open book, and that is the trap: it tempts you to look everything up. The people who pass know roughly where the answer lives before they open the book.
 

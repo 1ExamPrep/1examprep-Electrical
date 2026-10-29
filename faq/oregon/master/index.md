@@ -1,7 +1,7 @@
 ---
 title: Oregon Master Electrician Exam FAQ (23 answers)
 url: https://passyourmasterelectricianexam.com/faq/oregon/master/
-updated: 2026-10-28
+updated: 2026-10-29
 site: Pass Your Electrician Exam
 description: 23 answers about the Oregon master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
 ---
@@ -19,7 +19,7 @@ description: 23 answers about the Oregon master electrician exam and license: wh
 - Oregon electrical licensing is regulated by the Oregon Building Codes Division under the Department of Consumer and Business Services.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 28, 2026 · prices checked against the 1 Exam Prep store
+Updated October 29, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 7Licensing and experience 11Code book and materials 4More questions 1
 

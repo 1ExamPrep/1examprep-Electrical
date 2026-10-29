@@ -1,7 +1,7 @@
 ---
 title: Pass Your Electrician Exam: 2026 Prep for All 50 States
 url: https://passyourmasterelectricianexam.com/
-updated: 2026-10-28
+updated: 2026-10-29
 site: Pass Your Electrician Exam
 description: 2026 journeyman and master electrician exam prep for all 50 states. Pick your state, pick your level, pick a package. Study guides, flash cards, NEC code.
 ---
@@ -17,7 +17,7 @@ Journeyman and master electrician exam prep for all 50 states, built on the 2026
 - Every package includes the state study guide with 12 practice exams and 2 full-length final exams.
 - Pick a state and level, press Buy now, and checkout opens at our fulfillment center, 1 Exam Prep.
 
-Updated October 28, 2026 · prices checked against the 1 Exam Prep store
+Updated October 29, 2026 · prices checked against the 1 Exam Prep store
 
 ## Pick a package. Buy now. Done.
 

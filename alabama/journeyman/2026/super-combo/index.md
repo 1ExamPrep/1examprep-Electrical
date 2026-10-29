@@ -1,7 +1,7 @@
 ---
 title: Alabama Journeyman Super Combo (2026 NEC)
 url: https://passyourmasterelectricianexam.com/alabama/journeyman/2026/super-combo/
-updated: 2026-10-28
+updated: 2026-10-29
 site: Pass Your Electrician Exam
 description: This 2026 Alabama Journeyman Electrician Super Combo is designed for electrical students, apprentices, and working electricians who want a complete printed.
 ---
@@ -27,7 +27,7 @@ $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.co
 - 1 optional add-on can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 28, 2026 · prices checked against the 1 Exam Prep store
+Updated October 29, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Super Combo
 

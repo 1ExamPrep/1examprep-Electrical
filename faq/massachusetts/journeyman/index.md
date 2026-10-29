@@ -1,7 +1,7 @@
 ---
 title: Massachusetts Journeyman Electrician Exam FAQ (25 answers)
 url: https://passyourmasterelectricianexam.com/faq/massachusetts/journeyman/
-updated: 2026-10-28
+updated: 2026-10-29
 site: Pass Your Electrician Exam
 description: 25 answers about the Massachusetts journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure.
 ---
@@ -19,7 +19,7 @@ description: 25 answers about the Massachusetts journeyman electrician exam and 
 - The Massachusetts Journeyman Electrician exam is administered by PSI for candidates approved through the Board of State Examiners of Electricians.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 28, 2026 · prices checked against the 1 Exam Prep store
+Updated October 29, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 8Licensing and experience 5Code book and materials 4More questions 8
 

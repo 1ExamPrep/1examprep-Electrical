@@ -1,7 +1,7 @@
 ---
 title: Connecticut Master Electrician Exam FAQ (21 answers)
 url: https://passyourmasterelectricianexam.com/faq/connecticut/master/
-updated: 2026-10-28
+updated: 2026-10-29
 site: Pass Your Electrician Exam
 description: 21 answers about the Connecticut master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
 ---
@@ -19,7 +19,7 @@ description: 21 answers about the Connecticut master electrician exam and licens
 - PSI administers Connecticut occupational licensing examinations for the Connecticut Department of Consumer Protection. The state determines eligibility for examination.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 28, 2026 · prices checked against the 1 Exam Prep store
+Updated October 29, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 8Licensing and experience 4Code book and materials 6More questions 3
 

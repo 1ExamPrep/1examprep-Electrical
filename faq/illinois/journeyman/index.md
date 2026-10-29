@@ -1,7 +1,7 @@
 ---
 title: Illinois Journeyman Electrician Exam FAQ (22 answers)
 url: https://passyourmasterelectricianexam.com/faq/illinois/journeyman/
-updated: 2026-10-28
+updated: 2026-10-29
 site: Pass Your Electrician Exam
 description: 22 answers about the Illinois journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
 ---
@@ -19,7 +19,7 @@ description: 22 answers about the Illinois journeyman electrician exam and licen
 - Electrician licensing in Illinois is usually handled at the local level. Candidates should work with the local building department, electrical commission, licensing office, or municipal authority for the area where they plan to work.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 28, 2026 · prices checked against the 1 Exam Prep store
+Updated October 29, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 6Licensing and experience 5Code book and materials 4More questions 7
 
