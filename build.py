@@ -73,7 +73,27 @@ def anchor_ids(out):
         while hid in seen: i += 1; hid = "%s-%d" % (base, i)
         seen.add(hid)
         return '<%s%s id="%s">%s</%s>' % (tag, attrs, hid, inner, tag)
-    return re.sub(r"<(h[23])(\s[^>]*)?>(.*?)</\1>", rep2, out, flags=re.S)
+    return finalize(re.sub(r"<(h[23])(\s[^>]*)?>(.*?)</\1>", rep2, out, flags=re.S))
+
+SKIP_URL = re.compile(r"^(?:[a-z][a-z0-9+.-]*:|//|/|#|\?|\{\{)", re.I)
+def finalize(out):
+    """Last pass over every page before it is written.
+    Relative links and asset paths (../license/package/) become root-relative (/license/package/), so tools that count
+    internal links by a leading slash see them, and an article:published_time / article:modified_time pair is added for
+    tools that look for a date outside the schema. Pages without a canonical URL (noindex pages) keep relative links."""
+    from urllib.parse import urljoin, urlsplit
+    m = re.search(r'<link rel="canonical" href="(https?://[^"]+)"', out)
+    if m:
+        base = m.group(1)
+        def root(mm):
+            attr, q, url = mm.group(1), mm.group(2), mm.group(3)
+            if not url or SKIP_URL.match(url): return mm.group(0)
+            u = urlsplit(urljoin(base, url))
+            return "%s=%s%s%s%s%s" % (attr, q, u.path or "/", ("?" + u.query) if u.query else "", ("#" + u.fragment) if u.fragment else "", q)
+        out = re.sub(r'\b(href|src)=(["\'])([^"\']*)\2', root, out)
+    if 'property="article:modified_time"' not in out:
+        out = out.replace("</head>", '<meta property="article:published_time" content="%s">\n<meta property="article:modified_time" content="%s">\n</head>' % (LAUNCH, TODAY), 1)
+    return out
 def absurl(path):  # path like "texas/master/2026/" -> absolute when the site URL is known, else relative to root
     return (SITE + path) if SITE else "/" + path
 def ld(obj): return '<script type="application/ld+json">%s</script>\n' % json.dumps(obj, ensure_ascii=False)
