@@ -1,7 +1,7 @@
 ---
-title: From Apprentice to Journeyman: Documenting Your Hours and Applying to Test
+title: Apprentice to Journeyman: Documenting Hours and Applying
 url: https://passyourmasterelectricianexam.com/blog/from-apprentice-to-journeyman-documenting-hours-and-applying/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: What counts toward the experience requirement, how to prove it, what the application usually asks for, and how long the approval takes so you can study while.
 ---
@@ -12,7 +12,7 @@ October 4, 2026 Pass Your Electrician Exam 3 min read
 
 # From Apprentice to Journeyman: Documenting Your Hours and Applying to Test
 
-What counts toward the experience requirement, how to prove it, what the application usually asks for, and how long the approval takes so you can study while the paperwork moves.
+Most states require about 8,000 hours of supervised electrical work, roughly four years full time, before the journeyman exam. Many also want 576 to 900 classroom hours. Prove the hours with signed employer affidavits backed by W-2s or pay stubs, apply to your state board early, and study while the approval moves through the queue.
 [licensing](https://passyourmasterelectricianexam.com/blog/tag/licensing/) · [journeyman](https://passyourmasterelectricianexam.com/blog/tag/journeyman/)
 
 ## Key takeaways
@@ -22,7 +22,7 @@ What counts toward the experience requirement, how to prove it, what the applica
 - Approval typically takes four to eight weeks, and your eligibility usually stays valid for about a year, so apply as soon as you qualify and study in the meantime.
 - Buying study material does not start the application; the board does, and only the board can authorise a test date.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 The exam gets the attention, but plenty of qualified electricians lose months on the step before it: proving they have the hours. Boards do not take your word for it, employers close or forget, and an application missing one signature goes to the back of the queue. Here is how the process usually runs and how to keep it moving.
 
@@ -65,6 +65,34 @@ The vendor reports your result to the board. Some states issue the journeyman ca
 
 Journeyman hours count toward the master exam in most states, usually one to four years' worth. Keep the same records from the first day: employer, dates, supervisor's licence number, type of work. The master application will ask for them, and the people who can sign for you now may be hard to find later.
 
+## What else do candidates ask about the electrician exam?
+
+### How long should I study for the journeyman or master electrician exam?
+
+Most candidates do well with six to eight weeks at about ninety minutes a day, as long as the time is split between three things: getting fast in the code book, working calculations until they are automatic, and sitting full-length timed practice exams in the last two weeks. People who only read the study guide tend to know the material and still run out of time, because the exam is a test of finding answers in the code under a clock as much as a test of knowledge.
+
+### Is the exam open book, and which code book do I bring?
+
+Nearly every state exam is open book for the code portion, and the book you bring has to be the edition named in your state's candidate bulletin. States adopt new editions at different times, so check the bulletin rather than assuming the newest code applies. Most boards allow permanent tabs and highlighting but not loose notes; the bulletin lists what is permitted.
+
+### What is the difference between the journeyman and master exam?
+
+The journeyman exam concentrates on the code a working electrician uses every day: branch circuits, feeders, grounding and bonding, wiring methods, box and conduit fill, motors and appliances. The master exam covers the same ground and adds services, load calculations, transformers, planning and supervision, and the parts of the code a contractor is responsible for. The study guides, calculations guides and flash cards are written separately for each level.
+
+## What do candidates ask about practice questions, registration and delivery?
+
+### Are the practice questions the real exam questions?
+
+No. Licensing exam questions are confidential and are not published by any testing vendor. Practice questions are original material written to the same subjects, format and difficulty, with explanations that point you to the code section, so you learn where answers live rather than memorising answers.
+
+### Does buying a package register me for the exam?
+
+No. Applications, experience hours, approval to test and scheduling are handled by your state licensing board and its testing vendor, usually PSI, Prometric or Pearson VUE depending on the state. A package gets you ready for the test itself. The state posts on this blog explain who runs the process in each state and link to the board's own pages.
+
+### How do the packages arrive?
+
+Printed study guides, calculations guides, flash cards and code books ship from our fulfillment center, 1 Exam Prep. Online test success kits and courses are delivered by email after purchase, so you can start the timed practice exams on a phone or laptop the same day the books are on their way.
+
 Ready to study?
 Pick your state and level, then choose a package.
 
@@ -98,6 +126,7 @@ October 16, 2026 4 min read
 
 Question counts, time limits, the content outline, how the pass mark works, and which code articles carry most of the weight on a typical state journeyman exam.
 ](https://passyourmasterelectricianexam.com/blog/how-the-journeyman-electrician-exam-is-structured/)
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

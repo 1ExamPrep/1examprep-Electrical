@@ -5,6 +5,7 @@ author: Pass Your Electrician Exam
 excerpt: Twelve articles and a handful of tables account for most of the questions on journeyman and master exams. What each one covers, what gets asked, and the sections to know cold.
 tags: NEC, study tips, journeyman, master
 takeaways: Chapters 1 through 3 plus Articles 430 and 450 and the Chapter 9 tables produce most exam questions in every state. | For each heavy article, learn the three or four sections that get asked repeatedly rather than reading the whole article evenly. | Table lookups (310.16, 250.66, 250.122, 430.248 to 430.250, Chapter 9) are the fastest points on the exam if you know which table answers which question. | Master exams shift weight toward 220, 230 and 450 and the design articles.
+answer: A short list of NEC articles carries most journeyman and master exam questions: Article 100 definitions, 110, 210, 215, 220, 230, 240, 250, 300, 310, 314, 430 and 450, plus the cable and raceway articles and the Chapter 9 tables. Studying these in depth beats spreading time evenly across the code's 900 pages.
 ---
 If you spread your study evenly across the code's 900 pages you will know a little about everything and not enough about the parts that are tested. Exam writers draw from the same articles year after year because those are the ones a working electrician uses. Here they are, with the sections that come up again and again.
 

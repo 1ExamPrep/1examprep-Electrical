@@ -1,7 +1,7 @@
 ---
 title: Idaho Master Super Combo (2026 NEC)
 url: https://passyourmasterelectricianexam.com/idaho/master/2026/super-combo/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: The 2026 Idaho Master Electrician Super Combo is a complete study bundle for electrical professionals preparing for the Idaho Master Electrician examination.
 ---
@@ -13,6 +13,7 @@ Idaho · Master · 2026 NEC
 # Super Combo
 
 2026 Idaho Master Electrician + Electrician Calculations Study Guides + Flash Cards & National Electrical Code + Tabs Super Combo
+The Idaho Master Super Combo package costs $349.95, down from $395.00. The box holds 5 items: Idaho Master Electrician Study Guide; Electrician Calculations Study Guide; Master Electrician Exam Flash Cards; National Electrical Code paperback; Pre-printed NEC tabs. Every item is built on the 2026 National Electrical Code, and the study guide has 12 practice exams and 2 full-length finals.
 
 $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/46213697339449:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.co
 - 1 optional add-on can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Super Combo
 
@@ -121,6 +122,8 @@ Code navigation should also be part of every study session. Candidates should pr
 
 Project design and management is part of the Idaho Master Electrician examination outline. Candidates should be ready for questions involving planning, organizing work, interpreting project needs, and understanding the responsibilities connected to electrical contracting and master-level electrical work. This area reinforces that master electrician preparation involves both technical knowledge and work management awareness.
 
+## What else is in the Idaho Master Super Combo?
+
 Safety is also a major part of the exam. Candidates should review electrical safety practices, job-site safety, hazard recognition, OSHA-related concepts, NFPA 70E topics, safe work practices, and protection of workers and property. Safety questions may connect directly to code requirements, equipment use, and practical field decisions.
 
 Wiring and protection, wiring methods and materials, general code requirements, and equipment for general use are heavily represented in the exam outline. Candidates should review branch circuits, feeders, services, conductors, raceways, boxes, grounding, bonding, overcurrent protection, panelboards, switches, receptacles, disconnects, motors, transformers, and equipment installation requirements.
@@ -145,7 +148,7 @@ This package is especially useful for working electricians who need a complete s
 
 ### What is included in this Idaho Master Electrician Super Combo?
 
-This package includes the 2026 Idaho Master Electrician Study Guide, the 2026 Electrician Calculations Study Guide, the National Electrical Code 2026 Paperback with Tabs, and the 2026 Master Electrician Flash Cards.
+The Idaho Master Super Combo includes the 2026 Idaho Master Electrician Study Guide, the 2026 Electrician Calculations Study Guide, the National Electrical Code 2026 Paperback with Tabs, and the 2026 Master Electrician Flash Cards.
 
 ### Is the Idaho Master Electrician exam open book?
 
@@ -203,7 +206,7 @@ Yes. This Super Combo is based on the 2026 National Electrical Code and includes
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Super Combo?
 
 ### Which NEC edition is this based on?
 
@@ -220,6 +223,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

@@ -24,19 +24,20 @@
 </div></header>
 
 <main class="wrap" id="main">
-  <p class="crumb" aria-label="Breadcrumb"><a href="{{HOME}}">Home</a><span>/</span><a href="{{REL}}blog/">Blog</a><span>/</span>{{TITLE_SHORT}}</p>
+  <nav class="crumb" aria-label="Breadcrumb"><a href="{{HOME}}">Home</a><span>/</span><a href="{{REL}}blog/">Blog</a><span>/</span>{{TITLE_SHORT}}</nav>
 
   <article class="post" id="article">
     <div class="post-head">
-      <p class="post-meta"><time datetime="{{DATE}}">{{DATE_NICE}}</time>{{AUTHOR_HTML}}<span>{{READ_MIN}} min read</span></p>
+      <div class="post-meta"><time datetime="{{DATE}}">{{DATE_NICE}}</time>{{AUTHOR_HTML}}<span>{{READ_MIN}} min read</span></div>
       <h1 class="post-h1" id="h1">{{H1}}</h1>
-      <p class="post-lead">{{EXCERPT}}</p>
+      <p class="post-lead">{{ANSWER}}</p>
       {{TAGS_HTML}}
     </div>
     {{HERO_HTML}}
     {{TAKEAWAYS_HTML}}
     <div class="post-body desc">
 {{BODY_HTML}}
+{{POST_FAQ_HTML}}
     </div>
     <footer class="post-foot">
       <div class="share"><span>Share</span><a href="https://www.facebook.com/sharer/sharer.php?u={{URL_ENC}}" target="_blank" rel="noopener" data-track="share_facebook">Facebook</a><a href="https://x.com/intent/tweet?url={{URL_ENC}}&text={{TITLE_ENC}}" target="_blank" rel="noopener" data-track="share_x">X</a><a href="https://www.linkedin.com/sharing/share-offsite/?url={{URL_ENC}}" target="_blank" rel="noopener" data-track="share_linkedin">LinkedIn</a><a href="mailto:?subject={{TITLE_ENC}}&body={{URL_ENC}}" data-track="share_email">Email</a></div>

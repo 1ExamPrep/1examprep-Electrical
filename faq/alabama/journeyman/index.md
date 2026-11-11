@@ -1,16 +1,16 @@
 ---
 title: Alabama Journeyman Electrician Exam FAQ (18 answers)
 url: https://passyourmasterelectricianexam.com/faq/alabama/journeyman/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
-description: 18 answers about the Alabama journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
+description: The Alabama journeyman electrician exam FAQ has 18 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours.
 ---
 
 [Home](https://passyourmasterelectricianexam.com/) /[FAQ](https://passyourmasterelectricianexam.com/faq/) /Alabama Journeyman
 
 # Alabama journeyman electrician exam: frequently asked questions
 
-18 answers about the Alabama journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. Filter the list or jump to a section.
+The Alabama journeyman electrician exam FAQ has 18 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. The answers come from our Alabama journeyman package descriptions and are refreshed whenever the store changes.
 
 ## Key takeaways
 
@@ -19,11 +19,11 @@ description: 18 answers about the Alabama journeyman electrician exam and licens
 - The Alabama Electrical Contractors Board has contracted with Prov, Inc. to administer the licensing examination program for state licensed electrical contractors and electrical journeymen.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
-The exam 9Licensing and experience 2Code book and materials 3More questions 4
+What is the Alabama journeyman electrician exam like? 9How do you get a Alabama journeyman electrician license? 2Which code book and materials are allowed on the Alabama exam? 3What else do Alabama journeyman candidates ask? 4
 
-## The exam
+## What is the Alabama journeyman electrician exam like?
 
 ### Is the Alabama Journeyman Electrician exam open book?
 
@@ -61,7 +61,7 @@ The passing score listed for Alabama electrical exams is 75%.
 
 The Alabama Electrical Contractors Board has contracted with Prov, Inc. to administer the licensing examination program for state licensed electrical contractors and electrical journeymen.
 
-## Licensing and experience
+## How do you get a Alabama journeyman electrician license?
 
 ### Does Alabama require experience before applying for the statewide journeyman exam?
 
@@ -71,7 +71,7 @@ Yes. Alabama statewide journeyman applicants must document 8,000 hours of qualif
 
 Applicants must document at least 8,000 hours of qualifying experience. Alabama allows certain approved electrical education or apprenticeship training to substitute for part of the experience requirement, up to the Board’s stated limit.
 
-## Code book and materials
+## Which code book and materials are allowed on the Alabama exam?
 
 ### Does Alabama currently test on the 2026 NEC?
 
@@ -85,7 +85,7 @@ A tabbed NEC can help make code navigation more efficient during study. Tabs hel
 
 Alabama’s current Board testing information states that all exams currently reference the 2023 NFPA 70 National Electrical Code and that testing on the 2026 NFPA 70 National Electrical Code begins January 1, 2027.
 
-## More questions
+## What else do Alabama journeyman candidates ask?
 
 ### What topics are covered on the Alabama Electrical Journeyman exam?
 
@@ -134,6 +134,8 @@ Packages built on the 2026 NEC, from the study guide alone to the Ultimate Combo
 - [All blog posts](https://passyourmasterelectricianexam.com/blog/)
 - [Every state and level](https://passyourmasterelectricianexam.com/#states)
 - [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

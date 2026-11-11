@@ -53,6 +53,8 @@
   "_aiFinderUrl_help": "Address of the AI exam advisor Worker (from the ai-product-finder kit), e.g. https://exam-prep-ai-finder.yourname.workers.dev. When set, the site search gets an \"Ask the exam advisor\" option. Leave empty to turn it off.",
   "logoNav": "shared/logo-nav.png",
   "_logoNav_help": "Header logo image (transparent PNG, 2x). Made by tools/make_logo.py from brand/logo-source.png. Remove to fall back to the text wordmark.",
+  "blogAuthor": {"name": "", "jobTitle": "", "url": ""},
+  "_blogAuthor_help": "The real person named as the author of blog posts (schema author and the byline). Fill in a name, e.g. a licensed master electrician on the team; jobTitle and url (a profile page) are optional. Leave the name empty to fall back to the brand.",
   "launched": "2026-10-16",
   "_launched_help": "Date the site went live (YYYY-MM-DD); used as datePublished in the page schema."
 }

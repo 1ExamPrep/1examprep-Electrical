@@ -5,6 +5,8 @@ author: Pass Your Electrician Exam
 excerpt: What reciprocity actually means, the conditions nearly every agreement attaches, what happens when there is no agreement, and how to avoid the mistakes that turn a transfer into a full reapplication.
 tags: licensing, journeyman, master
 takeaways: Reciprocity is a board-to-board agreement to accept another state's license, usually for journeymen only and usually with conditions: a comparable exam, a license in good standing, and sometimes a minimum time held. | Where no agreement exists you apply as a new candidate, but documented experience almost always counts; you retest, you do not restart. | Master and contractor licenses rarely transfer because they carry business, insurance and state-law requirements. | City and county licenses in states without statewide licensing are a separate problem; a state license may not be enough there.
+answer: Reciprocity lets an electrician licensed in one state get the equivalent license in another without the full exam, but only where the two boards have a written agreement. Agreements are specific to the license level and the states named, and usually require a comparable exam, a license in good standing and sometimes a minimum time held.
+metaTitle: Electrician License Reciprocity: Moving to Another State
 ---
 Electricians move for work more than most trades, and the license does not always come along. Reciprocity is the mechanism that lets it, when it exists. Here is what it is, what it is not, and how to handle the states where it does not apply.
 
@@ -29,7 +31,7 @@ You apply to the new state as a new candidate. That sounds worse than it is: you
 
 ## Master and contractor licenses
 
-These transfer far less often. A master license in many states is tied to the ability to qualify a contracting business, and contractor licensing brings insurance, bonding, business registration and a business and law exam that is specific to the state. Even where a master reciprocity agreement exists, expect to take the business and law portion. If you plan to run a company in the new state, budget for the full contractor application regardless.
+Master and contractor licenses transfer far less often. A master license in many states is tied to the ability to qualify a contracting business, and contractor licensing brings insurance, bonding, business registration and a business and law exam that is specific to the state. Even where a master reciprocity agreement exists, expect to take the business and law portion. If you plan to run a company in the new state, budget for the full contractor application regardless.
 
 ## States without statewide licensing
 

@@ -1,16 +1,16 @@
 ---
 title: Kansas Master Electrician Exam FAQ (20 answers)
 url: https://passyourmasterelectricianexam.com/faq/kansas/master/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
-description: 20 answers about the Kansas master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
+description: The Kansas master electrician exam FAQ has 20 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam.
 ---
 
 [Home](https://passyourmasterelectricianexam.com/) /[FAQ](https://passyourmasterelectricianexam.com/faq/) /Kansas Master
 
 # Kansas master electrician exam: frequently asked questions
 
-20 answers about the Kansas master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. Filter the list or jump to a section.
+The Kansas master electrician exam FAQ has 20 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. The answers come from our Kansas master package descriptions and are refreshed whenever the store changes.
 
 ## Key takeaways
 
@@ -19,11 +19,11 @@ description: 20 answers about the Kansas master electrician exam and license: wh
 - Licensing rules come from the state board; the questions below name it.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
-The exam 5Licensing and experience 4Code book and materials 6More questions 5
+What is the Kansas master electrician exam like? 5How do you get a Kansas master electrician license? 4Which code book and materials are allowed on the Kansas exam? 6What else do Kansas master candidates ask? 5
 
-## The exam
+## What is the Kansas master electrician exam like?
 
 ### Is the Kansas Master Electrician exam open book?
 
@@ -45,7 +45,7 @@ Passing scores vary by jurisdiction and exam provider. Some Kansas jurisdictions
 
 The listed passing score for the Kansas Standard Master Electrician exam is 75%.
 
-## Licensing and experience
+## How do you get a Kansas master electrician license?
 
 ### Does Kansas have one statewide master electrician license?
 
@@ -63,7 +63,7 @@ Kansas construction and contracting licensing requirements can vary by city and 
 
 Yes. Candidates should confirm the required license classification, exam name, code edition, reference rules, application steps, experience requirements, and local licensing requirements before scheduling or taking an exam.
 
-## Code book and materials
+## Which code book and materials are allowed on the Kansas exam?
 
 ### What references are listed for the Kansas Standard Master Electrician exam?
 
@@ -89,7 +89,7 @@ Exam-room reference rules are controlled by the specific exam authority. Candida
 
 NEC tabs help candidates locate major articles, chapters, tables, and subject areas faster during study. This supports stronger code-navigation practice and helps candidates become more comfortable using the NEC as a reference.
 
-## More questions
+## What else do Kansas master candidates ask?
 
 ### What topics should I study for Kansas master-level electrical exams?
 
@@ -142,6 +142,8 @@ Packages built on the 2026 NEC, from the study guide alone to the Ultimate Combo
 - [All blog posts](https://passyourmasterelectricianexam.com/blog/)
 - [Every state and level](https://passyourmasterelectricianexam.com/#states)
 - [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

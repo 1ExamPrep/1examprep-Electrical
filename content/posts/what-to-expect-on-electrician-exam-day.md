@@ -5,6 +5,8 @@ author: Pass Your Electrician Exam
 excerpt: A walk through the day itself: what to bring, what the check-in looks like, how the testing room works, how to pace the clock, and what happens to your result afterwards.
 tags: exam day, journeyman, master
 takeaways: Arrive 30 minutes early with photo ID that matches your registration exactly, your eligibility letter, the code book edition your state names, and two approved calculators. | You will be photographed, patted down or scanned, and your code book will be inspected for loose notes before you sit. | Answer every question; there is no penalty for a wrong answer, and a flagged question you never return to is a guaranteed zero. | A preliminary pass or fail usually prints before you leave; the license itself comes from the board two to six weeks later.
+answer: On electrician exam day you check in about 30 minutes early with photo ID that matches your registration, your approval letter and the code book edition your state names. Staff check the book, assign a computer and start a clock of three to four hours. Most computer-based centres show a provisional pass or fail before you leave.
+metaTitle: What to Expect on Electrician Exam Day | Check-In to Results
 ---
 Most candidates know the code better than they know the testing centre. The day has its own rules, and losing ten minutes to a surprise at the front desk is a bad way to start a timed exam. Here is how it runs at the computer-based centres that most states use, so nothing about the room is new to you.
 

@@ -1,16 +1,16 @@
 ---
 title: Virginia Master Electrician Exam FAQ (25 answers)
 url: https://passyourmasterelectricianexam.com/faq/virginia/master/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
-description: 25 answers about the Virginia master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
+description: The Virginia master electrician exam FAQ has 25 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam.
 ---
 
 [Home](https://passyourmasterelectricianexam.com/) /[FAQ](https://passyourmasterelectricianexam.com/faq/) /Virginia Master
 
 # Virginia master electrician exam: frequently asked questions
 
-25 answers about the Virginia master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. Filter the list or jump to a section.
+The Virginia master electrician exam FAQ has 25 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. The answers come from our Virginia master package descriptions and are refreshed whenever the store changes.
 
 ## Key takeaways
 
@@ -19,11 +19,11 @@ description: 25 answers about the Virginia master electrician exam and license: 
 - Virginia Master Electrician licensing is regulated by the Virginia Department of Professional and Occupational Regulation through the Board for Contractors.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
-The exam 7Licensing and experience 8Code book and materials 8More questions 2
+What is the Virginia master electrician exam like? 7How do you get a Virginia master electrician license? 8Which code book and materials are allowed on the Virginia exam? 8What else do Virginia master candidates ask? 2
 
-## The exam
+## What is the Virginia master electrician exam like?
 
 ### Who administers the Virginia Master Electrician exam?
 
@@ -53,7 +53,7 @@ The current Virginia PSI candidate bulletin lists the passing score for the Mast
 
 Yes. Virginia DPOR states that pre-approval from the Board is required to sit for tradesman examinations. After approval, candidates schedule the exam through PSI.
 
-## Licensing and experience
+## How do you get a Virginia master electrician license?
 
 ### Who regulates Virginia Master Electrician licensing?
 
@@ -87,7 +87,7 @@ Candidates who plan to operate, qualify, advertise, bid, or contract through an 
 
 Yes. Candidates should confirm the required license classification, eligibility requirements, application process, code edition, reference rules, and post-exam licensing steps before scheduling or taking an exam.
 
-## Code book and materials
+## Which code book and materials are allowed on the Virginia exam?
 
 ### What references are used for the Virginia Master Electrician exam?
 
@@ -121,7 +121,7 @@ NEC tabs help candidates locate major articles, chapters, tables, and subject ar
 
 Yes. Candidates should review Virginia licensing responsibilities, contractor distinctions, supervision requirements, and any state-specific subjects listed in the current examination instructions.
 
-## More questions
+## What else do Virginia master candidates ask?
 
 ### Can I take the study guides into the exam room?
 
@@ -163,6 +163,8 @@ Packages built on the 2026 NEC, from the study guide alone to the Ultimate Combo
 - [All blog posts](https://passyourmasterelectricianexam.com/blog/)
 - [Every state and level](https://passyourmasterelectricianexam.com/#states)
 - [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

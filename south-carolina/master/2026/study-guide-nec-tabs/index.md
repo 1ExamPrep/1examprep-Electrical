@@ -1,7 +1,7 @@
 ---
 title: South Carolina Master Study Guide + NEC with Tabs (2026 NEC)
 url: https://passyourmasterelectricianexam.com/south-carolina/master/2026/study-guide-nec-tabs/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: The 2026 South Carolina Master Electrician Study Guide & National Electrical Code Combo with Tabs is designed for electricians preparing for South Carolina.
 ---
@@ -13,6 +13,7 @@ South Carolina · Master · 2026 NEC
 # Study Guide + NEC with Tabs
 
 2026 South Carolina Master Electrician Study Guide & National Electrical Code Combo with Tabs
+The South Carolina Master Study Guide + NEC with Tabs package costs $249.95, down from $350.00. The box holds 3 items: South Carolina Master Electrician Study Guide; National Electrical Code paperback; Pre-printed NEC tabs. Every item is built on the 2026 National Electrical Code, and the study guide has 12 practice exams and 2 full-length finals.
 
 $249.95 (was $350.00) Save 29% [Buy now — go to checkout](https://1examprep.com/cart/46020837703737:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $249.95 (was $350.00) Save 29% [Buy now — go to checkout](https://1examprep.co
 - 2 optional add-ons can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Study Guide + NEC with Tabs
 
@@ -43,7 +44,9 @@ The **2026 South Carolina Master Electrician Study Guide & National Electrical C
 
 South Carolina electrical licensing is handled through more than one state licensing structure. Commercial electrical contracting is regulated through the South Carolina Contractor’s Licensing Board under mechanical contractor electrical classifications. Residential electrical contracting is regulated through the South Carolina Residential Builders Commission for residential specialty electrical work. Because South Carolina does not use one simple statewide “Master Electrician” license title in the same way some states do, this product uses master electrician study language for advanced electrical preparation while supporting South Carolina electrical contractor and residential electrical licensing study.
 
-This combo is built for electricians who want a structured, book-based way to prepare. The **2026 South Carolina Master Electrician Study Guide** helps organize review around South Carolina electrical exam topics, NEC application, electrical calculations, contractor responsibilities, safety, and exam-style preparation. The **National Electrical Code 2026 Paperback with Tabs** supports hands-on code-navigation practice, helping students become more comfortable locating definitions, article sections, tables, exceptions, installation requirements, and calculation rules during study sessions.
+## What else is in the South Carolina Master Study Guide + NEC with Tabs?
+
+The South Carolina Master Study Guide + NEC with Tabs is built for electricians who want a structured, book-based way to prepare. The **2026 South Carolina Master Electrician Study Guide** helps organize review around South Carolina electrical exam topics, NEC application, electrical calculations, contractor responsibilities, safety, and exam-style preparation. The **National Electrical Code 2026 Paperback with Tabs** supports hands-on code-navigation practice, helping students become more comfortable locating definitions, article sections, tables, exceptions, installation requirements, and calculation rules during study sessions.
 
 Master-level electrical preparation requires more than jobsite experience. A candidate may understand how electrical work is installed in the field, but an exam requires careful reading, accurate code interpretation, calculation skill, and steady pacing. Students must know how to identify the topic being tested, connect the question to the correct NEC article or South Carolina licensing concept, and apply the requirement under timed conditions. A tabbed NEC helps students build that skill before test day.
 
@@ -136,6 +139,8 @@ Services, feeders, and branch circuits should receive steady attention. Students
 
 Grounding and bonding should be studied carefully because these topics often require precise code interpretation. Important areas include grounding electrode systems, grounding electrode conductor sizing, equipment grounding conductors, bonding jumpers, service bonding, separately derived systems, bonding of raceways and enclosures, and special grounding rules.
 
+## What else is in the South Carolina Master Study Guide + NEC with Tabs?
+
 Wiring methods and materials are central to electrical exam preparation. Students should review raceways, cables, boxes, cabinets, fittings, conduit fill, box fill, conductor protection, support rules, wet-location requirements, underground installations, pull boxes, junction boxes, cable assemblies, and Chapter 9 table use. Many exam questions require students to combine article rules with table information.
 
 Motors, generators, transformers, controls, and utilization equipment should also be part of the study schedule. Students should review motor conductor sizing, overload protection, short-circuit and ground-fault protection, disconnecting means, controllers, transformer rules, generator installation rules, receptacles, luminaires, appliances, and equipment for general use.
@@ -188,7 +193,7 @@ Residential electrical candidates should study dwelling-unit wiring, services, f
 
 ### FAQ: Who should use this South Carolina study guide and NEC combo?
 
-This combo is intended for South Carolina electrical contractor candidates, residential electrical specialty candidates, advanced electrical students, supervisors, business owners, and trade professionals who want structured NEC-based preparation.
+The South Carolina Master Study Guide + NEC with Tabs is intended for South Carolina electrical contractor candidates, residential electrical specialty candidates, advanced electrical students, supervisors, business owners, and trade professionals who want structured NEC-based preparation.
 
 ## Other South Carolina Master packages
 
@@ -206,7 +211,7 @@ This combo is intended for South Carolina electrical contractor candidates, resi
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Study Guide + NEC with Tabs?
 
 ### Which NEC edition is this based on?
 
@@ -223,6 +228,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

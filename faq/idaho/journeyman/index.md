@@ -1,16 +1,16 @@
 ---
 title: Idaho Journeyman Electrician Exam FAQ (29 answers)
 url: https://passyourmasterelectricianexam.com/faq/idaho/journeyman/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
-description: 29 answers about the Idaho journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
+description: The Idaho journeyman electrician exam FAQ has 29 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam.
 ---
 
 [Home](https://passyourmasterelectricianexam.com/) /[FAQ](https://passyourmasterelectricianexam.com/faq/) /Idaho Journeyman
 
 # Idaho journeyman electrician exam: frequently asked questions
 
-29 answers about the Idaho journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. Filter the list or jump to a section.
+The Idaho journeyman electrician exam FAQ has 29 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. The answers come from our Idaho journeyman package descriptions and are refreshed whenever the store changes.
 
 ## Key takeaways
 
@@ -19,11 +19,11 @@ description: 29 answers about the Idaho journeyman electrician exam and license:
 - Idaho’s electrical examination process is offered through PSI. Candidates should follow the current DOPL and PSI instructions for registration, scheduling, and exam rules.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
-The exam 9Licensing and experience 10Code book and materials 4More questions 6
+What is the Idaho journeyman electrician exam like? 9How do you get a Idaho journeyman electrician license? 10Which code book and materials are allowed on the Idaho exam? 4What else do Idaho journeyman candidates ask? 6
 
-## The exam
+## What is the Idaho journeyman electrician exam like?
 
 ### Is the Idaho journeyman electrician exam open book?
 
@@ -61,7 +61,7 @@ DOPL states that applicants seeking initial Electrical Journeyman licensure must
 
 The Idaho Electrical Journeyman exam allows 4 hours of testing time.
 
-## Licensing and experience
+## How do you get a Idaho journeyman electrician license?
 
 ### What are the Idaho journeyman electrician experience requirements?
 
@@ -103,7 +103,7 @@ Idaho journeyman electrician licensing is handled through the Idaho Division of 
 
 Initial Idaho Electrical Journeyman applicants must meet the state’s licensure requirements, pass the required examination, and apply for licensure through DOPL. The listed pathway includes 8,000 hours of work experience and four years of approved schooling, or 16,000 hours of work experience.
 
-## Code book and materials
+## Which code book and materials are allowed on the Idaho exam?
 
 ### Are the flash cards based on the 2026 National Electrical Code?
 
@@ -121,7 +121,7 @@ DOPL’s electrical exam information states that loose paper in reference materi
 
 DOPL’s electrical exam information states that candidates may highlight their book and tab different sections, subject to the current exam rules for the scheduled test.
 
-## More questions
+## What else do Idaho journeyman candidates ask?
 
 ### How long is the Idaho Electrical Journeyman exam?
 
@@ -179,6 +179,8 @@ Packages built on the 2026 NEC, from the study guide alone to the Ultimate Combo
 - [All blog posts](https://passyourmasterelectricianexam.com/blog/)
 - [Every state and level](https://passyourmasterelectricianexam.com/#states)
 - [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

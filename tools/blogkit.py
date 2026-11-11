@@ -87,6 +87,31 @@ def md_to_html(md):
     flush_para(buf)
     return "\n".join(out)
 
+def clean_body(h, title=""):
+    """Imported posts sometimes carry their own page furniture. Drop what a published page must not have:
+    <script> blocks (the FAQ accordion is rebuilt as <details>, which needs no script) and an <h1> repeating the title
+    (the page template already prints the one H1)."""
+    h = re.sub(r"<script\b.*?</script>", "", h, flags=re.S | re.I)
+    def faq_item(m):
+        q = re.sub(r"<[^>]+>", "", m.group(1)).strip(); a = re.sub(r"</?div[^>]*>", "", m.group(2)).strip()
+        return "<details><summary>%s</summary>%s</details>" % (q, a)
+    h = re.sub(r'<div class="bh-faq__item"[^>]*>\s*<button[^>]*>(.*?)</button>\s*<div class="bh-faq__a"[^>]*>(.*?)</div>\s*</div>\s*</div>', faq_item, h, flags=re.S)
+    def h1(m):
+        txt = re.sub(r"<[^>]+>", "", m.group(2)).strip()
+        return "" if html.unescape(txt).strip().lower() == html.unescape(title).strip().lower() else "<h2%s>%s</h2>" % (m.group(1), m.group(2))
+    return re.sub(r"<h1([^>]*)>(.*?)</h1>", h1, h, flags=re.S | re.I)
+
+def post_faq(h):
+    """Question and answer pairs already in the post (details/summary, or h3 questions under an FAQ heading)."""
+    pairs = []
+    for q, a in re.findall(r"<details[^>]*>\s*<summary[^>]*>(.*?)</summary>(.*?)</details>", h, re.S):
+        pairs.append((q, a))
+    if not pairs:
+        m = re.search(r"<h2[^>]*>[^<]*(?:FAQ|Frequently asked|Common questions)[^<]*</h2>(.*?)(?=<h2|$)", h, re.S | re.I)
+        if m: pairs = re.findall(r"<h3[^>]*>(.*?)</h3>(.*?)(?=<h3|$)", m.group(1), re.S)
+    clean = lambda x: re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", x))).strip()
+    return [(clean(q), clean(a)) for q, a in pairs if clean(q) and clean(a)]
+
 def load_posts(folder, site_url=""):
     posts = []
     if not os.path.isdir(folder): return posts
@@ -96,7 +121,7 @@ def load_posts(folder, site_url=""):
         if meta.get("status", "published").lower() == "draft": continue
         slug = slugify(meta.get("slug") or fn[:-3])
         date = (meta.get("date") or datetime.date.fromtimestamp(os.path.getmtime(os.path.join(folder, fn))).isoformat())[:10]
-        body_html = md_to_html(body)
+        body_html = clean_body(md_to_html(body), meta.get("title", ""))
         text = re.sub(r"<[^>]+>", " ", body_html); text = re.sub(r"\s+", " ", html.unescape(text)).strip()
         excerpt = meta.get("excerpt") or (text[:157].rsplit(" ", 1)[0] + "…" if len(text) > 160 else text)
         img = meta.get("image") or (re.search(r'<img[^>]+src="([^"]+)"', body_html) or [None, ""])[1]
@@ -114,7 +139,7 @@ def load_posts(folder, site_url=""):
                 if m: takeaways.append(m.group(1))
         posts.append({"slug": slug, "title": meta.get("title") or slug.replace("-", " ").title(), "date": date, "updated": (meta.get("updated") or date)[:10],
                       "kind": (meta.get("kind") or "blog").lower(), "meta_title": meta.get("metatitle", ""), "meta_description": meta.get("metadescription", ""), "external_id": meta.get("externalid", ""),
-                      "author": meta.get("author") or "", "excerpt": excerpt, "image": img, "tags": tags, "state": meta.get("state", ""), "level": meta.get("level", ""),
+                      "author": meta.get("author") or "", "answer": meta.get("answer", ""), "faq": post_faq(body_html), "excerpt": excerpt, "image": img, "tags": tags, "state": meta.get("state", ""), "level": meta.get("level", ""),
                       "takeaways": takeaways[:4], "html": body_html, "words": len(text.split()), "file": fn})
     posts.sort(key=lambda p: (p["date"], p["slug"]), reverse=True)
     return posts

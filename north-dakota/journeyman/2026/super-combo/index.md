@@ -1,7 +1,7 @@
 ---
 title: North Dakota Journeyman Super Combo (2026 NEC)
 url: https://passyourmasterelectricianexam.com/north-dakota/journeyman/2026/super-combo/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: The 2026 North Dakota Journeyman Electrician Super Combo is a complete study bundle for electrical professionals preparing for the North Dakota Journeyman.
 ---
@@ -13,6 +13,7 @@ North Dakota · Journeyman · 2026 NEC
 # Super Combo
 
 2026 North Dakota Journeyman Electrician + Electrician Calculations Study Guides + Flash Cards & National Electrical Code + Tabs Super Combo
+The North Dakota Journeyman Super Combo package costs $349.95, down from $395.00. The box holds 5 items: North Dakota Journeyman Electrician Study Guide; Electrician Calculations Study Guide; Journeyman Electrician Exam Flash Cards; National Electrical Code paperback; Pre-printed NEC tabs. Books ship from 1 Exam Prep and online kits arrive by email.
 
 $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/45302377840697:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.co
 - Built on the 2026 National Electrical Code; check your candidate bulletin for the edition your state tests on.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Super Combo
 
@@ -43,7 +44,9 @@ The 2026 North Dakota Journeyman Electrician Super Combo is a complete study bun
 
 North Dakota electrician licensing is administered by the North Dakota State Electrical Board. The Board examines applicants and issues licenses to individuals who demonstrate the required qualifications and knowledge of electrical laws and electrical codes. For journeyman electrician candidates, preparation should include National Electrical Code knowledge, fundamental electricity, North Dakota laws, North Dakota rules, North Dakota wiring standards, electrical theory, services, feeders, branch circuits, grounding and bonding, conductors, raceways, equipment, motors, safety, and electrical calculations.
 
-This Super Combo is built for candidates who want one coordinated preparation package instead of separate resources that do not work together. The North Dakota Journeyman Electrician Study Guide helps organize exam preparation around journeyman-level electrical topics. The Electrician Calculations Study Guide gives focused support for Ohm’s Law, formulas, load-related questions, conductor sizing, motor concepts, transformer concepts, and other math-based subjects. The 2026 NEC paperback with tabs helps candidates build code navigation skill. The 2026 Journeyman Electrician Flash Cards add quick review for formulas, definitions, NEC topics, electrical theory, and exam-style recall.
+## What else is in the North Dakota Journeyman Super Combo?
+
+The Super Combo is built for candidates who want one coordinated preparation package instead of separate resources that do not work together. The North Dakota Journeyman Electrician Study Guide helps organize exam preparation around journeyman-level electrical topics. The Electrician Calculations Study Guide gives focused support for Ohm’s Law, formulas, load-related questions, conductor sizing, motor concepts, transformer concepts, and other math-based subjects. The 2026 NEC paperback with tabs helps candidates build code navigation skill. The 2026 Journeyman Electrician Flash Cards add quick review for formulas, definitions, NEC topics, electrical theory, and exam-style recall.
 
 Many journeyman electrician candidates already have hands-on experience in the trade, but a licensing examination requires a different type of readiness. Field experience helps candidates understand real electrical work, but an exam requires careful reading, topic recognition, reference navigation, calculations, and time management. A candidate must be able to identify what the question is asking, locate or understand the correct rule, interpret the code language, and select the best answer under exam conditions.
 
@@ -121,6 +124,8 @@ Fundamental electricity should be reviewed for the closed-book portion. Candidat
 
 Services, feeders, and branch circuits should receive careful attention. Candidates should review service conductors, service disconnects, grounding at services, feeder sizing, branch circuit ratings, required outlets, conductor ampacity, overcurrent protection, and load calculations. These topics connect code knowledge with practical installation skill.
 
+## What else is in the North Dakota Journeyman Super Combo?
+
 Grounding and bonding are important areas for journeyman exam preparation. Candidates should review grounding electrode systems, equipment grounding conductors, bonding jumpers, raceway bonding, panel bonding, grounded conductors, separately derived systems, and related safety requirements. Grounding and bonding questions often require careful reading because similar terms can lead to different code requirements.
 
 Wiring methods and materials should be studied consistently. Candidates should review conductors, cables, raceways, boxes, fittings, supports, conductor ampacity, insulation types, flexible wiring methods, underground wiring, and installation conditions. These topics appear frequently in electrical work and are central to NEC-based study.
@@ -147,7 +152,7 @@ This package is especially useful for working electricians who need a complete s
 
 ### What is included in this North Dakota Journeyman Electrician Super Combo?
 
-This package includes the 2026 North Dakota Journeyman Electrician Study Guide, the 2026 Electrician Calculations Study Guide, the National Electrical Code 2026 Paperback with Tabs, and the 2026 Journeyman Electrician Flash Cards.
+The North Dakota Journeyman Super Combo includes the 2026 North Dakota Journeyman Electrician Study Guide, the 2026 Electrician Calculations Study Guide, the National Electrical Code 2026 Paperback with Tabs, and the 2026 Journeyman Electrician Flash Cards.
 
 ### Who administers the North Dakota Journeyman Electrician exam?
 
@@ -168,6 +173,8 @@ The examination is based on fundamental electricity, North Dakota laws, North Da
 ### Does the Board provide materials for the exam?
 
 Yes. The North Dakota State Electrical Board provides code books, calculators, and pencils for the examination.
+
+## More questions about the North Dakota Journeyman Super Combo
 
 ### How long do I have to test after receiving an exam invite?
 
@@ -205,7 +212,7 @@ Yes. This Super Combo is based on the 2026 National Electrical Code and includes
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Super Combo?
 
 ### Which NEC edition is this based on?
 
@@ -222,6 +229,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

@@ -1,16 +1,16 @@
 ---
 title: New Mexico Master Electrician Exam FAQ (21 answers)
 url: https://passyourmasterelectricianexam.com/faq/new-mexico/master/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
-description: 21 answers about the New Mexico master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
+description: The New Mexico master electrician exam FAQ has 21 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam.
 ---
 
 [Home](https://passyourmasterelectricianexam.com/) /[FAQ](https://passyourmasterelectricianexam.com/faq/) /New Mexico Master
 
 # New Mexico master electrician exam: frequently asked questions
 
-21 answers about the New Mexico master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. Filter the list or jump to a section.
+The New Mexico master electrician exam FAQ has 21 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. The answers come from our New Mexico master package descriptions and are refreshed whenever the store changes.
 
 ## Key takeaways
 
@@ -19,11 +19,11 @@ description: 21 answers about the New Mexico master electrician exam and license
 - New Mexico electrical licensing is administered through the New Mexico Regulation and Licensing Department, Construction Industries Division.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
-The exam 5Licensing and experience 6Code book and materials 6More questions 4
+What is the New Mexico master electrician exam like? 5How do you get a New Mexico master electrician license? 6Which code book and materials are allowed on the New Mexico exam? 6What else do New Mexico master candidates ask? 4
 
-## The exam
+## What is the New Mexico master electrician exam like?
 
 ### Is the New Mexico electrical exam open book?
 
@@ -45,7 +45,7 @@ EE-98 Part 1 Commercial and Industrial is listed with 80 questions, a 75 percent
 
 New Mexico electrical licensing is administered through the New Mexico Regulation and Licensing Department, Construction Industries Division.
 
-## Licensing and experience
+## How do you get a New Mexico master electrician license?
 
 ### Does New Mexico require Business and Law for contractors?
 
@@ -71,7 +71,7 @@ No. Journeyman certification and contractor licensing are separate consideration
 
 Yes. Candidates should confirm the required credential, classification, eligibility requirements, application process, code edition, reference rules, and post-exam licensing steps before scheduling or taking an exam.
 
-## Code book and materials
+## Which code book and materials are allowed on the New Mexico exam?
 
 ### What references are allowed for the New Mexico EE-98 electrical exam?
 
@@ -97,7 +97,7 @@ Exam-room reference rules are controlled by the current candidate bulletin and t
 
 NEC tabs help candidates locate major articles, chapters, tables, and subject areas faster during study. This supports stronger code-navigation practice and helps candidates become more comfortable using the NEC as a reference.
 
-## More questions
+## What else do New Mexico master candidates ask?
 
 ### How many parts are in the New Mexico EE-98 exam?
 
@@ -147,6 +147,8 @@ Packages built on the 2026 NEC, from the study guide alone to the Ultimate Combo
 - [All blog posts](https://passyourmasterelectricianexam.com/blog/)
 - [Every state and level](https://passyourmasterelectricianexam.com/#states)
 - [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

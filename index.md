@@ -1,14 +1,14 @@
 ---
 title: Pass Your Electrician Exam: 2026 Prep for All 50 States
 url: https://passyourmasterelectricianexam.com/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: 2026 journeyman and master electrician exam prep for all 50 states. Pick your state, pick your level, pick a package. Study guides, flash cards, NEC code.
 ---
 
 # Your state. Your license. 2026 code.
 
-Journeyman and master electrician exam prep for all 50 states, built on the 2026 National Electrical Code. Pick your state and level, then choose how much help you want.
+Pass Your Electrician Exam sells journeyman and master electrician exam prep for all 50 states, built on the 2026 National Electrical Code. Each state and level has 5 packages, from the study guide with flash cards at $99.95 to the Ultimate Combo at $399.95.
 
 ## Key takeaways
 
@@ -17,12 +17,11 @@ Journeyman and master electrician exam prep for all 50 states, built on the 2026
 - Every package includes the state study guide with 12 practice exams and 2 full-length final exams.
 - Pick a state and level, press Buy now, and checkout opens at our fulfillment center, 1 Exam Prep.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## Pick a package. Buy now. Done.
 
 Buy now adds it to your cart and takes you straight to secure checkout, handled by our fulfillment center, 1 Exam Prep. "What's inside" shows the description and add-on options first.
-
 [All states](https://passyourmasterelectricianexam.com/) /[Texas](https://passyourmasterelectricianexam.com/texas/journeyman/2026/) /[Journeyman](https://passyourmasterelectricianexam.com/texas/journeyman/2026/) /[2026](https://passyourmasterelectricianexam.com/texas/journeyman/2026/)
 
 Texas · Journeyman · 2026
@@ -184,7 +183,7 @@ Journeyman
 $99.45
 [Buy now](https://1examprep.com/cart/45264116875321:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
-## Before you buy
+## What should you know before you buy?
 
 ### Which NEC edition are these based on?
 
@@ -205,6 +204,14 @@ Online test success kits and courses are delivered by email after purchase. Book
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. These materials get you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study before the exam?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
 
 ## Every state. Both licenses.
 
@@ -292,6 +299,7 @@ Each page below lists the 2026 packages for that state and license level, from t
 
 Pick your state and license level above, choose how much help you want, and check out in one click. Physical books and code books ship from our fulfillment center, 1 Exam Prep; online test success kits and courses arrive by email after purchase, so you can start studying right away.
 Pick my package
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

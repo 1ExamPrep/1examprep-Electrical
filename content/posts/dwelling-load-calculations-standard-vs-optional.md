@@ -5,6 +5,8 @@ author: Pass Your Electrician Exam
 excerpt: The two ways to size a dwelling service under Article 220, worked side by side on the same house, with the demand factors each one uses and the places the exam checks whether you mixed them up.
 tags: calculations, NEC, master, journeyman
 takeaways: The standard method (220 Part III) applies a different demand factor to each load category; the optional method (220.82) applies one factor to nearly everything. | Standard: general lighting at 3 VA per square foot plus 1500 VA per small-appliance and laundry circuit, first 3000 VA at 100 percent and the rest at 35 percent, then ranges from Table 220.55 and dryers at 5000 VA minimum. | Optional: all loads at nameplate, first 10 kVA at 100 percent and the remainder at 40 percent, plus the larger of heating or cooling. | The question tells you which method to use; if it says optional, do not apply the 35 percent lighting factor.
+answer: A dwelling service can be sized two ways under NEC Article 220. The standard method in Part III applies demand factors load by load, starting at 3 VA per square foot. The optional method in 220.82 takes the first 10 kVA at 100 percent and the rest at 40 percent, which usually gives a smaller service.
+metaTitle: Dwelling Load Calculations: Standard vs Optional Method
 ---
 Every journeyman exam has at least one dwelling calculation and master exams have several. There are two methods, they live in different parts of Article 220, and the exam checks whether you can keep them apart. Here they are on the same house.
 

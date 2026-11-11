@@ -2,7 +2,7 @@
 
 > Instructions for AI assistants and agents reading https://passyourmasterelectricianexam.com/.
 
-Last updated: 2026-10-29
+Last updated: 2026-11-11
 
 ## What this site is
 

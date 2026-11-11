@@ -22,7 +22,7 @@
 </div></header>
 
 <main class="wrap" id="main">
-  <p class="crumb" aria-label="Breadcrumb"><a href="{{HOME}}">All states</a><span>/</span><a href="{{LEVEL_URL}}">{{STATE}}</a><span>/</span><a href="{{LEVEL_URL}}">{{LEVEL}}</a><span>/</span><a href="{{LEVEL_URL}}">{{YEAR}}</a><span>/</span>{{TIER_NAME}}</p>
+  <nav class="crumb" aria-label="Breadcrumb"><a href="{{HOME}}">All states</a><span>/</span><a href="{{LEVEL_URL}}">{{STATE}}</a><span>/</span><a href="{{LEVEL_URL}}">{{LEVEL}}</a><span>/</span><a href="{{LEVEL_URL}}">{{YEAR}}</a><span>/</span>{{TIER_NAME}}</nav>
 
   <section class="pdp-top" aria-labelledby="h1">
     <div class="gallery" id="gallery">
@@ -32,7 +32,8 @@
     <div class="buybox">
       <span class="pc-tier">{{STATE}} · {{LEVEL}} · {{YEAR}} NEC</span>
       <h1 class="pdp-h1" id="h1">{{TIER_NAME}}</h1>
-      <p class="pdp-sub">{{H1}}</p>
+      <div class="pdp-sub">{{H1}}</div>
+      <p class="pdp-lead">{{PDP_LEAD}}</p>
       <div class="pdp-price"><span class="pc-now" id="pNow">{{PRICE}}</span>{{COMPARE_HTML}}</div>
       <form class="variants" id="variants">{{VARIANTS_HTML}}</form>
       <a class="btn btn-buy btn-buy--lg" id="buyBtn" href="{{BUY_URL}}" rel="noopener">Buy now — go to checkout</a>
@@ -63,13 +64,10 @@
   </section>
 
   <section id="faq" class="pdp-faq" aria-labelledby="h-faq">
-    <h2 id="h-faq">Before you buy</h2>
+    <h2 id="h-faq">What do people ask before buying the {{TIER_NAME}}?</h2>
     <div class="faq">
-      <details open><summary>Which NEC edition is this based on?</summary><p>The {{YEAR}} National Electrical Code. If your state is still testing on an earlier edition, check your candidate bulletin first; our fulfillment center, {{FULFILL_NAME}}, also carries earlier editions.</p></details>
-      <details><summary>Are these the actual exam questions?</summary><p>No. Real exam questions are confidential. These are practice questions written to the same subjects, format and difficulty, with explanations.</p></details>
-      <details><summary>When will I get it?</summary><p>Online kits and courses are delivered by email after purchase. Books and code books ship from our fulfillment center, {{FULFILL_NAME}}; shipping options are shown at checkout.</p></details>
-      <details><summary>Does buying make me eligible to test?</summary><p>No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.</p></details>
-    </div>
+    {{FAQ_DETAILS}}
+  </div>
   </section>
 </main>
 

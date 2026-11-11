@@ -7,6 +7,8 @@ tags: journeyman, study tips, NEC
 level: Journeyman
 takeaways: Six weeks at about 90 minutes a day is enough if you spend week 1 learning the layout of the code book, not the answers. | Two calculations sessions a week from day one; ampacity, voltage drop, box fill, motors and dwelling loads are where scores separate. | Take 3 full timed practice exams in weeks 5 and 6 and log every miss by code section, not by topic. | Stop studying the night before and bring two calculators plus the exact NEC edition your state tests on.
 status: published
+answer: To study for the journeyman electrician exam, spend six weeks at about 90 minutes a day learning where answers live in the code book, not memorising them. Week 1 is tabbing and navigating the NEC, every week has a calculations block, and weeks 5 and 6 switch to full-length timed practice exams before a short taper.
+metaTitle: How to Study for the Journeyman Electrician Exam in 6 Weeks
 ---
 Most people who fail the journeyman exam do not fail because they don't know electrical work. They fail because the clock runs out while they are flipping through the code book. The exam is open book, and that is the trap: it tempts you to look everything up. The people who pass know roughly where the answer lives before they open the book.
 

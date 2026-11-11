@@ -1,7 +1,7 @@
 ---
 title: Virginia Journeyman Study Guide + Calculations + NEC
 url: https://passyourmasterelectricianexam.com/virginia/journeyman/2026/study-guide-calculations-nec/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: The 2026 Virginia Journeyman Electrician + Electrician Calculations Study Guides & National Electrical Code Combo is designed for electrical professionals.
 ---
@@ -13,6 +13,7 @@ Virginia · Journeyman · 2026 NEC
 # Study Guide + Calculations + NEC
 
 2026 Virginia Journeyman Electrician + Electrician Calculations Study Guides & National Electrical Code Combo
+The Virginia Journeyman Study Guide + Calculations + NEC package costs $279.95, down from $315.00. The box holds 3 items: Virginia Journeyman Electrician Study Guide; Electrician Calculations Study Guide; National Electrical Code paperback. Every item is built on the 2026 National Electrical Code, and the study guide has 12 practice exams and 2 full-length finals.
 
 $279.95 (was $315.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/46207424692281:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $279.95 (was $315.00) Save 11% [Buy now — go to checkout](https://1examprep.co
 - 2 optional add-ons can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Study Guide + Calculations + NEC
 
@@ -45,7 +46,9 @@ Preparing for the Virginia Journeyman Electrician exam requires more than review
 
 The Virginia Journeyman Electrician exam is administered through PSI for the Virginia Department of Professional and Occupational Regulation Board for Contractors. The exam is open book, and candidates must be comfortable using approved reference materials under timed conditions. Open book testing does not remove the need for preparation. It makes code navigation, tab familiarity, and reference-use practice even more important because candidates need to locate information quickly and accurately while managing exam time.
 
-This study guide combo is a strong choice for apprentices, working electricians, repeat test takers, and anyone preparing for Virginia journeyman electrician licensure. The Virginia Journeyman Electrician Study Guide supports focused review of trade and regulatory topics. The Electrician Calculations Study Guide helps candidates practice formulas, electrical math, and calculation methods. The National Electrical Code 2026 Paperback supports NEC study, code lookup practice, and long-term professional reference use.
+## What else is in the Virginia Journeyman Study Guide + Calculations + NEC?
+
+The Virginia Journeyman Study Guide + Calculations + NEC combo is a strong choice for apprentices, working electricians, repeat test takers, and anyone preparing for Virginia journeyman electrician licensure. The Virginia Journeyman Electrician Study Guide supports focused review of trade and regulatory topics. The Electrician Calculations Study Guide helps candidates practice formulas, electrical math, and calculation methods. The National Electrical Code 2026 Paperback supports NEC study, code lookup practice, and long-term professional reference use.
 
 Electrical licensing exams can feel overwhelming because they combine technical knowledge with real-world application. A candidate may need to understand how to size conductors, apply grounding and bonding rules, identify raceway and box requirements, work through feeder and branch-circuit questions, and answer standards-of-practice or conduct questions. A balanced study package helps candidates review each area with a clear plan instead of jumping from topic to topic without structure.
 
@@ -118,6 +121,8 @@ The Virginia Journeyman Electrician exam includes 70 items, a 210-minute time al
 
 This outline shows why candidates should study both broad electrical principles and specific code applications. Raceways and boxes, grounding and bonding, conductors and cables, services, feeders, and branch circuits are important subject areas. Motors and controls, utilization equipment, special occupancies, special equipment, lighting, communication systems, and fire detection and alarm systems should also be included in the study plan.
 
+## What else is in the Virginia Journeyman Study Guide + Calculations + NEC?
+
 The Electrician Calculations Study Guide is especially useful for candidates who want additional practice with electrical math. Calculation questions often require more than memorizing a formula. Candidates must identify what the problem is asking, choose the correct formula or code method, organize known values, perform the calculation carefully, and review whether the final answer is reasonable. Repeated practice can improve speed and reduce test-day stress.
 
 The National Electrical Code 2026 Paperback supports code navigation practice. Candidates should practice using the NEC index, article structure, tables, definitions, and cross-references. For an open book exam, familiarity with the code book can make a major difference in pacing. The goal is not simply to own the NEC, but to know how to use it effectively.
@@ -138,11 +143,11 @@ With steady preparation, candidates can build stronger familiarity with the exam
 
 ### What is included in this Virginia Journeyman Electrician combo?
 
-This combo includes the 2026 Virginia Journeyman Electrician Study Guide, the 2026 Electrician Calculations Study Guide, and the National Electrical Code 2026 Paperback.
+The Virginia Journeyman Study Guide + Calculations + NEC includes the 2026 Virginia Journeyman Electrician Study Guide, the 2026 Electrician Calculations Study Guide, and the National Electrical Code 2026 Paperback.
 
 ### Who should use this study guide combo?
 
-This package is designed for candidates preparing for the Virginia Journeyman Electrician exam, including apprentices, working electricians, and repeat test takers who want organized study materials and NEC-based review.
+The Virginia Journeyman Study Guide + Calculations + NEC is designed for candidates preparing for the Virginia Journeyman Electrician exam, including apprentices, working electricians, and repeat test takers who want organized study materials and NEC-based review.
 
 ### How many questions are on the Virginia Journeyman Electrician exam?
 
@@ -163,6 +168,8 @@ Yes. The Virginia Journeyman Electrician exam is open book. Candidates must brin
 ### Can I bring study guides into the Virginia exam room?
 
 No. Study guides are not permitted in the examination room. Study guides should be used before the exam for preparation.
+
+## More questions about the Virginia Journeyman Study Guide + Calculations + NEC
 
 ### What reference rules apply to the Virginia open book exam?
 
@@ -200,7 +207,7 @@ Use the Virginia Journeyman Electrician Study Guide to review the exam outline a
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Study Guide + Calculations + NEC?
 
 ### Which NEC edition is this based on?
 
@@ -217,6 +224,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

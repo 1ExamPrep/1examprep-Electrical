@@ -1,7 +1,7 @@
 ---
 title: Washington Master Study Guide + Flash Cards (2026 NEC)
 url: https://passyourmasterelectricianexam.com/washington/master/2026/study-guide-flash-cards/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: The 2026 Washington Master Electrician Exam Prep and Study Guide + Flash Card Combo is designed for electricians preparing for Washington master-level.
 ---
@@ -13,6 +13,7 @@ Washington · Master · 2026 NEC
 # Study Guide + Flash Cards
 
 2026 Washington Master Electrician Exam Prep and Study Guide + Flash Card Combo: 12 Practice Exams +2 Full Final Exams
+The Washington Master Study Guide + Flash Cards package costs $99.95, down from $125.00. The box holds 2 items: Washington Master Electrician Exam Prep and Study Guide: 12 practice exams + 2 full final exams; Master Electrician Exam Flash Cards. Every item is built on the 2026 National Electrical Code, and the study guide has 12 practice exams and 2 full-length finals.
 
 $99.95 (was $125.00) Save 20% [Buy now — go to checkout](https://1examprep.com/cart/45959009402937:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $99.95 (was $125.00) Save 20% [Buy now — go to checkout](https://1examprep.com
 - 2 optional add-ons can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Study Guide + Flash Cards
 
@@ -43,6 +44,8 @@ The **2026 Washington Master Electrician Exam Prep and Study Guide + Flash Card 
 Washington Master Electrician exam preparation requires more than field experience. Candidates need to understand the National Electrical Code, Washington electrical laws, Washington electrical rules, electrical theory, services, feeders, branch circuits, grounding and bonding, overcurrent protection, wiring methods, conductors, raceways, boxes, motors, generators, transformers, hazardous locations, special occupancies, special equipment, emergency systems, communication systems, major load calculations, and general trade knowledge.
 
 This package includes **12 practice exams** plus **2 full final exams**, giving you repeated exposure to exam-style questions before test day. The practice exams help build familiarity with question wording, topic recognition, code application, calculation work, Washington law and rule topics, reference lookup, and exam pacing. The full final exams provide a stronger readiness check after you have completed a broader review of the material.
+
+## What else is in the Washington Master Study Guide + Flash Cards?
 
 The flash card component adds flexible active-recall training. Flash cards are useful for reviewing definitions, formulas, electrical theory, NEC terminology, Washington RCW and WAC topics, wiring methods, grounding rules, conductor concepts, box fill, raceway fill, motor topics, calculation methods, and high-value exam areas. For working electricians, flash cards make it easier to study consistently even when a full practice exam does not fit into the day.
 
@@ -66,6 +69,8 @@ The Washington Master Electrician examination is administered by PSI for the Was
 Washington requires candidates to pass each section of the examination with a score of **70% or greater**. Candidates have one year from the date of the exam approval letter to pass the exam listed in the letter. During that one-year exam period, a candidate does not have to retake sections already passed during that same period. If the exam is not completed within the one-year period, the candidate must reapply.
 
 The Washington **01-General Master Electrician** exam includes three sections: **NEC and Theory**, **Washington Codes**, and **Major Load Calculations**. The NEC and Theory section allows **4 hours**, the Washington Codes section allows **1 hour**, and the Major Load Calculations section allows **2 hours**.
+
+## What else is in the Washington Master Study Guide + Flash Cards?
 
 The 01-General Master Electrician content outline includes:
 
@@ -166,6 +171,8 @@ Because the exam is open book, candidates should practice using references effic
 
 Washington law and rule review should be part of every study plan. Chapter 19.28 RCW and Chapter 296-46B WAC support questions related to licensing, certification, inspections, permits, contractor responsibilities, supervision, safety standards, installation rules, and state electrical compliance. The Washington Codes section is a separate section for the 01-General Master Electrician exam, so candidates should review these materials directly.
 
+## What else is in the Washington Master Study Guide + Flash Cards?
+
 Major load calculations deserve focused preparation. Candidates should practice service calculations, feeder calculations, dwelling calculations, demand factors, conductor sizing, overcurrent protection relationships, motor calculations, transformer-related calculations, grounding and bonding calculations, and other load calculation methods. Calculation questions require careful reading, correct formulas, and step-by-step accuracy.
 
 The 12 practice exams in this combo are designed to help you build familiarity with exam-style questions over time. After each practice exam, review missed questions carefully. Missed questions show where your next study session should focus. If you miss a grounding question, return to grounding and bonding review. If you miss a Washington rule question, return to the applicable WAC or RCW topic. If you miss a major load calculation, return to the calculation method and practice it again.
@@ -190,7 +197,7 @@ No exam prep product can guarantee a passing score, certification approval, or s
 
 ### Who is this Washington Master Electrician exam prep combo for?
 
-This combo is for electricians preparing for Washington Master Electrician exam preparation, including candidates studying for the general journey level master electrician path or a specialty master electrician path.
+The Washington Master Study Guide + Flash Cards is for electricians preparing for Washington Master Electrician exam preparation, including candidates studying for the general journey level master electrician path or a specialty master electrician path.
 
 ### Is this product based on the 2026 National Electrical Code?
 
@@ -223,6 +230,8 @@ The NEC and Theory section allows 4 hours, the Washington Codes section allows 1
 ### How many questions are on the Washington 01-General Master Electrician exam?
 
 The 01-General Master Electrician outline identifies approximately 80 questions for NEC and Theory, 20 questions for Washington Codes, and 10 questions for Major Load Calculations.
+
+## More questions about the Washington Master Study Guide + Flash Cards
 
 ### What experience is required for a Washington journey level master electrician certificate?
 
@@ -268,7 +277,7 @@ No. This product is designed to support preparation through structured study, pr
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Study Guide + Flash Cards?
 
 ### Which NEC edition is this based on?
 
@@ -285,6 +294,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

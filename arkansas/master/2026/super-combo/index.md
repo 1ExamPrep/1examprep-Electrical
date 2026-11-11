@@ -1,7 +1,7 @@
 ---
 title: Arkansas Master Super Combo (2026 NEC)
 url: https://passyourmasterelectricianexam.com/arkansas/master/2026/super-combo/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: This 2026 Arkansas Master Electrician Super Combo is designed for experienced electricians, licensed journeyman electricians, electrical contractors, and.
 ---
@@ -13,6 +13,7 @@ Arkansas · Master · 2026 NEC
 # Super Combo
 
 2026 Arkansas Master Electrician + Electrician Calculations Study Guides + Flash Cards & National Electrical Code + Tabs Super Combo
+The Arkansas Master Super Combo package costs $349.95, down from $395.00. The box holds 5 items: Arkansas Master Electrician Study Guide; Electrician Calculations Study Guide; Master Electrician Exam Flash Cards; National Electrical Code paperback; Pre-printed NEC tabs. Every item is built on the 2026 National Electrical Code, and the study guide has 12 practice exams and 2 full-length finals.
 
 $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/46213570330681:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.co
 - 1 optional add-on can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Super Combo
 
@@ -129,6 +130,8 @@ The 2026 Arkansas Master Electrician Study Guide helps organize broad electrical
 
 The 2026 Electrician Calculations Study Guide is included because electrical math is an important part of master electrician preparation. Calculation practice may include conductor sizing, box fill, raceway fill, branch-circuit loads, service and feeder calculations, overcurrent protection, motor calculations, voltage drop concepts, load balancing, transformer calculations, and unit conversions. Students should practice writing out each step, checking units, and reading each question carefully before selecting an answer.
 
+## What else is in the Arkansas Master Super Combo?
+
 The National Electrical Code 2026 paperback with tabs helps students practice code navigation. Tabs can make it easier to move between major sections during study sessions. Students should become comfortable using definitions, conductor tables, grounding and bonding articles, wiring method articles, box and raceway rules, service requirements, feeder requirements, branch-circuit provisions, motor rules, special occupancy rules, special equipment rules, alarm and communication system articles, and equipment-specific sections.
 
 The 2026 Master Electrician Flash Cards support quick review between longer study sessions. Flash cards are useful for short daily study because they help students repeat definitions, formulas, safety concepts, code-related terms, and advanced electrical preparation topics. A few minutes of flash card review each day can help keep important concepts fresh while the student continues deeper study with the guide and NEC.
@@ -149,7 +152,7 @@ For Arkansas master electrician candidates, progress comes from repeated exposur
 
 ### What is included in this 2026 Arkansas Master Electrician Super Combo?
 
-This Super Combo includes the 2026 Arkansas Master Electrician Study Guide, the 2026 Electrician Calculations Study Guide, the National Electrical Code 2026 paperback with tabs, and the 2026 Master Electrician Flash Cards.
+The Super Combo includes the 2026 Arkansas Master Electrician Study Guide, the 2026 Electrician Calculations Study Guide, the National Electrical Code 2026 paperback with tabs, and the 2026 Master Electrician Flash Cards.
 
 ### Who administers Arkansas electrical licensing?
 
@@ -179,13 +182,15 @@ Arkansas electrical exams are scored against a cut score of 70%. Candidates who 
 
 The current Arkansas candidate bulletin lists NFPA 70, National Electrical Code 2023, as the reference for the Arkansas Master Electrician exam. This product is based on the 2026 NEC for current-code study and practice.
 
+## More questions about the Arkansas Master Super Combo
+
 ### What topics are on the Arkansas Master Electrician exam?
 
 Topics include grounding and bonding, electrical trade knowledge and calculations, services, feeders, branch feeders, overcurrent protection, raceways and enclosures, conductors, motors and controls, utilization equipment, special occupancies and equipment, low-voltage circuits, alarms, communications, and safety.
 
 ### Why does this Super Combo include the 2026 NEC?
 
-This Super Combo is based on the 2026 NEC for students who want current-code study materials, stronger code navigation practice, and a newer NEC reference as part of their preparation routine.
+The Super Combo is based on the 2026 NEC for students who want current-code study materials, stronger code navigation practice, and a newer NEC reference as part of their preparation routine.
 
 ### Why does this combo include an Electrician Calculations Study Guide?
 
@@ -219,7 +224,7 @@ Use the Arkansas Master Electrician Study Guide to organize your review, the Ele
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Super Combo?
 
 ### Which NEC edition is this based on?
 
@@ -236,6 +241,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

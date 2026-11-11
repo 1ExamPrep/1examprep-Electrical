@@ -1,7 +1,7 @@
 ---
 title: Indiana Master Super Combo (2026 NEC)
 url: https://passyourmasterelectricianexam.com/indiana/master/2026/super-combo/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: The 2026 Indiana Master Electrician Super Combo is a complete study bundle for electrical professionals preparing for Indiana master electrician-level.
 ---
@@ -13,6 +13,7 @@ Indiana · Master · 2026 NEC
 # Super Combo
 
 2026 Indiana Master Electrician + Electrician Calculations Study Guides + Flash Cards & National Electrical Code + Tabs Super Combo
+The Indiana Master Super Combo package costs $349.95, down from $395.00. The box holds 5 items: Indiana Master Electrician Study Guide; Electrician Calculations Study Guide; Master Electrician Exam Flash Cards; National Electrical Code paperback; Pre-printed NEC tabs. Every item is built on the 2026 National Electrical Code, and the study guide has 12 practice exams and 2 full-length finals.
 
 $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/46213719719993:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.co
 - 1 optional add-on can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Super Combo
 
@@ -123,6 +124,8 @@ Code navigation should also be a regular part of preparation. Candidates should 
 
 Services and service equipment deserve close review. Candidates should study service conductors, service disconnects, service grounding, bonding, service load calculations, available fault current, working clearances, and installation requirements. These topics often connect several parts of the code and may require both code lookup and calculation skill.
 
+## What else is in the Indiana Master Super Combo?
+
 Feeders, branch circuits, and conductors are also important. Candidates should review load requirements, conductor ampacity, adjustment and correction factors, overcurrent protection, required outlets, GFCI protection, AFCI protection, equipment grounding conductors, and conductor installation rules. These topics appear frequently in master-level electrical preparation because they connect directly to practical field work.
 
 Wiring methods and materials should be studied carefully. Candidates should review raceway installations, underground wiring methods, boxes, enclosures, cabinets, panelboards, switchboards, flexible cords, cables, supports, fittings, and conductor protection. Questions in this area may require candidates to choose the correct installation method or identify a code violation.
@@ -149,7 +152,7 @@ This package is especially useful for working electricians who need a structured
 
 ### What is included in this Indiana Master Electrician Super Combo?
 
-This package includes the 2026 Indiana Master Electrician Study Guide, the 2026 Electrician Calculations Study Guide, the National Electrical Code 2026 Paperback with Tabs, and the 2026 Master Electrician Flash Cards.
+The Indiana Master Super Combo includes the 2026 Indiana Master Electrician Study Guide, the 2026 Electrician Calculations Study Guide, the National Electrical Code 2026 Paperback with Tabs, and the 2026 Master Electrician Flash Cards.
 
 ### Does Indiana have a statewide Master Electrician license?
 
@@ -166,6 +169,8 @@ Open-book rules depend on the local jurisdiction and testing provider. Many muni
 ### Can I use tabs in my NEC book during an Indiana electrical exam?
 
 Tab rules depend on the local exam provider. Many testing providers allow permanent tabs and prohibit temporary tabs, loose notes, or added materials, but candidates should follow the rules issued for their specific exam.
+
+## More questions about the Indiana Master Super Combo
 
 ### Is this package based on the 2026 NEC?
 
@@ -203,7 +208,7 @@ Yes. Because Indiana electrical licensing is local, candidates should confirm th
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Super Combo?
 
 ### Which NEC edition is this based on?
 
@@ -220,6 +225,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

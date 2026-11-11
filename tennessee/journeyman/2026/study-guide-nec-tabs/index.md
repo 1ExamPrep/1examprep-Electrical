@@ -1,7 +1,7 @@
 ---
 title: Tennessee Journeyman Study Guide + NEC with Tabs (2026 NEC)
 url: https://passyourmasterelectricianexam.com/tennessee/journeyman/2026/study-guide-nec-tabs/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: The 2026 Tennessee Journeyman Electrician Study Guide & National Electrical Code Combo with Tabs is built for electrical students, apprentices, and working.
 ---
@@ -13,6 +13,7 @@ Tennessee · Journeyman · 2026 NEC
 # Study Guide + NEC with Tabs
 
 2026 Tennessee Journeyman Electrician Study Guide & National Electrical Code Combo with Tabs
+The Tennessee Journeyman Study Guide + NEC with Tabs package costs $249.95, down from $350.00. The box holds 3 items: Tennessee Journeyman Electrician Study Guide; National Electrical Code paperback; Pre-printed NEC tabs. Every item is built on the 2026 National Electrical Code, and the study guide has 12 practice exams and 2 full-length finals.
 
 $249.95 (was $350.00) Save 29% [Buy now — go to checkout](https://1examprep.com/cart/45967733162041:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $249.95 (was $350.00) Save 29% [Buy now — go to checkout](https://1examprep.co
 - 2 optional add-ons can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Study Guide + NEC with Tabs
 
@@ -44,6 +45,8 @@ The **2026 Tennessee Journeyman Electrician Study Guide & National Electrical Co
 Electrical exam preparation requires more than reading code articles or memorizing a few formulas. Candidates need to understand how electrical rules apply in real job situations, how exam questions are worded, and how to locate the correct NEC section under time pressure. This combo helps students study with direction by pairing Tennessee-focused exam preparation with the 2026 NEC paperback edition and tabs.
 
 The **2026 Tennessee Journeyman Electrician Study Guide** supports review of common journeyman-level electrical knowledge areas, including general electrical installation requirements, services, feeders, branch circuits, overcurrent protection, grounding and bonding, conductors, cables, raceways, boxes, hazardous locations, special occupancies, special equipment, low-voltage systems, alarms, signaling systems, communications, lighting, signs, and general-use equipment. These subjects form the foundation of electrical exam readiness and practical field knowledge.
+
+## What else is in the Tennessee Journeyman Study Guide + NEC with Tabs?
 
 The **National Electrical Code 2026 Paperback with Tabs** gives students the primary code reference for studying electrical rules, definitions, tables, calculations, and installation requirements. The included tabs help organize the NEC so students can practice locating articles, parts, tables, and definitions faster. For electrical exams, especially open book exams, code-book familiarity is a major part of preparation.
 
@@ -185,7 +188,7 @@ No. This product is a study resource. Passing depends on the candidate’s prepa
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Study Guide + NEC with Tabs?
 
 ### Which NEC edition is this based on?
 
@@ -202,6 +205,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

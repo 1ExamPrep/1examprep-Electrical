@@ -1,16 +1,16 @@
 ---
 title: Oregon Master Electrician Exam FAQ (23 answers)
 url: https://passyourmasterelectricianexam.com/faq/oregon/master/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
-description: 23 answers about the Oregon master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
+description: The Oregon master electrician exam FAQ has 23 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam.
 ---
 
 [Home](https://passyourmasterelectricianexam.com/) /[FAQ](https://passyourmasterelectricianexam.com/faq/) /Oregon Master
 
 # Oregon master electrician exam: frequently asked questions
 
-23 answers about the Oregon master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. Filter the list or jump to a section.
+The Oregon master electrician exam FAQ has 23 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. The answers come from our Oregon master package descriptions and are refreshed whenever the store changes.
 
 ## Key takeaways
 
@@ -19,11 +19,11 @@ description: 23 answers about the Oregon master electrician exam and license: wh
 - Oregon electrical licensing is regulated by the Oregon Building Codes Division under the Department of Consumer and Business Services.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
-The exam 7Licensing and experience 11Code book and materials 4More questions 1
+What is the Oregon master electrician exam like? 7How do you get a Oregon master electrician license? 9How do you get a Oregon master electrician license (part 2)? 2Which code book and materials are allowed on the Oregon exam? 4What else do Oregon master candidates ask? 1
 
-## The exam
+## What is the Oregon master electrician exam like?
 
 ### Is the Oregon master-level electrical exam open book?
 
@@ -53,7 +53,7 @@ The Oregon General Supervising Electrician examination is listed with 4 hours of
 
 Oregon electrical exam preparation should include open-book code navigation and reference-use practice. Candidates should follow the current Oregon Building Codes Division and testing-provider exam instructions for the exact references, tabs, notes, calculators, and code edition allowed during testing.
 
-## Licensing and experience
+## How do you get a Oregon master electrician license?
 
 ### Who regulates Oregon electrical licensing?
 
@@ -91,6 +91,8 @@ Yes. Oregon electrical licensing is handled at the state level through the Orego
 
 Oregon uses license classifications such as General Supervising Electrician and Limited Supervising Electrician instead of using the same “master electrician” terminology found in some other states. Candidates should confirm the exact Oregon license classification that matches their goal.
 
+## How do you get a Oregon master electrician license (part 2)?
+
 ### Does an Oregon individual electrical license allow someone to operate an electrical contracting business?
 
 An individual electrical license and a contractor business license may both be required depending on the work and business activity. Candidates who plan to bid, advertise, contract, or operate an electrical contracting business should review Oregon’s individual license and contractor business requirements.
@@ -99,7 +101,7 @@ An individual electrical license and a contractor business license may both be r
 
 Yes. Candidates should confirm the required license classification, eligibility requirements, application process, code edition, reference rules, and post-exam licensing steps before scheduling or taking an exam.
 
-## Code book and materials
+## Which code book and materials are allowed on the Oregon exam?
 
 ### Can I use the 2026 NEC to study for Oregon electrical exams?
 
@@ -117,7 +119,7 @@ Exam-room reference rules are controlled by the current candidate bulletin and t
 
 NEC tabs help candidates locate major articles, chapters, tables, and subject areas faster during study. This supports stronger code-navigation practice and helps candidates become more comfortable using the NEC as a reference.
 
-## More questions
+## What else do Oregon master candidates ask?
 
 ### Does Oregon use the Master Electrician title?
 
@@ -154,6 +156,8 @@ Packages built on the 2026 NEC, from the study guide alone to the Ultimate Combo
 - [All blog posts](https://passyourmasterelectricianexam.com/blog/)
 - [Every state and level](https://passyourmasterelectricianexam.com/#states)
 - [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

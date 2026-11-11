@@ -1,16 +1,16 @@
 ---
 title: Georgia Journeyman Electrician Exam FAQ (23 answers)
 url: https://passyourmasterelectricianexam.com/faq/georgia/journeyman/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
-description: 23 answers about the Georgia journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
+description: The Georgia journeyman electrician exam FAQ has 23 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours.
 ---
 
 [Home](https://passyourmasterelectricianexam.com/) /[FAQ](https://passyourmasterelectricianexam.com/faq/) /Georgia Journeyman
 
 # Georgia journeyman electrician exam: frequently asked questions
 
-23 answers about the Georgia journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. Filter the list or jump to a section.
+The Georgia journeyman electrician exam FAQ has 23 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. The answers come from our Georgia journeyman package descriptions and are refreshed whenever the store changes.
 
 ## Key takeaways
 
@@ -19,11 +19,11 @@ description: 23 answers about the Georgia journeyman electrician exam and licens
 - Georgia uses PSI as the testing vendor for electrical contractor examinations after applicants are approved by the Board to sit for the exam.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
-The exam 7Licensing and experience 7Code book and materials 2More questions 7
+What is the Georgia journeyman electrician exam like? 7How do you get a Georgia journeyman electrician license? 7Which code book and materials are allowed on the Georgia exam? 2What else do Georgia journeyman candidates ask? 7
 
-## The exam
+## What is the Georgia journeyman electrician exam like?
 
 ### Are Georgia electrical exams open book?
 
@@ -53,7 +53,7 @@ The ICC National Standard Journeyman Electrician exam includes 80 multiple-choic
 
 The ICC National Standard Journeyman Electrician exam allows 4 hours of testing time.
 
-## Licensing and experience
+## How do you get a Georgia journeyman electrician license?
 
 ### Does Georgia have a statewide journeyman electrician license?
 
@@ -83,7 +83,7 @@ No. Journeyman-level trade knowledge is not the same as holding a Georgia electr
 
 Georgia electrical contractor licensing is handled through the Georgia Secretary of State and the Georgia State Construction Industry Licensing Board, Division of Electrical Contractors.
 
-## Code book and materials
+## Which code book and materials are allowed on the Georgia exam?
 
 ### Are the flash cards based on the 2026 National Electrical Code?
 
@@ -93,7 +93,7 @@ Yes. The flash cards included in this combo are based on the 2026 National Elect
 
 A tabbed NEC can make study sessions more organized by helping candidates locate important code sections more efficiently. It supports repeated lookup practice and helps candidates become more familiar with the structure of the National Electrical Code.
 
-## More questions
+## What else do Georgia journeyman candidates ask?
 
 ### What topics should I study?
 
@@ -155,6 +155,8 @@ Packages built on the 2026 NEC, from the study guide alone to the Ultimate Combo
 - [All blog posts](https://passyourmasterelectricianexam.com/blog/)
 - [Every state and level](https://passyourmasterelectricianexam.com/#states)
 - [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

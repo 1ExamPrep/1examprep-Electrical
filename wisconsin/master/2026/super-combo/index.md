@@ -1,7 +1,7 @@
 ---
 title: Wisconsin Master Super Combo (2026 NEC)
 url: https://passyourmasterelectricianexam.com/wisconsin/master/2026/super-combo/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: The 2026 Wisconsin Master Electrician + Electrician Calculations Study Guides + Flash Cards & National Electrical Code + Tabs Super Combo is designed for.
 ---
@@ -13,6 +13,7 @@ Wisconsin · Master · 2026 NEC
 # Super Combo
 
 2026 Wisconsin Master Electrician + Electrician Calculations Study Guides + Flash Cards & National Electrical Code + Tabs Super Combo
+The Wisconsin Master Super Combo package costs $349.95, down from $395.00. The box holds 5 items: Wisconsin Master Electrician Study Guide; Electrician Calculations Study Guide; Master Electrician Exam Flash Cards; National Electrical Code paperback; Pre-printed NEC tabs. Every item is built on the 2026 National Electrical Code, and the study guide has 12 practice exams and 2 full-length finals.
 
 $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/46213833261113:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.co
 - 1 optional add-on can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Super Combo
 
@@ -45,7 +46,9 @@ The 2026 Wisconsin Master Electrician + Electrician Calculations Study Guides + 
 
 Wisconsin master electrician preparation requires more than jobsite experience alone. Candidates need to understand electrical theory, services, feeders, branch circuits, grounding and bonding, overcurrent protection, conductor sizing, wiring methods, raceways, boxes, motors, transformers, special occupancies, special equipment, electrical calculations, Wisconsin Administrative Code requirements, electrical licensing rules, and the National Electrical Code. A strong study routine should help candidates review these subjects, practice calculations, improve code navigation, and reinforce important concepts through repetition.
 
-This Super Combo supports that preparation from several directions. The 2026 Wisconsin Master Electrician Study Guide helps organize Wisconsin master-level electrical preparation around NEC-based topics, Wisconsin licensing concepts, state electrical code subjects, trade knowledge, and exam-style review. The 2026 Electrician Calculations Study Guide gives focused attention to electrical math, load calculations, conductor sizing, branch circuit calculations, service and feeder calculations, box fill, raceway fill, motor calculations, transformer calculations, voltage drop, and related problem-solving. The National Electrical Code 2026 paperback with tabs helps candidates build familiarity with NEC structure and article navigation during study. The 2026 Master Electrician Flash Cards provide a quick-review tool for reinforcing formulas, definitions, terminology, and important electrical concepts.
+## What else is in the Wisconsin Master Super Combo?
+
+The Super Combo supports that preparation from several directions. The 2026 Wisconsin Master Electrician Study Guide helps organize Wisconsin master-level electrical preparation around NEC-based topics, Wisconsin licensing concepts, state electrical code subjects, trade knowledge, and exam-style review. The 2026 Electrician Calculations Study Guide gives focused attention to electrical math, load calculations, conductor sizing, branch circuit calculations, service and feeder calculations, box fill, raceway fill, motor calculations, transformer calculations, voltage drop, and related problem-solving. The National Electrical Code 2026 paperback with tabs helps candidates build familiarity with NEC structure and article navigation during study. The 2026 Master Electrician Flash Cards provide a quick-review tool for reinforcing formulas, definitions, terminology, and important electrical concepts.
 
 For many electricians, the challenge is not understanding electrical work in the field. The challenge is applying that knowledge in a licensing exam format while managing time, reading code language carefully, and using references efficiently. A question may test a calculation method, a code rule, a wiring method, a service requirement, a grounding and bonding topic, a conductor rule, a raceway requirement, a motor topic, a transformer topic, a Wisconsin administrative rule, or a licensing concept. This Super Combo helps candidates study with a structured system instead of relying on scattered notes, random practice, or last-minute code reading.
 
@@ -65,6 +68,8 @@ Wisconsin electrician licensing is handled through the Wisconsin Department of S
 The Wisconsin Master Electrician examination is a state licensing exam connected with master-level electrical responsibility. Master electrician preparation generally includes NEC knowledge, Wisconsin Administrative Code SPS 305 licensing requirements, Wisconsin Administrative Code SPS 316 electrical standards, electrical calculations, services, feeders, branch circuits, wiring methods, grounding and bonding, overcurrent protection, conductors, raceways, boxes, equipment installation, motors, transformers, special occupancies, safety, and practical electrical application.
 
 Wisconsin DSPS identifies the master electrician exam as open book and lists a 70 percent passing score. The DSPS master electrician exam reference information identifies three categories of materials allowed into the exam: one binder containing Wisconsin Administrative Code SPS 305, Wisconsin Administrative Code SPS 316, and printed notes; the National Electrical Code book or NEC Handbook edition identified by DSPS; and up to two printed, bound reference books such as electrical reference or code-navigation books. Candidates should use the current DSPS exam information for the exact reference edition and allowed materials for the exam date they schedule.
+
+## What else is in the Wisconsin Master Super Combo?
 
 The Wisconsin master electrician exam is not only a code lookup exercise. Candidates should be prepared to apply NEC requirements, understand Wisconsin-specific rules, solve calculations, interpret common electrical installation requirements, and recognize how licensing standards affect master-level responsibility. The Wisconsin Master Electrician Study Guide helps organize broad review, the Electrician Calculations Study Guide supports math-based preparation, the NEC 2026 paperback with tabs helps build code familiarity during study, and the Master Electrician Flash Cards reinforce key material through repetition.
 
@@ -165,6 +170,8 @@ Wisconsin DSPS identifies the Master Electrician exam passing score as 70 percen
 
 DSPS identifies one binder containing Wisconsin Administrative Code SPS 305, Wisconsin Administrative Code SPS 316, and printed notes; the National Electrical Code book or NEC Handbook edition identified by DSPS; and up to two printed, bound reference books.
 
+## More questions about the Wisconsin Master Super Combo
+
 ### FAQ: What experience is required for the Wisconsin Master Electrician license?
 
 Wisconsin DSPS identifies qualifying experience as at least 10,000 hours of experience in installing, repairing, and maintaining electrical wiring during a period of at least 60 months, or at least 1,000 hours per year for at least seven years. Electrical-related education may count toward part of the required experience under DSPS rules.
@@ -179,7 +186,7 @@ Tabs help organize the code book and make major NEC sections easier to locate du
 
 ### FAQ: Who should use this Super Combo?
 
-This Super Combo is designed for electricians preparing for Wisconsin master electrician study based on the 2026 NEC, especially candidates who want study guides, calculation practice, a tabbed NEC book, and flash cards in one organized package.
+The Super Combo is designed for electricians preparing for Wisconsin master electrician study based on the 2026 NEC, especially candidates who want study guides, calculation practice, a tabbed NEC book, and flash cards in one organized package.
 
 ## Other Wisconsin Master packages
 
@@ -197,7 +204,7 @@ This Super Combo is designed for electricians preparing for Wisconsin master ele
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Super Combo?
 
 ### Which NEC edition is this based on?
 
@@ -214,6 +221,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

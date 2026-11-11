@@ -1,16 +1,16 @@
 ---
 title: Kansas Journeyman Electrician Exam FAQ (25 answers)
 url: https://passyourmasterelectricianexam.com/faq/kansas/journeyman/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
-description: 25 answers about the Kansas journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
+description: The Kansas journeyman electrician exam FAQ has 25 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam.
 ---
 
 [Home](https://passyourmasterelectricianexam.com/) /[FAQ](https://passyourmasterelectricianexam.com/faq/) /Kansas Journeyman
 
 # Kansas journeyman electrician exam: frequently asked questions
 
-25 answers about the Kansas journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. Filter the list or jump to a section.
+The Kansas journeyman electrician exam FAQ has 25 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. The answers come from our Kansas journeyman package descriptions and are refreshed whenever the store changes.
 
 ## Key takeaways
 
@@ -19,11 +19,11 @@ description: 25 answers about the Kansas journeyman electrician exam and license
 - Electrician licensing in Kansas is usually handled at the local level. Candidates should work with the local building department, contractor licensing office, city office, county office, or municipal authority for the area where they plan to work.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
-The exam 7Licensing and experience 5Code book and materials 4More questions 9
+What is the Kansas journeyman electrician exam like? 7How do you get a Kansas journeyman electrician license? 5Which code book and materials are allowed on the Kansas exam? 4What else do Kansas journeyman candidates ask? 9
 
-## The exam
+## What is the Kansas journeyman electrician exam like?
 
 ### Are Kansas journeyman electrician exams open book?
 
@@ -53,7 +53,7 @@ The ICC National Standard Journeyman Electrician exam includes 80 multiple-choic
 
 The ICC National Standard Journeyman Electrician exam allows 4 hours of testing time.
 
-## Licensing and experience
+## How do you get a Kansas journeyman electrician license?
 
 ### Does Kansas have a statewide journeyman electrician license?
 
@@ -75,7 +75,7 @@ No. A journeyman credential generally supports hands-on electrical work under lo
 
 Kansas electrical licensing is local, so electricians may need to confirm licensing, certificate, or registration requirements in each city, county, or municipality where they plan to work.
 
-## Code book and materials
+## Which code book and materials are allowed on the Kansas exam?
 
 ### What reference book should I study?
 
@@ -93,7 +93,7 @@ A tabbed NEC can make study sessions more organized by helping candidates locate
 
 The required code edition depends on the local jurisdiction and exam provider. This Super Combo is based on the 2026 NEC, but candidates should follow the code edition listed for their scheduled local exam.
 
-## More questions
+## What else do Kansas journeyman candidates ask?
 
 ### What topics should I study?
 
@@ -162,6 +162,8 @@ Packages built on the 2026 NEC, from the study guide alone to the Ultimate Combo
 - [All blog posts](https://passyourmasterelectricianexam.com/blog/)
 - [Every state and level](https://passyourmasterelectricianexam.com/#states)
 - [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

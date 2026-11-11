@@ -1,7 +1,7 @@
 ---
 title: Tennessee Master Study Guide + Flash Cards (2026 NEC)
 url: https://passyourmasterelectricianexam.com/tennessee/master/2026/study-guide-flash-cards/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: The 2026 Tennessee Master Electrician Exam Prep and Study Guide + Flash Card Combo is designed for electricians preparing for Tennessee master-level.
 ---
@@ -13,6 +13,7 @@ Tennessee · Master · 2026 NEC
 # Study Guide + Flash Cards
 
 2026 Tennessee Master Electrician Exam Prep and Study Guide + Flash Card Combo: 12 Practice Exams +2 Full Final Exams
+The Tennessee Master Study Guide + Flash Cards package costs $99.95, down from $125.00. The box holds 2 items: Tennessee Master Electrician Exam Prep and Study Guide: 12 practice exams + 2 full final exams; Master Electrician Exam Flash Cards. Every item is built on the 2026 National Electrical Code, and the study guide has 12 practice exams and 2 full-length finals.
 
 $99.95 (was $125.00) Save 20% [Buy now — go to checkout](https://1examprep.com/cart/45958981582905:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $99.95 (was $125.00) Save 20% [Buy now — go to checkout](https://1examprep.com
 - 2 optional add-ons can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Study Guide + Flash Cards
 
@@ -43,6 +44,8 @@ The **2026 Tennessee Master Electrician Exam Prep and Study Guide + Flash Card C
 Tennessee electrical exam preparation requires more than field experience. Candidates need to understand wiring and protection, wiring methods and materials, electrical theory, code reading, plan reading, grounding and bonding, services, feeders, branch circuits, motors, controls, communication systems, special occupancies, special equipment, hazardous locations, OSHA safety, business organization, licensing, estimating, bidding, contracts, project management, risk management, labor law, tax law, and lien law.
 
 This package includes **12 practice exams** plus **2 full final exams**, giving you repeated exposure to exam-style questions before test day. The practice exams help build familiarity with question wording, topic recognition, NEC application, calculation work, code lookup, safety content, business-law concepts, and exam pacing. The full final exams provide a stronger readiness check after you have completed a broader review of the material.
+
+## What else is in the Tennessee Master Study Guide + Flash Cards?
 
 The flash card component adds flexible active-recall training. Flash cards are useful for reviewing definitions, formulas, electrical theory, NEC terminology, wiring methods, grounding concepts, conductor rules, box fill, raceway fill, motor topics, OSHA safety terms, contractor licensing vocabulary, and high-value exam areas. For working electricians, flash cards make it easier to study consistently even when a full practice exam does not fit into the day.
 
@@ -162,6 +165,8 @@ Electrical calculations deserve focused attention. Candidates should practice co
 
 OSHA safety content should also be included in the study plan. Candidates should review construction safety rules, personal protective equipment, jobsite hazards, ladders, scaffolds, excavation safety, fall protection, electrical safety, tools, material handling, and safe work practices. Safety questions may appear alongside NEC and practical trade questions.
 
+## What else is in the Tennessee Master Study Guide + Flash Cards?
+
 Business and Law preparation is important because Tennessee contractor applicants must pass the Business and Law exam. Candidates should review business organization, licensing, estimating and bidding, contracts, project management, risk management, OSHA safety, financial management, labor law, tax law, and lien law. A strong electrical contractor needs both trade knowledge and business compliance knowledge.
 
 The 12 practice exams in this combo are designed to help you build familiarity with exam-style questions over time. After each practice exam, review missed questions carefully. Missed questions show where your next study session should focus. If you miss a wiring and protection question, return to the related NEC Article. If you miss a motors question, review motors and controls. If you miss a safety question, return to OSHA safety review. If you miss a business-law question, return to the Tennessee contractor law and business topic being tested.
@@ -186,7 +191,7 @@ No exam prep product can guarantee a passing score, licensing approval, or state
 
 ### Who is this Tennessee Master Electrician exam prep combo for?
 
-This combo is for electricians preparing for Tennessee master-level electrical contractor exam preparation, including candidates studying for the CE - Electrical Contractor classification.
+The Tennessee Master Study Guide + Flash Cards is for electricians preparing for Tennessee master-level electrical contractor exam preparation, including candidates studying for the CE - Electrical Contractor classification.
 
 ### Is this product based on the 2026 National Electrical Code?
 
@@ -215,6 +220,8 @@ The Tennessee CE - Electrical Contractor exam contains 100 questions.
 ### How much time is allowed for the Tennessee CE - Electrical Contractor exam?
 
 The Tennessee CE - Electrical Contractor exam allows 2 hours for completion.
+
+## More questions about the Tennessee Master Study Guide + Flash Cards
 
 ### What score is required to pass the Tennessee contractor exam?
 
@@ -256,7 +263,7 @@ No. This product is designed to support preparation through structured study, pr
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Study Guide + Flash Cards?
 
 ### Which NEC edition is this based on?
 
@@ -273,6 +280,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

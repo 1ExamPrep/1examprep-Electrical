@@ -5,6 +5,8 @@ author: Pass Your Electrician Exam
 excerpt: The two voltage-drop formulas, where the constants come from, the 3 and 5 percent recommendations, and a worked example that shows why the obvious conductor is often one size too small.
 tags: calculations, NEC
 takeaways: Single phase VD = 2 × K × I × L ÷ CM; three phase swaps the 2 for 1.732. K is about 12.9 for copper and 21.2 for aluminium; L is one-way length. | Circular mil areas come from Chapter 9 Table 8; the exam expects you to look them up, not remember them. | The code recommends no more than 3 percent on a branch circuit and 5 percent total; questions use those limits to ask which conductor to install. | The common trap is doubling the length when the formula already includes the return path.
+answer: Voltage drop on the electrician exam uses VD = 2 × K × I × L ÷ CM for single-phase circuits and 1.732 × K × I × L ÷ CM for three-phase, with L as the one-way length. K is about 12.9 for copper and 21.2 for aluminium. The NEC recommends 3 percent on a branch circuit and 5 percent overall.
+metaTitle: Voltage Drop on the Electrician Exam: Formula and Example
 ---
 Voltage drop questions look like arithmetic and are really about reading. The formula is short, the constants are given or in a table, and the trap is always in the setup: one-way or round-trip length, single or three phase, copper or aluminium, and which limit the question is holding you to.
 

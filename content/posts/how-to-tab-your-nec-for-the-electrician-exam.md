@@ -5,6 +5,7 @@ author: Pass Your Electrician Exam
 excerpt: Which articles and tables deserve a tab, how to place them so they stay useful, what the testing centres allow, and why doing it yourself is part of the study.
 tags: NEC, study tips
 takeaways: Tab the fifteen heavy articles and the dozen tables you use in calculations; more than about forty tabs stops being a map and becomes a fringe. | Place each tab on the first page of the article with the number facing out, staggered so none hides another. | Permanent tabs and highlighting are allowed almost everywhere; loose paper, sticky notes and handwritten notes beyond the bulletin's limit are not. | Placing the tabs yourself is a full pass through the book and teaches you the layout faster than reading about it.
+answer: Tab your NEC by putting a permanent tab at the first page of the 15 articles that carry most exam questions, plus the tables you use every week, such as Table 310.16 and Chapter 9. Nearly every state allows permanent tabs and highlighting, but none allow loose paper or sticky notes. Check your candidate bulletin first.
 ---
 A well-tabbed code book is the difference between a two-minute lookup and a twenty-second one, and over an exam that is the difference between finishing and not. Pre-printed tab sets are the right tool, but where they go and how you use them matters more than whether you own them.
 

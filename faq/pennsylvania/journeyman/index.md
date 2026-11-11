@@ -1,16 +1,16 @@
 ---
 title: Pennsylvania Journeyman Electrician Exam FAQ (26 answers)
 url: https://passyourmasterelectricianexam.com/faq/pennsylvania/journeyman/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
-description: 26 answers about the Pennsylvania journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure.
+description: The Pennsylvania journeyman electrician exam FAQ has 26 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience.
 ---
 
 [Home](https://passyourmasterelectricianexam.com/) /[FAQ](https://passyourmasterelectricianexam.com/faq/) /Pennsylvania Journeyman
 
 # Pennsylvania journeyman electrician exam: frequently asked questions
 
-26 answers about the Pennsylvania journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. Filter the list or jump to a section.
+The Pennsylvania journeyman electrician exam FAQ has 26 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. The answers come from our Pennsylvania journeyman package descriptions and are refreshed whenever the store changes.
 
 ## Key takeaways
 
@@ -19,11 +19,11 @@ description: 26 answers about the Pennsylvania journeyman electrician exam and l
 - Licensing rules come from the state board; the questions below name it.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
-The exam 4Licensing and experience 10Code book and materials 6More questions 6
+What is the Pennsylvania journeyman electrician exam like? 4How do you get a Pennsylvania journeyman electrician license? 8How do you get a Pennsylvania journeyman electrician license (part 2)? 2Which code book and materials are allowed on the Pennsylvania exam? 6What else do Pennsylvania journeyman candidates ask? 6
 
-## The exam
+## What is the Pennsylvania journeyman electrician exam like?
 
 ### Are Pennsylvania journeyman-level electrical exams open book?
 
@@ -41,7 +41,7 @@ The ICC National Standard Journeyman Electrician examination has 80 multiple-cho
 
 The ICC National Standard Journeyman Electrician examination has a 4-hour time limit.
 
-## Licensing and experience
+## How do you get a Pennsylvania journeyman electrician license?
 
 ### Does Pennsylvania have one statewide Journeyman Electrician license?
 
@@ -75,6 +75,8 @@ No. A local journeyman credential generally supports hands-on electrical work un
 
 Yes. Philadelphia and Pittsburgh have local electrical licensing requirements. Candidates should follow the application, exam, renewal, and work authorization rules for the specific city or municipality where they plan to work.
 
+## How do you get a Pennsylvania journeyman electrician license (part 2)?
+
 ### Is journeyman-level recognition the same as an electrical contractor license?
 
 No. Journeyman-level recognition, local registration, master electrician licensing, and electrical contractor licensing are different credential concepts. Candidates should confirm the credential that matches their work goal.
@@ -83,7 +85,7 @@ No. Journeyman-level recognition, local registration, master electrician licensi
 
 Yes. Candidates should confirm the required credential, registration path, eligibility requirements, application process, code edition, reference rules, and post-exam steps before scheduling or taking an exam.
 
-## Code book and materials
+## Which code book and materials are allowed on the Pennsylvania exam?
 
 ### What reference book should I study?
 
@@ -109,7 +111,7 @@ NEC tabs help candidates locate major articles, chapters, tables, and subject ar
 
 Yes. Candidates should review local electrical laws, permit-related requirements, inspection expectations, and any jurisdiction-specific subjects listed in the current examination instructions.
 
-## More questions
+## What else do Pennsylvania journeyman candidates ask?
 
 ### What topics should I study?
 
@@ -167,6 +169,8 @@ Packages built on the 2026 NEC, from the study guide alone to the Ultimate Combo
 - [All blog posts](https://passyourmasterelectricianexam.com/blog/)
 - [Every state and level](https://passyourmasterelectricianexam.com/#states)
 - [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

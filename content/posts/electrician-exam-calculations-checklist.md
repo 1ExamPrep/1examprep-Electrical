@@ -5,6 +5,7 @@ author: Pass Your Electrician Exam
 excerpt: A checklist of the eight calculation families on journeyman and master exams, what each one needs from the code book, and the mistake that costs the most points in each.
 tags: calculations, journeyman, master
 takeaways: Eight families cover the calculations on nearly every exam: ampacity with correction and adjustment, voltage drop, box fill, conduit fill, motor circuits, dwelling loads, transformer protection, and conductor sizing for continuous loads. | Most wrong answers come from using the wrong table (nameplate instead of Table 430.250, the 90 degree column instead of 75) rather than from arithmetic. | Work each family until you can do a problem without the study guide, then mix them under a timer. | Keep a one-page formula sheet and rewrite it from memory at the start of every session.
+answer: Calculations make up about a quarter of a journeyman exam and up to a third of a master exam. The eight families are conductor ampacity, voltage drop, box fill, conduit fill, motor circuits, dwelling loads, transformer protection and continuous loads. Each needs a specific table and rule, applied in the right order under a clock.
 ---
 Calculations are a quarter of a journeyman exam and up to a third of a master exam, and they are where scores separate. Not because the maths is hard, but because each problem needs the right table and the right rule, in the right order, under a clock. Here are the families, what each needs, and where candidates go wrong.
 

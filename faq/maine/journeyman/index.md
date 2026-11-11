@@ -1,16 +1,16 @@
 ---
 title: Maine Journeyman Electrician Exam FAQ (22 answers)
 url: https://passyourmasterelectricianexam.com/faq/maine/journeyman/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
-description: 22 answers about the Maine journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
+description: The Maine journeyman electrician exam FAQ has 22 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam.
 ---
 
 [Home](https://passyourmasterelectricianexam.com/) /[FAQ](https://passyourmasterelectricianexam.com/faq/) /Maine Journeyman
 
 # Maine journeyman electrician exam: frequently asked questions
 
-22 answers about the Maine journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. Filter the list or jump to a section.
+The Maine journeyman electrician exam FAQ has 22 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. The answers come from our Maine journeyman package descriptions and are refreshed whenever the store changes.
 
 ## Key takeaways
 
@@ -19,11 +19,11 @@ description: 22 answers about the Maine journeyman electrician exam and license:
 - Maine’s electrical examination program is administered through Prov. Candidates should follow the current Maine and Prov instructions for scheduling, test-day rules, reference materials, and score reporting.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
-The exam 7Licensing and experience 6Code book and materials 4More questions 5
+What is the Maine journeyman electrician exam like? 7How do you get a Maine journeyman electrician license? 6Which code book and materials are allowed on the Maine exam? 4What else do Maine journeyman candidates ask? 5
 
-## The exam
+## What is the Maine journeyman electrician exam like?
 
 ### Is the Maine Journeyman Electrician exam open book?
 
@@ -53,7 +53,7 @@ Prov administers Maine electrician examinations for approved candidates through 
 
 Maine electrical licensing is administered by the Electricians’ Examining Board under the State of Maine Office of Professional and Occupational Regulation.
 
-## Licensing and experience
+## How do you get a Maine journeyman electrician license?
 
 ### Does Maine have statewide journeyman electrician licensing?
 
@@ -79,7 +79,7 @@ Maine journeyman electricians are licensed through the Electricians’ Examining
 
 Yes. Maine journeyman electricians must complete 15 hours of an approved current National Electrical Code update course before renewal.
 
-## Code book and materials
+## Which code book and materials are allowed on the Maine exam?
 
 ### Why should I study with a tabbed NEC?
 
@@ -97,7 +97,7 @@ The current Maine candidate bulletin states that the only book allowed for elect
 
 The current Maine candidate bulletin lists NFPA 70, National Electrical Code 2023, as the exam reference for electrical examinations. This product is based on the 2026 NEC for current-code study and practice.
 
-## More questions
+## What else do Maine journeyman candidates ask?
 
 ### What topics are covered on the Maine Journeyman Electrician exam?
 
@@ -149,6 +149,8 @@ Packages built on the 2026 NEC, from the study guide alone to the Ultimate Combo
 - [All blog posts](https://passyourmasterelectricianexam.com/blog/)
 - [Every state and level](https://passyourmasterelectricianexam.com/#states)
 - [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

@@ -1,16 +1,16 @@
 ---
 title: Electrician Exam FAQ: 2337 Answers
 url: https://passyourmasterelectricianexam.com/faq/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
-description: 2337 answers about journeyman and master electrician exams: getting licensed, the exam itself, studying, the code book, calculations, exam day and what comes.
+description: The electrician exam FAQ has 64 answers about journeyman and master electrician exams: getting licensed, the exam itself, studying, the code book.
 ---
 
 [Home](https://passyourmasterelectricianexam.com/) /FAQ
 
 # Electrician exam FAQ
 
-2337 answers about journeyman and master electrician exams: getting licensed, the exam itself, studying, the code book, calculations, exam day and what comes after, plus 2273 state-specific answers for all 50 states.
+The electrician exam FAQ has 64 answers about journeyman and master electrician exams: getting licensed, the exam itself, studying, the code book, calculations, exam day and what comes after. Another 2273 state-specific answers cover all 50 states, one page per state and level.
 
 ## Key takeaways
 
@@ -19,11 +19,11 @@ description: 2337 answers about journeyman and master electrician exams: getting
 - Nearly every exam is open book for the code portion; the edition you bring must match the one in your state's candidate bulletin.
 - Six to eight weeks at about 90 minutes a day, split between code navigation, calculations and timed practice, is enough for most candidates.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
-Getting licensed 10The exam itself 10Studying 10The code book 8Calculations 8Exam day 6After the exam 5Packages and ordering 7State by state 2273
+How do you get an electrician license? 4How do you get an electrician license (part 2)? 5How do you get an electrician license (part 3)? 1What is on the electrician exam? 5What is on the electrician exam (part 2)? 5How should you study for the electrician exam? 5How should you study for the electrician exam (part 2)? 5How do you use the code book on the exam? 6How do you use the code book on the exam (part 2)? 2Which calculations are on the electrician exam? 5Which calculations are on the electrician exam (part 2)? 3What happens on exam day? 6What happens after the exam? 5How do the packages and orders work? 7Where are the state-by-state answers? 2273
 
-## Getting licensed
+## How do you get an electrician license?
 
 ### What is the difference between a journeyman and a master electrician?
 
@@ -40,6 +40,8 @@ Most states ask for about 8,000 hours (four years) of documented work under a li
 ### Can I take the exam without an apprenticeship?
 
 Usually yes, if you can document the required hours of supervised work by other means, typically with employer letters, pay records or a sworn affidavit. Some states will also accept a degree in electrical engineering or technology for part of the requirement. The board decides, and the application tells you what evidence it accepts.
+
+## How do you get an electrician license (part 2)?
 
 ### How do I apply to take the exam?
 
@@ -61,11 +63,13 @@ From a complete application to an exam date is often four to eight weeks: the bo
 
 Most states allow a retake after a short waiting period, commonly 30 days, with a new exam fee each time. Some limit the number of attempts in a year or require extra training after repeated failures. Your score report tells you which sections were weak, which is where the next round of study should go.
 
+## How do you get an electrician license (part 3)?
+
 ### Do I need a license to do electrical work on my own house?
 
 Many states and cities allow a homeowner to do work on their own primary residence with a permit and an inspection, but the rules vary widely and some jurisdictions require a licensed electrician for anything beyond replacing like for like. This is a question for the local building department, not the licensing board.
 
-## The exam itself
+## What is on the electrician exam?
 
 ### Is the electrician exam open book?
 
@@ -87,6 +91,8 @@ Most states set the pass mark at 70 to 75 percent, and where the exam has separa
 
 Yes. Almost all state electrician exams are four-option multiple choice delivered on a computer. There is no penalty for a wrong answer, so never leave a question blank: flag it, move on, and come back if time allows.
 
+## What is on the electrician exam (part 2)?
+
 ### What topics come up most?
 
 Across states the heaviest areas are general requirements and definitions (Articles 90 to 110), branch circuits and feeders (210 to 225), services (230), overcurrent protection (240), grounding and bonding (250), wiring methods and conductors (300 to 399), boxes (314), motors (430), and calculations drawn from Article 220 and Chapter 9. Master exams add more on services, transformers, load calculations and the design articles.
@@ -107,7 +113,7 @@ Some states fold a business and project management section into the master or co
 
 At computer-based centres you usually get a preliminary pass or fail on screen or on a printout before you leave. The official result and the license itself come from the board afterwards, typically within a few weeks.
 
-## Studying
+## How should you study for the electrician exam?
 
 ### How long should I study?
 
@@ -129,6 +135,8 @@ The candidate bulletin for your state has a content outline with the percentage 
 
 Yes, for the parts of the exam that reward recall: definitions, common ampacities, the trade sizes in Chapter 9, motor full-load currents and the thresholds in Article 210 and 250. Ten minutes of cards a day keeps those facts fresh so you do not spend exam time looking up things you should know cold.
 
+## How should you study for the electrician exam (part 2)?
+
 ### Is an online practice kit better than a printed guide?
 
 They do different jobs. Printed guides are where you learn the material and mark up your error log. The online kit gives you timed, randomised exams that feel like the real test and tell you instantly where you are weak. The Ultimate Combo includes both for that reason; if you can only have one and your exam is soon, the timed practice matters more.
@@ -149,7 +157,7 @@ You can, but the study guides, calculations guides and flash cards are written s
 
 Learn the code's vocabulary first: Article 100 definitions and the recurring phrases such as readily accessible, within sight and continuous load. Practice questions help you see how the exam phrases things. Some states offer the exam in Spanish or allow a translation dictionary; the candidate bulletin says what is permitted.
 
-## The code book
+## How do you use the code book on the exam?
 
 ### Which code book do I need?
 
@@ -175,6 +183,8 @@ Not in the exam. If the exam is written to one edition and you bring another, ar
 
 The Handbook contains the full code text plus commentary, diagrams and examples. It is excellent for studying but most states do not allow it in the exam room because of the commentary. Study with the Handbook if you like, but practise with the plain code book you will take to the test.
 
+## How do you use the code book on the exam (part 2)?
+
 ### Do I need the state amendments?
 
 Some states amend the NEC and test those amendments, often on the business or state law portion rather than the code portion. Your state page notes where amendments matter, and the state board publishes them. For most of the exam, the plain NEC is what you are tested on.
@@ -183,7 +193,7 @@ Some states amend the NEC and test those amendments, often on the business or st
 
 Read the table of contents until you can place any topic in its chapter without looking. Then drill the index with a timer: pick 20 random terms a day, find the section, note the time. Under 30 seconds per lookup is the target. Speed comes from knowing the layout, not from turning pages faster.
 
-## Calculations
+## Which calculations are on the electrician exam?
 
 ### What calculations should I expect?
 
@@ -205,6 +215,8 @@ Multiply the continuous load by 125 percent, add any non-continuous load, pick a
 
 The standard method in Part III of Article 220 applies demand factors to each load category separately; the optional method in Part IV applies one demand factor to the total of most loads and is usually quicker and gives a smaller service. The exam asks for both, and the question tells you which to use; if it does not, read the setup for the word optional.
 
+## Which calculations are on the electrician exam (part 2)?
+
 ### How do I size a transformer's overcurrent protection?
 
 Find primary and secondary current from kVA and voltage (I = kVA × 1000 ÷ V for single phase, ÷ (V × 1.732) for three phase), then apply the percentages in Table 450.3(B) for 1000 volts or less: commonly 125 percent on the primary with no secondary protection, or 250 percent primary and 125 percent secondary. Round using the notes to the table and check the next standard size rule in 240.6.
@@ -217,7 +229,7 @@ Because motor rules use table values, not nameplate values, for most sizing. Tak
 
 A short list, yes: Ohm's law and the power formulas, voltage drop, the single and three phase current formulas, and the 125 percent continuous load rule. Everything else comes from tables in the book. Write your formula sheet from memory at the start of every study session; you cannot bring it in, but you can bring the version in your head.
 
-## Exam day
+## What happens on exam day?
 
 ### What should I bring to the exam?
 
@@ -243,7 +255,7 @@ Vendors generally treat a late arrival as a no-show, keep the fee and require yo
 
 Yes, usually online with the vendor up to a day or two before, sometimes with a fee inside the last 48 hours. The exact window is in your confirmation email.
 
-## After the exam
+## What happens after the exam?
 
 ### How do I get the license once I pass?
 
@@ -265,7 +277,7 @@ If you plan to bid work under your own business name, most states require an ele
 
 Statewide licenses do, subject to local registration in some cities. In states where cities license separately, a pass with one city may not transfer to another. The state pages describe which model each state uses.
 
-## Packages and ordering
+## How do the packages and orders work?
 
 ### Which package should I buy?
 
@@ -295,7 +307,7 @@ Yes. The study guides, flash cards, calculations guide and online kits are sold 
 
 No honest study material can promise that; passing depends on your preparation and the exam. What the packages do is cover the content outline for your state, give you timed practice that matches the real test, and show you exactly which code sections you still need to work on.
 
-## State by state
+## Where are the state-by-state answers?
 
 2273 state-specific answers across 100 pages. Each page covers who issues the license, the open-book rules, the NEC edition, experience and the exam format for that state and level.
 
@@ -363,6 +375,8 @@ Every package starts with the state study guide, 12 practice exams and 2 full-le
 - [Blog: study plans and code navigation](https://passyourmasterelectricianexam.com/blog/)
 - [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 - [Every state and level](https://passyourmasterelectricianexam.com/#states)
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

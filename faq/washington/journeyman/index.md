@@ -1,16 +1,16 @@
 ---
 title: Washington Journeyman Electrician Exam FAQ (27 answers)
 url: https://passyourmasterelectricianexam.com/faq/washington/journeyman/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
-description: 27 answers about the Washington journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure.
+description: The Washington journeyman electrician exam FAQ has 27 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours.
 ---
 
 [Home](https://passyourmasterelectricianexam.com/) /[FAQ](https://passyourmasterelectricianexam.com/faq/) /Washington Journeyman
 
 # Washington journeyman electrician exam: frequently asked questions
 
-27 answers about the Washington journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. Filter the list or jump to a section.
+The Washington journeyman electrician exam FAQ has 27 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. The answers come from our Washington journeyman package descriptions and are refreshed whenever the store changes.
 
 ## Key takeaways
 
@@ -19,11 +19,11 @@ description: 27 answers about the Washington journeyman electrician exam and lic
 - PSI administers Washington electrical certification examinations under contract with the Washington State Department of Labor & Industries.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
-The exam 8Licensing and experience 4Code book and materials 7More questions 8
+What is the Washington journeyman electrician exam like? 8How do you get a Washington journeyman electrician license? 4Which code book and materials are allowed on the Washington exam? 7What else do Washington journeyman candidates ask? 8
 
-## The exam
+## What is the Washington journeyman electrician exam like?
 
 ### Is the Washington electrician certification exam open book?
 
@@ -57,7 +57,7 @@ The NEC & Theory section has a 3-hour time allowance, and the Washington Codes s
 
 Candidates must pass each section of the examination with a score of 70% or greater.
 
-## Licensing and experience
+## How do you get a Washington journeyman electrician license?
 
 ### What experience is required for the Washington 01 General pathway?
 
@@ -75,7 +75,7 @@ Washington electrician certification is regulated by the Washington State Depart
 
 Washington’s in-state 01 exam requirements include 8,000 hours of work experience and 96 hours of basic classroom instruction. No more than 4,000 of the experience hours may be worked in 4,000-hour specialties.
 
-## Code book and materials
+## Which code book and materials are allowed on the Washington exam?
 
 ### What code and state materials are used for the Washington exam?
 
@@ -105,7 +105,7 @@ No. Washington exam rules allow permanent index tabs, but removable tabs, sticky
 
 Washington’s open-book rules allow original copyrighted material, but all materials must comply with PSI’s exam-room rules. Candidates should avoid written notes, removable notes, sticky notes, and any reference preparation that violates the current exam instructions.
 
-## More questions
+## What else do Washington journeyman candidates ask?
 
 ### Does Washington have statewide electrician certification?
 
@@ -168,6 +168,8 @@ Packages built on the 2026 NEC, from the study guide alone to the Ultimate Combo
 - [All blog posts](https://passyourmasterelectricianexam.com/blog/)
 - [Every state and level](https://passyourmasterelectricianexam.com/#states)
 - [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

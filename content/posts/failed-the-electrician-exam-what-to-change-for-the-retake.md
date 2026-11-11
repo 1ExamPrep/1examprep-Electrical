@@ -5,6 +5,7 @@ author: Pass Your Electrician Exam
 excerpt: How to read the score report, why most second attempts fail for the same reason as the first, and a four-week plan that changes the thing that actually went wrong.
 tags: study tips, journeyman, master
 takeaways: Read the score report's breakdown by content area and let it set the order of your study, not your instincts about what felt hard. | Most retakes fail on time, not knowledge: if you did not finish or rushed the last third, the fix is pacing and code navigation, not more reading. | Rebuild your study with timed drills from day one and an error log by code section. | Most states allow a retake after 30 days with a new fee; use the waiting period in full rather than rushing back.
+answer: After failing the electrician exam, read the score report and rank the content areas from weakest to strongest. Decide whether you lost points to knowledge, to finding things in the book, or to the clock. Then spend four weeks changing that one thing, because most second attempts fail for the same reason.
 ---
 A fail is a data point, and a surprisingly precise one. The score report that came with it tells you which areas were weak, and the way the exam went tells you whether the problem was knowledge, the book or the clock. The candidates who pass on the second attempt are the ones who change something specific. Here is how to decide what.
 

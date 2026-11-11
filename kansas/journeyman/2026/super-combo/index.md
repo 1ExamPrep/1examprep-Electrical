@@ -1,7 +1,7 @@
 ---
 title: Kansas Journeyman Super Combo (2026 NEC)
 url: https://passyourmasterelectricianexam.com/kansas/journeyman/2026/super-combo/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: This 2026 Kansas Journeyman Electrician Super Combo is designed for apprentices, electrical trainees, helpers, and working electricians who want a complete.
 ---
@@ -13,6 +13,7 @@ Kansas · Journeyman · 2026 NEC
 # Super Combo
 
 2026 Kansas Journeyman Electrician + Electrician Calculations Study Guides + Flash Cards & National Electrical Code + Tabs Super Combo
+The Kansas Journeyman Super Combo package costs $349.95, down from $395.00. The box holds 5 items: Kansas Journeyman Electrician Study Guide; Electrician Calculations Study Guide; Journeyman Electrician Exam Flash Cards; National Electrical Code paperback; Pre-printed NEC tabs. Every item is built on the 2026 National Electrical Code, and the study guide has 12 practice exams and 2 full-length finals.
 
 $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/46213728174137:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.co
 - 1 optional add-on can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Super Combo
 
@@ -69,6 +70,8 @@ Kansas does not have one statewide journeyman electrician exam administered by a
 Because Kansas licensing is local, candidates should identify the city, county, or municipality where they plan to work before preparing for an exam. A local journeyman electrician exam may be administered directly by the local authority or through an outside testing provider. The exam may include National Electrical Code questions, electrical theory, installation requirements, wiring methods, services, feeders, branch circuits, grounding and bonding, conductors, raceways, boxes, motors, overcurrent protection, safety, and electrical calculations.
 
 A commonly used Kansas journeyman electrical exam format is the Kansas Standard Journeyman Electrician examination. This type of exam is generally built around journeyman-level knowledge for electricians performing electrical work under the supervision of a master electrician. Commonly listed exam details identify an open-book format, 80 questions, a 4-hour time limit, and a 75% passing score. Local jurisdictions may use a different exam, provider, code edition, passing score, or reference list, so candidates should follow the exact local bulletin for the exam they are taking.
+
+## What else is in the Kansas Journeyman Super Combo?
 
 Journeyman-level electrical exam preparation in Kansas should focus on the trade knowledge expected of a competent electrician. Important study areas include general electrical knowledge, NEC organization, conductors and cables, wiring methods and materials, raceways and boxes, grounding and bonding, service equipment, feeders, branch circuits, overcurrent protection, motors and controls, utilization equipment, special occupancies, special equipment, low voltage circuits, fire alarm concepts, safety practices, and calculation-based problem solving.
 
@@ -131,6 +134,8 @@ The 2026 Electrician Calculations Study Guide is included because electrical mat
 
 The National Electrical Code 2026 paperback with tabs helps students practice code navigation. Tabs can make it easier to move between major sections during study sessions. Students should become comfortable using Article 100 definitions, conductor tables, grounding and bonding articles, wiring method articles, box and raceway rules, service requirements, feeder requirements, branch-circuit provisions, motor rules, special occupancy rules, special equipment rules, and equipment-specific sections.
 
+## What else is in the Kansas Journeyman Super Combo?
+
 The 2026 Journeyman Electrician Flash Cards support quick review between longer study sessions. Flash cards are useful for short daily study because they help students repeat definitions, formulas, safety concepts, and code-related terms. A few minutes of flash card review each day can help keep important concepts fresh while the student continues deeper study with the guide and NEC.
 
 A strong study routine may include separate blocks for reading, calculations, NEC lookup practice, and flash card review. One session may focus on grounding and bonding. Another may focus on conductors and cables. Another may focus on services, feeders, and branch circuits. Another may focus on raceways and boxes. Calculation sessions should be repeated throughout the study period rather than saved until the end.
@@ -151,7 +156,7 @@ For Kansas electrical students and journeyman-level workers, progress comes from
 
 ### What is included in this 2026 Kansas Journeyman Electrician Super Combo?
 
-This Super Combo includes the 2026 Kansas Journeyman Electrician Study Guide, the 2026 Electrician Calculations Study Guide, the National Electrical Code 2026 paperback with tabs, and the 2026 Journeyman Electrician Flash Cards.
+The Super Combo includes the 2026 Kansas Journeyman Electrician Study Guide, the 2026 Electrician Calculations Study Guide, the National Electrical Code 2026 paperback with tabs, and the 2026 Journeyman Electrician Flash Cards.
 
 ### Does Kansas issue a statewide journeyman electrician license?
 
@@ -181,13 +186,15 @@ A commonly listed Kansas Standard Journeyman Electrician exam format uses a 75% 
 
 The required code edition depends on the local jurisdiction and exam provider. This Super Combo is based on the 2026 NEC, but candidates should follow the code edition listed for their scheduled local exam.
 
+## More questions about the Kansas Journeyman Super Combo
+
 ### What topics should I study for Kansas journeyman-level electrical preparation?
 
 Important study areas include electrical theory, NEC navigation, conductors, raceways, boxes, wiring methods, services, feeders, branch circuits, grounding and bonding, overcurrent protection, motors, equipment, safety, special occupancies, and calculations.
 
 ### Why does this Super Combo include the 2026 NEC?
 
-This Super Combo is based on the 2026 NEC for students who want current-code study materials, stronger code navigation practice, and a newer NEC reference as part of their preparation routine.
+The Super Combo is based on the 2026 NEC for students who want current-code study materials, stronger code navigation practice, and a newer NEC reference as part of their preparation routine.
 
 ### Why does this combo include an Electrician Calculations Study Guide?
 
@@ -207,7 +214,7 @@ Kansas electrical licensing is local, so electricians may need to confirm licens
 
 ### Is this product for Kansas electrical contractor licensing?
 
-This product is focused on journeyman-level technical electrical preparation. Electrical contractor requirements in Kansas are commonly local and may include separate registration, insurance, bonding, business, or permit requirements.
+The Kansas Journeyman Super Combo is focused on journeyman-level technical electrical preparation. Electrical contractor requirements in Kansas are commonly local and may include separate registration, insurance, bonding, business, or permit requirements.
 
 ### How should I study with this Super Combo?
 
@@ -229,7 +236,7 @@ Use the Kansas Journeyman Electrician Study Guide to organize your review, the E
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Super Combo?
 
 ### Which NEC edition is this based on?
 
@@ -246,6 +253,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

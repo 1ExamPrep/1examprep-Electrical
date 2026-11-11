@@ -1,16 +1,16 @@
 ---
 title: Connecticut Journeyman Electrician Exam FAQ (23 answers)
 url: https://passyourmasterelectricianexam.com/faq/connecticut/journeyman/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
-description: 23 answers about the Connecticut journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure.
+description: The Connecticut journeyman electrician exam FAQ has 23 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours.
 ---
 
 [Home](https://passyourmasterelectricianexam.com/) /[FAQ](https://passyourmasterelectricianexam.com/faq/) /Connecticut Journeyman
 
 # Connecticut journeyman electrician exam: frequently asked questions
 
-23 answers about the Connecticut journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. Filter the list or jump to a section.
+The Connecticut journeyman electrician exam FAQ has 23 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. The answers come from our Connecticut journeyman package descriptions and are refreshed whenever the store changes.
 
 ## Key takeaways
 
@@ -19,11 +19,11 @@ description: 23 answers about the Connecticut journeyman electrician exam and li
 - PSI Services LLC administers Connecticut electrical trades examinations for the Connecticut Department of Consumer Protection.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
-The exam 8Licensing and experience 5Code book and materials 6More questions 4
+What is the Connecticut journeyman electrician exam like? 8How do you get a Connecticut journeyman electrician license? 5Which code book and materials are allowed on the Connecticut exam? 6What else do Connecticut journeyman candidates ask? 4
 
-## The exam
+## What is the Connecticut journeyman electrician exam like?
 
 ### Is the Connecticut E-2 Unlimited Electrical Journeyperson exam open book?
 
@@ -57,7 +57,7 @@ PSI Services LLC administers Connecticut electrical trades examinations for the 
 
 Connecticut lists 8,000 hours of on-the-job training and 720 classroom hours for the E-2 license application path based on equivalent experience and training.
 
-## Licensing and experience
+## How do you get a Connecticut journeyman electrician license?
 
 ### Who oversees Connecticut electrician licensing?
 
@@ -79,7 +79,7 @@ The E-2 path is commonly tied to 8,000 hours of on-the-job training and 720 hour
 
 The E-2 Unlimited Electrical Journeyperson license is Connecticut’s unlimited journeyperson-level electrical license. The holder may perform electrical work while employed by a properly licensed contractor.
 
-## Code book and materials
+## Which code book and materials are allowed on the Connecticut exam?
 
 ### What topics are covered on the Connecticut E-2 exam?
 
@@ -105,7 +105,7 @@ No. Reference materials may be highlighted, underlined, annotated, or indexed be
 
 Study areas include general electrical knowledge, services, feeders, branch circuits, grounding and bonding, conductors and cables, raceways and boxes, special occupancies and equipment, electrical power, motors, low voltage, lighting, illuminated signs, fire detection and alarm systems, safety, overcurrent protection, high voltage, and photovoltaics.
 
-## More questions
+## What else do Connecticut journeyman candidates ask?
 
 ### How should I use the practice exams?
 
@@ -153,6 +153,8 @@ Packages built on the 2026 NEC, from the study guide alone to the Ultimate Combo
 - [All blog posts](https://passyourmasterelectricianexam.com/blog/)
 - [Every state and level](https://passyourmasterelectricianexam.com/#states)
 - [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

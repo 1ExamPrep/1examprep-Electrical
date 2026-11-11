@@ -1,16 +1,16 @@
 ---
 title: Maryland Journeyman Electrician Exam FAQ (23 answers)
 url: https://passyourmasterelectricianexam.com/faq/maryland/journeyman/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
-description: 23 answers about the Maryland journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
+description: The Maryland journeyman electrician exam FAQ has 23 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours.
 ---
 
 [Home](https://passyourmasterelectricianexam.com/) /[FAQ](https://passyourmasterelectricianexam.com/faq/) /Maryland Journeyman
 
 # Maryland journeyman electrician exam: frequently asked questions
 
-23 answers about the Maryland journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. Filter the list or jump to a section.
+The Maryland journeyman electrician exam FAQ has 23 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. The answers come from our Maryland journeyman package descriptions and are refreshed whenever the store changes.
 
 ## Key takeaways
 
@@ -19,11 +19,11 @@ description: 23 answers about the Maryland journeyman electrician exam and licen
 - PSI Services LLC administers Maryland Master and Journeyperson Electrician examinations for the Maryland State Board of Electricians.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
-The exam 8Licensing and experience 7Code book and materials 4More questions 4
+What is the Maryland journeyman electrician exam like? 8How do you get a Maryland journeyman electrician license? 7Which code book and materials are allowed on the Maryland exam? 4What else do Maryland journeyman candidates ask? 4
 
-## The exam
+## What is the Maryland journeyman electrician exam like?
 
 ### Is the Maryland Journeyperson Electrician exam open book?
 
@@ -57,7 +57,7 @@ Maryland electrical licensing is administered by the Maryland State Board of Ele
 
 The Maryland Journeyperson Electrician exam requires 49 correct answers out of 70 questions, which equals a 70% passing score.
 
-## Licensing and experience
+## How do you get a Maryland journeyman electrician license?
 
 ### Does Maryland have statewide journeyperson electrician licensing?
 
@@ -87,7 +87,7 @@ Maryland may waive the experience and examination requirements for applicants wh
 
 Maryland waives the experience and examination requirements for applicants who complete an approved electrician apprenticeship program with at least 576 classroom hours and 8,000 hours of work experience and receive the certificate within two years of applying.
 
-## Code book and materials
+## Which code book and materials are allowed on the Maryland exam?
 
 ### What reference book is allowed for the Maryland exam?
 
@@ -105,7 +105,7 @@ The current Maryland PSI bulletin lists NFPA 70, National Electrical Code 2020, 
 
 No. Maryland’s PSI exam rules state that study guides are not allowed in the testing room. Study guides, flash cards, and online practice tools are for preparation before exam day.
 
-## More questions
+## What else do Maryland journeyman candidates ask?
 
 ### What topics are covered on the Maryland Journeyperson Electrician exam?
 
@@ -154,6 +154,8 @@ Packages built on the 2026 NEC, from the study guide alone to the Ultimate Combo
 - [All blog posts](https://passyourmasterelectricianexam.com/blog/)
 - [Every state and level](https://passyourmasterelectricianexam.com/#states)
 - [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

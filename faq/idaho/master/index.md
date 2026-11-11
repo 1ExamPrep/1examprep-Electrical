@@ -1,16 +1,16 @@
 ---
 title: Idaho Master Electrician Exam FAQ (21 answers)
 url: https://passyourmasterelectricianexam.com/faq/idaho/master/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
-description: 21 answers about the Idaho master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing.
+description: The Idaho master electrician exam FAQ has 21 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam.
 ---
 
 [Home](https://passyourmasterelectricianexam.com/) /[FAQ](https://passyourmasterelectricianexam.com/faq/) /Idaho Master
 
 # Idaho master electrician exam: frequently asked questions
 
-21 answers about the Idaho master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. Filter the list or jump to a section.
+The Idaho master electrician exam FAQ has 21 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. The answers come from our Idaho master package descriptions and are refreshed whenever the store changes.
 
 ## Key takeaways
 
@@ -19,11 +19,11 @@ description: 21 answers about the Idaho master electrician exam and license: who
 - Idaho master electricians are regulated by the Idaho Electrical Board under the Division of Occupational and Professional Licenses.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
-The exam 8Licensing and experience 3Code book and materials 6More questions 4
+What is the Idaho master electrician exam like? 8How do you get a Idaho master electrician license? 3Which code book and materials are allowed on the Idaho exam? 6What else do Idaho master candidates ask? 4
 
-## The exam
+## What is the Idaho master electrician exam like?
 
 ### Is the Idaho Master Electrician exam open book?
 
@@ -57,7 +57,7 @@ The Idaho Master Electrician exam requires a 75 percent passing score.
 
 The Idaho Master Electrician examination is administered through PSI and is identified as NASCLA’s ID Master Electrician Examination.
 
-## Licensing and experience
+## How do you get a Idaho master electrician license?
 
 ### What experience is required for the Idaho Master Electrician license?
 
@@ -71,7 +71,7 @@ Yes. Idaho provides a reciprocity pathway that requires license verification fro
 
 Idaho master electricians are regulated by the Idaho Electrical Board under the Division of Occupational and Professional Licenses.
 
-## Code book and materials
+## Which code book and materials are allowed on the Idaho exam?
 
 ### Can I bring my own code book to the Idaho exam?
 
@@ -97,7 +97,7 @@ Yes. Approved reference materials may be tabbed or indexed with permanent tabs o
 
 Reference materials may be highlighted, underlined, and indexed before the examination, but they must otherwise be unmarked and may not contain additional loose or attached papers.
 
-## More questions
+## What else do Idaho master candidates ask?
 
 ### What topics are covered on the Idaho Master Electrician exam?
 
@@ -147,6 +147,8 @@ Packages built on the 2026 NEC, from the study guide alone to the Ultimate Combo
 - [All blog posts](https://passyourmasterelectricianexam.com/blog/)
 - [Every state and level](https://passyourmasterelectricianexam.com/#states)
 - [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

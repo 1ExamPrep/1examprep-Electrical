@@ -5,6 +5,7 @@ author: Pass Your Electrician Exam
 excerpt: Motor questions use table currents for some things and nameplate currents for others, and the percentages change by device. The four-step method, a worked example and the traps.
 tags: calculations, NEC, master, journeyman
 takeaways: Full-load current for conductors and short-circuit protection comes from Tables 430.247 to 430.250, never the nameplate; overloads come from the nameplate. | Conductors are sized at 125 percent of table current (430.22); overloads at 115 or 125 percent of nameplate (430.32). | Branch-circuit short-circuit protection uses the percentages in Table 430.52, with the next standard size up allowed by the exception. | A 10 horsepower 230 volt three-phase motor needs 35 ampere conductors (10 AWG at 75 degrees) and may have a 70 ampere inverse-time breaker.
+answer: Motor circuits trip candidates because Article 430 uses two currents. Size conductors, switches and short-circuit protection from the table full-load current in Tables 430.248 and 430.250, and size overloads from the nameplate current. Conductors are 125 percent of table current, and each protective device has its own percentage.
 ---
 Article 430 breaks the habit most electricians bring to the exam: that one current number drives everything. For motors, two numbers matter, they come from different places, and each part of the circuit uses its own percentage. Once that is clear the questions are mechanical.
 

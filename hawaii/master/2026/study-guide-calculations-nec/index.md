@@ -1,7 +1,7 @@
 ---
 title: Hawaii Master Study Guide + Calculations + NEC (2026 NEC)
 url: https://passyourmasterelectricianexam.com/hawaii/master/2026/study-guide-calculations-nec/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: The 2026 Hawaii Master Electrician + Electrician Calculations Study Guides & National Electrical Code Combo is designed for electricians preparing for.
 ---
@@ -13,6 +13,7 @@ Hawaii · Master · 2026 NEC
 # Study Guide + Calculations + NEC
 
 2026 Hawaii Master Electrician + Electrician Calculations Study Guides & National Electrical Code Combo
+The Hawaii Master Study Guide + Calculations + NEC package costs $279.95, down from $315.00. The box holds 3 items: Hawaii Master Electrician Study Guide; Electrician Calculations Study Guide; National Electrical Code paperback. Every item is built on the 2026 National Electrical Code, and the study guide has 12 practice exams and 2 full-length finals.
 
 $279.95 (was $315.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/46207248171065:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $279.95 (was $315.00) Save 11% [Buy now — go to checkout](https://1examprep.co
 - 2 optional add-ons can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Study Guide + Calculations + NEC
 
@@ -132,6 +133,8 @@ Grounding and bonding is another important area. Students should review groundin
 
 Conductors, cables, raceways, and boxes require steady table practice. Candidates should review conductor ampacity, conductor insulation, adjustment and correction concepts, raceway fill, box fill, support requirements, wiring methods, environmental conditions, and installation limitations. Many exam questions test whether the candidate can identify which rule applies to a specific installation.
 
+## What else is in the Hawaii Master Study Guide + Calculations + NEC?
+
 Motors, lighting, illuminated signs, and electrical power topics require both practical trade understanding and code familiarity. Students should review motor branch circuits, overload protection, disconnecting means, controllers, lighting outlet rules, sign requirements, equipment ratings, and general-use equipment provisions.
 
 Electrical calculations should be practiced repeatedly. Students should work on load calculations, conductor sizing, voltage drop concepts, raceway fill, box fill, motor calculations, overcurrent protection, service and feeder sizing, and grounding conductor sizing. A reliable calculation routine helps reduce mistakes: read the question carefully, identify the topic, locate the controlling rule or table, set up the calculation, solve it, and check whether the question asks for a minimum, maximum, adjusted value, or final selection.
@@ -160,7 +163,7 @@ The Hawaii Supervising Electrician license is the advanced general electrician c
 
 ### FAQ: What is included in this combo?
 
-This combo includes the 2026 Hawaii Master Electrician Study Guide, the 2026 Electrician Calculations Study Guide, and the National Electrical Code 2026 paperback.
+The Hawaii Master Study Guide + Calculations + NEC includes the 2026 Hawaii Master Electrician Study Guide, the 2026 Electrician Calculations Study Guide, and the National Electrical Code 2026 paperback.
 
 ### FAQ: Is this combo based on the 2026 NEC?
 
@@ -214,7 +217,7 @@ No. This product is a study-material combo designed to support Hawaii electrical
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Study Guide + Calculations + NEC?
 
 ### Which NEC edition is this based on?
 
@@ -231,6 +234,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

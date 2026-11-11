@@ -1,7 +1,7 @@
 ---
 title: Arizona Master Study Guide + Calculations + NEC (2026 NEC)
 url: https://passyourmasterelectricianexam.com/arizona/master/2026/study-guide-calculations-nec/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: The 2026 Arizona Master Electrician + Electrician Calculations Study Guides & National Electrical Code Combo is built for electricians, qualifying parties.
 ---
@@ -13,6 +13,7 @@ Arizona · Master · 2026 NEC
 # Study Guide + Calculations + NEC
 
 2026 Arizona Master Electrician + Electrician Calculations Study Guides & National Electrical Code Combo
+The Arizona Master Study Guide + Calculations + NEC package costs $279.95, down from $315.00. The box holds 3 items: Arizona Master Electrician Study Guide; Electrician Calculations Study Guide; National Electrical Code paperback. Every item is built on the 2026 National Electrical Code, and the study guide has 12 practice exams and 2 full-length finals.
 
 $279.95 (was $315.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/46207223693369:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $279.95 (was $315.00) Save 11% [Buy now — go to checkout](https://1examprep.co
 - 2 optional add-ons can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Study Guide + Calculations + NEC
 
@@ -42,6 +43,8 @@ Updated October 29, 2026 · prices checked against the 1 Exam Prep store
 The **2026 Arizona Master Electrician + Electrician Calculations Study Guides & National Electrical Code Combo** is built for electricians, qualifying parties, and electrical contractor applicants who want a more organized way to study advanced electrical concepts, calculation methods, and National Electrical Code navigation. This combo includes the 2026 Arizona Master Electrician Study Guide, the 2026 Electrician Calculations Study Guide, and the National Electrical Code 2026 paperback, giving students a strong foundation for code study and electrical exam preparation.
 
 Arizona does not issue a separate statewide “master electrician” license in the same way some states do. Electrical contracting in Arizona is regulated through the Arizona Registrar of Contractors, commonly called AZ ROC. Electrical contractor applicants may pursue classifications such as R-11 Electrical Residential, C-11 Electrical Commercial, or CR-11 Electrical for combined residential and commercial electrical work. Many experienced electricians still use the phrase “master electrician” to describe an advanced level of electrical knowledge, supervisory experience, code understanding, and contractor-level readiness. This combo is designed for that higher level of preparation.
+
+## What else is in the Arizona Master Study Guide + Calculations + NEC?
 
 Electrical exam preparation requires more than reading code sections. Candidates need to understand electrical theory, conductor sizing, services, feeders, branch circuits, grounding and bonding, raceways, boxes, overcurrent protection, motors, low voltage systems, lighting, fire alarm concepts, safety, and photovoltaic topics. They also need to move through the NEC efficiently and solve electrical calculations with confidence. This study guide and NEC combo helps bring those areas together in one practical study package.
 
@@ -65,6 +68,8 @@ The Arizona Registrar of Contractors licenses and regulates contractors in Arizo
 Arizona contractor applicants may be required to complete the Arizona Statutes and Rules Exam, also called the SRE. The SRE is a computer-based course and exam provided and maintained by AZ ROC. It teaches applicable Arizona statutes and rules and tests the applicant on that material during the training. In addition to the SRE, electrical contractor applicants may also be required to pass a trade-specific examination through PSI.
 
 PSI conducts Arizona trade-specific contractor examinations for AZ ROC. The trade-specific content outlines identify the examination time limit, subject areas, number of items in each area, and reference materials for the specific exam. Arizona electrical classifications include residential and commercial electrical categories, and applicants should match their study plan to the classification they are pursuing.
+
+## What else is in the Arizona Master Study Guide + Calculations + NEC?
 
 For the AZ ROC R-11 Electrical Residential examination, PSI lists 110 questions, a 70 percent minimum passing score, and 240 minutes of allowed testing time. The content outline includes general electrical knowledge, service feeders and branch circuits, grounding and bonding, conductors and cables, raceways and boxes, special occupancies and equipment, electrical devices, motors, low voltage, lighting, fire detection and alarm systems, safety, overcurrent protection, and photovoltaics.
 
@@ -141,7 +146,7 @@ No. Arizona electrical contracting is regulated through the Arizona Registrar of
 
 ### FAQ: What books are included in this combo?
 
-This combo includes the 2026 Arizona Master Electrician Study Guide, the 2026 Electrician Calculations Study Guide, and the National Electrical Code 2026 paperback.
+The Arizona Master Study Guide + Calculations + NEC includes the 2026 Arizona Master Electrician Study Guide, the 2026 Electrician Calculations Study Guide, and the National Electrical Code 2026 paperback.
 
 ### FAQ: Is this combo based on the 2026 NEC?
 
@@ -195,7 +200,7 @@ No. This product is a study-material combo. It is designed to support exam prepa
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Study Guide + Calculations + NEC?
 
 ### Which NEC edition is this based on?
 
@@ -212,6 +217,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

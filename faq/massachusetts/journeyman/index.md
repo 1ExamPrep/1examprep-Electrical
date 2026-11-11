@@ -1,16 +1,16 @@
 ---
 title: Massachusetts Journeyman Electrician Exam FAQ (25 answers)
 url: https://passyourmasterelectricianexam.com/faq/massachusetts/journeyman/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
-description: 25 answers about the Massachusetts journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure.
+description: The Massachusetts journeyman electrician exam FAQ has 25 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience.
 ---
 
 [Home](https://passyourmasterelectricianexam.com/) /[FAQ](https://passyourmasterelectricianexam.com/faq/) /Massachusetts Journeyman
 
 # Massachusetts journeyman electrician exam: frequently asked questions
 
-25 answers about the Massachusetts journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. Filter the list or jump to a section.
+The Massachusetts journeyman electrician exam FAQ has 25 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. The answers come from our Massachusetts journeyman package descriptions and are refreshed whenever the store changes.
 
 ## Key takeaways
 
@@ -19,11 +19,11 @@ description: 25 answers about the Massachusetts journeyman electrician exam and 
 - The Massachusetts Journeyman Electrician exam is administered by PSI for candidates approved through the Board of State Examiners of Electricians.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
-The exam 8Licensing and experience 5Code book and materials 4More questions 8
+What is the Massachusetts journeyman electrician exam like? 8How do you get a Massachusetts journeyman electrician license? 5Which code book and materials are allowed on the Massachusetts exam? 4What else do Massachusetts journeyman candidates ask? 8
 
-## The exam
+## What is the Massachusetts journeyman electrician exam like?
 
 ### Is the Massachusetts journeyman electrician exam open book?
 
@@ -57,7 +57,7 @@ Massachusetts electrical licensing is administered by the Board of State Examine
 
 Each part requires a 70% passing score. Part 1 requires 56 correct answers out of 80, and Part 2 requires 21 correct answers out of 30.
 
-## Licensing and experience
+## How do you get a Massachusetts journeyman electrician license?
 
 ### Does Massachusetts have statewide journeyman electrician licensing?
 
@@ -79,7 +79,7 @@ No. The Class B Journeyman Electrician license is a journeyman-level individual 
 
 Massachusetts has reciprocity with New Hampshire for qualifying journeyman and master electricians, subject to Board requirements.
 
-## Code book and materials
+## Which code book and materials are allowed on the Massachusetts exam?
 
 ### Why should I study with a tabbed NEC?
 
@@ -97,7 +97,7 @@ No. Highlighting and underlining of original text are allowed, but handwritten n
 
 Massachusetts examination rules allow highlighting and underlining of the original text. Handwritten notes are not allowed.
 
-## More questions
+## What else do Massachusetts journeyman candidates ask?
 
 ### How many parts are on the Massachusetts Journeyman Electrician exam?
 
@@ -163,6 +163,8 @@ Packages built on the 2026 NEC, from the study guide alone to the Ultimate Combo
 - [All blog posts](https://passyourmasterelectricianexam.com/blog/)
 - [Every state and level](https://passyourmasterelectricianexam.com/#states)
 - [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

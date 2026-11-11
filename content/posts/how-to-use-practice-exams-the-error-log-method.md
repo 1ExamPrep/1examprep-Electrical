@@ -5,6 +5,7 @@ author: Pass Your Electrician Exam
 excerpt: Practice exams are not for finding out whether you would pass. They are for finding the code sections you keep missing. A method for taking them, logging misses by section, and turning the log into the last two weeks of study.
 tags: study tips, journeyman, master
 takeaways: Take practice exams under real conditions: same question count, same time limit, same code book, phone in another room. | Log every miss by code section and by cause (did not know where to look, misread the section, ran out of time), not by topic. | Three causes need three different fixes: index drills, slower reading of exceptions, and a tighter time budget per question. | The last two weeks are spent on whatever the log names most often, not on another pass through the whole guide.
+answer: The error log method turns practice exams into a study plan. Sit each exam under real conditions, with the same question count, time limit and tabbed code book. Then log every miss by NEC section and cause, and spend your final two weeks on the code sections that appear in the log most often.
 ---
 A practice exam tells you your score, and your score is the least useful thing on the page. What it can tell you, if you make it, is which sections of the code you keep getting wrong and why. That list is the study plan for your final two weeks. Here is how to build it.
 
