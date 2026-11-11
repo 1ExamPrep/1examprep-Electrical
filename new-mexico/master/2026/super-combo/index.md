@@ -1,7 +1,7 @@
 ---
 title: New Mexico Master Super Combo (2026 NEC)
 url: https://passyourmasterelectricianexam.com/new-mexico/master/2026/super-combo/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: The 2026 New Mexico Master Electrician + Electrician Calculations Study Guides + Flash Cards & National Electrical Code + Tabs Super Combo is designed for.
 ---
@@ -13,6 +13,7 @@ New Mexico · Master · 2026 NEC
 # Super Combo
 
 2026 New Mexico Master Electrician + Electrician Calculations Study Guides + Flash Cards & National Electrical Code + Tabs Super Combo
+The New Mexico Master Super Combo package costs $349.95, down from $395.00. The box holds 5 items: New Mexico Master Electrician Study Guide; Electrician Calculations Study Guide; Master Electrician Exam Flash Cards; National Electrical Code paperback; Pre-printed NEC tabs. Books ship from 1 Exam Prep and online kits arrive by email.
 
 $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/46213813764153:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.co
 - 1 optional add-on can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Super Combo
 
@@ -45,7 +46,9 @@ The 2026 New Mexico Master Electrician + Electrician Calculations Study Guides +
 
 New Mexico electrical licensing preparation requires more than jobsite experience alone. Candidates need to understand general electrical knowledge, electrical installation requirements, services, feeders, branch circuits, overcurrent protection, grounding and bonding, conductors and cables, raceways and boxes, hazardous locations, special occupancies, special equipment, lighting, signs, motors, transformers, generators, low-voltage systems, alarms, New Mexico electrical code requirements, and electrical calculations. A strong study routine should help candidates review these subjects, practice calculations, improve code navigation, and reinforce important concepts through repetition.
 
-This Super Combo supports that preparation from several directions. The 2026 New Mexico Master Electrician Study Guide helps organize New Mexico electrical exam preparation around NEC-based topics, state code concepts, trade knowledge, and exam-style review. The 2026 Electrician Calculations Study Guide gives focused attention to electrical math, load calculations, conductor sizing, service and feeder calculations, box fill, raceway fill, motor calculations, transformer calculations, and related problem-solving. The National Electrical Code 2026 paperback with tabs helps candidates build familiarity with NEC structure and article navigation during study. The 2026 Master Electrician Flash Cards provide a quick-review tool for reinforcing formulas, definitions, terminology, and important electrical concepts.
+## What else is in the New Mexico Master Super Combo?
+
+The Super Combo supports that preparation from several directions. The 2026 New Mexico Master Electrician Study Guide helps organize New Mexico electrical exam preparation around NEC-based topics, state code concepts, trade knowledge, and exam-style review. The 2026 Electrician Calculations Study Guide gives focused attention to electrical math, load calculations, conductor sizing, service and feeder calculations, box fill, raceway fill, motor calculations, transformer calculations, and related problem-solving. The National Electrical Code 2026 paperback with tabs helps candidates build familiarity with NEC structure and article navigation during study. The 2026 Master Electrician Flash Cards provide a quick-review tool for reinforcing formulas, definitions, terminology, and important electrical concepts.
 
 For many electricians, the challenge is not understanding the work in the field. The challenge is applying that knowledge in the format of a timed licensing examination. A question may test a code rule, a calculation method, a wiring method, a service requirement, a grounding and bonding topic, a conductor rule, a raceway requirement, a motor concept, a transformer topic, a low-voltage system, a state code requirement, or a general electrical principle. This Super Combo helps candidates study with a more structured system instead of relying on scattered notes, random practice, or last-minute code reading.
 
@@ -65,6 +68,8 @@ New Mexico contractor examinations are administered through PSI for the Construc
 The New Mexico EE-98 Residential and Commercial Electrical examination is a three-part combination exam. Part 1 covers Commercial and Industrial work and is listed with 80 questions, a 75 percent passing score, and 200 minutes of testing time. The Part 1 content outline includes General Knowledge and Electrical Installation Requirements, Services, Feeders, and Branch Circuits, Overcurrent Protection, Grounding and Bonding, Conductors and Cables, Raceways and Boxes, Hazardous Locations, Special Occupancies, and Special Equipment, Lighting, Signs, and General-Use Equipment, Motors, Transformers, and Generators, and New Mexico State Code.
 
 Part 2 covers Residential work and is listed with 40 questions, a 75 percent passing score, and 100 minutes of testing time. The Part 2 content outline includes General Knowledge and Electrical Installation Requirements, Services, Feeders, and Branch Circuits, Overcurrent Protection, Grounding and Bonding, Conductors and Cables, Raceways and Boxes, Special Occupancies and Special Equipment, including Pools, Lighting and General-Use Equipment, and New Mexico State Code.
+
+## What else is in the New Mexico Master Super Combo?
 
 Part 3 covers Specialties and is listed with 50 questions, a 75 percent passing score, and 135 minutes of testing time. The Part 3 content outline includes Low Voltage, including Alarms, Electrical Signs and Outline Lighting, Cathodic Protection and Lightning Protection Systems, Telephone and Computer Systems, and Sound and Communication Systems.
 
@@ -136,6 +141,8 @@ For NEC study, start by learning the structure of the code book. Review article 
 
 For New Mexico state code content, study the state electrical code material alongside NEC topics. State-specific code questions can require a different type of attention than general NEC lookup. Candidates should understand how the New Mexico Electrical Code reference is organized and how it connects to the state’s electrical rules.
 
+## What else is in the New Mexico Master Super Combo?
+
 For calculations, write out each step. Electrical calculation mistakes often happen when a candidate skips a conversion, uses the wrong table, applies the wrong value, or confuses branch circuit, feeder, service, motor, transformer, raceway fill, or box fill requirements. The 2026 Electrician Calculations Study Guide gives candidates a dedicated way to practice these skills repeatedly.
 
 For specialty review, include low-voltage systems, alarms, electrical signs, outline lighting, cathodic protection, lightning protection systems, telephone systems, computer systems, sound systems, and communication systems. These areas are part of the EE-98 Part 3 outline and should not be left until the end of the study process.
@@ -178,6 +185,8 @@ EE-98 Part 1 Commercial and Industrial is listed with 80 questions, a 75 percent
 
 EE-98 Part 2 Residential is listed with 40 questions, a 75 percent passing score, and 100 minutes of testing time.
 
+## More questions about the New Mexico Master Super Combo
+
 ### FAQ: How many questions are on EE-98 Part 3?
 
 EE-98 Part 3 Specialties is listed with 50 questions, a 75 percent passing score, and 135 minutes of testing time.
@@ -192,7 +201,7 @@ Calculation practice is important because electrical exams can include load calc
 
 ### FAQ: Who should use this Super Combo?
 
-This Super Combo is designed for electricians preparing for New Mexico electrical contractor, qualifying party, or master-level electrical study based on the 2026 NEC, especially candidates who want study guides, calculation practice, a tabbed NEC book, and flash cards in one organized package.
+The Super Combo is designed for electricians preparing for New Mexico electrical contractor, qualifying party, or master-level electrical study based on the 2026 NEC, especially candidates who want study guides, calculation practice, a tabbed NEC book, and flash cards in one organized package.
 
 ## Other New Mexico Master packages
 
@@ -210,7 +219,7 @@ This Super Combo is designed for electricians preparing for New Mexico electrica
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Super Combo?
 
 ### Which NEC edition is this based on?
 
@@ -227,6 +236,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

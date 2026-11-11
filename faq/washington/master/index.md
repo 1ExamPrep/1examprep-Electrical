@@ -1,16 +1,16 @@
 ---
 title: Washington Master Electrician Exam FAQ (30 answers)
 url: https://passyourmasterelectricianexam.com/faq/washington/master/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
-description: 30 answers about the Washington master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
+description: The Washington master electrician exam FAQ has 30 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam.
 ---
 
 [Home](https://passyourmasterelectricianexam.com/) /[FAQ](https://passyourmasterelectricianexam.com/faq/) /Washington Master
 
 # Washington master electrician exam: frequently asked questions
 
-30 answers about the Washington master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. Filter the list or jump to a section.
+The Washington master electrician exam FAQ has 30 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. The answers come from our Washington master package descriptions and are refreshed whenever the store changes.
 
 ## Key takeaways
 
@@ -19,11 +19,11 @@ description: 30 answers about the Washington master electrician exam and license
 - Washington Master Electrician certification is regulated by the Washington State Department of Labor and Industries.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
-The exam 11Licensing and experience 9Code book and materials 6More questions 4
+What is the Washington master electrician exam like? 11How do you get a Washington master electrician license? 9Which code book and materials are allowed on the Washington exam? 6What else do Washington master candidates ask? 4
 
-## The exam
+## What is the Washington master electrician exam like?
 
 ### Who administers the Washington Master Electrician exam?
 
@@ -69,7 +69,7 @@ Washington electrical examinations require a 70 percent passing score.
 
 Washington electrical exam preparation should include open-book code navigation and reference-use practice. Candidates should follow the current L&I and testing-provider exam instructions for the exact references, tabs, notes, calculators, and code edition allowed during testing.
 
-## Licensing and experience
+## How do you get a Washington master electrician license?
 
 ### Who regulates Washington Master Electrician certification?
 
@@ -107,7 +107,7 @@ No. An electrical administrator is connected to code compliance and supervision 
 
 Yes. Candidates should confirm the required credential, eligibility requirements, application process, code edition, reference rules, and post-exam licensing steps before scheduling or taking an exam.
 
-## Code book and materials
+## Which code book and materials are allowed on the Washington exam?
 
 ### What references are used for the Washington Master Electrician exam?
 
@@ -133,7 +133,7 @@ NEC tabs help candidates locate major articles, chapters, tables, and subject ar
 
 Yes. Candidates should review Washington electrical laws, L&I rules, administrator responsibilities, contractor requirements, and any state-specific subjects listed in the current examination instructions.
 
-## More questions
+## What else do Washington master candidates ask?
 
 ### What are the major sections of the Washington 01 General Master Electrician exam?
 
@@ -180,6 +180,8 @@ Packages built on the 2026 NEC, from the study guide alone to the Ultimate Combo
 - [All blog posts](https://passyourmasterelectricianexam.com/blog/)
 - [Every state and level](https://passyourmasterelectricianexam.com/#states)
 - [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

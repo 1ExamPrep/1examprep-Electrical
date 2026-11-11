@@ -1,16 +1,16 @@
 ---
 title: Delaware Master Electrician Exam FAQ (22 answers)
 url: https://passyourmasterelectricianexam.com/faq/delaware/master/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
-description: 22 answers about the Delaware master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
+description: The Delaware master electrician exam FAQ has 22 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam.
 ---
 
 [Home](https://passyourmasterelectricianexam.com/) /[FAQ](https://passyourmasterelectricianexam.com/faq/) /Delaware Master
 
 # Delaware master electrician exam: frequently asked questions
 
-22 answers about the Delaware master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. Filter the list or jump to a section.
+The Delaware master electrician exam FAQ has 22 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. The answers come from our Delaware master package descriptions and are refreshed whenever the store changes.
 
 ## Key takeaways
 
@@ -19,11 +19,11 @@ description: 22 answers about the Delaware master electrician exam and license: 
 - Prov administers Delaware electrical licensing examinations for the Delaware Division of Professional Regulation.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
-The exam 9Licensing and experience 4Code book and materials 5More questions 4
+What is the Delaware master electrician exam like? 9How do you get a Delaware master electrician license? 4Which code book and materials are allowed on the Delaware exam? 5What else do Delaware master candidates ask? 4
 
-## The exam
+## What is the Delaware master electrician exam like?
 
 ### Is the Delaware Master Electrician exam open book?
 
@@ -61,7 +61,7 @@ Delaware uses ProV as the external testing vendor for required electrical licens
 
 Delaware requires a minimum score of 75 percent to pass the electrical licensing examination.
 
-## Licensing and experience
+## How do you get a Delaware master electrician license?
 
 ### Does Delaware require liability insurance for Master Electrician licensure?
 
@@ -79,7 +79,7 @@ The Delaware Master Electrician pathway includes six years of full-time experien
 
 Yes. Master and Limited Electrician applicants must submit proof of general liability insurance of at least $300,000 before the license can be issued.
 
-## Code book and materials
+## Which code book and materials are allowed on the Delaware exam?
 
 ### Are handwritten notes allowed in reference books?
 
@@ -101,7 +101,7 @@ Permanent tabs are permitted under ProV open-book reference rules. Moveable item
 
 No. Candidates may not mark in books during the test. Books may have highlighting and underlining in pen before the exam, but handwritten notes are not allowed unless authorized by the licensing jurisdiction.
 
-## More questions
+## What else do Delaware master candidates ask?
 
 ### What topics are covered on the Delaware Master Electrician exam?
 
@@ -149,6 +149,8 @@ Packages built on the 2026 NEC, from the study guide alone to the Ultimate Combo
 - [All blog posts](https://passyourmasterelectricianexam.com/blog/)
 - [Every state and level](https://passyourmasterelectricianexam.com/#states)
 - [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

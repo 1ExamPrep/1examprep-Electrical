@@ -1,7 +1,7 @@
 ---
 title: Texas Master Super Combo (2026 NEC)
 url: https://passyourmasterelectricianexam.com/texas/master/2026/super-combo/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: The 2026 Texas Master Electrician + Electrician Calculations Study Guides + Flash Cards & National Electrical Code + Tabs Super Combo is designed for.
 ---
@@ -13,6 +13,7 @@ Texas · Master · 2026 NEC
 # Super Combo
 
 2026 Texas Master Electrician + Electrician Calculations Study Guides + Flash Cards & National Electrical Code + Tabs Super Combo
+The Texas Master Super Combo package costs $349.95, down from $395.00. The box holds 5 items: Texas Master Electrician Study Guide; Electrician Calculations Study Guide; Master Electrician Exam Flash Cards; National Electrical Code paperback; Pre-printed NEC tabs. Every item is built on the 2026 National Electrical Code, and the study guide has 12 practice exams and 2 full-length finals.
 
 $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/46213823397945:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.co
 - 1 optional add-on can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Super Combo
 
@@ -45,7 +46,9 @@ The 2026 Texas Master Electrician + Electrician Calculations Study Guides + Flas
 
 Texas master electrician preparation requires more than field experience alone. Candidates need to understand definitions, electrical theory, plans, electrical services, service equipment, separately derived systems, feeders, branch circuit conductors, wiring methods, wiring materials, equipment, devices, motors, generators, control devices, disconnecting means, special occupancies, special equipment, special conditions, renewable energy technologies, and calculation methods. A strong study routine should help candidates review these subjects, practice calculations, improve NEC navigation, and reinforce important concepts through repetition.
 
-This Super Combo supports that preparation from several directions. The 2026 Texas Master Electrician Study Guide helps organize Texas master electrician preparation around NEC-based topics, trade knowledge, exam concepts, and master-level review. The 2026 Electrician Calculations Study Guide gives focused attention to electrical math, load calculations, conductor sizing, branch circuit calculations, service and feeder calculations, box fill, raceway fill, motor calculations, generator calculations, transformer calculations, voltage drop, and related problem-solving. The National Electrical Code 2026 paperback with tabs helps candidates build familiarity with NEC structure and article navigation during study. The 2026 Master Electrician Flash Cards provide a quick-review tool for reinforcing formulas, definitions, terminology, and important electrical concepts.
+## What else is in the Texas Master Super Combo?
+
+The Super Combo supports that preparation from several directions. The 2026 Texas Master Electrician Study Guide helps organize Texas master electrician preparation around NEC-based topics, trade knowledge, exam concepts, and master-level review. The 2026 Electrician Calculations Study Guide gives focused attention to electrical math, load calculations, conductor sizing, branch circuit calculations, service and feeder calculations, box fill, raceway fill, motor calculations, generator calculations, transformer calculations, voltage drop, and related problem-solving. The National Electrical Code 2026 paperback with tabs helps candidates build familiarity with NEC structure and article navigation during study. The 2026 Master Electrician Flash Cards provide a quick-review tool for reinforcing formulas, definitions, terminology, and important electrical concepts.
 
 For many electricians, the challenge is not understanding electrical work in the field. The challenge is applying that knowledge in the format of a timed licensing examination with separate NEC knowledge and calculation portions. A question may test a code rule, calculation method, wiring method, service requirement, feeder requirement, branch circuit rule, conductor sizing issue, raceway rule, motor topic, control device, special occupancy, renewable energy topic, or theory concept. This Super Combo helps candidates study with a structured system instead of relying on scattered notes, random practice, or last-minute code reading.
 
@@ -181,7 +184,7 @@ Texas requires applicants to have held a Journeyman Electrician license for at l
 
 ### FAQ: Who should use this Super Combo?
 
-This Super Combo is designed for electricians preparing for Texas master electrician study based on the 2026 NEC, especially candidates who want study guides, calculation practice, a tabbed NEC book, and flash cards in one organized package.
+The Super Combo is designed for electricians preparing for Texas master electrician study based on the 2026 NEC, especially candidates who want study guides, calculation practice, a tabbed NEC book, and flash cards in one organized package.
 
 ## Other Texas Master packages
 
@@ -199,7 +202,7 @@ This Super Combo is designed for electricians preparing for Texas master electri
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Super Combo?
 
 ### Which NEC edition is this based on?
 
@@ -216,6 +219,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

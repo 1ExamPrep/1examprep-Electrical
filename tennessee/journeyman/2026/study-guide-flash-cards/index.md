@@ -1,7 +1,7 @@
 ---
 title: Tennessee Journeyman Study Guide + Flash Cards (2026 NEC)
 url: https://passyourmasterelectricianexam.com/tennessee/journeyman/2026/study-guide-flash-cards/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: 2026 Tennessee Journeyman Electrician Exam Prep and Study Guide + Flash Card Combo: 12 Practice Exams + 2 Full Final Exams: Trusted by 50k Electricians The.
 ---
@@ -13,6 +13,7 @@ Tennessee · Journeyman · 2026 NEC
 # Study Guide + Flash Cards
 
 2026 Tennessee Journeyman Electrician Exam Prep and Study Guide + Flash Card Combo: 12 Practice Exams +2 Full Final Exams
+The Tennessee Journeyman Study Guide + Flash Cards package costs $99.95, down from $125.00. The box holds 2 items: Tennessee Journeyman Electrician Exam Prep and Study Guide: 12 practice exams + 2 full final exams; Journeyman Electrician Exam Flash Cards. Every item is built on the 2026 National Electrical Code, and the study guide has 12 practice exams and 2 full-length finals.
 
 $99.95 (was $125.00) Save 20% [Buy now — go to checkout](https://1examprep.com/cart/45947348582457:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $99.95 (was $125.00) Save 20% [Buy now — go to checkout](https://1examprep.com
 - 2 optional add-ons can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Study Guide + Flash Cards
 
@@ -41,6 +42,8 @@ Updated October 29, 2026 · prices checked against the 1 Exam Prep store
 The 2026 Tennessee Journeyman Electrician Exam Prep and Study Guide + Flash Card Combo is designed for electrical professionals preparing for journeyman-level electrical exams, Tennessee Limited Licensed Electrician study, local licensing requirements, apprenticeship advancement, employer evaluations, and NEC-based electrical exam preparation. This combo gives students a structured way to review electrical theory, National Electrical Code concepts, calculations, wiring methods, grounding and bonding, conductors, raceways, boxes, services, feeders, branch circuits, motors, controls, overcurrent protection, equipment for general use, hazardous locations, special occupancies, special equipment, low-voltage systems, alarms, signaling systems, communications, lighting, signs, safety, and other journeyman-level electrical topics before test day.
 
 This package includes a Tennessee journeyman electrician exam prep and study guide, 12 practice exams, 2 full final exams, and journeyman electrician flash cards for active recall and quick review. Together, these study tools support full-length study sessions, short daily review, code-navigation practice, calculation repetition, and exam-style question training. The study guide helps students organize the material, the practice exams provide repeated question practice, the final exams support longer exam-style review, and the flash cards help reinforce important electrical concepts through repetition.
+
+## What else is in the Tennessee Journeyman Study Guide + Flash Cards?
 
 Tennessee electrical licensing is different from states that issue one simple statewide journeyman electrician license for every electrician. The Tennessee Board for Licensing Contractors regulates Limited Licensed Electricians and contractor licensing, while local governments may have their own journeyman, master, permit, inspection, or registration requirements. A Tennessee Limited Licensed Electrician license is issued to individuals who pass the LLE trade exam and applies only in municipalities that use the Division of Fire Prevention for permits or inspections, with work limited to projects under the statutory project threshold. Local requirements should be reviewed for the area where the work will be performed.
 
@@ -128,6 +131,8 @@ The 2026 Tennessee Journeyman Electrician Exam Prep and Study Guide + Flash Card
 
 **Full final exams** help students practice longer review sessions. The 2 full final exams can be used after completing topic review and several practice exams. Students should take these final exams in a focused setting, track time, review missed answers, and return to weaker topics before test day or before the next major study session.
 
+## What else is in the Tennessee Journeyman Study Guide + Flash Cards?
+
 **Flash cards** support active recall. Journeyman electrician flash cards help students review definitions, calculations, electrical theory, wiring methods, conductors, materials, equipment, services, feeders, branch circuits, grounding and bonding, motors, controls, special occupancies, special equipment, communication systems, safety concepts, and code terminology in a faster format.
 
 **Services, feeders, and branch circuits** should receive steady attention because they are major Tennessee LLE exam outline areas and common journeyman-level topics. Students should understand how each system is defined, how conductors are selected, how overcurrent protection applies, and how grounding and bonding rules affect installation decisions.
@@ -154,7 +159,7 @@ Students who use the combo consistently can build a stronger preparation rhythm.
 
 ### Who is this Tennessee Journeyman Electrician combo for?
 
-This combo is for electrical students, apprentices, and working electricians preparing for Tennessee journeyman-level electrical exams, Limited Licensed Electrician study, local licensing requirements, apprenticeship advancement, employer evaluations, or NEC-based electrical study.
+The Tennessee Journeyman Study Guide + Flash Cards is for electrical students, apprentices, and working electricians preparing for Tennessee journeyman-level electrical exams, Limited Licensed Electrician study, local licensing requirements, apprenticeship advancement, employer evaluations, or NEC-based electrical study.
 
 ### What is included in this combo?
 
@@ -179,6 +184,8 @@ The Tennessee LLE exam allows 130 minutes.
 ### What score is required to pass the Tennessee LLE exam?
 
 The Tennessee LLE exam requires 72.5%, which equals 29 correct items.
+
+## More questions about the Tennessee Journeyman Study Guide + Flash Cards
 
 ### What topics should I study?
 
@@ -216,7 +223,7 @@ No. This is an exam-prep product. Candidates must follow the Tennessee Board for
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Study Guide + Flash Cards?
 
 ### Which NEC edition is this based on?
 
@@ -233,6 +240,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

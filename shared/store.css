@@ -546,3 +546,8 @@ footer{padding:2.5rem 0;color:var(--muted);font-size:.88rem}
 }
 @media (max-height:560px) and (min-width:721px){ .srch-box.ai-on .ai-big{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))} }
 @media (min-width:1400px){ .srch-box.ai-on{width:880px} }
+/* opening answer on product pages, and the sources line every page ends with */
+.pdp-lead{margin:.75rem 0 0;line-height:1.55;font-size:.98rem}
+.sources{max-width:1180px;margin:2rem auto 1rem;padding:0 1.25rem;font-size:.82rem;line-height:1.5;color:var(--muted)}
+.sources a{color:inherit}
+main.wrap>.sources{padding:0}

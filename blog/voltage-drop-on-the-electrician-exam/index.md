@@ -1,7 +1,7 @@
 ---
-title: Voltage Drop on the Electrician Exam: Formula, Traps and a Worked Example
+title: Voltage Drop on the Electrician Exam: Formula and Example
 url: https://passyourmasterelectricianexam.com/blog/voltage-drop-on-the-electrician-exam/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: The two voltage-drop formulas, where the constants come from, the 3 and 5 percent recommendations, and a worked example that shows why the obvious conductor.
 ---
@@ -12,7 +12,7 @@ October 10, 2026 Pass Your Electrician Exam 3 min read
 
 # Voltage Drop on the Electrician Exam: Formula, Traps and a Worked Example
 
-The two voltage-drop formulas, where the constants come from, the 3 and 5 percent recommendations, and a worked example that shows why the obvious conductor is often one size too small.
+Voltage drop on the electrician exam uses VD = 2 × K × I × L ÷ CM for single-phase circuits and 1.732 × K × I × L ÷ CM for three-phase, with L as the one-way length. K is about 12.9 for copper and 21.2 for aluminium. The NEC recommends 3 percent on a branch circuit and 5 percent overall.
 [calculations](https://passyourmasterelectricianexam.com/blog/tag/calculations/) · [NEC](https://passyourmasterelectricianexam.com/blog/tag/nec/)
 
 ## Key takeaways
@@ -22,7 +22,7 @@ The two voltage-drop formulas, where the constants come from, the 3 and 5 percen
 - The code recommends no more than 3 percent on a branch circuit and 5 percent total; questions use those limits to ask which conductor to install.
 - The common trap is doubling the length when the formula already includes the return path.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 Voltage drop questions look like arithmetic and are really about reading. The formula is short, the constants are given or in a table, and the trap is always in the setup: one-way or round-trip length, single or three phase, copper or aluminium, and which limit the question is holding you to.
 
@@ -82,6 +82,34 @@ VD = 1.732 × 12.9 × 60 × 300 ÷ 41,740 = 9.63 volts, which is 4.6 percent of 
 
 Do ten problems with the formula on paper, then ten with it from memory. Vary voltage, phase, metal and length. After twenty, the setup becomes the only part that takes thought, and that is where you want to be on exam day.
 
+## What else do candidates ask about the electrician exam?
+
+### How long should I study for the journeyman or master electrician exam?
+
+Most candidates do well with six to eight weeks at about ninety minutes a day, as long as the time is split between three things: getting fast in the code book, working calculations until they are automatic, and sitting full-length timed practice exams in the last two weeks. People who only read the study guide tend to know the material and still run out of time, because the exam is a test of finding answers in the code under a clock as much as a test of knowledge.
+
+### Is the exam open book, and which code book do I bring?
+
+Nearly every state exam is open book for the code portion, and the book you bring has to be the edition named in your state's candidate bulletin. States adopt new editions at different times, so check the bulletin rather than assuming the newest code applies. Most boards allow permanent tabs and highlighting but not loose notes; the bulletin lists what is permitted.
+
+### What is the difference between the journeyman and master exam?
+
+The journeyman exam concentrates on the code a working electrician uses every day: branch circuits, feeders, grounding and bonding, wiring methods, box and conduit fill, motors and appliances. The master exam covers the same ground and adds services, load calculations, transformers, planning and supervision, and the parts of the code a contractor is responsible for. The study guides, calculations guides and flash cards are written separately for each level.
+
+## What do candidates ask about practice questions, registration and delivery?
+
+### Are the practice questions the real exam questions?
+
+No. Licensing exam questions are confidential and are not published by any testing vendor. Practice questions are original material written to the same subjects, format and difficulty, with explanations that point you to the code section, so you learn where answers live rather than memorising answers.
+
+### Does buying a package register me for the exam?
+
+No. Applications, experience hours, approval to test and scheduling are handled by your state licensing board and its testing vendor, usually PSI, Prometric or Pearson VUE depending on the state. A package gets you ready for the test itself. The state posts on this blog explain who runs the process in each state and link to the board's own pages.
+
+### How do the packages arrive?
+
+Printed study guides, calculations guides, flash cards and code books ship from our fulfillment center, 1 Exam Prep. Online test success kits and courses are delivered by email after purchase, so you can start the timed practice exams on a phone or laptop the same day the books are on their way.
+
 Ready to study?
 Pick your state and level, then choose a package.
 
@@ -115,6 +143,7 @@ October 13, 2026 3 min read
 
 Which articles and tables deserve a tab, how to place them so they stay useful, what the testing centres allow, and why doing it yourself is part of the study.
 ](https://passyourmasterelectricianexam.com/blog/how-to-tab-your-nec-for-the-electrician-exam/)
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

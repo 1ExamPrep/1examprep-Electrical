@@ -1,7 +1,7 @@
 ---
 title: Utah Master Study Guide + Calculations + NEC (2026 NEC)
 url: https://passyourmasterelectricianexam.com/utah/master/2026/study-guide-calculations-nec/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: The 2026 Utah Master Electrician + Electrician Calculations Study Guides & National Electrical Code Combo is designed for electricians who want a focused.
 ---
@@ -13,6 +13,7 @@ Utah · Master · 2026 NEC
 # Study Guide + Calculations + NEC
 
 2026 Utah Master Electrician + Electrician Calculations Study Guides & National Electrical Code Combo
+The Utah Master Study Guide + Calculations + NEC package costs $279.95, down from $315.00. The box holds 3 items: Utah Master Electrician Study Guide; Electrician Calculations Study Guide; National Electrical Code paperback. Every item is built on the 2026 National Electrical Code, and the study guide has 12 practice exams and 2 full-length finals.
 
 $279.95 (was $315.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/46207418138681:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $279.95 (was $315.00) Save 11% [Buy now — go to checkout](https://1examprep.co
 - 2 optional add-ons can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Study Guide + Calculations + NEC
 
@@ -44,6 +45,8 @@ The **2026 Utah Master Electrician + Electrician Calculations Study Guides & Nat
 This package includes the **2026 Utah Master Electrician Study Guide**, the **2026 Electrician Calculations Study Guide**, and the **National Electrical Code 2026 Paperback**. Together, these materials help candidates review electrical trade knowledge, strengthen calculation skills, practice NEC navigation, and prepare for exam-style electrical questions with a structured study routine.
 
 Utah electrical licensing is administered through the Utah Division of Professional Licensing, commonly known as DOPL. Utah uses statewide electrician license classifications that include Apprentice Electrician, Journeyman Electrician, Master Electrician, Residential Journeyman Electrician, and Residential Master Electrician. Candidates preparing for the Utah Master Electrician path should understand the license requirements, required exams, law and rule content, practical exam requirements, National Electrical Code organization, Utah amendments, and electrical calculation methods.
+
+## What else is in the Utah Master Study Guide + Calculations + NEC?
 
 The Utah Master Electrician license is an advanced individual electrical license. The current Utah testing structure includes the **Utah Master Electrician Law and Rule Exam** and the **Utah Electrician Practical Exam**, with the practical exam not required when it was previously passed for the Journeyman Electrician license. The master-level path requires strong knowledge of electrical law, rules, safety, practical electrical work, supervision responsibilities, NEC application, and electrical calculations.
 
@@ -129,6 +132,8 @@ The Utah Master Electrician Study Guide helps candidates organize review around 
 
 The Electrician Calculations Study Guide adds focused preparation for math-based problems. Electrical calculations can involve multiple steps, and common mistakes often come from rushing, using the wrong table, missing a condition, or failing to check units. Candidates should develop a consistent process for setting up each calculation before choosing an answer.
 
+## What else is in the Utah Master Study Guide + Calculations + NEC?
+
 Important calculation topics may include Ohm’s Law, branch-circuit calculations, feeder calculations, service load calculations, conductor ampacity, adjustment and correction factors, raceway fill, box fill, motor calculations, transformer calculations, overcurrent protection, demand factors, and voltage drop concepts. Repeated practice can help candidates become more comfortable with formulas and table use.
 
 Utah candidates should also prepare for practical electrical knowledge. The Utah Electrician Practical Exam evaluates hands-on skill areas that may include torque, transformer termination, conduit bending, motor control, switching, schematic reading, and wiring. Candidates who must take the practical exam should prepare both mentally and physically for the required tasks, tools, timing, and workmanship expectations.
@@ -155,11 +160,11 @@ Yes. This combo is based on the 2026 National Electrical Code and includes the N
 
 ### What books are included in this package?
 
-This package includes the 2026 Utah Master Electrician Study Guide, the 2026 Electrician Calculations Study Guide, and the National Electrical Code 2026 Paperback.
+The Utah Master Study Guide + Calculations + NEC includes the 2026 Utah Master Electrician Study Guide, the 2026 Electrician Calculations Study Guide, and the National Electrical Code 2026 Paperback.
 
 ### Who should use this Utah master electrician combo?
 
-This combo is intended for electricians preparing for Utah Master Electrician licensing, law and rule exam review, NEC-based study, practical electrical knowledge, open-book reference navigation, and electrical calculation practice.
+The Utah Master Study Guide + Calculations + NEC is intended for electricians preparing for Utah Master Electrician licensing, law and rule exam review, NEC-based study, practical electrical knowledge, open-book reference navigation, and electrical calculation practice.
 
 ### Who administers Utah electrical licensing?
 
@@ -205,7 +210,7 @@ No. No study product can guarantee a passing score or licensing approval. This c
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Study Guide + Calculations + NEC?
 
 ### Which NEC edition is this based on?
 
@@ -222,6 +227,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Iowa Master Super Combo (2026 NEC)
 url: https://passyourmasterelectricianexam.com/iowa/master/2026/super-combo/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: The 2026 Iowa Master Electrician Super Combo is a complete study bundle for electrical professionals preparing for the Iowa Master Electrician examination.
 ---
@@ -13,6 +13,7 @@ Iowa · Master · 2026 NEC
 # Super Combo
 
 2026 Iowa Master Electrician + Electrician Calculations Study Guides + Flash Cards & National Electrical Code + Tabs Super Combo
+The Iowa Master Super Combo package costs $349.95, down from $395.00. The box holds 5 items: Iowa Master Electrician Study Guide; Electrician Calculations Study Guide; Master Electrician Exam Flash Cards; National Electrical Code paperback; Pre-printed NEC tabs. Every item is built on the 2026 National Electrical Code, and the study guide has 12 practice exams and 2 full-length finals.
 
 $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/46213724471353:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.co
 - 1 optional add-on can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Super Combo
 
@@ -46,6 +47,8 @@ The 2026 Iowa Master Electrician Super Combo is a complete study bundle for elec
 Iowa has a statewide electrical licensing and inspection program overseen by the Electrical Examining Board through the Department of Inspections, Appeals, and Licensing. The state offers electrical license classifications that include Master Electrician, Journeyman Electrician, Residential Electrician, Residential Master Electrician, and certain specialty endorsements. For candidates pursuing the Master Electrician license, preparation should include strong code knowledge, electrical theory, wiring methods, equipment rules, calculations, safety concepts, and the ability to use approved references efficiently during a timed exam.
 
 This Super Combo is designed for candidates who want a complete preparation setup instead of relying on one study resource alone. The Iowa Master Electrician Study Guide helps organize master-level exam preparation around the major test content areas. The Electrician Calculations Study Guide gives focused support for formulas, electrical math, load-related questions, conductor sizing, motor calculations, transformer concepts, and other calculation-based exam topics. The National Electrical Code 2026 Paperback with Tabs helps candidates build familiarity with NEC organization. The Master Electrician Flash Cards help reinforce formulas, definitions, code topics, safety ideas, and trade knowledge through quick repetition.
+
+## What else is in the Iowa Master Super Combo?
 
 Many Iowa Master Electrician candidates already have field experience, but licensing exams require a different kind of readiness. In the field, electricians may have time to check references, consult plans, or work through problems with practical context. On the exam, candidates must identify the topic being tested, locate the correct code requirement, solve calculations, and select the best answer under time pressure. This bundle supports that process by combining structured study, code book practice, calculation review, and quick-recall reinforcement.
 
@@ -115,6 +118,8 @@ Wiring and protection is the largest content area on the Iowa Master Electrician
 
 Wiring methods and materials are also heavily represented. Candidates should study raceways, conductors, cables, boxes, enclosures, fittings, supports, underground installations, flexible wiring methods, and protection of wiring systems. These topics are practical and code-heavy, making regular NEC lookup practice important.
 
+## What else is in the Iowa Master Super Combo?
+
 Equipment for general use is another major exam area. Candidates should review panelboards, switchboards, devices, receptacles, luminaires, appliances, motors, transformers, disconnects, cabinets, and related installation requirements. Questions may test both code rules and practical installation knowledge.
 
 Special occupancies, special equipment, special conditions, and communication systems should not be ignored. These areas may represent smaller percentages individually, but together they can affect the final score. Candidates should review hazardous locations, health care facilities, assembly occupancies, emergency systems, standby systems, signs, pools, low-voltage systems, and other specialized installations when they appear in the NEC and exam content outline.
@@ -137,7 +142,7 @@ This package is especially useful for working electricians who need a complete s
 
 ### What is included in this Iowa Master Electrician Super Combo?
 
-This package includes the 2026 Iowa Master Electrician Study Guide, the 2026 Electrician Calculations Study Guide, the National Electrical Code 2026 Paperback with Tabs, and the 2026 Master Electrician Flash Cards.
+The Iowa Master Super Combo includes the 2026 Iowa Master Electrician Study Guide, the 2026 Electrician Calculations Study Guide, the National Electrical Code 2026 Paperback with Tabs, and the 2026 Master Electrician Flash Cards.
 
 ### Is the Iowa Master Electrician exam open book?
 
@@ -158,6 +163,8 @@ The passing standard for the Iowa Master Electrician examination is 70% correct.
 ### Who administers the Iowa Master Electrician exam?
 
 PSI administers the Iowa Master Electrician examination for the Iowa Electrical Examining Board.
+
+## More questions about the Iowa Master Super Combo
 
 ### Can I use tabs in my reference book during the Iowa exam?
 
@@ -195,7 +202,7 @@ Yes. This Super Combo is based on the 2026 National Electrical Code and includes
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Super Combo?
 
 ### Which NEC edition is this based on?
 
@@ -212,6 +219,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

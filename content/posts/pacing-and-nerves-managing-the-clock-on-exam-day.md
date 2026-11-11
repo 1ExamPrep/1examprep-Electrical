@@ -5,6 +5,7 @@ author: Pass Your Electrician Exam
 excerpt: A time budget for a 100-question exam, the three-pass method, what to do when a question will not come, and the small physical habits that keep your head clear for four hours.
 tags: exam day, study tips
 takeaways: Work out your minutes per question before you walk in; for 100 questions in four hours it is 2 minutes 24 seconds, and the first pass should run well under that. | Three passes: recall first without the book, lookups second with a two-minute cap, calculations third. | A question that is taking more than three minutes gets a best guess and a flag; two easier questions are waiting. | Checkpoints every 20 questions tell you early whether to speed up, and the review screen in the last ten minutes catches blanks.
+answer: To manage the clock on exam day, divide the time by the questions first: 100 questions in four hours is 2 minutes 24 seconds each. Answer recall questions in one pass, lookups in a second and calculations in a third. Set checkpoints every 20 questions so you know early if you are behind.
 ---
 Most candidates who fail know enough to pass. They lose to the clock, and the clock wins because nobody taught them to manage it. This post is the method: a budget, three passes, a rule for the question that will not come, and the habits that keep the budget intact when the nerves arrive.
 

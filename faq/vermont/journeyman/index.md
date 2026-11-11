@@ -1,16 +1,16 @@
 ---
 title: Vermont Journeyman Electrician Exam FAQ (24 answers)
 url: https://passyourmasterelectricianexam.com/faq/vermont/journeyman/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
-description: 24 answers about the Vermont journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
+description: The Vermont journeyman electrician exam FAQ has 24 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours.
 ---
 
 [Home](https://passyourmasterelectricianexam.com/) /[FAQ](https://passyourmasterelectricianexam.com/faq/) /Vermont Journeyman
 
 # Vermont journeyman electrician exam: frequently asked questions
 
-24 answers about the Vermont journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. Filter the list or jump to a section.
+The Vermont journeyman electrician exam FAQ has 24 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. The answers come from our Vermont journeyman package descriptions and are refreshed whenever the store changes.
 
 ## Key takeaways
 
@@ -19,11 +19,11 @@ description: 24 answers about the Vermont journeyman electrician exam and licens
 - Vermont journeyman electrician licensing is handled through the Vermont Department of Public Safety, Division of Fire Safety.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
-The exam 7Licensing and experience 7Code book and materials 4More questions 6
+What is the Vermont journeyman electrician exam like? 7How do you get a Vermont journeyman electrician license? 7Which code book and materials are allowed on the Vermont exam? 4What else do Vermont journeyman candidates ask? 6
 
-## The exam
+## What is the Vermont journeyman electrician exam like?
 
 ### Is the Vermont Journeyman Electrician exam open book?
 
@@ -53,7 +53,7 @@ Vermont Division of Fire Safety exams administered by Prov are scored against a 
 
 Code navigation helps candidates locate definitions, tables, article sections, and requirements efficiently. On a timed exam, being familiar with the NEC can help candidates avoid wasting time searching through unfamiliar sections.
 
-## Licensing and experience
+## How do you get a Vermont journeyman electrician license?
 
 ### Does Vermont have statewide journeyman electrician licensing?
 
@@ -83,7 +83,7 @@ Yes. Vermont has a master electrician license. The master license is separate fr
 
 Yes. Vermont recognizes specialist electrician categories for limited scopes of electrical work. A specialist license is not the same as a full journeyman electrician license.
 
-## Code book and materials
+## Which code book and materials are allowed on the Vermont exam?
 
 ### What references are listed for the Vermont Journeyman Electrician exam?
 
@@ -101,7 +101,7 @@ Test preparation study guides and practice examinations are not approved referen
 
 Electrical calculations help candidates solve problems involving load, conductor sizing, voltage drop, overcurrent protection, and other practical electrical topics. The included 2026 Electrician Calculations Study Guide gives candidates focused practice in this important exam-preparation area.
 
-## More questions
+## What else do Vermont journeyman candidates ask?
 
 ### What topics are on the Vermont Journeyman Electrician exam?
 
@@ -157,6 +157,8 @@ Packages built on the 2026 NEC, from the study guide alone to the Ultimate Combo
 - [All blog posts](https://passyourmasterelectricianexam.com/blog/)
 - [Every state and level](https://passyourmasterelectricianexam.com/#states)
 - [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

@@ -1,16 +1,16 @@
 ---
 title: Michigan Journeyman Electrician Exam FAQ (23 answers)
 url: https://passyourmasterelectricianexam.com/faq/michigan/journeyman/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
-description: 23 answers about the Michigan journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
+description: The Michigan journeyman electrician exam FAQ has 23 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours.
 ---
 
 [Home](https://passyourmasterelectricianexam.com/) /[FAQ](https://passyourmasterelectricianexam.com/faq/) /Michigan Journeyman
 
 # Michigan journeyman electrician exam: frequently asked questions
 
-23 answers about the Michigan journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. Filter the list or jump to a section.
+The Michigan journeyman electrician exam FAQ has 23 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. The answers come from our Michigan journeyman package descriptions and are refreshed whenever the store changes.
 
 ## Key takeaways
 
@@ -19,11 +19,11 @@ description: 23 answers about the Michigan journeyman electrician exam and licen
 - The Michigan Electrical Journeyman exam is administered by PSI for candidates approved through the State of Michigan Bureau of Construction Codes.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
-The exam 7Licensing and experience 7Code book and materials 5More questions 4
+What is the Michigan journeyman electrician exam like? 7How do you get a Michigan journeyman electrician license? 7Which code book and materials are allowed on the Michigan exam? 5What else do Michigan journeyman candidates ask? 4
 
-## The exam
+## What is the Michigan journeyman electrician exam like?
 
 ### Is the Michigan Electrical Journeyman exam open book?
 
@@ -53,7 +53,7 @@ The Michigan Electrical Journeyman exam is administered by PSI for candidates ap
 
 Michigan requires candidates to pass the electrical journey examination with a score of at least 75%.
 
-## Licensing and experience
+## How do you get a Michigan journeyman electrician license?
 
 ### Does Michigan have statewide journeyperson electrical licensing?
 
@@ -83,7 +83,7 @@ An applicant for the Michigan Electrical Journeyman license must be at least 20 
 
 No. Michigan does not hold reciprocity with any other state or country for electrical licensing.
 
-## Code book and materials
+## Which code book and materials are allowed on the Michigan exam?
 
 ### What code edition is Michigan using for electrical examinations?
 
@@ -105,7 +105,7 @@ Approved references include the National Electrical Code, 2016 PA 407, 1972 PA 2
 
 No. Candidates may not write, highlight, underline, or index reference materials during the examination. Additional loose or attached papers are not allowed with approved references.
 
-## More questions
+## What else do Michigan journeyman candidates ask?
 
 ### How long is the Michigan Electrical Journeyman exam?
 
@@ -153,6 +153,8 @@ Packages built on the 2026 NEC, from the study guide alone to the Ultimate Combo
 - [All blog posts](https://passyourmasterelectricianexam.com/blog/)
 - [Every state and level](https://passyourmasterelectricianexam.com/#states)
 - [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

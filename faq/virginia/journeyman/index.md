@@ -1,16 +1,16 @@
 ---
 title: Virginia Journeyman Electrician Exam FAQ (22 answers)
 url: https://passyourmasterelectricianexam.com/faq/virginia/journeyman/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
-description: 22 answers about the Virginia journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
+description: The Virginia journeyman electrician exam FAQ has 22 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours.
 ---
 
 [Home](https://passyourmasterelectricianexam.com/) /[FAQ](https://passyourmasterelectricianexam.com/faq/) /Virginia Journeyman
 
 # Virginia journeyman electrician exam: frequently asked questions
 
-22 answers about the Virginia journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. Filter the list or jump to a section.
+The Virginia journeyman electrician exam FAQ has 22 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. The answers come from our Virginia journeyman package descriptions and are refreshed whenever the store changes.
 
 ## Key takeaways
 
@@ -19,11 +19,11 @@ description: 22 answers about the Virginia journeyman electrician exam and licen
 - Virginia journeyman electrician licensing is regulated through the Virginia Department of Professional and Occupational Regulation and the Board for Contractors.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
-The exam 7Licensing and experience 6Code book and materials 4More questions 5
+What is the Virginia journeyman electrician exam like? 7How do you get a Virginia journeyman electrician license? 6Which code book and materials are allowed on the Virginia exam? 4What else do Virginia journeyman candidates ask? 5
 
-## The exam
+## What is the Virginia journeyman electrician exam like?
 
 ### Is the Virginia Journeyman Electrician exam open book?
 
@@ -53,7 +53,7 @@ Approved references may be highlighted, underlined, and indexed before the exam.
 
 The Virginia Journeyman Electrician examination is administered by PSI for the Commonwealth of Virginia Department of Professional and Occupational Regulation.
 
-## Licensing and experience
+## How do you get a Virginia journeyman electrician license?
 
 ### Does Virginia have statewide journeyman electrician licensing?
 
@@ -79,7 +79,7 @@ Virginia journeyman electrician licensing is regulated through the Virginia Depa
 
 Yes. Virginia regulations provide an examination exemption for an individual who successfully completes an apprenticeship program approved by the Commissioner of the Department of Labor and Industry and submits the required official documentation.
 
-## Code book and materials
+## Which code book and materials are allowed on the Virginia exam?
 
 ### What NEC edition is currently listed for the Virginia exam?
 
@@ -97,7 +97,7 @@ No. PSI rules for Virginia tradesman exams state that study guides are not allow
 
 Electrical calculations help candidates solve problems involving loads, conductor sizing, overcurrent protection, voltage drop, and other practical electrical topics. The 2026 Electrician Calculations Study Guide gives candidates focused practice in this important preparation area.
 
-## More questions
+## What else do Virginia journeyman candidates ask?
 
 ### What topics are on the Virginia Journeyman Electrician exam?
 
@@ -151,6 +151,8 @@ Packages built on the 2026 NEC, from the study guide alone to the Ultimate Combo
 - [All blog posts](https://passyourmasterelectricianexam.com/blog/)
 - [Every state and level](https://passyourmasterelectricianexam.com/#states)
 - [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

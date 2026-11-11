@@ -1,7 +1,7 @@
 ---
 title: Wyoming Master Super Combo (2026 NEC)
 url: https://passyourmasterelectricianexam.com/wyoming/master/2026/super-combo/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: The 2026 Wyoming Master Electrician + Electrician Calculations Study Guides + Flash Cards & National Electrical Code + Tabs Super Combo is designed for.
 ---
@@ -13,6 +13,7 @@ Wyoming · Master · 2026 NEC
 # Super Combo
 
 2026 Wyoming Master Electrician + Electrician Calculations Study Guides + Flash Cards & National Electrical Code + Tabs Super Combo
+The Wyoming Master Super Combo package costs $349.95, down from $395.00. The box holds 5 items: Wyoming Master Electrician Study Guide; Electrician Calculations Study Guide; Master Electrician Exam Flash Cards; National Electrical Code paperback; Pre-printed NEC tabs. Every item is built on the 2026 National Electrical Code, and the study guide has 12 practice exams and 2 full-length finals.
 
 $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/46213850333241:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.co
 - 1 optional add-on can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Super Combo
 
@@ -45,7 +46,9 @@ The 2026 Wyoming Master Electrician + Electrician Calculations Study Guides + Fl
 
 Wyoming master electrician preparation requires more than jobsite experience alone. Candidates need to understand general electrical knowledge, plan reading, services, service equipment, feeders, branch circuits, conductors, wiring methods, wiring materials, equipment, devices, control devices, motors, generators, special occupancies, special equipment, special conditions, electrical calculations, state licensing rules, and the National Electrical Code. A strong study routine should help candidates review these subjects, practice calculations, improve code navigation, and reinforce important concepts through repetition.
 
-This Super Combo supports that preparation from several directions. The 2026 Wyoming Master Electrician Study Guide helps organize Wyoming master electrician preparation around NEC-based topics, trade knowledge, licensing concepts, and exam-style review. The 2026 Electrician Calculations Study Guide gives focused attention to electrical math, load calculations, conductor sizing, branch circuit calculations, service and feeder calculations, box fill, raceway fill, motor calculations, transformer calculations, voltage drop, and related problem-solving. The National Electrical Code 2026 paperback with tabs helps candidates build familiarity with NEC structure and article navigation during study. The 2026 Master Electrician Flash Cards provide a quick-review tool for reinforcing formulas, definitions, terminology, and important electrical concepts.
+## What else is in the Wyoming Master Super Combo?
+
+The Super Combo supports that preparation from several directions. The 2026 Wyoming Master Electrician Study Guide helps organize Wyoming master electrician preparation around NEC-based topics, trade knowledge, licensing concepts, and exam-style review. The 2026 Electrician Calculations Study Guide gives focused attention to electrical math, load calculations, conductor sizing, branch circuit calculations, service and feeder calculations, box fill, raceway fill, motor calculations, transformer calculations, voltage drop, and related problem-solving. The National Electrical Code 2026 paperback with tabs helps candidates build familiarity with NEC structure and article navigation during study. The 2026 Master Electrician Flash Cards provide a quick-review tool for reinforcing formulas, definitions, terminology, and important electrical concepts.
 
 For many electricians, the challenge is not understanding electrical work in the field. The challenge is applying that knowledge in a timed licensing examination while managing code references, reading questions carefully, and working calculations accurately. A question may test a calculation method, a code rule, a wiring method, a service requirement, a grounding and bonding concept, a conductor rule, a raceway requirement, a motor topic, a generator topic, a special occupancy rule, or a licensing concept. This Super Combo helps candidates study with a structured system instead of relying on scattered notes, random practice, or last-minute code reading.
 
@@ -125,6 +128,8 @@ For NEC study, start by learning the structure of the code book. Review article 
 
 For Wyoming exam preparation, review the ICC 701_WY exam outline and focus on the largest content areas as part of the study schedule. Branch circuits and conductors, wiring methods and materials, services and service equipment, general knowledge and plan reading, and special occupancies, equipment, and conditions make up major portions of the exam. Smaller categories such as feeders, control devices, motors, generators, equipment, and devices should still be reviewed because every point matters on a timed exam.
 
+## What else is in the Wyoming Master Super Combo?
+
 For calculations, write out each step. Electrical calculation mistakes often happen when a candidate skips a conversion, uses the wrong table, applies the wrong value, or confuses branch circuit, feeder, service, motor, transformer, raceway fill, box fill, voltage drop, or overcurrent protection requirements. The 2026 Electrician Calculations Study Guide gives candidates a dedicated way to practice these skills repeatedly.
 
 For open book preparation, use the NEC and allowed references actively during study. Practice locating sections, reading tables, and confirming answers in the reference material. Then practice some questions without immediately opening the book so you can build recognition. The stronger your recall becomes, the more time you can save during questions that require deeper lookup.
@@ -179,7 +184,7 @@ Calculation practice is important because master electrician exams can include l
 
 ### FAQ: Who should use this Super Combo?
 
-This Super Combo is designed for electricians preparing for Wyoming master electrician study based on the 2026 NEC, especially candidates who want study guides, calculation practice, a tabbed NEC book, and flash cards in one organized package.
+The Super Combo is designed for electricians preparing for Wyoming master electrician study based on the 2026 NEC, especially candidates who want study guides, calculation practice, a tabbed NEC book, and flash cards in one organized package.
 
 ## Other Wyoming Master packages
 
@@ -197,7 +202,7 @@ This Super Combo is designed for electricians preparing for Wyoming master elect
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Super Combo?
 
 ### Which NEC edition is this based on?
 
@@ -214,6 +219,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

@@ -1,16 +1,16 @@
 ---
 title: Louisiana Journeyman Electrician Exam FAQ (28 answers)
 url: https://passyourmasterelectricianexam.com/faq/louisiana/journeyman/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
-description: 28 answers about the Louisiana journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
+description: The Louisiana journeyman electrician exam FAQ has 28 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours.
 ---
 
 [Home](https://passyourmasterelectricianexam.com/) /[FAQ](https://passyourmasterelectricianexam.com/faq/) /Louisiana Journeyman
 
 # Louisiana journeyman electrician exam: frequently asked questions
 
-28 answers about the Louisiana journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. Filter the list or jump to a section.
+The Louisiana journeyman electrician exam FAQ has 28 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. The answers come from our Louisiana journeyman package descriptions and are refreshed whenever the store changes.
 
 ## Key takeaways
 
@@ -19,11 +19,11 @@ description: 28 answers about the Louisiana journeyman electrician exam and lice
 - Statewide electrical contractor licensing is regulated by the Louisiana State Licensing Board for Contractors. This is different from a local journeyman electrician credential.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
-The exam 9Licensing and experience 4Code book and materials 4More questions 11
+What is the Louisiana journeyman electrician exam like? 9How do you get a Louisiana journeyman electrician license? 4Which code book and materials are allowed on the Louisiana exam? 4What else do Louisiana journeyman candidates ask? 9What else do Louisiana journeyman candidates ask (part 2)? 2
 
-## The exam
+## What is the Louisiana journeyman electrician exam like?
 
 ### Are Louisiana electrical exams open book?
 
@@ -61,7 +61,7 @@ The ICC National Standard Journeyman Electrician exam includes 80 multiple-choic
 
 The ICC National Standard Journeyman Electrician exam allows 4 hours of testing time.
 
-## Licensing and experience
+## How do you get a Louisiana journeyman electrician license?
 
 ### Does Louisiana have a statewide journeyman electrician license?
 
@@ -79,7 +79,7 @@ Statewide electrical contractor licensing is regulated by the Louisiana State Li
 
 No. A journeyman credential generally supports hands-on electrical work under local rules. Statewide electrical contractor licensing is handled separately through the Louisiana State Licensing Board for Contractors when state contractor licensing requirements apply.
 
-## Code book and materials
+## Which code book and materials are allowed on the Louisiana exam?
 
 ### What reference book should I study?
 
@@ -97,7 +97,7 @@ Permanent tabs are allowed. Temporary tabs, including Post-it style tabs, are no
 
 The required code edition depends on the local licensing authority, Louisiana State Licensing Board for Contractors, PSI, or approved testing provider instructions for the specific exam. This Super Combo is based on the 2026 NEC.
 
-## More questions
+## What else do Louisiana journeyman candidates ask?
 
 ### What topics should I study?
 
@@ -134,6 +134,8 @@ Important study areas include general electrical knowledge, electrical installat
 ### Can Louisiana journeyman requirements vary by city or parish?
 
 Yes. Journeyman-level electrician requirements may vary by local jurisdiction. Candidates should follow the city, parish, or municipal requirements for the area where they plan to work.
+
+## What else do Louisiana journeyman candidates ask (part 2)?
 
 ### How do the flash cards help with journeyman electrician preparation?
 
@@ -173,6 +175,8 @@ Packages built on the 2026 NEC, from the study guide alone to the Ultimate Combo
 - [All blog posts](https://passyourmasterelectricianexam.com/blog/)
 - [Every state and level](https://passyourmasterelectricianexam.com/#states)
 - [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

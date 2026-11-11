@@ -1,7 +1,7 @@
 ---
 title: Idaho Journeyman Super Combo (2026 NEC)
 url: https://passyourmasterelectricianexam.com/idaho/journeyman/2026/super-combo/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: This 2026 Idaho Journeyman Electrician Super Combo is designed for apprentices, electrical trainees, and working electricians who want a complete printed.
 ---
@@ -13,6 +13,7 @@ Idaho · Journeyman · 2026 NEC
 # Super Combo
 
 2026 Idaho Journeyman Electrician + Electrician Calculations Study Guides + Flash Cards & National Electrical Code + Tabs Super Combo
+The Idaho Journeyman Super Combo package costs $349.95, down from $395.00. The box holds 5 items: Idaho Journeyman Electrician Study Guide; Electrician Calculations Study Guide; Journeyman Electrician Exam Flash Cards; National Electrical Code paperback; Pre-printed NEC tabs. Every item is built on the 2026 National Electrical Code, and the study guide has 12 practice exams and 2 full-length finals.
 
 $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/46213695897657:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.co
 - 1 optional add-on can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Super Combo
 
@@ -129,6 +130,8 @@ The 2026 Electrician Calculations Study Guide is included because electrical mat
 
 The National Electrical Code 2026 paperback with tabs helps students practice code navigation. Tabs can make it easier to move between major sections during study sessions. Students should become comfortable using Article 100 definitions, conductor tables, grounding and bonding articles, wiring method articles, box and raceway rules, service requirements, feeder requirements, branch-circuit provisions, motor rules, special occupancy rules, special condition rules, and equipment-specific sections.
 
+## What else is in the Idaho Journeyman Super Combo?
+
 The 2026 Journeyman Electrician Flash Cards support quick review between longer study sessions. Flash cards are useful for short daily study because they help students repeat definitions, formulas, safety concepts, and code-related terms. A few minutes of flash card review each day can help keep important concepts fresh while the student continues deeper study with the guide and NEC.
 
 A strong study routine may include separate blocks for reading, calculations, NEC lookup practice, and flash card review. One session may focus on grounding and bonding. Another may focus on conductors and cables. Another may focus on services, feeders, and branch circuits. Another may focus on raceways and boxes. Calculation sessions should be repeated throughout the study period rather than saved until the end.
@@ -149,7 +152,7 @@ For Idaho journeyman electrician candidates, progress comes from repeated exposu
 
 ### What is included in this 2026 Idaho Journeyman Electrician Super Combo?
 
-This Super Combo includes the 2026 Idaho Journeyman Electrician Study Guide, the 2026 Electrician Calculations Study Guide, the National Electrical Code 2026 paperback with tabs, and the 2026 Journeyman Electrician Flash Cards.
+The Super Combo includes the 2026 Idaho Journeyman Electrician Study Guide, the 2026 Electrician Calculations Study Guide, the National Electrical Code 2026 paperback with tabs, and the 2026 Journeyman Electrician Flash Cards.
 
 ### Who administers Idaho electrical licensing?
 
@@ -175,6 +178,8 @@ DOPL lists 8,000 hours of work experience and four years of approved schooling, 
 
 DOPL states that applicants seeking initial Electrical Journeyman licensure must meet the requirements for licensure and pass the NASCLA examination before submitting an application to DOPL.
 
+## More questions about the Idaho Journeyman Super Combo
+
 ### Can I bring loose papers into the Idaho electrical exam?
 
 DOPL’s electrical exam information states that loose paper in reference material is not allowed.
@@ -185,7 +190,7 @@ DOPL’s electrical exam information states that candidates may highlight their 
 
 ### Why does this Super Combo include the 2026 NEC?
 
-This Super Combo is based on the 2026 NEC for students who want current-code study materials, stronger code navigation practice, and a newer NEC reference as part of their preparation routine.
+The Super Combo is based on the 2026 NEC for students who want current-code study materials, stronger code navigation practice, and a newer NEC reference as part of their preparation routine.
 
 ### Why does this combo include an Electrician Calculations Study Guide?
 
@@ -219,7 +224,7 @@ Use the Idaho Journeyman Electrician Study Guide to organize your review, the El
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Super Combo?
 
 ### Which NEC edition is this based on?
 
@@ -236,6 +241,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

@@ -6,6 +6,7 @@ excerpt: The master exam is not the journeyman exam with harder questions. It ad
 tags: master, journeyman, exam format
 level: Master
 takeaways: The master exam covers everything on the journeyman exam and adds services, commercial and multi-family load calculations, transformers, and the design and supervision articles. | Many states add a business and law section for master or contractor candidates covering estimating, contracts, lien law and OSHA basics. | Master exams tend to be longer, with more calculations, and some states score the sections separately. | Study materials are written separately for each level because the question mix is different, not just harder.
+answer: The master electrician exam keeps every journeyman topic and adds services under Article 230, heavier load calculations, transformers, design and supervision. In many states it also has a separate business and law section. Expect longer calculations, less hand-holding in each question, and roughly the same 70 to 75 percent pass mark.
 ---
 Candidates who passed the journeyman exam a few years ago often assume the master exam is the same test with more difficult questions. It is a different test. The subject list is longer, the calculations are heavier, and in many states there is a whole section the journeyman exam never touched. Here is what changes.
 

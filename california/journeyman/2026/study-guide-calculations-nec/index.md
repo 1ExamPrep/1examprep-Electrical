@@ -1,7 +1,7 @@
 ---
 title: California Journeyman Study Guide + Calculations + NEC
 url: https://passyourmasterelectricianexam.com/california/journeyman/2026/study-guide-calculations-nec/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: The 2026 California Journeyman Electrician + Electrician Calculations Study Guides & National Electrical Code Combo is designed for electricians preparing.
 ---
@@ -13,6 +13,7 @@ California · Journeyman · 2026 NEC
 # Study Guide + Calculations + NEC
 
 2026 California Journeyman Electrician + Electrician Calculations Study Guides & National Electrical Code Combo
+The California Journeyman Study Guide + Calculations + NEC package costs $279.95, down from $315.00. The box holds 3 items: California Journeyman Electrician Study Guide; Electrician Calculations Study Guide; National Electrical Code paperback. Every item is built on the 2026 National Electrical Code, and the study guide has 12 practice exams and 2 full-length finals.
 
 $279.95 (was $315.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/46207231262777:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $279.95 (was $315.00) Save 11% [Buy now — go to checkout](https://1examprep.co
 - 2 optional add-ons can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Study Guide + Calculations + NEC
 
@@ -125,6 +126,8 @@ The 2026 California Journeyman Electrician Study Guide helps students organize t
 
 The 2026 Electrician Calculations Study Guide supports the math side of preparation. Electrical calculations require repeated practice. Students should work problems by hand, write formulas clearly, identify known values, convert units where needed, and check whether the final answer makes practical sense. Useful calculation topics include Ohm’s law, power formulas, voltage drop concepts, conductor sizing, box fill, raceway fill, load calculations, service calculations, feeder calculations, motor calculations, and overcurrent protection applications.
 
+## What else is in the California Journeyman Study Guide + Calculations + NEC?
+
 Calculations can become stressful under timed conditions. Repeated practice helps students recognize common problem types and reduce hesitation. Even when a calculation appears in a multiple-choice format, the candidate may need to complete several steps before choosing the answer. A dedicated calculations guide gives students a focused place to build this skill.
 
 The National Electrical Code 2026 Paperback should be used throughout the study process. Students should practice locating definitions, article sections, tables, notes, and exceptions. They should also learn how related topics connect. For example, a conductor question may involve ampacity, adjustment factors, terminal temperature limitations, overcurrent protection, and equipment requirements. A grounding question may involve grounding electrodes, bonding jumpers, equipment grounding conductors, services, and fault-current paths.
@@ -151,7 +154,7 @@ The California Journeyman Study Guide + Calculations + NEC is designed for Calif
 
 ### FAQ: What books are included in this combo?
 
-This combo includes the 2026 California Journeyman Electrician Study Guide, the 2026 Electrician Calculations Study Guide, and the National Electrical Code 2026 Paperback.
+The California Journeyman Study Guide + Calculations + NEC includes the 2026 California Journeyman Electrician Study Guide, the 2026 Electrician Calculations Study Guide, and the National Electrical Code 2026 Paperback.
 
 ### FAQ: What is the California journeyman electrician certification called?
 
@@ -201,7 +204,7 @@ A strong study plan rotates between trade review, NEC navigation, and calculatio
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Study Guide + Calculations + NEC?
 
 ### Which NEC edition is this based on?
 
@@ -218,6 +221,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

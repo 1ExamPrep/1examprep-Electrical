@@ -1,7 +1,7 @@
 ---
 title: Nevada Journeyman Super Combo (2026 NEC)
 url: https://passyourmasterelectricianexam.com/nevada/journeyman/2026/super-combo/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: The 2026 Nevada Journeyman Electrician Super Combo is a complete study bundle for electrical professionals preparing for Nevada journeyman electrician-level.
 ---
@@ -13,6 +13,7 @@ Nevada · Journeyman · 2026 NEC
 # Super Combo
 
 2026 Nevada Journeyman Electrician + Electrician Calculations Study Guides + Flash Cards & National Electrical Code + Tabs Super Combo
+The Nevada Journeyman Super Combo package costs $349.95, down from $395.00. The box holds 5 items: Nevada Journeyman Electrician Study Guide; Electrician Calculations Study Guide; Journeyman Electrician Exam Flash Cards; National Electrical Code paperback; Pre-printed NEC tabs. Every item is built on the 2026 National Electrical Code, and the study guide has 12 practice exams and 2 full-length finals.
 
 $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/46213811142713:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.co
 - 1 optional add-on can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Super Combo
 
@@ -45,7 +46,9 @@ The 2026 Nevada Journeyman Electrician Super Combo is a complete study bundle fo
 
 Nevada electrical licensing and qualification requirements can involve both state contractor licensing and electrical qualification card requirements, depending on the type of work being performed and the jurisdiction where the electrician is working. Electrical contractors are licensed through the Nevada State Contractors Board, while journeyman and master electrician qualification cards are commonly associated with the Nevada Electrical Qualifications Program and ICC electrician examinations. For a journeyman electrician candidate, preparation should focus on National Electrical Code knowledge, electrical theory, wiring methods, services, feeders, branch circuits, grounding and bonding, conductors, motors, equipment, safety, and calculations.
 
-This Super Combo is designed for candidates who want one coordinated preparation package instead of separate materials that do not work together. The Nevada Journeyman Electrician Study Guide helps organize exam preparation around journeyman-level electrical topics. The Electrician Calculations Study Guide gives focused support for Ohm’s Law, formulas, load-related questions, conductor sizing, motor calculations, transformer concepts, and other math-based subjects. The 2026 NEC paperback with tabs helps candidates build code navigation skill. The 2026 Journeyman Electrician Flash Cards add quick review for formulas, definitions, code topics, electrical theory, and exam-style recall.
+## What else is in the Nevada Journeyman Super Combo?
+
+The Super Combo is designed for candidates who want one coordinated preparation package instead of separate materials that do not work together. The Nevada Journeyman Electrician Study Guide helps organize exam preparation around journeyman-level electrical topics. The Electrician Calculations Study Guide gives focused support for Ohm’s Law, formulas, load-related questions, conductor sizing, motor calculations, transformer concepts, and other math-based subjects. The 2026 NEC paperback with tabs helps candidates build code navigation skill. The 2026 Journeyman Electrician Flash Cards add quick review for formulas, definitions, code topics, electrical theory, and exam-style recall.
 
 Many journeyman electrician candidates already have hands-on experience in the trade. That experience is valuable, but an electrical examination requires a different type of readiness. A candidate must be able to read the question carefully, recognize the topic being tested, locate the correct code rule, interpret the language, solve calculations, and select the best answer within the exam time limit. A strong study plan helps turn field experience into test-ready knowledge.
 
@@ -67,6 +70,8 @@ The ICC National Standard Journeyman Electrician exam has 80 multiple-choice que
 The content distribution for the National Standard Journeyman Electrician exam includes 6% general knowledge, 11% services and service equipment, 4% feeders, 19% branch circuits and conductors, 26% wiring methods and materials, 13% equipment and devices, 4% control devices, 6% motors and generators, and 11% special occupancies, equipment, and conditions. These topics make the exam broad enough that candidates should prepare with both code study and practical trade review.
 
 General knowledge may include electrical theory, general electrical load calculations, code definitions, terms, and plan reading. Services and service equipment may include services, available fault current, service load calculations, service equipment, service conductors, transformers, grounding and bonding, and temporary service wiring. Feeder topics may include load calculations and equipment grounding.
+
+## What else is in the Nevada Journeyman Super Combo?
 
 Branch circuits and conductors may include branch circuit calculations, overcurrent protection, conductor rules, required outlets, GFCI protection, AFCI protection, and equipment grounding. Wiring methods and materials may include raceway installations, underground wiring methods, boxes, enclosures, cabinets, panelboards, switchboards, clearance and guarding, flexible cords, and cables.
 
@@ -125,6 +130,8 @@ Services and service equipment should receive careful attention. Candidates shou
 
 Branch circuits and conductors are major journeyman-level topics. Candidates should study branch circuit ratings, conductor ampacity, adjustment factors, correction factors, overcurrent protection, required outlets, GFCI protection, AFCI protection, equipment grounding, and conductor installation requirements. These topics are common in both field work and exam preparation.
 
+## What else is in the Nevada Journeyman Super Combo?
+
 Wiring methods and materials should be studied thoroughly. Candidates should review raceways, underground wiring methods, boxes, enclosures, cabinets, panelboards, switchboards, flexible cords, cables, supports, fittings, clearance, guarding, and wiring protection. This is one of the largest topic areas on the National Standard Journeyman Electrician exam.
 
 Motors, generators, and control devices also require focused preparation. Candidates should review motor circuits, disconnecting means, overload protection, short-circuit and ground-fault protection, controllers, switches, disconnects, generators, and related installation requirements. These questions may combine code rules with electrical theory and calculations.
@@ -149,7 +156,7 @@ This package is especially useful for working electricians who need a complete s
 
 ### What is included in this Nevada Journeyman Electrician Super Combo?
 
-This package includes the 2026 Nevada Journeyman Electrician Study Guide, the 2026 Electrician Calculations Study Guide, the National Electrical Code 2026 Paperback with Tabs, and the 2026 Journeyman Electrician Flash Cards.
+The Nevada Journeyman Super Combo includes the 2026 Nevada Journeyman Electrician Study Guide, the 2026 Electrician Calculations Study Guide, the National Electrical Code 2026 Paperback with Tabs, and the 2026 Journeyman Electrician Flash Cards.
 
 ### Is the Nevada journeyman electrician exam open book?
 
@@ -203,7 +210,7 @@ Yes. This Super Combo is based on the 2026 National Electrical Code and includes
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Super Combo?
 
 ### Which NEC edition is this based on?
 
@@ -220,6 +227,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

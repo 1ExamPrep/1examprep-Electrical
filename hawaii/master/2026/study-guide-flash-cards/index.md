@@ -1,7 +1,7 @@
 ---
 title: Hawaii Master Study Guide + Flash Cards (2026 NEC)
 url: https://passyourmasterelectricianexam.com/hawaii/master/2026/study-guide-flash-cards/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: Prepare for Hawaii master-level electrical exam content with a structured study guide and flash card combo built for electricians who want serious practice.
 ---
@@ -13,6 +13,7 @@ Hawaii · Master · 2026 NEC
 # Study Guide + Flash Cards
 
 2026 Hawaii Master Electrician Exam Prep and Study Guide + Flash Card Combo: 12 Practice Exams +2 Full Final Exams
+The Hawaii Master Study Guide + Flash Cards package costs $99.95, down from $125.00. The box holds 2 items: Hawaii Master Electrician Exam Prep and Study Guide: 12 practice exams + 2 full final exams; Master Electrician Exam Flash Cards. Every item is built on the 2026 National Electrical Code, and the study guide has 12 practice exams and 2 full-length finals.
 
 $99.95 (was $125.00) Save 20% [Buy now — go to checkout](https://1examprep.com/cart/45947396980793:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $99.95 (was $125.00) Save 20% [Buy now — go to checkout](https://1examprep.com
 - 2 optional add-ons can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Study Guide + Flash Cards
 
@@ -126,6 +127,8 @@ Conductors, cables, raceways, and boxes are also important. Candidates should un
 
 Electrical power, motors, lighting, illuminated signs, and low-voltage and communication circuits should be included in your study routine. These subjects may require knowledge of equipment, installation methods, controls, circuits, and special rules. The flash cards can help reinforce terms and formulas, while practice exams help you apply the information in question form.
 
+## What else is in the Hawaii Master Study Guide + Flash Cards?
+
 Safety and overcurrent protection are essential for supervisory-level preparation. Review safe work practices, protection of conductors and equipment, disconnecting means, circuit protection, hazard recognition, and practical jobsite decision-making. A supervising-level electrician must be prepared to think beyond installation and consider responsibility, safety, and code compliance.
 
 Use the 12 practice exams as your main repetition tool. After each practice exam, review every missed question. Identify the topic, return to the NEC-based material, and understand why the correct answer is best. Missed questions are study directions. They show where your next review session should focus.
@@ -154,7 +157,7 @@ Hawaii does not use a statewide license title of “Master Electrician.” The S
 
 ### FAQ: What is included with this product?
 
-This combo includes a Hawaii master electrician exam prep and study guide, 12 practice exams, 2 full final exams, and flash card review materials.
+The Hawaii Master Study Guide + Flash Cards includes a Hawaii master electrician exam prep and study guide, 12 practice exams, 2 full final exams, and flash card review materials.
 
 ### FAQ: Is this product based on the 2026 National Electrical Code?
 
@@ -179,6 +182,8 @@ The required passing score is 70%.
 ### FAQ: What topics are covered on the Hawaii Supervising Electrician exam?
 
 The exam covers general electrical knowledge, services, feeders, branch circuits, grounding and bonding, conductors and cables, raceways and boxes, special occupancies, electrical power, motors, low-voltage and communication circuits, lighting, illuminated signs, safety information, and overcurrent protection.
+
+## More questions about the Hawaii Master Study Guide + Flash Cards
 
 ### FAQ: Can I bring my own NEC book into the Hawaii exam?
 
@@ -224,7 +229,7 @@ No. This is an exam preparation product. Candidates must still complete the Hawa
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Study Guide + Flash Cards?
 
 ### Which NEC edition is this based on?
 
@@ -241,6 +246,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

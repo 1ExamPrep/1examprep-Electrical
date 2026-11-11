@@ -1,7 +1,7 @@
 ---
 title: Illinois Master Super Combo (2026 NEC)
 url: https://passyourmasterelectricianexam.com/illinois/master/2026/super-combo/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: The 2026 Illinois Master Electrician Super Combo is a complete study bundle for electrical professionals preparing for Illinois municipal electrical.
 ---
@@ -13,6 +13,7 @@ Illinois · Master · 2026 NEC
 # Super Combo
 
 2026 Illinois Master Electrician + Electrician Calculations Study Guides + Flash Cards & National Electrical Code + Tabs Super Combo
+The Illinois Master Super Combo package costs $349.95, down from $395.00. The box holds 5 items: Illinois Master Electrician Study Guide; Electrician Calculations Study Guide; Master Electrician Exam Flash Cards; National Electrical Code paperback; Pre-printed NEC tabs. Every item is built on the 2026 National Electrical Code, and the study guide has 12 practice exams and 2 full-length finals.
 
 $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/46213716639801:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.co
 - 1 optional add-on can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Super Combo
 
@@ -117,6 +118,8 @@ Code navigation should be part of every study plan. Candidates should practice u
 
 Grounding and bonding should receive careful review. Candidates should understand grounding electrode systems, equipment grounding conductors, bonding jumpers, service grounding, separately derived systems, bonding of raceways and enclosures, and related NEC requirements. These topics appear often in advanced electrical preparation because they connect directly to safety and system performance.
 
+## What else is in the Illinois Master Super Combo?
+
 Wiring methods and materials are also important. Candidates should review raceways, conductors, cables, boxes, fittings, supports, conductor ampacity, adjustment factors, correction factors, insulation types, and installation conditions. Many exam questions require candidates to combine code lookup with practical installation knowledge.
 
 Motors, transformers, services, feeders, and branch circuits deserve focused study because they often involve both code rules and calculations. Candidates should practice identifying which table, formula, or article applies before working the problem. The calculations guide included in this bundle helps candidates build that habit through repeated practice.
@@ -141,7 +144,7 @@ This package is especially useful for working electricians who need a structured
 
 ### What is included in this Illinois Master Electrician Super Combo?
 
-This package includes the 2026 Illinois Master Electrician Study Guide, the 2026 Electrician Calculations Study Guide, the National Electrical Code 2026 Paperback with Tabs, and the 2026 Master Electrician Flash Cards.
+The Illinois Master Super Combo includes the 2026 Illinois Master Electrician Study Guide, the 2026 Electrician Calculations Study Guide, the National Electrical Code 2026 Paperback with Tabs, and the 2026 Master Electrician Flash Cards.
 
 ### Does Illinois have a statewide Master Electrician license?
 
@@ -158,6 +161,8 @@ Exam rules depend on the local jurisdiction. The Chicago Supervising Electrician
 ### Can I use tabs in my reference book?
 
 Tab rules depend on the local exam. For the Chicago Supervising Electrician examination, tabs are allowed to mark sections of the code, but notes, highlighting, or changes to the published text are prohibited.
+
+## More questions about the Illinois Master Super Combo
 
 ### What topics should I study for an Illinois master electrician-level exam?
 
@@ -195,7 +200,7 @@ Yes. Because Illinois electrical licensing is local, candidates should confirm t
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Super Combo?
 
 ### Which NEC edition is this based on?
 
@@ -212,6 +217,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Motor Circuits on the Exam: Why Candidates Miss Them
 url: https://passyourmasterelectricianexam.com/blog/motor-circuits-on-the-exam-why-candidates-miss-them/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: Motor questions use table currents for some things and nameplate currents for others, and the percentages change by device. The four-step method, a worked.
 ---
@@ -12,7 +12,7 @@ October 8, 2026 Pass Your Electrician Exam 3 min read
 
 # Motor Circuits on the Exam: Why Candidates Miss Them
 
-Motor questions use table currents for some things and nameplate currents for others, and the percentages change by device. The four-step method, a worked example and the traps.
+Motor circuits trip candidates because Article 430 uses two currents. Size conductors, switches and short-circuit protection from the table full-load current in Tables 430.248 and 430.250, and size overloads from the nameplate current. Conductors are 125 percent of table current, and each protective device has its own percentage.
 [calculations](https://passyourmasterelectricianexam.com/blog/tag/calculations/) · [NEC](https://passyourmasterelectricianexam.com/blog/tag/nec/) · [master](https://passyourmasterelectricianexam.com/blog/tag/master/) · [journeyman](https://passyourmasterelectricianexam.com/blog/tag/journeyman/)
 
 ## Key takeaways
@@ -22,7 +22,7 @@ Motor questions use table currents for some things and nameplate currents for ot
 - Branch-circuit short-circuit protection uses the percentages in Table 430.52, with the next standard size up allowed by the exception.
 - A 10 horsepower 230 volt three-phase motor needs 35 ampere conductors (10 AWG at 75 degrees) and may have a 70 ampere inverse-time breaker.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 Article 430 breaks the habit most electricians bring to the exam: that one current number drives everything. For motors, two numbers matter, they come from different places, and each part of the circuit uses its own percentage. Once that is clear the questions are mechanical.
 
@@ -77,6 +77,34 @@ Notice that a 70 ampere breaker protects 10 AWG conductors rated 35 amperes. Tha
 
 Work ten motor problems in a row, changing horsepower, voltage, phase and device type each time, with the four steps written at the top of the page. Then ten more without the steps written down. After that, motor questions become the fastest calculation on the exam, because every one follows the same path.
 
+## What else do candidates ask about the electrician exam?
+
+### How long should I study for the journeyman or master electrician exam?
+
+Most candidates do well with six to eight weeks at about ninety minutes a day, as long as the time is split between three things: getting fast in the code book, working calculations until they are automatic, and sitting full-length timed practice exams in the last two weeks. People who only read the study guide tend to know the material and still run out of time, because the exam is a test of finding answers in the code under a clock as much as a test of knowledge.
+
+### Is the exam open book, and which code book do I bring?
+
+Nearly every state exam is open book for the code portion, and the book you bring has to be the edition named in your state's candidate bulletin. States adopt new editions at different times, so check the bulletin rather than assuming the newest code applies. Most boards allow permanent tabs and highlighting but not loose notes; the bulletin lists what is permitted.
+
+### What is the difference between the journeyman and master exam?
+
+The journeyman exam concentrates on the code a working electrician uses every day: branch circuits, feeders, grounding and bonding, wiring methods, box and conduit fill, motors and appliances. The master exam covers the same ground and adds services, load calculations, transformers, planning and supervision, and the parts of the code a contractor is responsible for. The study guides, calculations guides and flash cards are written separately for each level.
+
+## What do candidates ask about practice questions, registration and delivery?
+
+### Are the practice questions the real exam questions?
+
+No. Licensing exam questions are confidential and are not published by any testing vendor. Practice questions are original material written to the same subjects, format and difficulty, with explanations that point you to the code section, so you learn where answers live rather than memorising answers.
+
+### Does buying a package register me for the exam?
+
+No. Applications, experience hours, approval to test and scheduling are handled by your state licensing board and its testing vendor, usually PSI, Prometric or Pearson VUE depending on the state. A package gets you ready for the test itself. The state posts on this blog explain who runs the process in each state and link to the board's own pages.
+
+### How do the packages arrive?
+
+Printed study guides, calculations guides, flash cards and code books ship from our fulfillment center, 1 Exam Prep. Online test success kits and courses are delivered by email after purchase, so you can start the timed practice exams on a phone or laptop the same day the books are on their way.
+
 Ready to study?
 Pick your state and level, then choose a package.
 
@@ -110,6 +138,7 @@ October 16, 2026 4 min read
 
 Question counts, time limits, the content outline, how the pass mark works, and which code articles carry most of the weight on a typical state journeyman exam.
 ](https://passyourmasterelectricianexam.com/blog/how-the-journeyman-electrician-exam-is-structured/)
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

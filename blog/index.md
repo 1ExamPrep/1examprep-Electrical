@@ -1,7 +1,7 @@
 ---
 title: Electrician Exam Prep Blog | Pass Your Electrician Exam
 url: https://passyourmasterelectricianexam.com/blog/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: Study tips, NEC code changes, state licensing updates and exam strategy from Pass Your Electrician Exam. New posts every month.
 ---
@@ -10,7 +10,7 @@ description: Study tips, NEC code changes, state licensing updates and exam stra
 
 # The Electrician Exam Prep Blog
 
-Study strategies, code changes, licensing news and the questions we hear every day on the phone. Written by the people who write the exam prep.
+The Pass Your Electrician Exam blog has 18 posts on passing the journeyman and master electrician exams. They cover six-week study plans, tabbing and navigating the 2026 NEC, calculations such as voltage drop, box fill and dwelling loads, exam-day pacing, and state licensing rules.
 [All](https://passyourmasterelectricianexam.com/blog/) · [calculations](https://passyourmasterelectricianexam.com/blog/tag/calculations/) · [exam day](https://passyourmasterelectricianexam.com/blog/tag/exam-day/) · [exam format](https://passyourmasterelectricianexam.com/blog/tag/exam-format/) · [journeyman](https://passyourmasterelectricianexam.com/blog/tag/journeyman/) · [licensing](https://passyourmasterelectricianexam.com/blog/tag/licensing/) · [master](https://passyourmasterelectricianexam.com/blog/tag/master/) · [NEC](https://passyourmasterelectricianexam.com/blog/tag/nec/) · [study tips](https://passyourmasterelectricianexam.com/blog/tag/study-tips/)
 
 ## Key takeaways
@@ -20,7 +20,7 @@ Study strategies, code changes, licensing news and the questions we hear every d
 - Every post links to the matching state packages, built on the 2026 National Electrical Code.
 - New posts appear in the RSS feed at /blog/feed.xml the moment they are published.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 Most people who fail a licensing exam do not fail on knowledge. They run out of time in the code book, misread an exception, or walk in with the wrong edition. These posts are about the parts of passing that the study guide cannot do for you: how to tab and navigate the 2026 NEC, how to pace a timed exam, what each state board actually asks for, and what changes between code cycles.
 
@@ -200,6 +200,8 @@ Nearly every state exam is open book for the code portion, and the book you brin
 
 The journeyman exam concentrates on the code a working electrician uses every day: branch circuits, feeders, grounding and bonding, wiring methods, box and conduit fill, motors and appliances. The master exam covers the same ground and adds services, load calculations, transformers, planning and supervision, and the parts of the code a contractor is responsible for. The study guides, calculations guides and flash cards are written separately for each level.
 
+## What do people ask about packages, registration and delivery?
+
 ### Are the practice questions the real exam questions?
 
 No. Licensing exam questions are confidential and are not published by any testing vendor. Practice questions are original material written to the same subjects, format and difficulty, with explanations that point you to the code section, so you learn where answers live rather than memorising answers.
@@ -217,6 +219,7 @@ Pick your state and level, then choose a package.
 
 Every package starts with the state exam prep study guide. Buy buttons go straight to checkout.
 [Pick my package](https://passyourmasterelectricianexam.com/#packs)
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

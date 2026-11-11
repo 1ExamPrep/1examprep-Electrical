@@ -1,16 +1,16 @@
 ---
 title: Arizona Journeyman Electrician Exam FAQ (21 answers)
 url: https://passyourmasterelectricianexam.com/faq/arizona/journeyman/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
-description: 21 answers about the Arizona journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
+description: The Arizona journeyman electrician exam FAQ has 21 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours.
 ---
 
 [Home](https://passyourmasterelectricianexam.com/) /[FAQ](https://passyourmasterelectricianexam.com/faq/) /Arizona Journeyman
 
 # Arizona journeyman electrician exam: frequently asked questions
 
-21 answers about the Arizona journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. Filter the list or jump to a section.
+The Arizona journeyman electrician exam FAQ has 21 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. The answers come from our Arizona journeyman package descriptions and are refreshed whenever the store changes.
 
 ## Key takeaways
 
@@ -19,11 +19,11 @@ description: 21 answers about the Arizona journeyman electrician exam and licens
 - The Arizona Registrar of Contractors has contracted with PSI to conduct its trade examination program. PSI provides computer-based testing through examination centers and other approved testing formats.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
-The exam 4Licensing and experience 4Code book and materials 2More questions 11
+What is the Arizona journeyman electrician exam like? 4How do you get a Arizona journeyman electrician license? 4Which code book and materials are allowed on the Arizona exam? 2What else do Arizona journeyman candidates ask? 10What else do Arizona journeyman candidates ask (part 2)? 1
 
-## The exam
+## What is the Arizona journeyman electrician exam like?
 
 ### Is the Arizona electrical contractor trade exam open book?
 
@@ -41,7 +41,7 @@ The Arizona C-11 Electrical Commercial content outline lists a 70% minimum passi
 
 PSI displays the score on screen at the end of the examination and emails a score report. Failing score reports include diagnostic information by examination type.
 
-## Licensing and experience
+## How do you get a Arizona journeyman electrician license?
 
 ### Does Arizona issue a statewide journeyman electrician license?
 
@@ -59,7 +59,7 @@ Arizona electrical contractor classifications include residential electrical, co
 
 Common Arizona electrical contractor classifications include R-11 Electrical Residential, C-11 Electrical Commercial, and CR-11 Electrical Dual. Candidates should select the classification that matches the type of electrical work they plan to perform.
 
-## Code book and materials
+## Which code book and materials are allowed on the Arizona exam?
 
 ### Are the flash cards based on the 2026 National Electrical Code?
 
@@ -69,7 +69,7 @@ Yes. The flash cards included in this combo are based on the 2026 National Elect
 
 The NEC is the core code reference for electrical installation rules and code-based study. This combo is based on the 2026 NEC and helps candidates review electrical concepts using the code cycle reflected in the product.
 
-## More questions
+## What else do Arizona journeyman candidates ask?
 
 ### What topics should I study?
 
@@ -111,6 +111,8 @@ Flash cards support quick review of electrical terms, formulas, code concepts, s
 
 Important study areas include NEC navigation, electrical theory, conductors, wiring methods, grounding and bonding, raceways, boxes, services, feeders, branch circuits, motors, overcurrent protection, electrical equipment, safety, and calculations.
 
+## What else do Arizona journeyman candidates ask (part 2)?
+
 ### How should I study for an Arizona electrical exam?
 
 Use the study guide for topic review, practice calculations regularly, use the NEC while answering code questions, review missed questions, complete timed practice, and become familiar with the approved references for your specific Arizona electrical classification.
@@ -147,6 +149,8 @@ Packages built on the 2026 NEC, from the study guide alone to the Ultimate Combo
 - [All blog posts](https://passyourmasterelectricianexam.com/blog/)
 - [Every state and level](https://passyourmasterelectricianexam.com/#states)
 - [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

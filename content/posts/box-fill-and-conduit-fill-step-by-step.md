@@ -5,6 +5,7 @@ author: Pass Your Electrician Exam
 excerpt: The two fill calculations on every exam, worked from the tables that govern them: how to count conductors in a box under 314.16, and how to size a raceway with Chapter 9 Tables 1, 4 and 5.
 tags: calculations, NEC
 takeaways: Box fill counts conductors by 314.16(B): each conductor entering the box, all grounds as one, all internal clamps as one, each device as two of its largest conductor. | Volume per conductor comes from Table 314.16(B): 2.00 cubic inches for 14 AWG, 2.25 for 12, 2.50 for 10. | Conduit fill is 40 percent for three or more conductors per Chapter 9 Table 1; add Table 5 conductor areas and pick the raceway from Table 4. | Annex C gives the same answer as Tables 4 and 5 when all conductors are one size and type, and is faster.
+answer: Box fill is sized under NEC 314.16: add the volume allowance for every conductor, device and clamp, using Table 314.16(B), such as 2.00 cubic inches per 14 AWG conductor. Conduit fill uses Chapter 9 Table 1 for the percentage, Table 5 for wire areas and Table 4 for raceway areas.
 ---
 Fill questions are gifts if you know the two tables and the counting rules, and a time sink if you try to reason them out from scratch. Here is each one as a procedure.
 

@@ -5,6 +5,7 @@ author: Pass Your Electrician Exam
 excerpt: Open book is where most candidates lose. A method for deciding what to look up, how to get to the right section in seconds, and how to read an exception without missing the condition.
 tags: NEC, study tips, exam format
 takeaways: Decide before opening the book whether a question is recall, lookup or calculation; only the last two earn a page turn. | Go to the article first, then the section, then the table; the index is the slow route and the table of contents is the fast one. | Read the whole section, including the exceptions and the informational notes, before answering; the exam loves the exception. | Drill the index with a timer until an average lookup takes under 30 seconds.
+answer: To use the code book under a clock, sort every question first: recall questions get answered without the book, lookup questions go straight to the right table, and reasoning questions wait for a later pass. Tab the 15 articles that carry most questions, and read the exception before you trust the main rule.
 ---
 An open-book exam feels like a gift until you are 40 questions in with half the time gone. The book does not answer questions for you; it answers them for people who already know where to look. This post is about becoming one of those people.
 

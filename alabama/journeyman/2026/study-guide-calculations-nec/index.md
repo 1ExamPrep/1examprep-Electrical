@@ -1,7 +1,7 @@
 ---
 title: Alabama Journeyman Study Guide + Calculations + NEC
 url: https://passyourmasterelectricianexam.com/alabama/journeyman/2026/study-guide-calculations-nec/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: The 2026 Alabama Journeyman Electrician + Electrician Calculations Study Guides & National Electrical Code Combo is built for electricians who want a.
 ---
@@ -13,6 +13,7 @@ Alabama · Journeyman · 2026 NEC
 # Study Guide + Calculations + NEC
 
 2026 Alabama Journeyman Electrician + Electrician Calculations Study Guides & National Electrical Code Combo
+The Alabama Journeyman Study Guide + Calculations + NEC package costs $279.95, down from $315.00. The box holds 3 items: Alabama Journeyman Electrician Study Guide; Electrician Calculations Study Guide; National Electrical Code paperback. Every item is built on the 2026 National Electrical Code, and the study guide has 12 practice exams and 2 full-length finals.
 
 $279.95 (was $315.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/46195944554553:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $279.95 (was $315.00) Save 11% [Buy now — go to checkout](https://1examprep.co
 - 2 optional add-ons can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Study Guide + Calculations + NEC
 
@@ -42,6 +43,8 @@ Updated October 29, 2026 · prices checked against the 1 Exam Prep store
 The **2026 Alabama Journeyman Electrician + Electrician Calculations Study Guides & National Electrical Code Combo** is built for electricians who want a focused, organized way to prepare for Alabama journeyman electrical exam content while strengthening the code and calculation skills used in the field. This combo includes the 2026 Alabama Journeyman Electrician Study Guide, the 2026 Electrician Calculations Study Guide, and the National Electrical Code 2026 Paperback, giving students a practical study foundation centered on electrical theory, code navigation, installation knowledge, and math-based problem solving.
 
 Preparing for an electrical licensing exam requires more than reading code language from front to back. Candidates need to know how to locate information, understand how electrical rules apply to real jobsite situations, and work through calculations with confidence. This bundle supports that process by combining Alabama-focused journeyman exam preparation with a dedicated calculations guide and the 2026 NEC paperback. Together, these materials help students review trade knowledge, practice important formulas, and become more comfortable using the code book as a working reference.
+
+## What else is in the Alabama Journeyman Study Guide + Calculations + NEC?
 
 The Alabama journeyman electrician exam covers a wide range of electrical topics. Candidates may see questions involving conductors, cables, grounding and bonding, raceways, boxes, motors, overcurrent protection, services, feeders, branch circuits, low-voltage work, lighting, safety, fire alarm systems, and general electrical knowledge. A strong preparation plan should include both trade review and code-based study. This combo is designed to help students organize that preparation into a more manageable study path.
 
@@ -139,7 +142,7 @@ The Alabama Journeyman Study Guide + Calculations + NEC is designed for Alabama 
 
 ### FAQ: What books are included in this combo?
 
-This combo includes the 2026 Alabama Journeyman Electrician Study Guide, the 2026 Electrician Calculations Study Guide, and the National Electrical Code 2026 Paperback.
+The Alabama Journeyman Study Guide + Calculations + NEC includes the 2026 Alabama Journeyman Electrician Study Guide, the 2026 Electrician Calculations Study Guide, and the National Electrical Code 2026 Paperback.
 
 ### FAQ: Is the Alabama Electrical Journeyman exam open book?
 
@@ -185,7 +188,7 @@ A strong approach is to rotate between trade review, NEC navigation, and calcula
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Study Guide + Calculations + NEC?
 
 ### Which NEC edition is this based on?
 
@@ -202,6 +205,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

@@ -1,16 +1,16 @@
 ---
 title: Kentucky Journeyman Electrician Exam FAQ (20 answers)
 url: https://passyourmasterelectricianexam.com/faq/kentucky/journeyman/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
-description: 20 answers about the Kentucky journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
+description: The Kentucky journeyman electrician exam FAQ has 20 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours.
 ---
 
 [Home](https://passyourmasterelectricianexam.com/) /[FAQ](https://passyourmasterelectricianexam.com/faq/) /Kentucky Journeyman
 
 # Kentucky journeyman electrician exam: frequently asked questions
 
-20 answers about the Kentucky journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. Filter the list or jump to a section.
+The Kentucky journeyman electrician exam FAQ has 20 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. The answers come from our Kentucky journeyman package descriptions and are refreshed whenever the store changes.
 
 ## Key takeaways
 
@@ -19,11 +19,11 @@ description: 20 answers about the Kentucky journeyman electrician exam and licen
 - Kentucky electrical licensing is administered through the Commonwealth of Kentucky Department of Housing, Buildings and Construction.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
-The exam 8Licensing and experience 6Code book and materials 2More questions 4
+What is the Kentucky journeyman electrician exam like? 8How do you get a Kentucky journeyman electrician license? 6Which code book and materials are allowed on the Kentucky exam? 2What else do Kentucky journeyman candidates ask? 4
 
-## The exam
+## What is the Kentucky journeyman electrician exam like?
 
 ### Is the Kentucky journeyman electrician exam open book?
 
@@ -57,7 +57,7 @@ Kentucky administrative regulations require a minimum passing score of 70% on th
 
 The Kentucky Journeyman Electrician exam is administered through Prov for licensing through the Commonwealth of Kentucky Electrical Licensing Division.
 
-## Licensing and experience
+## How do you get a Kentucky journeyman electrician license?
 
 ### Does Kentucky have statewide electrician licensing?
 
@@ -83,7 +83,7 @@ Kentucky journeyman electricians are licensed through the Department of Housing,
 
 Kentucky journeyman applicants commonly qualify through 4 years of supervised electrical experience and 576 hours of approved electrical education, or through additional supervised experience when the education path is not used.
 
-## Code book and materials
+## Which code book and materials are allowed on the Kentucky exam?
 
 ### Why should I study with a tabbed NEC?
 
@@ -93,7 +93,7 @@ A tabbed NEC can make study sessions more organized by helping candidates locate
 
 Permanent tabs are allowed under Prov’s reference-material rules. Moveable tabs and Post-it notes are not permitted in a reference book.
 
-## More questions
+## What else do Kentucky journeyman candidates ask?
 
 ### What topics are covered on the Kentucky Journeyman Electrician exam?
 
@@ -143,6 +143,8 @@ Packages built on the 2026 NEC, from the study guide alone to the Ultimate Combo
 - [All blog posts](https://passyourmasterelectricianexam.com/blog/)
 - [Every state and level](https://passyourmasterelectricianexam.com/#states)
 - [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

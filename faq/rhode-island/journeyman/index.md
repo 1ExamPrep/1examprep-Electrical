@@ -1,16 +1,16 @@
 ---
 title: Rhode Island Journeyman Electrician Exam FAQ (27 answers)
 url: https://passyourmasterelectricianexam.com/faq/rhode-island/journeyman/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
-description: 27 answers about the Rhode Island journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure.
+description: The Rhode Island journeyman electrician exam FAQ has 27 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience.
 ---
 
 [Home](https://passyourmasterelectricianexam.com/) /[FAQ](https://passyourmasterelectricianexam.com/faq/) /Rhode Island Journeyman
 
 # Rhode Island journeyman electrician exam: frequently asked questions
 
-27 answers about the Rhode Island journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. Filter the list or jump to a section.
+The Rhode Island journeyman electrician exam FAQ has 27 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. The answers come from our Rhode Island journeyman package descriptions and are refreshed whenever the store changes.
 
 ## Key takeaways
 
@@ -19,11 +19,11 @@ description: 27 answers about the Rhode Island journeyman electrician exam and l
 - Rhode Island electrician licensing is handled through the Rhode Island Department of Labor and Training, Division of Workforce Regulation and Safety, Professional Regulations Unit.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
-The exam 3Licensing and experience 9Code book and materials 6More questions 9
+What is the Rhode Island journeyman electrician exam like? 3How do you get a Rhode Island journeyman electrician license? 9Which code book and materials are allowed on the Rhode Island exam? 6What else do Rhode Island journeyman candidates ask? 8What else do Rhode Island journeyman candidates ask (part 2)? 1
 
-## The exam
+## What is the Rhode Island journeyman electrician exam like?
 
 ### What score is required to pass?
 
@@ -37,7 +37,7 @@ The Rhode Island electrician application materials state that individuals who ac
 
 Rhode Island Journeyman Electrician exam preparation should include open-book code navigation and reference-use practice. Candidates should follow the current Rhode Island testing instructions for the exact references, tabs, notes, calculators, and code edition allowed during testing.
 
-## Licensing and experience
+## How do you get a Rhode Island journeyman electrician license?
 
 ### Does Rhode Island have statewide journeyperson electrician licensing?
 
@@ -75,7 +75,7 @@ No. A journeyman electrician license is an individual trade license. Electrical 
 
 Yes. Candidates should confirm the required license classification, eligibility requirements, application process, code edition, reference rules, and post-exam licensing steps before scheduling or taking an exam.
 
-## Code book and materials
+## Which code book and materials are allowed on the Rhode Island exam?
 
 ### Is the Rhode Island Journeyman Electrician exam closed book?
 
@@ -101,7 +101,7 @@ NEC tabs help candidates locate major articles, chapters, tables, and subject ar
 
 Yes. Candidates should review Rhode Island electrical laws, licensing requirements, inspection expectations, state rules, and any Rhode Island-specific subjects listed in the current examination instructions.
 
-## More questions
+## What else do Rhode Island journeyman candidates ask?
 
 ### What should I study for the Rhode Island journeyperson electrician exam?
 
@@ -134,6 +134,8 @@ Rhode Island licensing materials use the term Journeyperson Electrician. This pr
 ### What study material does Rhode Island recommend for electrician exams?
 
 Rhode Island recommends the current National Electrical Code book using the latest state-approved edition and general trade knowledge for electrician exam preparation.
+
+## What else do Rhode Island journeyman candidates ask (part 2)?
 
 ### Are the flash cards useful for Rhode Island electrical exam preparation?
 
@@ -168,6 +170,8 @@ Packages built on the 2026 NEC, from the study guide alone to the Ultimate Combo
 - [All blog posts](https://passyourmasterelectricianexam.com/blog/)
 - [Every state and level](https://passyourmasterelectricianexam.com/#states)
 - [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: North Carolina Master Study Guide + NEC with Tabs (2026 NEC)
 url: https://passyourmasterelectricianexam.com/north-carolina/master/2026/study-guide-nec-tabs/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: The 2026 North Carolina Master Electrician Study Guide & National Electrical Code Combo with Tabs is designed for electricians preparing for North Carolina.
 ---
@@ -13,6 +13,7 @@ North Carolina · Master · 2026 NEC
 # Study Guide + NEC with Tabs
 
 2026 North Carolina Master Electrician Study Guide & National Electrical Code Combo with Tabs
+The North Carolina Master Study Guide + NEC with Tabs package costs $249.95, down from $350.00. The box holds 3 items: North Carolina Master Electrician Study Guide; National Electrical Code paperback; Pre-printed NEC tabs. Every item is built on the 2026 National Electrical Code, and the study guide has 12 practice exams and 2 full-length finals.
 
 $249.95 (was $350.00) Save 29% [Buy now — go to checkout](https://1examprep.com/cart/46016758677561:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $249.95 (was $350.00) Save 29% [Buy now — go to checkout](https://1examprep.co
 - 2 optional add-ons can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Study Guide + NEC with Tabs
 
@@ -43,7 +44,9 @@ The **2026 North Carolina Master Electrician Study Guide & National Electrical C
 
 North Carolina electrical licensing is administered statewide through the North Carolina State Board of Examiners of Electrical Contractors. The state does not use a simple statewide “Master Electrician” license title in the same way some states do. Instead, North Carolina licenses electrical contractors by classifications, including Limited, Intermediate, Unlimited, and special restricted classifications. This product uses master electrician study language for advanced electrical preparation while supporting candidates preparing for North Carolina electrical contractor licensing and high-level NEC study.
 
-This combo is built for students who want a structured, book-based way to prepare. The **2026 North Carolina Master Electrician Study Guide** helps organize review around electrical contractor exam topics, NEC application, business and law concepts, permit and inspection requirements, and practical electrical knowledge. The **National Electrical Code 2026 Paperback with Tabs** supports code-navigation practice, helping students become more comfortable locating definitions, tables, article sections, exceptions, installation requirements, and calculation rules during study sessions.
+## What else is in the North Carolina Master Study Guide + NEC with Tabs?
+
+The North Carolina Master Study Guide + NEC with Tabs is built for students who want a structured, book-based way to prepare. The **2026 North Carolina Master Electrician Study Guide** helps organize review around electrical contractor exam topics, NEC application, business and law concepts, permit and inspection requirements, and practical electrical knowledge. The **National Electrical Code 2026 Paperback with Tabs** supports code-navigation practice, helping students become more comfortable locating definitions, tables, article sections, exceptions, installation requirements, and calculation rules during study sessions.
 
 Electrical contractor and master-level exam preparation requires more than field experience. A candidate may understand how electrical work is performed on the job, but an exam requires careful reading, accurate code interpretation, calculation skill, and steady pacing. Students must be able to identify the topic being tested, connect the question to the correct NEC article or North Carolina rule, and apply the requirement under timed conditions. A tabbed NEC helps students build that skill during preparation.
 
@@ -182,7 +185,7 @@ After passing, the candidate must complete the new license application for the d
 
 ### FAQ: Who should use this North Carolina study guide and NEC combo?
 
-This combo is intended for North Carolina electrical contractor candidates, advanced electrical students, qualifying individuals, supervisors, business owners, and trade professionals preparing for Limited, Intermediate, or Unlimited electrical contractor study.
+The North Carolina Master Study Guide + NEC with Tabs is intended for North Carolina electrical contractor candidates, advanced electrical students, qualifying individuals, supervisors, business owners, and trade professionals preparing for Limited, Intermediate, or Unlimited electrical contractor study.
 
 ## Other North Carolina Master packages
 
@@ -200,7 +203,7 @@ This combo is intended for North Carolina electrical contractor candidates, adva
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Study Guide + NEC with Tabs?
 
 ### Which NEC edition is this based on?
 
@@ -217,6 +220,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

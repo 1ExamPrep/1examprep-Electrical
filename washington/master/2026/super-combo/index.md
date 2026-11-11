@@ -1,7 +1,7 @@
 ---
 title: Washington Master Super Combo (2026 NEC)
 url: https://passyourmasterelectricianexam.com/washington/master/2026/super-combo/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: The 2026 Washington Master Electrician + Electrician Calculations Study Guides + Flash Cards & National Electrical Code + Tabs Super Combo is designed for.
 ---
@@ -13,6 +13,7 @@ Washington · Master · 2026 NEC
 # Super Combo
 
 2026 Washington Master Electrician + Electrician Calculations Study Guides + Flash Cards & National Electrical Code + Tabs Super Combo
+The Washington Master Super Combo package costs $349.95, down from $395.00. The box holds 5 items: Washington Master Electrician Study Guide; Electrician Calculations Study Guide; Master Electrician Exam Flash Cards; National Electrical Code paperback; Pre-printed NEC tabs. Every item is built on the 2026 National Electrical Code, and the study guide has 12 practice exams and 2 full-length finals.
 
 $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/46213832278073:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.co
 - 1 optional add-on can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Super Combo
 
@@ -45,7 +46,9 @@ The 2026 Washington Master Electrician + Electrician Calculations Study Guides +
 
 Washington master electrician preparation requires more than field experience alone. Candidates need to understand NEC structure, Washington electrical laws and rules, electrical theory, services, feeders, branch circuits, wiring and protection, grounding and bonding, overcurrent protection, wiring methods, electrical equipment, motors, HVAC equipment, generators, transformers, hazardous locations, special occupancies, special equipment, emergency systems, standby systems, special conditions, communication systems, and major load calculations. A strong study routine should help candidates review these subjects, practice calculations, improve code navigation, and reinforce important concepts through repetition.
 
-This Super Combo supports that preparation from several directions. The 2026 Washington Master Electrician Study Guide helps organize Washington master electrician preparation around NEC-based topics, Washington RCW and WAC concepts, trade knowledge, and exam-style review. The 2026 Electrician Calculations Study Guide gives focused attention to electrical math, load calculations, conductor sizing, branch circuit calculations, service and feeder calculations, box fill, raceway fill, motor calculations, transformer calculations, voltage drop, and related problem-solving. The National Electrical Code 2026 paperback with tabs helps candidates build familiarity with NEC structure and article navigation during study. The 2026 Master Electrician Flash Cards provide a quick-review tool for reinforcing formulas, definitions, terminology, and important electrical concepts.
+## What else is in the Washington Master Super Combo?
+
+The Super Combo supports that preparation from several directions. The 2026 Washington Master Electrician Study Guide helps organize Washington master electrician preparation around NEC-based topics, Washington RCW and WAC concepts, trade knowledge, and exam-style review. The 2026 Electrician Calculations Study Guide gives focused attention to electrical math, load calculations, conductor sizing, branch circuit calculations, service and feeder calculations, box fill, raceway fill, motor calculations, transformer calculations, voltage drop, and related problem-solving. The National Electrical Code 2026 paperback with tabs helps candidates build familiarity with NEC structure and article navigation during study. The 2026 Master Electrician Flash Cards provide a quick-review tool for reinforcing formulas, definitions, terminology, and important electrical concepts.
 
 For many electricians, the challenge is not understanding electrical work in the field. The challenge is applying that knowledge in the format of a multi-section licensing exam while using references efficiently, managing time, reading code language carefully, and working calculations accurately. A question may test a code rule, a calculation method, a Washington law or rule, a wiring method, a service requirement, a grounding and bonding topic, a conductor rule, a motor topic, a special occupancy rule, or a theory concept. This Super Combo helps candidates study with a structured system instead of relying on scattered notes, random practice, or last-minute code reading.
 
@@ -65,6 +68,8 @@ Washington electrical licensing and certification are handled through the Washin
 Washington has two levels of master electrician certification: general journey level master electrician and specialty master electrician. A general journey level master electrician is connected with the 01-General category, while specialty master electricians are connected with specific specialty categories. Master electricians are certified to act as administrators, and they may also work with the tools of the trade as installers. When assigned to an electrical contractor, a master electrician accepts responsibility for helping ensure the contractor’s work complies with Washington electrical laws and rules.
 
 The Washington 01-General Master Electrician examination is divided into three sections: NEC & Theory, WA Codes, and Major Load Calculations. The NEC & Theory section is listed with 80 questions and 4 hours of testing time. The WA Codes section is listed with 20 questions and 1 hour of testing time. The Major Load Calculations section is listed with 10 questions and 2 hours of testing time. The general master exam therefore includes 110 total scored questions across the three sections, with 7 total hours of testing time when all sections are taken.
+
+## What else is in the Washington Master Super Combo?
 
 The passing score for Washington electrical examinations is 70 percent. Candidates may also receive experimental questions during an examination. These questions are not scored and do not count against the candidate’s examination time. Candidates must pass all required sections within the required examination period after approval.
 
@@ -183,7 +188,7 @@ To qualify for the general journey level master electrician exam, a candidate mu
 
 ### FAQ: Who should use this Super Combo?
 
-This Super Combo is designed for electricians preparing for Washington master electrician certification study based on the 2026 NEC, especially candidates who want study guides, calculation practice, a tabbed NEC book, and flash cards in one organized package.
+The Super Combo is designed for electricians preparing for Washington master electrician certification study based on the 2026 NEC, especially candidates who want study guides, calculation practice, a tabbed NEC book, and flash cards in one organized package.
 
 ## Other Washington Master packages
 
@@ -201,7 +206,7 @@ This Super Combo is designed for electricians preparing for Washington master el
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Super Combo?
 
 ### Which NEC edition is this based on?
 
@@ -218,6 +223,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

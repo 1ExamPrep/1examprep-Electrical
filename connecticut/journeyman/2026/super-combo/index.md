@@ -1,7 +1,7 @@
 ---
 title: Connecticut Journeyman Super Combo (2026 NEC)
 url: https://passyourmasterelectricianexam.com/connecticut/journeyman/2026/super-combo/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: This 2026 Connecticut Journeyman Electrician Super Combo is designed for apprentices, electrical trainees, and working electricians who want a complete.
 ---
@@ -13,6 +13,7 @@ Connecticut · Journeyman · 2026 NEC
 # Super Combo
 
 2026 Connecticut Journeyman Electrician + Electrician Calculations Study Guides + Flash Cards & National Electrical Code + Tabs Super Combo
+The Connecticut Journeyman Super Combo package costs $349.95, down from $395.00. The box holds 5 items: Connecticut Journeyman Electrician Study Guide; Electrician Calculations Study Guide; Journeyman Electrician Exam Flash Cards; National Electrical Code paperback; Pre-printed NEC tabs. Every item is built on the 2026 National Electrical Code, and the study guide has 12 practice exams and 2 full-length finals.
 
 $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/46213588287545:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.co
 - 1 optional add-on can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Super Combo
 
@@ -129,6 +130,8 @@ The 2026 Connecticut Journeyman Electrician Study Guide helps organize broad ele
 
 The 2026 Electrician Calculations Study Guide is included because electrical math is an important part of Connecticut journeyperson preparation. Calculation practice may include conductor sizing, box fill, raceway fill, branch-circuit loads, service and feeder calculations, overcurrent protection, motor calculations, voltage drop concepts, load balancing, and unit conversions. Students should practice writing out each step, checking units, and reading each question carefully before selecting an answer.
 
+## What else is in the Connecticut Journeyman Super Combo?
+
 The National Electrical Code 2026 paperback with tabs helps students practice code navigation. Tabs can make it easier to move between major sections during study sessions. Students should become comfortable using Article 100 definitions, conductor tables, grounding and bonding articles, wiring method articles, box and raceway rules, service requirements, feeder requirements, branch-circuit provisions, motor rules, fire alarm references, photovoltaic provisions, special occupancy rules, and equipment-specific sections.
 
 The 2026 Journeyman Electrician Flash Cards support quick review between longer study sessions. Flash cards are useful for short daily study because they help students repeat definitions, formulas, safety concepts, and code-related terms. A few minutes of flash card review each day can help keep important concepts fresh while the student continues deeper study with the guide and NEC.
@@ -149,7 +152,7 @@ For Connecticut E-2 candidates, progress comes from repeated exposure to the mat
 
 ### What is included in this 2026 Connecticut Journeyman Electrician Super Combo?
 
-This Super Combo includes the 2026 Connecticut Journeyman Electrician Study Guide, the 2026 Electrician Calculations Study Guide, the National Electrical Code 2026 paperback with tabs, and the 2026 Journeyman Electrician Flash Cards.
+The Super Combo includes the 2026 Connecticut Journeyman Electrician Study Guide, the 2026 Electrician Calculations Study Guide, the National Electrical Code 2026 paperback with tabs, and the 2026 Journeyman Electrician Flash Cards.
 
 ### What is the Connecticut journeyman electrician license called?
 
@@ -179,6 +182,8 @@ The required passing score for the Connecticut E-2 Unlimited Electrical Journeyp
 
 Connecticut lists 8,000 hours of on-the-job training and 720 classroom hours for the E-2 license application path based on equivalent experience and training.
 
+## More questions about the Connecticut Journeyman Super Combo
+
 ### What topics are covered on the Connecticut E-2 exam?
 
 The outline includes general electrical knowledge, services, feeders, branch circuits, grounding and bonding, conductors and cables, raceways and boxes, special occupancies and equipment, electrical power, motors, low voltage, lighting, illuminated signs, fire detection and alarm systems, safety information, overcurrent protection, high voltage, and photovoltaics.
@@ -189,7 +194,7 @@ No. The PSI bulletin states that references may be tabbed or indexed with perman
 
 ### Why does this Super Combo include the 2026 NEC?
 
-This Super Combo is based on the 2026 NEC for students who want current-code study materials, stronger code navigation practice, and a newer NEC reference as part of their preparation routine.
+The Super Combo is based on the 2026 NEC for students who want current-code study materials, stronger code navigation practice, and a newer NEC reference as part of their preparation routine.
 
 ### Why does this combo include an Electrician Calculations Study Guide?
 
@@ -219,7 +224,7 @@ Use the Connecticut Journeyman Electrician Study Guide to organize your review, 
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Super Combo?
 
 ### Which NEC edition is this based on?
 
@@ -236,6 +241,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

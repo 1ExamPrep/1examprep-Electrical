@@ -1,7 +1,7 @@
 ---
 title: Hawaii Master Super Combo (2026 NEC)
 url: https://passyourmasterelectricianexam.com/hawaii/master/2026/super-combo/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: The 2026 Hawaii Master Electrician Super Combo is a complete study bundle for electrical professionals preparing for advanced Hawaii electrical licensing.
 ---
@@ -13,6 +13,7 @@ Hawaii · Master · 2026 NEC
 # Super Combo
 
 2026 Hawaii Master Electrician + Electrician Calculations Study Guides + Flash Cards & National Electrical Code + Tabs Super Combo
+The Hawaii Master Super Combo package costs $349.95, down from $395.00. The box holds 5 items: Hawaii Master Electrician Study Guide; Electrician Calculations Study Guide; Master Electrician Exam Flash Cards; National Electrical Code paperback; Pre-printed NEC tabs. Every item is built on the 2026 National Electrical Code, and the study guide has 12 practice exams and 2 full-length finals.
 
 $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/46213692948537:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.co
 - 1 optional add-on can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Super Combo
 
@@ -46,6 +47,8 @@ The 2026 Hawaii Master Electrician Super Combo is a complete study bundle for el
 Hawaii does not use the exact license title “Master Electrician” for its general electrician licensing structure. Hawaii’s Board of Electricians and Plumbers issues electrician licenses that include Journey Worker Electrician, Supervising Electrician, Journey Worker Specialty Electrician, Supervising Specialty Electrician, Maintenance Electrician, Journey Worker Industrial Electrician, and Supervising Industrial Electrician. For many candidates, “Hawaii Master Electrician” is a common search term for advanced electrical exam preparation, especially for electricians studying at the supervising electrician level.
 
 This Super Combo is designed for candidates who want a complete study setup built around code familiarity, calculation practice, topic review, and repeated recall. The Hawaii Master Electrician Study Guide supports organized preparation for advanced Hawaii electrical exam topics. The Electrician Calculations Study Guide gives extra attention to formulas, electrical math, and problem-solving practice. The National Electrical Code 2026 Paperback with Tabs helps candidates build NEC navigation skills during study. The 2026 Master Electrician Flash Cards provide quick review for important formulas, definitions, electrical theory, code concepts, and exam-style memory reinforcement.
+
+## What else is in the Hawaii Master Super Combo?
 
 Hawaii electrical exams require candidates to do more than read code sections. Candidates must recognize the subject being tested, understand electrical principles, work through calculation steps, locate code requirements, and manage time. Field experience is valuable, but an exam setting is different from a job site. On the exam, candidates need to answer structured questions under a time limit, often by choosing the best answer from similar-looking options. A strong study plan helps turn field knowledge into test-ready knowledge.
 
@@ -117,6 +120,8 @@ Code navigation is also essential. Candidates should practice using the NEC tabl
 
 The Supervising Electrician content outline includes services, feeders, branch circuits, grounding and bonding, conductors and cables, raceways and boxes, special occupancies, special conditions, special equipment, electrical power, motors, low voltage and communication circuits, lighting, illuminated signs, safety information, and overcurrent protection. Each area should be part of the study plan.
 
+## What else is in the Hawaii Master Super Combo?
+
 Safety information should not be treated as a minor topic. Electrical exams often include safety concepts that connect directly to code requirements, installation practices, equipment use, and worker protection. Candidates should review safety rules alongside technical content rather than separating them from the rest of the exam preparation.
 
 Flash cards are useful for shorter study periods. They help candidates review formulas, definitions, electrical theory, safety ideas, and code concepts between longer study sessions. Flash cards work especially well for working electricians who need flexible review before work, after work, during breaks, or on weekends.
@@ -139,7 +144,7 @@ For busy electricians, having a complete study bundle can make preparation easie
 
 ### What is included in this Hawaii Master Electrician Super Combo?
 
-This package includes the 2026 Hawaii Master Electrician Study Guide, the 2026 Electrician Calculations Study Guide, the National Electrical Code 2026 Paperback with Tabs, and the 2026 Master Electrician Flash Cards.
+The Hawaii Master Super Combo includes the 2026 Hawaii Master Electrician Study Guide, the 2026 Electrician Calculations Study Guide, the National Electrical Code 2026 Paperback with Tabs, and the 2026 Master Electrician Flash Cards.
 
 ### Does Hawaii have a license called Master Electrician?
 
@@ -160,6 +165,8 @@ The Hawaii Supervising Electrician examination has 70 questions.
 ### How much time is allowed for the Hawaii Supervising Electrician exam?
 
 The Hawaii Supervising Electrician examination has a time allowance of 180 minutes.
+
+## More questions about the Hawaii Master Super Combo
 
 ### What score is required to pass the Hawaii Supervising Electrician exam?
 
@@ -197,7 +204,7 @@ Yes. This Super Combo is based on the 2026 National Electrical Code and includes
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Super Combo?
 
 ### Which NEC edition is this based on?
 
@@ -214,6 +221,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

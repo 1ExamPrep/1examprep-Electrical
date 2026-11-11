@@ -1,16 +1,16 @@
 ---
 title: Missouri Master Electrician Exam FAQ (23 answers)
 url: https://passyourmasterelectricianexam.com/faq/missouri/master/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
-description: 23 answers about the Missouri master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
+description: The Missouri master electrician exam FAQ has 23 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam.
 ---
 
 [Home](https://passyourmasterelectricianexam.com/) /[FAQ](https://passyourmasterelectricianexam.com/faq/) /Missouri Master
 
 # Missouri master electrician exam: frequently asked questions
 
-23 answers about the Missouri master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. Filter the list or jump to a section.
+The Missouri master electrician exam FAQ has 23 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. The answers come from our Missouri master package descriptions and are refreshed whenever the store changes.
 
 ## Key takeaways
 
@@ -19,11 +19,11 @@ description: 23 answers about the Missouri master electrician exam and license: 
 - The Missouri Office of Statewide Electrical Contractors regulates statewide electrical contractor licensing. This is separate from local individual master or journeyman electrician licensing.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
-The exam 9Licensing and experience 6Code book and materials 5More questions 3
+What is the Missouri master electrician exam like? 9How do you get a Missouri master electrician license? 6Which code book and materials are allowed on the Missouri exam? 5What else do Missouri master candidates ask? 3
 
-## The exam
+## What is the Missouri master electrician exam like?
 
 ### Is the Missouri master electrician exam open book?
 
@@ -61,7 +61,7 @@ The Missouri Office of Statewide Electrical Contractors contracts with PSI to co
 
 The NASCLA Accredited Trade Examination for Electrical Contractors includes 100 questions, requires 75 correct answers to pass, and allows 270 minutes to complete the exam.
 
-## Licensing and experience
+## How do you get a Missouri master electrician license?
 
 ### Does Missouri have a statewide electrical contractor license?
 
@@ -87,7 +87,7 @@ That depends on where the work is performed and the type of work being offered. 
 
 Yes. Candidates should confirm the required license classification, local jurisdiction rules, statewide contractor requirements, application process, code edition, reference rules, and post-exam licensing steps before scheduling or taking an exam.
 
-## Code book and materials
+## Which code book and materials are allowed on the Missouri exam?
 
 ### Can I use the 2026 NEC to study for Missouri electrical exams?
 
@@ -109,7 +109,7 @@ Tabs help organize the code book and make major sections easier to locate during
 
 Exam-room reference rules are controlled by the specific exam authority. Candidates should review the official candidate bulletin before test day to confirm which books and materials are permitted.
 
-## More questions
+## What else do Missouri master candidates ask?
 
 ### Are local Missouri electrical requirements still important?
 
@@ -155,6 +155,8 @@ Packages built on the 2026 NEC, from the study guide alone to the Ultimate Combo
 - [All blog posts](https://passyourmasterelectricianexam.com/blog/)
 - [Every state and level](https://passyourmasterelectricianexam.com/#states)
 - [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

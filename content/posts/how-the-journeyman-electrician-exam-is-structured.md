@@ -6,6 +6,7 @@ excerpt: Question counts, time limits, the content outline, how the pass mark wo
 tags: journeyman, exam format
 level: Journeyman
 takeaways: Most journeyman exams run 80 to 100 multiple-choice questions in three to four hours, open book, with a pass mark around 70 to 75 percent. | The candidate bulletin's content outline tells you the percentage of questions in each area; match your study hours to it. | Chapters 1 through 3 of the NEC, plus Article 430 and the Chapter 9 tables, carry most of the questions. | Around a quarter of the questions are calculations; in some states they are scored as a separate section you must pass on its own.
+answer: A typical journeyman electrician exam has 80 to 100 four-option multiple-choice questions in a three to four hour window. It is open book for the code portion, so you bring the NEC edition your state has adopted. The pass mark is usually 70 or 75 percent, and separately scored sections must each be passed.
 ---
 Every state writes its own journeyman exam, but they are more alike than different because they are built on the same code and, in most states, delivered by the same handful of testing vendors. If you know the shape of a typical exam you can plan your study around it, then adjust for the details in your own state's candidate bulletin.
 

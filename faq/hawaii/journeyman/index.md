@@ -1,16 +1,16 @@
 ---
 title: Hawaii Journeyman Electrician Exam FAQ (23 answers)
 url: https://passyourmasterelectricianexam.com/faq/hawaii/journeyman/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
-description: 23 answers about the Hawaii journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
+description: The Hawaii journeyman electrician exam FAQ has 23 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam.
 ---
 
 [Home](https://passyourmasterelectricianexam.com/) /[FAQ](https://passyourmasterelectricianexam.com/faq/) /Hawaii Journeyman
 
 # Hawaii journeyman electrician exam: frequently asked questions
 
-23 answers about the Hawaii journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. Filter the list or jump to a section.
+The Hawaii journeyman electrician exam FAQ has 23 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. The answers come from our Hawaii journeyman package descriptions and are refreshed whenever the store changes.
 
 ## Key takeaways
 
@@ -19,11 +19,11 @@ description: 23 answers about the Hawaii journeyman electrician exam and license
 - Hawaii electrician licensing is administered through the Department of Commerce and Consumer Affairs, Professional and Vocational Licensing Division, Board of Electricians and Plumbers.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
-The exam 8Licensing and experience 6Code book and materials 3More questions 6
+What is the Hawaii journeyman electrician exam like? 8How do you get a Hawaii journeyman electrician license? 6Which code book and materials are allowed on the Hawaii exam? 3What else do Hawaii journeyman candidates ask? 6
 
-## The exam
+## What is the Hawaii journeyman electrician exam like?
 
 ### Is the Hawaii Journey Worker Electrician exam open book?
 
@@ -57,7 +57,7 @@ Hawaii electrician licensing is administered through the Department of Commerce 
 
 The Hawaii Journey Worker Electrician examination has a 180-minute time limit.
 
-## Licensing and experience
+## How do you get a Hawaii journeyman electrician license?
 
 ### Who oversees Hawaii electrician licensing?
 
@@ -83,7 +83,7 @@ Hawaii requires at least 5 years full-time or equivalent experience in residenti
 
 No. Hawaii DCCA application materials state that an electrician license does not allow the holder to contract to perform electrical work. Electrical contracting requires the appropriate contractor license.
 
-## Code book and materials
+## Which code book and materials are allowed on the Hawaii exam?
 
 ### What reference is provided for the Hawaii exam?
 
@@ -97,7 +97,7 @@ The current PSI bulletin lists the National Electrical Code, 2020 edition, as th
 
 No. For the Hawaii Journey Worker Electrician exam, the NEC reference material is provided by the examination center. The included 2026 NEC with tabs is for study and code-navigation preparation.
 
-## More questions
+## What else do Hawaii journeyman candidates ask?
 
 ### What topics are covered on the Hawaii Journey Worker Electrician exam?
 
@@ -153,6 +153,8 @@ Packages built on the 2026 NEC, from the study guide alone to the Ultimate Combo
 - [All blog posts](https://passyourmasterelectricianexam.com/blog/)
 - [Every state and level](https://passyourmasterelectricianexam.com/#states)
 - [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

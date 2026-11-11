@@ -1,7 +1,7 @@
 ---
 title: Mississippi Journeyman Super Combo (2026 NEC)
 url: https://passyourmasterelectricianexam.com/mississippi/journeyman/2026/super-combo/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: This 2026 Mississippi Journeyman Electrician Super Combo is designed for apprentices, electrical trainees, helpers, and working electricians who want a.
 ---
@@ -13,6 +13,7 @@ Mississippi · Journeyman · 2026 NEC
 # Super Combo
 
 2026 Mississippi Journeyman Electrician + Electrician Calculations Study Guides + Flash Cards & National Electrical Code + Tabs Super Combo
+The Mississippi Journeyman Super Combo package costs $349.95, down from $395.00. The box holds 5 items: Mississippi Journeyman Electrician Study Guide; Electrician Calculations Study Guide; Journeyman Electrician Exam Flash Cards; National Electrical Code paperback; Pre-printed NEC tabs. Every item is built on the 2026 National Electrical Code, and the study guide has 12 practice exams and 2 full-length finals.
 
 $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/46213807767609:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.co
 - 1 optional add-on can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Super Combo
 
@@ -131,6 +132,8 @@ The 2026 Electrician Calculations Study Guide is included because electrical mat
 
 The National Electrical Code 2026 paperback with tabs helps students practice code navigation. Tabs can make it easier to move between major sections during study sessions. Students should become comfortable using Article 100 definitions, conductor tables, grounding and bonding articles, wiring method articles, box and raceway rules, service requirements, feeder requirements, branch-circuit provisions, motor rules, special occupancy rules, special equipment rules, communication system articles, and equipment-specific sections.
 
+## What else is in the Mississippi Journeyman Super Combo?
+
 The 2026 Journeyman Electrician Flash Cards support quick review between longer study sessions. Flash cards are useful for short daily study because they help students repeat definitions, formulas, safety concepts, and code-related terms. A few minutes of flash card review each day can help keep important concepts fresh while the student continues deeper study with the guide and NEC.
 
 A strong study routine may include separate blocks for reading, calculations, NEC lookup practice, and flash card review. One session may focus on electrical theory. Another may focus on wiring and protection. Another may focus on wiring methods and materials. Another may focus on services, feeders, and branch circuits. Another may focus on motors, equipment, special occupancies, or communication systems. Calculation sessions should be repeated throughout the study period rather than saved until the end.
@@ -151,7 +154,7 @@ For Mississippi electrical students and journeyman-level workers, progress comes
 
 ### What is included in this 2026 Mississippi Journeyman Electrician Super Combo?
 
-This Super Combo includes the 2026 Mississippi Journeyman Electrician Study Guide, the 2026 Electrician Calculations Study Guide, the National Electrical Code 2026 paperback with tabs, and the 2026 Journeyman Electrician Flash Cards.
+The Super Combo includes the 2026 Mississippi Journeyman Electrician Study Guide, the 2026 Electrician Calculations Study Guide, the National Electrical Code 2026 paperback with tabs, and the 2026 Journeyman Electrician Flash Cards.
 
 ### Does Mississippi issue a statewide journeyman electrician license?
 
@@ -181,6 +184,8 @@ Temporary tabs, such as Post-it notes, are not allowed for MSBOC and PSI examina
 
 Important study areas include electrical theory, NEC navigation, conductors, raceways, boxes, wiring methods, services, feeders, branch circuits, grounding and bonding, overcurrent protection, motors, equipment, safety, special occupancies, and calculations.
 
+## More questions about the Mississippi Journeyman Super Combo
+
 ### What exams may apply to Mississippi electrical contractor licensing?
 
 Electrical contractor applicants may need the Mississippi Law and Business Management exam and an electrical trade examination. Electrical trade options may include the MSBOC Master Electricians state-specific exam or the NASCLA Accredited Trade Examination for Electrical Contractors when accepted.
@@ -195,7 +200,7 @@ The NASCLA Accredited Trade Examination for Electrical Contractors is listed wit
 
 ### Why does this Super Combo include the 2026 NEC?
 
-This Super Combo is based on the 2026 NEC for students who want current-code study materials, stronger code navigation practice, and a newer NEC reference as part of their preparation routine.
+The Super Combo is based on the 2026 NEC for students who want current-code study materials, stronger code navigation practice, and a newer NEC reference as part of their preparation routine.
 
 ### Why does this combo include an Electrician Calculations Study Guide?
 
@@ -229,7 +234,7 @@ Use the Mississippi Journeyman Electrician Study Guide to organize your review, 
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Super Combo?
 
 ### Which NEC edition is this based on?
 
@@ -246,6 +251,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

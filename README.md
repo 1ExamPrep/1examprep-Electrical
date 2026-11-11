@@ -63,6 +63,23 @@ most importantly, `siteUrl`. Edit it and run `python3 build.py`.
   with every state page linked), `sitemap.xml` with lastmod/priority when
   `siteUrl` is set.
 
+### SEO checklist ("What every page and post needs to pass")
+
+Every page is built to pass the platform's page test, AI readiness checks and pre-publish blockers:
+a 40 to 60 word opening answer as the first paragraph, sections that never open with "this" or "it"
+(product descriptions from Shopify are rewritten to name the product), no section over 400 words
+(long ones are split), at least two question headings, an FAQ of 6 or more questions mirrored in
+FAQPage schema, an NFPA 70 source link, and only the profile phone number. Blog posts take their
+opening answer from the `answer:` line in the post's front matter, and `metaTitle:` when the title
+is over 60 characters.
+
+Set `blogAuthor.name` in `site-config.json` to the real person who writes the posts: it becomes the
+schema author and the byline. Check the build with:
+
+```
+python3 tools/seo_audit.py .            # lists any check that is not passing on every page
+```
+
 ### Automatic weekly update from Shopify
 
 `.github/workflows/sync-shopify.yml` runs every Monday morning (and on demand

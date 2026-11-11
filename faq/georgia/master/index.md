@@ -1,16 +1,16 @@
 ---
 title: Georgia Master Electrician Exam FAQ (23 answers)
 url: https://passyourmasterelectricianexam.com/faq/georgia/master/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
-description: 23 answers about the Georgia master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
+description: The Georgia master electrician exam FAQ has 23 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam.
 ---
 
 [Home](https://passyourmasterelectricianexam.com/) /[FAQ](https://passyourmasterelectricianexam.com/faq/) /Georgia Master
 
 # Georgia master electrician exam: frequently asked questions
 
-23 answers about the Georgia master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. Filter the list or jump to a section.
+The Georgia master electrician exam FAQ has 23 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. The answers come from our Georgia master package descriptions and are refreshed whenever the store changes.
 
 ## Key takeaways
 
@@ -19,11 +19,11 @@ description: 23 answers about the Georgia master electrician exam and license: w
 - Georgia electrical contractors are regulated by the Georgia State Board of Electrical Contractors under the Georgia Construction Industry Licensing Board.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
-The exam 8Licensing and experience 9Code book and materials 4More questions 2
+What is the Georgia master electrician exam like? 8How do you get a Georgia master electrician license? 9Which code book and materials are allowed on the Georgia exam? 4What else do Georgia master candidates ask? 2
 
-## The exam
+## What is the Georgia master electrician exam like?
 
 ### Is the Georgia electrical exam open book?
 
@@ -57,7 +57,7 @@ Both Class I and Class II exams include 140 scored test questions. The Class I e
 
 The exam is administered in two parts. Candidates have 4 hours for Part I and 4 hours for Part II, for a total of 8 hours.
 
-## Licensing and experience
+## How do you get a Georgia master electrician license?
 
 ### Does Georgia have a license officially called Master Electrician?
 
@@ -95,7 +95,7 @@ Georgia offers electrical contractor examinations for Class I Restricted and Cla
 
 Silent, non-programmable calculators without alpha keys or printing capabilities are allowed in the testing room.
 
-## Code book and materials
+## Which code book and materials are allowed on the Georgia exam?
 
 ### Are permanent tabs allowed in Georgia exam references?
 
@@ -113,7 +113,7 @@ Yes. Students should practice locating code sections, tables, definitions, excep
 
 Yes. References may be tabbed with permanent tabs. Temporary tabs, extra notes, photocopied materials, and additional inserted materials are not allowed.
 
-## More questions
+## What else do Georgia master candidates ask?
 
 ### How should I use the 12 practice exams?
 
@@ -155,6 +155,8 @@ Packages built on the 2026 NEC, from the study guide alone to the Ultimate Combo
 - [All blog posts](https://passyourmasterelectricianexam.com/blog/)
 - [Every state and level](https://passyourmasterelectricianexam.com/#states)
 - [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

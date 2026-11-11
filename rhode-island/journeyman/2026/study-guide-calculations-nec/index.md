@@ -1,7 +1,7 @@
 ---
 title: Rhode Island Journeyman Study Guide + Calculations + NEC
 url: https://passyourmasterelectricianexam.com/rhode-island/journeyman/2026/study-guide-calculations-nec/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: The 2026 Rhode Island Journeyman Electrician + Electrician Calculations Study Guides & National Electrical Code Combo is designed for electricians preparing.
 ---
@@ -13,6 +13,7 @@ Rhode Island · Journeyman · 2026 NEC
 # Study Guide + Calculations + NEC
 
 2026 Rhode Island Journeyman Electrician + Electrician Calculations Study Guides & National Electrical Code Combo
+The Rhode Island Journeyman Study Guide + Calculations + NEC package costs $279.95, down from $315.00. The box holds 3 items: Rhode Island Journeyman Electrician Study Guide; Electrician Calculations Study Guide; National Electrical Code paperback. Every item is built on the 2026 National Electrical Code, and the study guide has 12 practice exams and 2 full-length finals.
 
 $279.95 (was $315.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/46207399166009:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $279.95 (was $315.00) Save 11% [Buy now — go to checkout](https://1examprep.co
 - 2 optional add-ons can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Study Guide + Calculations + NEC
 
@@ -123,6 +124,8 @@ The 2026 Rhode Island Journeyman Electrician Study Guide helps students organize
 
 The 2026 Electrician Calculations Study Guide supports the math side of preparation. Electrical calculations often require several steps, and students should practice them repeatedly. Useful calculation areas include Ohm’s law, power formulas, conductor sizing, voltage drop concepts, box fill, raceway fill, load calculations, service and feeder calculations, branch circuit calculations, motor calculations, transformer calculations, and overcurrent protection applications.
 
+## What else is in the Rhode Island Journeyman Study Guide + Calculations + NEC?
+
 Calculation study should be active. Students should work problems by hand, write formulas clearly, identify known values, convert units where needed, and check whether the answer makes sense. Reading a solved example may introduce a concept, but repeated practice builds speed and confidence. This is especially important for electrician exams because calculation questions can take longer than direct knowledge questions.
 
 The National Electrical Code 2026 Paperback should be used throughout the study process. Students should practice locating definitions, article sections, tables, notes, and exceptions even when preparing for a closed book exam. A conductor question may involve ampacity, adjustment factors, terminal temperature limitations, overcurrent protection, and equipment rules. A grounding question may involve grounding electrodes, bonding jumpers, equipment grounding conductors, services, and fault-current paths.
@@ -149,7 +152,7 @@ The Rhode Island Journeyman Study Guide + Calculations + NEC is designed for Rho
 
 ### FAQ: What books are included in this combo?
 
-This combo includes the 2026 Rhode Island Journeyman Electrician Study Guide, the 2026 Electrician Calculations Study Guide, and the National Electrical Code 2026 Paperback.
+The Rhode Island Journeyman Study Guide + Calculations + NEC includes the 2026 Rhode Island Journeyman Electrician Study Guide, the 2026 Electrician Calculations Study Guide, and the National Electrical Code 2026 Paperback.
 
 ### FAQ: Who licenses Rhode Island journeyperson electricians?
 
@@ -199,7 +202,7 @@ A strong study plan rotates between trade review, NEC study, Rhode Island rule r
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Study Guide + Calculations + NEC?
 
 ### Which NEC edition is this based on?
 
@@ -216,6 +219,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

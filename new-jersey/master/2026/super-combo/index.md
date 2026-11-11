@@ -1,7 +1,7 @@
 ---
 title: New Jersey Master Super Combo (2026 NEC)
 url: https://passyourmasterelectricianexam.com/new-jersey/master/2026/super-combo/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: The 2026 New Jersey Master Electrician + Electrician Calculations Study Guides + Flash Cards & National Electrical Code + Tabs Super Combo is designed for.
 ---
@@ -13,6 +13,7 @@ New Jersey · Master · 2026 NEC
 # Super Combo
 
 2026 New Jersey Master Electrician + Electrician Calculations Study Guides + Flash Cards & National Electrical Code + Tabs Super Combo
+The New Jersey Master Super Combo package costs $349.95, down from $395.00. The box holds 5 items: New Jersey Master Electrician Study Guide; Electrician Calculations Study Guide; Master Electrician Exam Flash Cards; National Electrical Code paperback; Pre-printed NEC tabs. Books ship from 1 Exam Prep and online kits arrive by email.
 
 $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/46213813108793:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.co
 - 1 optional add-on can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Super Combo
 
@@ -45,7 +46,9 @@ The 2026 New Jersey Master Electrician + Electrician Calculations Study Guides +
 
 New Jersey electrical licensing preparation requires more than field experience alone. Candidates need to understand general electrical knowledge, raceways and enclosures, services, feeders, branch circuits, overcurrent protection, conductors and cables, grounding and bonding, equipment for general use, special occupancies, special equipment, special conditions, motors and controls, low voltage, communications circuits, safety, calculations, and the business responsibilities connected with electrical contracting. A strong study routine should help candidates review these subjects, practice calculations, improve code navigation, and reinforce important concepts through repetition.
 
-This Super Combo supports that preparation from several directions. The 2026 New Jersey Master Electrician Study Guide helps organize New Jersey electrical exam preparation around NEC-based topics, electrical contractor concepts, master-level trade knowledge, and exam-style review. The 2026 Electrician Calculations Study Guide gives focused attention to electrical math, load calculations, conductor sizing, service and feeder calculations, box fill, raceway fill, motor calculations, transformer calculations, and related problem-solving. The National Electrical Code 2026 paperback with tabs helps candidates build familiarity with NEC structure and article navigation during study. The 2026 Master Electrician Flash Cards provide a quick-review tool for reinforcing formulas, definitions, terminology, and important electrical concepts.
+## What else is in the New Jersey Master Super Combo?
+
+The Super Combo supports that preparation from several directions. The 2026 New Jersey Master Electrician Study Guide helps organize New Jersey electrical exam preparation around NEC-based topics, electrical contractor concepts, master-level trade knowledge, and exam-style review. The 2026 Electrician Calculations Study Guide gives focused attention to electrical math, load calculations, conductor sizing, service and feeder calculations, box fill, raceway fill, motor calculations, transformer calculations, and related problem-solving. The National Electrical Code 2026 paperback with tabs helps candidates build familiarity with NEC structure and article navigation during study. The 2026 Master Electrician Flash Cards provide a quick-review tool for reinforcing formulas, definitions, terminology, and important electrical concepts.
 
 For many electricians, the challenge is not understanding the work in the field. The challenge is applying that knowledge in the format of a timed licensing examination. A question may test a code rule, a calculation method, a wiring method, a service requirement, a grounding and bonding topic, a conductor rule, a raceway requirement, a motor control concept, a low-voltage topic, a safety rule, or a general electrical principle. This Super Combo helps candidates study with a more structured system instead of relying on scattered notes, random practice, or last-minute code reading.
 
@@ -168,6 +171,8 @@ The New Jersey Electrical Contractor examination is listed with 260 minutes of t
 
 The New Jersey Electrical Contractor examination is listed with a 70 percent passing score, equal to 70 correct answers.
 
+## More questions about the New Jersey Master Super Combo
+
 ### FAQ: What topics are covered on the New Jersey Electrical Contractor exam?
 
 The published content outline includes General Electrical Knowledge, Raceways and Enclosures, Services, Feeders, and Branch Circuits, Overcurrent Protection, Conductors and Cables, Grounding and Bonding, Equipment for General Use, Special Occupancies, Special Equipment and Conditions, Motors and Controls, Low Voltage and Communications Circuits, and Safety.
@@ -182,7 +187,7 @@ Calculation practice is important because electrical exams can include load calc
 
 ### FAQ: Who should use this Super Combo?
 
-This Super Combo is designed for electricians preparing for New Jersey electrical contractor or master-level electrical study based on the 2026 NEC, especially candidates who want study guides, calculation practice, a tabbed NEC book, and flash cards in one organized package.
+The Super Combo is designed for electricians preparing for New Jersey electrical contractor or master-level electrical study based on the 2026 NEC, especially candidates who want study guides, calculation practice, a tabbed NEC book, and flash cards in one organized package.
 
 ## Other New Jersey Master packages
 
@@ -200,7 +205,7 @@ This Super Combo is designed for electricians preparing for New Jersey electrica
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Super Combo?
 
 ### Which NEC edition is this based on?
 
@@ -217,6 +222,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

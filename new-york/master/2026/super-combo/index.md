@@ -1,7 +1,7 @@
 ---
 title: New York Master Super Combo (2026 NEC)
 url: https://passyourmasterelectricianexam.com/new-york/master/2026/super-combo/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: The 2026 New York Master Electrician + Electrician Calculations Study Guides + Flash Cards & National Electrical Code + Tabs Super Combo is designed for.
 ---
@@ -13,6 +13,7 @@ New York · Master · 2026 NEC
 # Super Combo
 
 2026 New York Master Electrician + Electrician Calculations Study Guides + Flash Cards & National Electrical Code + Tabs Super Combo
+The New York Master Super Combo package costs $349.95, down from $395.00. The box holds 5 items: New York Master Electrician Study Guide; Electrician Calculations Study Guide; Master Electrician Exam Flash Cards; National Electrical Code paperback; Pre-printed NEC tabs. Books ship from 1 Exam Prep and online kits arrive by email.
 
 $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/46213814386745:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.co
 - 1 optional add-on can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Super Combo
 
@@ -45,7 +46,9 @@ The 2026 New York Master Electrician + Electrician Calculations Study Guides + F
 
 New York electrical licensing preparation requires careful planning because New York does not operate one single statewide electrician license in the same way some other states do. Electrical licensing requirements are commonly handled at the local level by cities, counties, towns, and municipalities. New York City, for example, issues Master Electrician and Special Electrician licenses through the New York City Department of Buildings. Other jurisdictions may have their own applications, experience rules, examinations, approvals, permits, and renewal requirements.
 
-This Super Combo supports candidates who want a stronger study system for master electrician preparation based on the 2026 National Electrical Code. The 2026 New York Master Electrician Study Guide helps organize master-level electrical topics into a focused review path. The 2026 Electrician Calculations Study Guide gives focused attention to electrical math, load calculations, conductor sizing, branch circuit calculations, feeder calculations, service calculations, box fill, raceway fill, motor calculations, transformer calculations, and related problem-solving. The National Electrical Code 2026 paperback with tabs helps candidates build familiarity with NEC structure and article navigation during study. The 2026 Master Electrician Flash Cards provide a quick-review tool for reinforcing formulas, definitions, terminology, and important electrical concepts.
+## What else is in the New York Master Super Combo?
+
+The Super Combo supports candidates who want a stronger study system for master electrician preparation based on the 2026 National Electrical Code. The 2026 New York Master Electrician Study Guide helps organize master-level electrical topics into a focused review path. The 2026 Electrician Calculations Study Guide gives focused attention to electrical math, load calculations, conductor sizing, branch circuit calculations, feeder calculations, service calculations, box fill, raceway fill, motor calculations, transformer calculations, and related problem-solving. The National Electrical Code 2026 paperback with tabs helps candidates build familiarity with NEC structure and article navigation during study. The 2026 Master Electrician Flash Cards provide a quick-review tool for reinforcing formulas, definitions, terminology, and important electrical concepts.
 
 For many electricians, the challenge is not understanding electrical work in the field. The challenge is applying that knowledge in the format of a timed licensing examination. A question may test a code rule, a calculation method, a wiring method, a service requirement, a grounding and bonding topic, a conductor rule, a raceway requirement, a special occupancy provision, a special equipment rule, a communications system, or a local administrative requirement. This Super Combo helps candidates study with a more structured system instead of relying on scattered notes, random practice, or last-minute code reading.
 
@@ -159,6 +162,8 @@ The New York City Master and Special Electrician written examination is listed w
 
 The New York City Master and Special Electrician written examination is listed with 3 hours of testing time.
 
+## More questions about the New York Master Super Combo
+
 ### FAQ: What score is required to pass the New York City written exam?
 
 The New York City Master and Special Electrician written examination is listed with a minimum passing score of 56 correct answers, equal to 70 percent.
@@ -173,7 +178,7 @@ Calculation practice is important because master electrician exams can include b
 
 ### FAQ: Who should use this Super Combo?
 
-This Super Combo is designed for electricians preparing for New York master electrician study based on the 2026 NEC, especially candidates who want study guides, calculation practice, a tabbed NEC book, and flash cards in one organized package.
+The Super Combo is designed for electricians preparing for New York master electrician study based on the 2026 NEC, especially candidates who want study guides, calculation practice, a tabbed NEC book, and flash cards in one organized package.
 
 ## Other New York Master packages
 
@@ -191,7 +196,7 @@ This Super Combo is designed for electricians preparing for New York master elec
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Super Combo?
 
 ### Which NEC edition is this based on?
 
@@ -208,6 +213,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

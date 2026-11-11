@@ -1,16 +1,16 @@
 ---
 title: Wyoming Master Electrician Exam FAQ (23 answers)
 url: https://passyourmasterelectricianexam.com/faq/wyoming/master/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
-description: 23 answers about the Wyoming master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
+description: The Wyoming master electrician exam FAQ has 23 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam.
 ---
 
 [Home](https://passyourmasterelectricianexam.com/) /[FAQ](https://passyourmasterelectricianexam.com/faq/) /Wyoming Master
 
 # Wyoming master electrician exam: frequently asked questions
 
-23 answers about the Wyoming master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. Filter the list or jump to a section.
+The Wyoming master electrician exam FAQ has 23 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. The answers come from our Wyoming master package descriptions and are refreshed whenever the store changes.
 
 ## Key takeaways
 
@@ -19,11 +19,11 @@ description: 23 answers about the Wyoming master electrician exam and license: w
 - Wyoming Master Electrician licensing is administered by the Department of Fire Prevention and Electrical Safety through the Wyoming State Fire Marshal’s Office.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
-The exam 5Licensing and experience 8Code book and materials 8More questions 2
+What is the Wyoming master electrician exam like? 5How do you get a Wyoming master electrician license? 8Which code book and materials are allowed on the Wyoming exam? 8What else do Wyoming master candidates ask? 2
 
-## The exam
+## What is the Wyoming master electrician exam like?
 
 ### Who administers the Wyoming Master Electrician exam?
 
@@ -45,7 +45,7 @@ The current ICC Wyoming electrical bulletin lists a 5-hour time limit for the Wy
 
 Yes. Candidates must first apply with the Wyoming Department of Fire Prevention and Electrical Safety. After approval, the candidate may schedule the examination.
 
-## Licensing and experience
+## How do you get a Wyoming master electrician license?
 
 ### Who regulates Wyoming Master Electrician licensing?
 
@@ -79,7 +79,7 @@ Yes. Wyoming electrical licensing is handled at the state level, and master elec
 
 Yes. Candidates should confirm the required license classification, eligibility requirements, application process, code edition, reference rules, and post-exam licensing steps before scheduling or taking an exam.
 
-## Code book and materials
+## Which code book and materials are allowed on the Wyoming exam?
 
 ### What references are allowed for the Wyoming Master Electrician exam?
 
@@ -113,7 +113,7 @@ Exam-room reference rules are controlled by the current Wyoming testing instruct
 
 Yes. Candidates should review Wyoming electrical laws, licensing requirements, inspection expectations, state rules, and any Wyoming-specific subjects listed in the current examination instructions.
 
-## More questions
+## What else do Wyoming master candidates ask?
 
 ### Does Wyoming require classroom instruction for the Master Electrician exam?
 
@@ -155,6 +155,8 @@ Packages built on the 2026 NEC, from the study guide alone to the Ultimate Combo
 - [All blog posts](https://passyourmasterelectricianexam.com/blog/)
 - [Every state and level](https://passyourmasterelectricianexam.com/#states)
 - [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

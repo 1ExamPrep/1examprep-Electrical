@@ -1,7 +1,7 @@
 ---
 title: Box Fill and Conduit Fill, Step by Step
 url: https://passyourmasterelectricianexam.com/blog/box-fill-and-conduit-fill-step-by-step/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: The two fill calculations on every exam, worked from the tables that govern them: how to count conductors in a box under 314.16, and how to size a raceway.
 ---
@@ -12,7 +12,7 @@ October 9, 2026 Pass Your Electrician Exam 3 min read
 
 # Box Fill and Conduit Fill, Step by Step
 
-The two fill calculations on every exam, worked from the tables that govern them: how to count conductors in a box under 314.16, and how to size a raceway with Chapter 9 Tables 1, 4 and 5.
+Box fill is sized under NEC 314.16: add the volume allowance for every conductor, device and clamp, using Table 314.16(B), such as 2.00 cubic inches per 14 AWG conductor. Conduit fill uses Chapter 9 Table 1 for the percentage, Table 5 for wire areas and Table 4 for raceway areas.
 [calculations](https://passyourmasterelectricianexam.com/blog/tag/calculations/) · [NEC](https://passyourmasterelectricianexam.com/blog/tag/nec/)
 
 ## Key takeaways
@@ -22,7 +22,7 @@ The two fill calculations on every exam, worked from the tables that govern them
 - Conduit fill is 40 percent for three or more conductors per Chapter 9 Table 1; add Table 5 conductor areas and pick the raceway from Table 4.
 - Annex C gives the same answer as Tables 4 and 5 when all conductors are one size and type, and is faster.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 Fill questions are gifts if you know the two tables and the counting rules, and a time sink if you try to reason them out from scratch. Here is each one as a procedure.
 
@@ -77,6 +77,34 @@ Annex C, Table C.1 for EMT, confirms 16 for 12 AWG THHN in ¾ inch. When all the
 
 Five of each a day for a week, then mix them. Time yourself: a box fill problem should take under two minutes with the book, a conduit fill problem under ninety seconds with Annex C. If you are slower, the time is going into finding the tables, which is a tabbing problem, not a maths problem.
 
+## What else do candidates ask about the electrician exam?
+
+### How long should I study for the journeyman or master electrician exam?
+
+Most candidates do well with six to eight weeks at about ninety minutes a day, as long as the time is split between three things: getting fast in the code book, working calculations until they are automatic, and sitting full-length timed practice exams in the last two weeks. People who only read the study guide tend to know the material and still run out of time, because the exam is a test of finding answers in the code under a clock as much as a test of knowledge.
+
+### Is the exam open book, and which code book do I bring?
+
+Nearly every state exam is open book for the code portion, and the book you bring has to be the edition named in your state's candidate bulletin. States adopt new editions at different times, so check the bulletin rather than assuming the newest code applies. Most boards allow permanent tabs and highlighting but not loose notes; the bulletin lists what is permitted.
+
+### What is the difference between the journeyman and master exam?
+
+The journeyman exam concentrates on the code a working electrician uses every day: branch circuits, feeders, grounding and bonding, wiring methods, box and conduit fill, motors and appliances. The master exam covers the same ground and adds services, load calculations, transformers, planning and supervision, and the parts of the code a contractor is responsible for. The study guides, calculations guides and flash cards are written separately for each level.
+
+## What do candidates ask about practice questions, registration and delivery?
+
+### Are the practice questions the real exam questions?
+
+No. Licensing exam questions are confidential and are not published by any testing vendor. Practice questions are original material written to the same subjects, format and difficulty, with explanations that point you to the code section, so you learn where answers live rather than memorising answers.
+
+### Does buying a package register me for the exam?
+
+No. Applications, experience hours, approval to test and scheduling are handled by your state licensing board and its testing vendor, usually PSI, Prometric or Pearson VUE depending on the state. A package gets you ready for the test itself. The state posts on this blog explain who runs the process in each state and link to the board's own pages.
+
+### How do the packages arrive?
+
+Printed study guides, calculations guides, flash cards and code books ship from our fulfillment center, 1 Exam Prep. Online test success kits and courses are delivered by email after purchase, so you can start the timed practice exams on a phone or laptop the same day the books are on their way.
+
 Ready to study?
 Pick your state and level, then choose a package.
 
@@ -110,6 +138,7 @@ October 13, 2026 3 min read
 
 Which articles and tables deserve a tab, how to place them so they stay useful, what the testing centres allow, and why doing it yourself is part of the study.
 ](https://passyourmasterelectricianexam.com/blog/how-to-tab-your-nec-for-the-electrician-exam/)
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

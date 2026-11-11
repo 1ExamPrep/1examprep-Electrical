@@ -1,7 +1,7 @@
 ---
 title: Georgia Master Super Combo (2026 NEC)
 url: https://passyourmasterelectricianexam.com/georgia/master/2026/super-combo/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: The 2026 Georgia Master Electrician Super Combo is a complete study bundle for electrical professionals preparing for Georgia contractor-level electrical.
 ---
@@ -13,6 +13,7 @@ Georgia · Master · 2026 NEC
 # Super Combo
 
 2026 Georgia Master Electrician + Electrician Calculations Study Guides + Flash Cards & National Electrical Code + Tabs Super Combo
+The Georgia Master Super Combo package costs $349.95, down from $395.00. The box holds 5 items: Georgia Master Electrician Study Guide; Electrician Calculations Study Guide; Master Electrician Exam Flash Cards; National Electrical Code paperback; Pre-printed NEC tabs. Every item is built on the 2026 National Electrical Code, and the study guide has 12 practice exams and 2 full-length finals.
 
 $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/46213690294329:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.co
 - 1 optional add-on can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Super Combo
 
@@ -67,6 +68,8 @@ Both Georgia electrical contractor examinations are multiple-choice exams. The e
 The total number of scored test questions is 140 for both Class I Restricted and Class II Unrestricted. The Class I exam includes 15 additional pretest questions, bringing the total number of test and pretest questions to 155. The Class II exam includes 22 additional pretest questions, bringing the total number of test and pretest questions to 162. Pretest questions do not count toward the final score but are included in the exam session.
 
 The minimum passing final scaled score for each Georgia electrical contractor examination is 70. Scores are scaled, which means the raw number of correct answers is converted into a scaled score that accounts for exam form difficulty. Candidates receive a score report after the examination showing whether they passed or did not pass and their final scaled score.
+
+## What else is in the Georgia Master Super Combo?
 
 The Georgia electrical contractor exam content includes two major areas: regulations, laws, and administrative functions, and technical functions. The regulations, laws, and administrative portion includes complying with laws, complying with regulations, administrative requirements, and planning and organizing work. The technical portion includes basic electrical circuits, electrical controls and devices, rotating equipment, transformers, interior electrical systems, special equipment, special conditions, and special locations.
 
@@ -119,6 +122,8 @@ Electrical calculations are a key part of exam preparation because calculation q
 
 Code navigation is also essential. Candidates should practice using the NEC table of contents, index, article structure, tables, definitions, notes, and exceptions. The more familiar a candidate becomes with the code book, the easier it is to manage an open-book exam. Candidates should practice locating requirements instead of relying only on memory.
 
+## What else is in the Georgia Master Super Combo?
+
 Technical review should include basic circuits, grounding, bonding, wiring methods, motors, controls, transformers, panelboards, conduit, cables, circuit protection, service equipment, emergency lighting, temporary services, special locations, health care facilities, swimming pools, hazardous locations, data processing equipment, standby systems, electric signs, low-voltage systems, and systems over 600 volts. These areas reflect the broad technical functions included in the Georgia exam outline.
 
 Administrative and business topics should not be ignored. The Georgia exam content includes regulations, laws, administrative requirements, project planning, business responsibilities, insurance, bidding, contracts, bookkeeping, permits, inspections, and OSHA-related content. Candidates studying only the NEC may miss important non-code topics that can affect exam performance.
@@ -141,7 +146,7 @@ This package is especially useful for working electricians who need a structured
 
 ### What is included in this Georgia Master Electrician Super Combo?
 
-This package includes the 2026 Georgia Master Electrician Study Guide, the 2026 Electrician Calculations Study Guide, the National Electrical Code 2026 Paperback with Tabs, and the 2026 Master Electrician Flash Cards.
+The Georgia Master Super Combo includes the 2026 Georgia Master Electrician Study Guide, the 2026 Electrician Calculations Study Guide, the National Electrical Code 2026 Paperback with Tabs, and the 2026 Master Electrician Flash Cards.
 
 ### Does Georgia have a Master Electrician license?
 
@@ -199,7 +204,7 @@ Yes. This Super Combo is based on the 2026 National Electrical Code and includes
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Super Combo?
 
 ### Which NEC edition is this based on?
 
@@ -216,6 +221,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

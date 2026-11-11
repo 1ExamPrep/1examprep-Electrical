@@ -1,7 +1,7 @@
 ---
 title: Utah Journeyman Super Combo (2026 NEC)
 url: https://passyourmasterelectricianexam.com/utah/journeyman/2026/super-combo/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: The 2026 Utah Journeyman Electrician Super Combo is a complete study bundle for electrical professionals preparing for the Utah Journeyman Electrician.
 ---
@@ -13,6 +13,7 @@ Utah · Journeyman · 2026 NEC
 # Super Combo
 
 2026 Utah Journeyman Electrician + Electrician Calculations Study Guides + Flash Cards & National Electrical Code + Tabs Super Combo
+The Utah Journeyman Super Combo package costs $349.95, down from $395.00. The box holds 5 items: Utah Journeyman Electrician Study Guide; Electrician Calculations Study Guide; Journeyman Electrician Exam Flash Cards; National Electrical Code paperback; Pre-printed NEC tabs. Every item is built on the 2026 National Electrical Code, and the study guide has 12 practice exams and 2 full-length finals.
 
 $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/46213825069113:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.co
 - 1 optional add-on can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Super Combo
 
@@ -125,6 +126,8 @@ Services, feeders, and branch circuits should receive careful attention. Candida
 
 Grounding and bonding are important areas for journeyman exam preparation. Candidates should review grounding electrode systems, equipment grounding conductors, bonding jumpers, raceway bonding, panel bonding, grounded conductors, separately derived systems, and related safety requirements. Grounding and bonding questions often require careful reading because similar terms can lead to different code requirements.
 
+## What else is in the Utah Journeyman Super Combo?
+
 Wiring methods and materials should be studied consistently. Candidates should review conductors, cables, raceways, boxes, fittings, supports, conductor ampacity, insulation types, flexible wiring methods, underground wiring, cabinets, panelboards, switchboards, and installation conditions. These topics appear frequently in electrical work and are central to NEC-based study.
 
 Motors, transformers, controls, and equipment should also be part of the study routine. Candidates should review motor branch circuits, overload protection, short-circuit and ground-fault protection, disconnecting means, controllers, transformer sizing, transformer protection, luminaires, receptacles, switches, appliances, panelboards, and related installation requirements.
@@ -149,7 +152,7 @@ This package is especially useful for working electricians who need a complete s
 
 ### What is included in this Utah Journeyman Electrician Super Combo?
 
-This package includes the 2026 Utah Journeyman Electrician Study Guide, the 2026 Electrician Calculations Study Guide, the National Electrical Code 2026 Paperback with Tabs, and the 2026 Journeyman Electrician Flash Cards.
+The Utah Journeyman Super Combo includes the 2026 Utah Journeyman Electrician Study Guide, the 2026 Electrician Calculations Study Guide, the National Electrical Code 2026 Paperback with Tabs, and the 2026 Journeyman Electrician Flash Cards.
 
 ### Who regulates Utah journeyman electrician licensing?
 
@@ -170,6 +173,8 @@ Yes. The Utah Journeyman Electrician written exam should be prepared for as an o
 ### What experience is required for Utah journeyman electrician licensing?
 
 Utah’s journeyman path includes electrical apprenticeship education and licensed electrical experience under proper supervision. The standard license path includes a four-year, 576-classroom-hour apprenticeship education program and 8,000 hours of licensed electrical experience under a licensed journeyman or master electrician, or an experience-only path with 16,000 hours.
+
+## More questions about the Utah Journeyman Super Combo
 
 ### Can a Utah candidate qualify for testing before completing the full licensing experience?
 
@@ -209,7 +214,7 @@ Yes. This Super Combo is based on the 2026 National Electrical Code and includes
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Super Combo?
 
 ### Which NEC edition is this based on?
 
@@ -226,6 +231,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

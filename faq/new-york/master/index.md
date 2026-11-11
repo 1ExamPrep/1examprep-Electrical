@@ -1,16 +1,16 @@
 ---
 title: New York Master Electrician Exam FAQ (20 answers)
 url: https://passyourmasterelectricianexam.com/faq/new-york/master/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
-description: 20 answers about the New York master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
+description: The New York master electrician exam FAQ has 20 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam.
 ---
 
 [Home](https://passyourmasterelectricianexam.com/) /[FAQ](https://passyourmasterelectricianexam.com/faq/) /New York Master
 
 # New York master electrician exam: frequently asked questions
 
-20 answers about the New York master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. Filter the list or jump to a section.
+The New York master electrician exam FAQ has 20 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. The answers come from our New York master package descriptions and are refreshed whenever the store changes.
 
 ## Key takeaways
 
@@ -19,11 +19,11 @@ description: 20 answers about the New York master electrician exam and license: 
 - The New York City Master Electrician license is issued by the New York City Department of Buildings.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
-The exam 7Licensing and experience 6Code book and materials 5More questions 2
+What is the New York master electrician exam like? 7How do you get a New York master electrician license? 6Which code book and materials are allowed on the New York exam? 5What else do New York master candidates ask? 2
 
-## The exam
+## What is the New York master electrician exam like?
 
 ### How many questions are on the NYC Master Electrician written exam?
 
@@ -53,7 +53,7 @@ The New York City Master and Special Electrician written examination is listed w
 
 The New York City Master and Special Electrician written examination is listed with a minimum passing score of 56 correct answers, equal to 70 percent.
 
-## Licensing and experience
+## How do you get a New York master electrician license?
 
 ### Does New York have one statewide master electrician license?
 
@@ -79,7 +79,7 @@ No. Licensing authority is local in New York. Candidates who plan to work in mul
 
 Yes. Candidates should confirm the required credential, local jurisdiction rules, application process, code edition, reference rules, exam format, and post-exam licensing steps before scheduling or taking an exam.
 
-## Code book and materials
+## Which code book and materials are allowed on the New York exam?
 
 ### Is the NYC Master Electrician written exam closed book?
 
@@ -101,7 +101,7 @@ Calculation practice is important because master electrician exams can include b
 
 Exam-room reference rules depend on the specific local exam. Candidates should review the official candidate bulletin or local testing instructions before test day to confirm which books and materials are permitted.
 
-## More questions
+## What else do New York master candidates ask?
 
 ### Do other New York jurisdictions use the same exam rules as New York City?
 
@@ -143,6 +143,8 @@ Packages built on the 2026 NEC, from the study guide alone to the Ultimate Combo
 - [All blog posts](https://passyourmasterelectricianexam.com/blog/)
 - [Every state and level](https://passyourmasterelectricianexam.com/#states)
 - [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

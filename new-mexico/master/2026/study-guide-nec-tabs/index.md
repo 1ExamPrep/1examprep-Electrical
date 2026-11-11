@@ -1,7 +1,7 @@
 ---
 title: New Mexico Master Study Guide + NEC with Tabs (2026 NEC)
 url: https://passyourmasterelectricianexam.com/new-mexico/master/2026/study-guide-nec-tabs/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: The 2026 New Mexico Master Electrician Study Guide & National Electrical Code Combo with Tabs is designed for electricians preparing for New Mexico.
 ---
@@ -13,6 +13,7 @@ New Mexico · Master · 2026 NEC
 # Study Guide + NEC with Tabs
 
 2026 New Mexico Master Electrician Study Guide & National Electrical Code Combo with Tabs
+The New Mexico Master Study Guide + NEC with Tabs package costs $249.95, down from $350.00. The box holds 3 items: New Mexico Master Electrician Study Guide; National Electrical Code paperback; Pre-printed NEC tabs. Every item is built on the 2026 National Electrical Code, and the study guide has 12 practice exams and 2 full-length finals.
 
 $249.95 (was $350.00) Save 29% [Buy now — go to checkout](https://1examprep.com/cart/46016626294841:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $249.95 (was $350.00) Save 29% [Buy now — go to checkout](https://1examprep.co
 - 2 optional add-ons can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Study Guide + NEC with Tabs
 
@@ -43,7 +44,9 @@ The **2026 New Mexico Master Electrician Study Guide & National Electrical Code 
 
 New Mexico electrical licensing is administered through the New Mexico Regulation and Licensing Department, Construction Industries Division. Electrical contractor licensing uses classification-based exams, and the EE-98 Residential and Commercial Electrical classification is one of the key electrical classifications for contractor qualification. New Mexico also issues journeyman electrical certificates, including the EE-98J Journeyman Residential and Commercial Electrical certification. Because the state’s electrical testing process is based heavily on NEC knowledge, students need study materials that help them understand both electrical concepts and code-book organization.
 
-This combo is built for electricians who want a structured, book-based way to prepare. The **2026 New Mexico Master Electrician Study Guide** helps organize review around electrical exam topics, code application, practical calculations, and trade knowledge. The **National Electrical Code 2026 Paperback with Tabs** supports hands-on code navigation practice, helping students become more comfortable locating definitions, tables, article sections, exceptions, installation rules, and calculation requirements during study sessions.
+## What else is in the New Mexico Master Study Guide + NEC with Tabs?
+
+The New Mexico Master Study Guide + NEC with Tabs is built for electricians who want a structured, book-based way to prepare. The **2026 New Mexico Master Electrician Study Guide** helps organize review around electrical exam topics, code application, practical calculations, and trade knowledge. The **National Electrical Code 2026 Paperback with Tabs** supports hands-on code navigation practice, helping students become more comfortable locating definitions, tables, article sections, exceptions, installation rules, and calculation requirements during study sessions.
 
 Master-level electrical preparation requires more than field experience. A candidate may understand how electrical work is performed on the job, but an exam requires careful reading, accurate code interpretation, strong math habits, and steady pacing. Students must be able to identify the topic of a question, connect it to the correct NEC article or New Mexico code reference, and apply the requirement under timed conditions. A tabbed NEC helps students build that skill during preparation.
 
@@ -188,7 +191,7 @@ Approved references include the National Electrical Code or NEC Handbook, New Me
 
 ### FAQ: Who should use this New Mexico study guide and NEC combo?
 
-This combo is intended for New Mexico EE-98 electrical contractor candidates, EE-98J journeyman electrical students, qualifying party applicants, supervisors, contractor-minded electricians, and trade professionals who want structured NEC-based preparation.
+The New Mexico Master Study Guide + NEC with Tabs is intended for New Mexico EE-98 electrical contractor candidates, EE-98J journeyman electrical students, qualifying party applicants, supervisors, contractor-minded electricians, and trade professionals who want structured NEC-based preparation.
 
 ## Other New Mexico Master packages
 
@@ -206,7 +209,7 @@ This combo is intended for New Mexico EE-98 electrical contractor candidates, EE
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Study Guide + NEC with Tabs?
 
 ### Which NEC edition is this based on?
 
@@ -223,6 +226,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

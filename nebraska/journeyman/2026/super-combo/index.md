@@ -1,7 +1,7 @@
 ---
 title: Nebraska Journeyman Super Combo (2026 NEC)
 url: https://passyourmasterelectricianexam.com/nebraska/journeyman/2026/super-combo/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: The 2026 Nebraska Journeyman Electrician Super Combo is a complete study bundle for electrical professionals preparing for the Nebraska Journeyman.
 ---
@@ -13,6 +13,7 @@ Nebraska · Journeyman · 2026 NEC
 # Super Combo
 
 2026 Nebraska Journeyman Electrician + Electrician Calculations Study Guides + Flash Cards & National Electrical Code + Tabs Super Combo
+The Nebraska Journeyman Super Combo package costs $349.95, down from $395.00. The box holds 5 items: Nebraska Journeyman Electrician Study Guide; Electrician Calculations Study Guide; Journeyman Electrician Exam Flash Cards; National Electrical Code paperback; Pre-printed NEC tabs. Every item is built on the 2026 National Electrical Code, and the study guide has 12 practice exams and 2 full-length finals.
 
 $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/46213810552889:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.co
 - 1 optional add-on can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Super Combo
 
@@ -123,6 +124,8 @@ Code navigation should also be part of every study plan. Candidates should pract
 
 Blueprint reading is part of the Nebraska exam content. Candidates should practice interpreting basic electrical plan information, symbols, circuit layouts, panel schedules, service information, device locations, and installation details. Blueprint reading questions may require candidates to combine plan information with NEC requirements or basic electrical theory.
 
+## What else is in the Nebraska Journeyman Super Combo?
+
 Emergency circuits and fire alarm circuits are also identified in Nebraska’s exam information. Candidates should review emergency system concepts, required power sources, circuit separation, fire alarm circuit basics, low-voltage wiring considerations, and code rules that apply to life safety systems. These topics are important because they connect electrical installation knowledge with safety and reliability.
 
 Basic electricity theory should not be ignored. Candidates should review series circuits, parallel circuits, resistance, voltage drop, power, current, grounding concepts, conductor characteristics, load relationships, and common troubleshooting logic. Theory questions often appear simple, but they can become difficult if the candidate has not practiced the underlying relationships.
@@ -147,7 +150,7 @@ This package is especially useful for working electricians who need a complete s
 
 ### What is included in this Nebraska Journeyman Electrician Super Combo?
 
-This package includes the 2026 Nebraska Journeyman Electrician Study Guide, the 2026 Electrician Calculations Study Guide, the National Electrical Code 2026 Paperback with Tabs, and the 2026 Journeyman Electrician Flash Cards.
+The Nebraska Journeyman Super Combo includes the 2026 Nebraska Journeyman Electrician Study Guide, the 2026 Electrician Calculations Study Guide, the National Electrical Code 2026 Paperback with Tabs, and the 2026 Journeyman Electrician Flash Cards.
 
 ### Who administers the Nebraska Journeyman Electrician exam?
 
@@ -164,6 +167,8 @@ Exam-room reference rules are provided through the current PSI candidate bulleti
 ### What NEC edition is listed in Nebraska exam information?
 
 The Nebraska State Electrical Division currently lists the National Electrical Code 2023 in its exam information. This Super Combo is based on the 2026 NEC for candidates who want 2026 NEC-based study materials and code navigation practice.
+
+## More questions about the Nebraska Journeyman Super Combo
 
 ### What experience is required for a Nebraska journeyman electrician license?
 
@@ -201,7 +206,7 @@ Yes. This Super Combo is based on the 2026 National Electrical Code and includes
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Super Combo?
 
 ### Which NEC edition is this based on?
 
@@ -218,6 +223,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

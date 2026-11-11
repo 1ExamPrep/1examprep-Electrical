@@ -1,7 +1,7 @@
 ---
 title: The NEC Articles That Carry Most of the Exam Questions
 url: https://passyourmasterelectricianexam.com/blog/nec-articles-that-carry-most-exam-questions/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: Twelve articles and a handful of tables account for most of the questions on journeyman and master exams. What each one covers, what gets asked, and the.
 ---
@@ -12,7 +12,7 @@ October 12, 2026 Pass Your Electrician Exam 4 min read
 
 # The NEC Articles That Carry Most of the Exam Questions
 
-Twelve articles and a handful of tables account for most of the questions on journeyman and master exams. What each one covers, what gets asked, and the sections to know cold.
+A short list of NEC articles carries most journeyman and master exam questions: Article 100 definitions, 110, 210, 215, 220, 230, 240, 250, 300, 310, 314, 430 and 450, plus the cable and raceway articles and the Chapter 9 tables. Studying these in depth beats spreading time evenly across the code's 900 pages.
 [NEC](https://passyourmasterelectricianexam.com/blog/tag/nec/) · [study tips](https://passyourmasterelectricianexam.com/blog/tag/study-tips/) · [journeyman](https://passyourmasterelectricianexam.com/blog/tag/journeyman/) · [master](https://passyourmasterelectricianexam.com/blog/tag/master/)
 
 ## Key takeaways
@@ -22,7 +22,7 @@ Twelve articles and a handful of tables account for most of the questions on jou
 - Table lookups (310.16, 250.66, 250.122, 430.248 to 430.250, Chapter 9) are the fastest points on the exam if you know which table answers which question.
 - Master exams shift weight toward 220, 230 and 450 and the design articles.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 If you spread your study evenly across the code's 900 pages you will know a little about everything and not enough about the parts that are tested. Exam writers draw from the same articles year after year because those are the ones a working electrician uses. Here they are, with the sections that come up again and again.
 
@@ -82,6 +82,34 @@ Table 1 for percent fill, Table 4 for raceway dimensions, Table 5 for conductor 
 
 Tab each article. For each one, read the sections named here until you could explain them to an apprentice. Then work practice questions by article and log every miss by section number. After two weeks your log will show which three or four articles still need work, and those get the remaining hours. The rest of the code deserves a skim, not a study.
 
+## What else do candidates ask about the electrician exam?
+
+### How long should I study for the journeyman or master electrician exam?
+
+Most candidates do well with six to eight weeks at about ninety minutes a day, as long as the time is split between three things: getting fast in the code book, working calculations until they are automatic, and sitting full-length timed practice exams in the last two weeks. People who only read the study guide tend to know the material and still run out of time, because the exam is a test of finding answers in the code under a clock as much as a test of knowledge.
+
+### Is the exam open book, and which code book do I bring?
+
+Nearly every state exam is open book for the code portion, and the book you bring has to be the edition named in your state's candidate bulletin. States adopt new editions at different times, so check the bulletin rather than assuming the newest code applies. Most boards allow permanent tabs and highlighting but not loose notes; the bulletin lists what is permitted.
+
+### What is the difference between the journeyman and master exam?
+
+The journeyman exam concentrates on the code a working electrician uses every day: branch circuits, feeders, grounding and bonding, wiring methods, box and conduit fill, motors and appliances. The master exam covers the same ground and adds services, load calculations, transformers, planning and supervision, and the parts of the code a contractor is responsible for. The study guides, calculations guides and flash cards are written separately for each level.
+
+## What do candidates ask about practice questions, registration and delivery?
+
+### Are the practice questions the real exam questions?
+
+No. Licensing exam questions are confidential and are not published by any testing vendor. Practice questions are original material written to the same subjects, format and difficulty, with explanations that point you to the code section, so you learn where answers live rather than memorising answers.
+
+### Does buying a package register me for the exam?
+
+No. Applications, experience hours, approval to test and scheduling are handled by your state licensing board and its testing vendor, usually PSI, Prometric or Pearson VUE depending on the state. A package gets you ready for the test itself. The state posts on this blog explain who runs the process in each state and link to the board's own pages.
+
+### How do the packages arrive?
+
+Printed study guides, calculations guides, flash cards and code books ship from our fulfillment center, 1 Exam Prep. Online test success kits and courses are delivered by email after purchase, so you can start the timed practice exams on a phone or laptop the same day the books are on their way.
+
 Ready to study?
 Pick your state and level, then choose a package.
 
@@ -115,6 +143,7 @@ October 16, 2026 4 min read
 
 Question counts, time limits, the content outline, how the pass mark works, and which code articles carry most of the weight on a typical state journeyman exam.
 ](https://passyourmasterelectricianexam.com/blog/how-the-journeyman-electrician-exam-is-structured/)
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

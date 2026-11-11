@@ -1,7 +1,7 @@
 ---
 title: Wisconsin Journeyman Study Guide + Calculations + NEC
 url: https://passyourmasterelectricianexam.com/wisconsin/journeyman/2026/study-guide-calculations-nec/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: The 2026 Wisconsin Journeyman Electrician + Electrician Calculations Study Guides & National Electrical Code Combo is designed for electrical professionals.
 ---
@@ -13,6 +13,7 @@ Wisconsin · Journeyman · 2026 NEC
 # Study Guide + Calculations + NEC
 
 2026 Wisconsin Journeyman Electrician + Electrician Calculations Study Guides & National Electrical Code Combo
+The Wisconsin Journeyman Study Guide + Calculations + NEC package costs $279.95, down from $315.00. The box holds 3 items: Wisconsin Journeyman Electrician Study Guide; Electrician Calculations Study Guide; National Electrical Code paperback. Every item is built on the 2026 National Electrical Code, and the study guide has 12 practice exams and 2 full-length finals.
 
 $279.95 (was $315.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/46207428952121:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $279.95 (was $315.00) Save 11% [Buy now — go to checkout](https://1examprep.co
 - 2 optional add-ons can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Study Guide + Calculations + NEC
 
@@ -44,6 +45,8 @@ The 2026 Wisconsin Journeyman Electrician + Electrician Calculations Study Guide
 Wisconsin electrician licensing is regulated by the Wisconsin Department of Safety and Professional Services, commonly known as DSPS. A person may not install, repair, or maintain electrical wiring in Wisconsin unless properly licensed as an electrician by the Department or enrolled as a registered electrician. A licensed Journeyman Electrician performs electrical wiring activities under the general supervision of a licensed Master Electrician or Registered Master Electrician. In certain residential settings, a licensed Journeyman Electrician or registered Electrical Apprentice may also perform wiring activities under the general supervision of a licensed Residential Master Electrician.
 
 This Wisconsin journeyman electrician study guide combo helps candidates prepare with a structured set of materials. The Wisconsin Journeyman Electrician Study Guide supports trade-focused review and Wisconsin exam preparation. The Electrician Calculations Study Guide helps candidates practice formulas, electrical math, and calculation-based problem solving. The National Electrical Code 2026 Paperback supports code study, reference navigation, table review, terminology, and ongoing professional use.
+
+## What else is in the Wisconsin Journeyman Study Guide + Calculations + NEC?
 
 Journeyman electrician exams require more than memorizing definitions. Candidates need to understand how electrical rules apply in practical installation situations, how to navigate the National Electrical Code, how to read code language carefully, and how to work through electrical calculations accurately. This combo supports those study goals by combining state-focused exam review, calculation practice, and a complete NEC paperback in one package.
 
@@ -138,11 +141,11 @@ Pass Your Electrician Exam does not replace required work experience, apprentice
 
 ### What is included in this Wisconsin Journeyman Electrician combo?
 
-This combo includes the 2026 Wisconsin Journeyman Electrician Study Guide, the 2026 Electrician Calculations Study Guide, and the National Electrical Code 2026 Paperback.
+The Wisconsin Journeyman Study Guide + Calculations + NEC includes the 2026 Wisconsin Journeyman Electrician Study Guide, the 2026 Electrician Calculations Study Guide, and the National Electrical Code 2026 Paperback.
 
 ### Who should use this study guide combo?
 
-This package is designed for candidates preparing for the Wisconsin Journeyman Electrician exam, including apprentices, registered electricians, experienced electrical workers, and repeat test takers.
+The Wisconsin Journeyman Study Guide + Calculations + NEC is designed for candidates preparing for the Wisconsin Journeyman Electrician exam, including apprentices, registered electricians, experienced electrical workers, and repeat test takers.
 
 ### Who regulates Wisconsin journeyman electrician licensing?
 
@@ -167,6 +170,8 @@ Tabs are acceptable when they come with a bound code book. Three-ring paper divi
 ### What Wisconsin administrative code materials are listed for the exam?
 
 DSPS lists Wisconsin Administrative Code SPS 305 and Wisconsin Administrative Code SPS 316 among the reference materials for the Journeyman Electrician exam.
+
+## More questions about the Wisconsin Journeyman Study Guide + Calculations + NEC
 
 ### What experience is required for a Wisconsin Journeyman Electrician license?
 
@@ -208,7 +213,7 @@ Use the Wisconsin Journeyman Electrician Study Guide to review trade and licensi
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Study Guide + Calculations + NEC?
 
 ### Which NEC edition is this based on?
 
@@ -225,6 +230,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

@@ -1,16 +1,16 @@
 ---
 title: Hawaii Master Electrician Exam FAQ (19 answers)
 url: https://passyourmasterelectricianexam.com/faq/hawaii/master/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
-description: 19 answers about the Hawaii master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
+description: The Hawaii master electrician exam FAQ has 19 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam.
 ---
 
 [Home](https://passyourmasterelectricianexam.com/) /[FAQ](https://passyourmasterelectricianexam.com/faq/) /Hawaii Master
 
 # Hawaii master electrician exam: frequently asked questions
 
-19 answers about the Hawaii master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. Filter the list or jump to a section.
+The Hawaii master electrician exam FAQ has 19 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. The answers come from our Hawaii master package descriptions and are refreshed whenever the store changes.
 
 ## Key takeaways
 
@@ -19,11 +19,11 @@ description: 19 answers about the Hawaii master electrician exam and license: wh
 - Hawaii electrician licensing is regulated by the Board of Electricians and Plumbers through the Department of Commerce and Consumer Affairs, Professional and Vocational Licensing Division.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
-The exam 7Licensing and experience 6Code book and materials 3More questions 3
+What is the Hawaii master electrician exam like? 7How do you get a Hawaii master electrician license? 6Which code book and materials are allowed on the Hawaii exam? 3What else do Hawaii master candidates ask? 3
 
-## The exam
+## What is the Hawaii master electrician exam like?
 
 ### Is the Hawaii electrician exam open book?
 
@@ -53,7 +53,7 @@ PSI Services LLC administers Hawaii electrician examinations for the Hawaii Depa
 
 The Hawaii Supervising Electrician examination requires a 70 percent minimum passing score.
 
-## Licensing and experience
+## How do you get a Hawaii master electrician license?
 
 ### Does Hawaii have a license called Master Electrician?
 
@@ -79,7 +79,7 @@ The Supervising Electrician license is commonly associated with advanced-level e
 
 Hawaii electrician licensing is regulated by the Board of Electricians and Plumbers through the Department of Commerce and Consumer Affairs, Professional and Vocational Licensing Division.
 
-## Code book and materials
+## Which code book and materials are allowed on the Hawaii exam?
 
 ### Can I bring my own NEC book into the Hawaii exam?
 
@@ -93,7 +93,7 @@ The current Hawaii electrician candidate bulletin lists the National Electrical 
 
 The 2026 NEC helps students study with the newest code cycle, build long-term code knowledge, and strengthen code-navigation skills. Students should also be familiar with the reference edition listed for their current exam.
 
-## More questions
+## What else do Hawaii master candidates ask?
 
 ### How should I use the 12 practice exams?
 
@@ -137,6 +137,8 @@ Packages built on the 2026 NEC, from the study guide alone to the Ultimate Combo
 - [All blog posts](https://passyourmasterelectricianexam.com/blog/)
 - [Every state and level](https://passyourmasterelectricianexam.com/#states)
 - [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

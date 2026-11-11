@@ -1,16 +1,16 @@
 ---
 title: California Master Electrician Exam FAQ (20 answers)
 url: https://passyourmasterelectricianexam.com/faq/california/master/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
-description: 20 answers about the California master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
+description: The California master electrician exam FAQ has 20 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam.
 ---
 
 [Home](https://passyourmasterelectricianexam.com/) /[FAQ](https://passyourmasterelectricianexam.com/faq/) /California Master
 
 # California master electrician exam: frequently asked questions
 
-20 answers about the California master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. Filter the list or jump to a section.
+The California master electrician exam FAQ has 20 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. The answers come from our California master package descriptions and are refreshed whenever the store changes.
 
 ## Key takeaways
 
@@ -19,11 +19,11 @@ description: 20 answers about the California master electrician exam and license
 - California electrician certification is administered through the Department of Industrial Relations, Division of Labor Standards Enforcement, Electrician Certification Unit.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
-The exam 8Licensing and experience 4Code book and materials 3More questions 5
+What is the California master electrician exam like? 8How do you get a California master electrician license? 4Which code book and materials are allowed on the California exam? 3What else do California master candidates ask? 5
 
-## The exam
+## What is the California master electrician exam like?
 
 ### Is the California C-10 Electrical exam open book?
 
@@ -57,7 +57,7 @@ California electrician certification examinations require a minimum score of 70%
 
 California electrical contractor licensing is administered through the Contractors State License Board.
 
-## Licensing and experience
+## How do you get a California master electrician license?
 
 ### Does California have a license officially called Master Electrician?
 
@@ -75,7 +75,7 @@ California does not use one single statewide master electrician license title li
 
 Yes. Current CSLB C-10 Electrical study material states that the examination is closed book and that no reference materials may be used during the examination.
 
-## Code book and materials
+## Which code book and materials are allowed on the California exam?
 
 ### How do the flash cards help with closed-book exam prep?
 
@@ -89,7 +89,7 @@ For the current California electrician certification exams, the candidate inform
 
 Current California electrician certification materials state that references are provided in the testing center and candidates may not bring or use their own reference materials.
 
-## More questions
+## What else do California master candidates ask?
 
 ### What topics are covered on the California C-10 Electrical exam?
 
@@ -141,6 +141,8 @@ Packages built on the 2026 NEC, from the study guide alone to the Ultimate Combo
 - [All blog posts](https://passyourmasterelectricianexam.com/blog/)
 - [Every state and level](https://passyourmasterelectricianexam.com/#states)
 - [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

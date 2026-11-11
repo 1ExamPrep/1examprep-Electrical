@@ -1,16 +1,16 @@
 ---
 title: Arizona Master Electrician Exam FAQ (27 answers)
 url: https://passyourmasterelectricianexam.com/faq/arizona/master/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
-description: 27 answers about the Arizona master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
+description: The Arizona master electrician exam FAQ has 27 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam.
 ---
 
 [Home](https://passyourmasterelectricianexam.com/) /[FAQ](https://passyourmasterelectricianexam.com/faq/) /Arizona Master
 
 # Arizona master electrician exam: frequently asked questions
 
-27 answers about the Arizona master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. Filter the list or jump to a section.
+The Arizona master electrician exam FAQ has 27 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. The answers come from our Arizona master package descriptions and are refreshed whenever the store changes.
 
 ## Key takeaways
 
@@ -19,11 +19,11 @@ description: 27 answers about the Arizona master electrician exam and license: w
 - Arizona Registrar of Contractors examinations are administered through PSI for applicants taking Arizona ROC contractor exams.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
-The exam 13Licensing and experience 4Code book and materials 2More questions 8
+What is the Arizona master electrician exam like? 11What is the Arizona master electrician exam like (part 2)? 2How do you get a Arizona master electrician license? 4Which code book and materials are allowed on the Arizona exam? 2What else do Arizona master candidates ask? 8
 
-## The exam
+## What is the Arizona master electrician exam like?
 
 ### Is the Arizona electrical exam open book?
 
@@ -69,6 +69,8 @@ The AZ ROC Electrical Commercial exam is listed with a 70% minimum passing score
 
 No. Arizona PSI reference rules allow permanent tabs only. Temporary tabs, including Post-it notes or other removable tabs, are not allowed.
 
+## What is the Arizona master electrician exam like (part 2)?
+
 ### Can I write in my references during the Arizona PSI exam?
 
 No. Approved references may be highlighted, underlined, annotated, and indexed before the examination, but candidates may not write, highlight, underline, or index references during the examination session.
@@ -77,7 +79,7 @@ No. Approved references may be highlighted, underlined, annotated, and indexed b
 
 The Arizona R-11 Electrical Residential and C-11 Electrical Commercial content outlines list 110 questions for each exam.
 
-## Licensing and experience
+## How do you get a Arizona master electrician license?
 
 ### Does Arizona have a license officially called Master Electrician?
 
@@ -95,7 +97,7 @@ Arizona does not use one single statewide master electrician license structure l
 
 Arizona electrical contracting is licensed through the Arizona Registrar of Contractors by contractor classification. Electrical candidates commonly prepare for residential, commercial, or dual electrical contractor classifications rather than a separate statewide individual master electrician card.
 
-## Code book and materials
+## Which code book and materials are allowed on the Arizona exam?
 
 ### Are NEC tabs allowed during the Arizona electrical exam?
 
@@ -105,7 +107,7 @@ PSI allows references to be tabbed or indexed with permanent tabs only. Permanen
 
 No. PSI allows approved references to be prepared before the exam, but candidates may not write, highlight, underline, or index references during the examination session.
 
-## More questions
+## What else do Arizona master candidates ask?
 
 ### Which Arizona electrical classifications should I know?
 
@@ -171,6 +173,8 @@ Packages built on the 2026 NEC, from the study guide alone to the Ultimate Combo
 - [All blog posts](https://passyourmasterelectricianexam.com/blog/)
 - [Every state and level](https://passyourmasterelectricianexam.com/#states)
 - [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

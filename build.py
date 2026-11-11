@@ -61,6 +61,59 @@ def trim_desc(d, n=158):
     if len(d) <= n: return d
     cut = d[:n].rsplit(" ", 1)[0].rstrip(",;:")
     return cut + ("" if cut.endswith(".") else ".")
+def _wc(t): return len(re.findall(r"[A-Za-z0-9$][\w'’.$%,-]*", t))  # counts words the way page checkers do: "+" and ";" are not words
+def fit_words(parts, lo=40, hi=60, where=""):
+    """Opening paragraph for a page: add sentences in order until it is at least `lo` words, skipping any that would
+    push it past `hi`. A part may be a tuple of alternatives (longest first); the first that fits is used."""
+    out = []
+    for s in parts:
+        for alt in (s if isinstance(s, (tuple, list)) else (s,)):
+            if not alt: continue
+            if _wc(" ".join(out + [alt])) <= hi: out.append(alt); break
+        if _wc(" ".join(out)) >= lo: break
+    txt = " ".join(out)
+    if not lo <= _wc(txt) <= hi: print("WARN opening paragraph %d words%s: %s" % (_wc(txt), (" (" + where + ")") if where else "", txt[:70]))
+    return txt
+NEC_SOURCE = "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70"
+SOURCES_HTML = ('<p class="sources">Sources: <a href="%s" rel="noopener">NFPA 70, the National Electrical Code</a>, published by the National Fire Protection Association. '
+                'Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.</p>' % NEC_SOURCE)
+BACKREF_RE = re.compile(r"^(?:This|That|These|Those|It|They|Such|Here|Above|Below)\b", re.I)
+def fix_opener(first, subject):
+        """first words of a section: name the thing instead of opening with this/it/they"""
+        if not BACKREF_RE.match(first): return first
+        f = re.sub(r"^(This|this)\s+(?=(\d{4}\s+)?[A-Z][\w'’-]*\s+[A-Z])", "The ", first)            # "This 2026 Idaho Master … Combo is" -> "The 2026 Idaho …"
+        if f == first: f = re.sub(r"^(?:This|That|These|Those)\s+(?:(?:study guide and flash card|study|exam prep|complete|printed|electrician|super|ultimate)\s+)*(combo|package|product|bundle|kit|set|study guide|guide|option|course|resource|book|materials|resources|items|tools|guides|books)\b", "The " + subject, first, flags=re.I)
+        if f == first: f = re.sub(r"^(?:This|That|It)\s+(?=(?:is|was|has|helps|makes|can|will|gives|includes|covers|offers|provides|contains|comes|combines|ensures|prepares|features|means|lets|allows|focuses|gets|keeps)\b)", "The " + subject + " ", first, flags=re.I)
+        if f == first: f = re.sub(r"^(?:These|Those|They)\s+(?=(?:are|were|have|help|make|can|will|give|include|cover|offer|provide|contain|come|ensure|prepare|feature|let|allow|focus|get|keep)\b)", "The " + subject + " materials ", first, flags=re.I)
+        if f == first: f = re.sub(r"^(?:This|That|These|Those)\s+(?=[A-Za-z])", "The ", first)
+        if f == first: f = re.sub(r"^(?:Here|Below)\s+(?:is|are)\s+", "", first, flags=re.I); f = f[:1].upper() + f[1:]
+        return f
+def standalone(hx, subject):
+    """Every section has to make sense on its own, so text right after an h2/h3 must not open with this/it/they and so on.
+    The product descriptions come from Shopify and often do; name the product instead."""
+    fix = lambda first: fix_opener(first, subject)
+    return re.sub(r"(<h[23][^>]*>.*?</h[23]>\s*(?:<(?:p|div|li|ul|ol|strong|b|span)\b[^>]*>\s*)*)([^<]{1,300})", lambda m: m.group(1) + fix(m.group(2)), hx, flags=re.S)
+def split_long_sections(hx, subject, limit=380):
+    """Sections over 400 words cover two ideas and get lifted for neither: split long h2 sections near the middle,
+    before an h3 when there is one, otherwise before a paragraph."""
+    parts = re.split(r"(?=<h2[\s>])", hx)
+    out = []
+    for sec in parts:
+        wc = len(re.sub(r"<[^>]+>", " ", sec).split())
+        if wc <= limit: out.append(sec); continue
+        outside = lambda c: sec[:c].count("<details") == sec[:c].count("</details>")  # never cut inside a question
+        cuts = [m.start() for m in re.finditer(r"<h3[\s>]", sec)] or [m.start() for m in re.finditer(r"<details[\s>]", sec)] or [m.start() for m in re.finditer(r"<p[\s>]", sec) if outside(m.start())]
+        cuts = [c for c in cuts if c > 0]
+        if not cuts: out.append(sec); continue
+        def words_before(c): return len(re.sub(r"<[^>]+>", " ", sec[:c]).split())
+        c = min(cuts, key=lambda c: abs(words_before(c) - wc / 2))
+        if words_before(c) < 40 or wc - words_before(c) < 40: out.append(sec); continue
+        is_q = sec[c:c + 3] == "<h3" or sec[c:c + 8] == "<details"
+        head = ("<h2>More questions about the %s</h2>" if is_q else "<h2>What else is in the %s?</h2>") % html.escape(subject)
+        out.append(split_long_sections(sec[:c], subject, limit)); out.append(split_long_sections(head + sec[c:], subject, limit))
+    return "".join(out)
+def faq_details_html(pairs, open_first=True):
+    return "".join('<details%s><summary>%s</summary><p>%s</p></details>' % (" open" if open_first and i == 0 else "", html.escape(q), html.escape(a)) for i, (q, a) in enumerate(pairs))
 def anchor_ids(out):
     out = brand_tokens(out)
     """give every h2/h3 without an id a stable, unique id made from its text (heading anchors for SEO tools and deep links)"""
@@ -91,6 +144,8 @@ def finalize(out):
             u = urlsplit(urljoin(base, url))
             return "%s=%s%s%s%s%s" % (attr, q, u.path or "/", ("?" + u.query) if u.query else "", ("#" + u.fragment) if u.fragment else "", q)
         out = re.sub(r'\b(href|src)=(["\'])([^"\']*)\2', root, out)
+    if m and "</main>" in out and 'class="sources"' not in out:  # one outbound citation on every indexable page
+        i = out.rindex("</main>"); out = out[:i] + SOURCES_HTML + "\n" + out[i:]
     if 'property="article:modified_time"' not in out:
         out = out.replace("</head>", '<meta property="article:published_time" content="%s">\n<meta property="article:modified_time" content="%s">\n</head>' % (LAUNCH, TODAY), 1)
     return out
@@ -126,11 +181,16 @@ LISTING_FAQ = [("Which NEC edition are these based on?", "Every product in this 
                ("Are these the actual exam questions?", "No. Real exam questions are confidential. These are practice questions written to the same subjects, format and difficulty, with explanations."),
                ("What's the difference between Journeyman and Master?", "Journeyman guides cover the journeyman-level exam; Master guides go deeper on calculations, planning and supervision topics for the master or contractor exam. Pick the license you are applying for."),
                ("When will I get it?", "Online test success kits and courses are delivered by email after purchase. Books and code books ship from our fulfillment center, {F}; shipping options are shown at checkout.".replace("{F}", FUL["name"])),
-               ("Does buying make me eligible to test?", "No. Eligibility, experience hours and exam approval come from your state licensing board. These materials get you ready for the test itself.")]
+               ("Does buying make me eligible to test?", "No. Eligibility, experience hours and exam approval come from your state licensing board. These materials get you ready for the test itself."),
+               ("Is the electrician exam open book?", "Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes."),
+               ("How long should I study before the exam?", "Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.")]
 PRODUCT_FAQ = [("Which NEC edition is this based on?", "The %s National Electrical Code. If your state is still testing on an earlier edition, check your candidate bulletin first; our fulfillment center, {F}, also carries earlier editions.".replace("{F}", FUL["name"])),
                ("Are these the actual exam questions?", "No. Real exam questions are confidential. These are practice questions written to the same subjects, format and difficulty, with explanations."),
                ("When will I get it?", "Online kits and courses are delivered by email after purchase. Books and code books ship from our fulfillment center, {F}; shipping options are shown at checkout.".replace("{F}", FUL["name"])),
-               ("Does buying make me eligible to test?", "No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.")]
+               ("Does buying make me eligible to test?", "No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself."),
+               ("Is the electrician exam open book?", "Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes."),
+               ("How long should I study with this package?", "Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks."),
+               ("Who processes and ships the order?", "Orders are processed, shipped and supported by our fulfillment center, {F}. Call %s with questions about an order or about which package fits your exam.".replace("{F}", FUL["name"]) % CFG.get("phone", ""))]
 
 def head_extra(path, title, desc, image, rel, noindex=False, extra_ld=()):
     desc = trim_desc(desc)
@@ -327,6 +387,7 @@ def page(path_parts, route, title, desc, h1, lead, og_image=None, extra_ld=(), c
            .replace("{{OGIMAGE}}", ('<meta property="og:image" content="%s">\n' % html.escape(og_image)) if og_image else "")
            .replace("{{REL}}", rel).replace("{{HOME}}", rel if rel else "./")
            .replace("{{H1_TEXT}}", html.escape(h1.replace("*", ""))).replace("{{H1_HTML}}", words(h1))
+           .replace("{{FAQ_DETAILS}}", faq_details_html([(q, a % sel_year if "%s" in a else a) for q, a in LISTING_FAQ]))
            .replace("{{LEAD}}", html.escape(lead)).replace("{{ROUTE}}", json.dumps(route)))
     d = os.path.join(ROOT, *path_parts) if path_parts else ROOT
     os.makedirs(d, exist_ok=True)
@@ -344,6 +405,7 @@ INCLUDED = {
 def money(v): return "$%.2f" % float(v)
 def clean_title(t): return re.sub(r"\s*\(Based on the \d{4} NEC\)\s*", "", t).replace(": Trusted by 50k Electricians", "")
 
+PHONE_RE = re.compile(r"(?:\+?1[\s.-]?)?\(?\b\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}\b")
 def product_page(path_parts, p, siblings, state_name, level_url, other_level_url, other_level):
     depth = len(path_parts); rel = "../" * depth
     url = (SITE + "/".join(path_parts) + "/") if SITE else None
@@ -351,7 +413,8 @@ def product_page(path_parts, p, siblings, state_name, level_url, other_level_url
     if FUL["name"] != BRAND and full.get("html"):  # store descriptions talk about the fulfillment brand; this site speaks as itself
         full = dict(full, html=re.sub(r"(?<![\w/.-])1 ?Exam ?Prep(?![\w.-])", BRAND, full["html"]))
     desc_faq = []
-    if full.get("html"):  # store descriptions use h3 for their sections; on this page they are the main sections, so h2. Their FAQ block keeps h3 questions.
+    if full.get("html"):
+        full = dict(full, html=PHONE_RE.sub(CFG.get("phone", r"\g<0>"), full["html"]))  # store descriptions use h3 for their sections; on this page they are the main sections, so h2. Their FAQ block keeps h3 questions.
         hx = full["html"]; m = re.search(r"<h3>\s*(FAQ[^<]*|Frequently Asked Questions[^<]*)</h3>", hx, re.I)
         if m:
             head, tail = hx[:m.start()], hx[m.end():]
@@ -364,16 +427,9 @@ def product_page(path_parts, p, siblings, state_name, level_url, other_level_url
         # sections should stand on their own: open each H2 section with the product's name instead of "This combo" / "It"
         subject = ("%s %s %s" % ("" if state_name == "any state" else state_name, p["level"], p["tierName"])).strip()
         subject = re.sub(r"\s+", " ", subject)
-        def _open(m):
-            lead, first = m.group(1), m.group(2)
-            first2 = re.sub(r"^(This|this)\s+(?=(\d{4}\s+)?[A-Z][\w'’-]*\s+[A-Z])", "The ", first)           # "This 2026 Idaho Master … Combo is" -> "The 2026 Idaho …"
-            if first2 == first:
-                first2 = re.sub(r"^(This|this)\s+(?:(?:study guide and flash card|study|exam prep|complete|printed)\s+)?(combo|package|product|bundle|kit|set|study guide|guide|option)\b", "The " + subject, first)
-            if first2 == first: first2 = re.sub(r"^It\s+(?=\w)", "The " + subject + " ", first)
-            if first2 == first: first2 = re.sub(r"^(These|Those)\s+(materials|books|guides|resources|items|tools)\b", "The " + subject + " materials", first)
-            return lead + first2
-        hx = re.sub(r"(<h2[^>]*>.*?</h2>\s*(?:<p[^>]*>)?\s*)([^<]{0,200})", _open, hx, flags=re.S)
-        hx = re.sub(r"^(\s*(?:<p[^>]*>)?\s*)([^<]{0,200})", _open, hx, count=1, flags=re.S)  # the description's own first paragraph sits under the "About this package" H2
+        hx = split_long_sections(hx, subject)
+        hx = standalone(hx, subject)
+        hx = re.sub(r"^(\s*(?:<(?:p|div|strong|b|span)\b[^>]*>\s*)*)([^<]{1,300})", lambda m: m.group(1) + fix_opener(m.group(2), subject), hx, count=1, flags=re.S)  # the description's own first paragraph sits under the "About this package" H2
         full = dict(full, html=hx)
     imgs = full["images"] or [p["image"]]
     v0 = p["variants"][0]
@@ -391,6 +447,15 @@ def product_page(path_parts, p, siblings, state_name, level_url, other_level_url
         ("%d items in the box: %s." % (len(inc_items), "; ".join(i.replace(p["year"] + " ", "", 1) for i in inc_items))) if inc_items else "Built on the %s National Electrical Code." % p["year"],
         ("%d optional add-on%s can be chosen at checkout, and the price updates when you pick one." % (len(p["variants"]) - 1, "" if len(p["variants"]) == 2 else "s")) if len(p["variants"]) > 1 else "Built on the %s National Electrical Code; check your candidate bulletin for the edition your state tests on." % p["year"],
         "Online kits arrive by email; books ship from our fulfillment center, %s. Buying does not grant exam eligibility, which comes from the state licensing board." % FUL["name"]])
+    _who = ("%s %s %s" % (S or "general-edition", p["level"], p["tierName"])).strip()
+    pdp_lead = fit_words([re.sub(r"\s+", " ", "The %s %s costs %s%s." % (_who, "package" if "package" not in p["tierName"].lower() else "", money(n), (", down from %s" % money(c)) if c > n else "")),
+                          (("The box holds %d items: %s." % (len(inc_items), "; ".join(i.replace(p["year"] + " ", "", 1) for i in inc_items))) if inc_items else "", ("The box holds %d items, listed below." % len(inc_items)) if inc_items else ""),
+                          "Every item is built on the %s National Electrical Code%s." % (p["year"], ", and the study guide has 12 practice exams and 2 full-length finals" if inc_items else ""),
+                          "Books ship from %s and online kits arrive by email." % FUL["name"],
+                          "Buying does not grant exam eligibility, which comes from the state licensing board.",
+                          "Check your candidate bulletin for the code edition your state tests on.",
+                          "Practice questions are original study material, not the confidential exam.",
+                          "Checkout is secure and opens in one click."], where="/".join(path_parts))
     addons = [v["title"] for v in p["variants"][1:]]
     addons_html = ('<p class="addons"><b>Optional add-ons at checkout:</b> %s. Pick one above and the price updates.</p>' % html.escape("; ".join(addons))) if addons else ""
     related = "".join('<a class="rel" href="../%s/"><img src="%s" alt="%s" loading="lazy"><span><b>%s</b><small>%s</small></span><span class="pc-now">%s</span></a>' % (
@@ -401,12 +466,12 @@ def product_page(path_parts, p, siblings, state_name, level_url, other_level_url
     jsonld = schemakit.product_ld(clean_title(p["title"]), absurl(path), imgs, _ft if len(_ft) > 120 else p["desc"].replace(p["title"], "").strip(), p["id"],
                                   "%s Electrician Exam Prep" % p["level"], p["variants"], p.get("type", ""), brand=FUL["name"], fallback=desc)
     crumbs = [("All states", ""), (state_name.capitalize() if state_name == "any state" else state_name, "/".join(path_parts[:3]) + "/"), (p["level"], "/".join(path_parts[:3]) + "/"), (p["tierName"], path)]
-    short_t = "%s %s %s" % ("" if state_name == "any state" else state_name, p["level"], p["tierName"]); short_t = re.sub(r"\s+", " ", short_t).strip()
+    short_t = "%s %s %s" % ("Any-State" if state_name == "any state" else state_name, p["level"], p["tierName"]); short_t = re.sub(r"\s+", " ", short_t).strip()
     if len(short_t) + len(" (%s NEC)" % p["year"]) <= 60: short_t += " (%s NEC)" % p["year"]
     extra = head_extra(path, short_t, desc, imgs[0], rel, False, [crumbs_ld(crumbs), faq_ld([(q, a % p["year"] if "%s" in a else a) for q, a in PRODUCT_FAQ] + desc_faq[:12])])
     pjson = json.dumps({"id": p["id"], "variants": p["variants"], "title": clean_title(p["title"]), "state": p["state"], "level": p["level"], "tierName": p["tierName"], "price": p["price"]})
     assets_head = '<link rel="stylesheet" href="%sshared/base.css">\n<link rel="stylesheet" href="%sshared/store.css">' % (rel, rel)
-    short_t = "%s %s %s" % ("" if state_name == "any state" else state_name, p["level"], p["tierName"]); short_t = re.sub(r"\s+", " ", short_t).strip()
+    short_t = "%s %s %s" % ("Any-State" if state_name == "any state" else state_name, p["level"], p["tierName"]); short_t = re.sub(r"\s+", " ", short_t).strip()
     if len(short_t) + len(" (%s NEC)" % p["year"]) <= 60: short_t += " (%s NEC)" % p["year"]
     out = (ptpl.replace("{{TITLE}}", html.escape(short_t)).replace("{{DESC}}", html.escape(desc))
            .replace("{{CANONICAL}}", ('<link rel="canonical" href="%s">\n' % url) if url else "")
@@ -423,7 +488,7 @@ def product_page(path_parts, p, siblings, state_name, level_url, other_level_url
            .replace("{{PRICE}}", money(v0["price"])).replace("{{COMPARE_HTML}}", compare_html).replace("{{VARIANTS_HTML}}", variants_html)
            .replace("{{BUY_URL}}", cart(v0["id"])).replace("{{SHOP_URL}}", html.escape(p["url"]))
            .replace("{{MORE_LINKS_HTML}}", '<div class="more-links">%s</div>' % re.sub(r"<div><h3>(.*?)</h3><ul>(.*?)</ul></div>", lambda m: "<h3>%s</h3>%s" % (m.group(1), re.sub(r"<li>(.*?)</li>", r"\1", m.group(2))), related_pages_html(rel, GENERAL if state_name == "any state" else state_name, p["level"], p["year"], p["tierSlug"], p["tierName"]), flags=re.S))
-           .replace("{{TAKEAWAYS_HTML}}", ptk).replace("{{INCLUDED_HTML}}", inc).replace("{{ADDONS_HTML}}", addons_html).replace("{{DESCRIPTION_HTML}}", full["html"]).replace("{{RELATED_HTML}}", related))
+           .replace("{{TAKEAWAYS_HTML}}", ptk).replace("{{PDP_LEAD}}", html.escape(pdp_lead)).replace("{{FAQ_DETAILS}}", faq_details_html([(q, a % p["year"] if "%s" in a else a) for q, a in PRODUCT_FAQ])).replace("{{INCLUDED_HTML}}", inc).replace("{{ADDONS_HTML}}", addons_html).replace("{{DESCRIPTION_HTML}}", full["html"]).replace("{{RELATED_HTML}}", related))
     d = os.path.join(ROOT, *path_parts); os.makedirs(d, exist_ok=True)
     with open(os.path.join(d, "index.html"), "w", encoding="utf-8") as f: f.write(anchor_ids(out))
     return url
@@ -443,7 +508,10 @@ u = page([], {"state": None, "level": None, "year": None, "tier": None, "depth":
          "%s: %s Prep for All 50 States" % (BRAND, years[0]),
          "%s journeyman and master electrician exam prep for all 50 states. Pick your state, pick your level, pick a package. Study guides, flash cards, NEC code books with tabs, calculations guides and online practice." % years[0],
          "Your state. *Your *license. %s code." % years[0],
-         "Journeyman and master electrician exam prep for all 50 states, built on the %s National Electrical Code. Pick your state and level, then choose how much help you want." % years[0],
+         fit_words(["%s sells journeyman and master electrician exam prep for all 50 states, built on the %s National Electrical Code." % (BRAND, years[0]),
+                    "Each state and level has 5 packages, from the study guide with flash cards at %s to the Ultimate Combo at %s." % (money(min(float(p["price"]) for p in CATALOG if p["tier"] in TIERS)), money(max(float(p["price"]) for p in CATALOG if p["tier"] in TIERS))),
+                    "Every package includes the state study guide with 12 practice exams and 2 full-length finals.",
+                    "Pick your state and level, then choose how much help you want."], where="home"),
          CFG.get("logo"), extra_ld=[org_ld(), website_ld(), faq_ld([(q, a % years[0] if "%s" in a else a) for q, a in LISTING_FAQ])], crumbs=[("Home", "")])
 if u: urls.append(u)
 
@@ -455,6 +523,15 @@ if not STATIC:
     sys.exit(0)
 
 # --- state / level / year pages and package pages ---
+def state_lead(state, level, year, uniq):
+    st = None if state == GENERAL else state
+    who = ("%s %s" % (state, level.lower())) if st else ("Any-state %s" % level.lower())
+    ult = next((p for p in uniq if p["tier"] == "ultimate"), uniq[-1])
+    return fit_words(["%s electrician exam prep comes in %d packages built on the %s National Electrical Code." % (who, len(uniq), year),
+                      "Prices run from %s for the %s to %s for the %s." % (money(min(float(p["price"]) for p in uniq)), uniq[0]["tierName"], money(ult["price"]), ult["tierName"]),
+                      ("Every package includes the %s %s study guide with 12 practice exams and 2 full-length finals." % (state if st else "general", level.lower()),),
+                      "Pick how much help you want, then check out in one click.",
+                      "Books ship from %s and online kits arrive by email." % FUL["name"]], where="/".join([slug(state), level.lower(), year]))
 for state in STATES + [GENERAL]:
     st = None if state == GENERAL else state
     for level in ("Journeyman", "Master"):
@@ -474,7 +551,7 @@ for state in STATES + [GENERAL]:
                      ("%s %s Electrician Exam Prep (%s NEC)" % (state, level, year)) if st is not None else ("%s Electrician Exam Prep, Any State (%s NEC)" % (level, year)),
                      "%s %s electrician exam prep for %s: %d packages from $%.2f to $%.2f. Study guide, flash cards, %s NEC with tabs, calculations guide and online practice. One click to checkout." % (year, level.lower(), name, len(uniq), lo, hi, year),
                      "%s. *%s. %s code." % ("Any state" if st is None else state, level, year),
-                     "%s electrician exam prep for %s, built on the %s National Electrical Code. Choose how much help you want, from the study guide alone to the Ultimate Combo." % (level, name, year),
+                     state_lead(state, level, year, uniq),
                      uniq[-1]["image"],
                      extra_ld=[{"@context": "https://schema.org", "@type": "CollectionPage", "name": "%s %s %s Electrician Exam Prep" % (year, name.capitalize() if st is None else state, level), "url": absurl("/".join(parts) + "/"),
                                 "mainEntity": {"@type": "ItemList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "url": absurl("/".join(parts) + "/" + q["tierSlug"] + "/"), "name": clean_title(q["title"])} for i, q in enumerate(uniq)]}},
@@ -524,9 +601,17 @@ def nice_date(d):
     try: return datetime.date.fromisoformat(d[:10]).strftime("%B %-d, %Y")
     except Exception: return d
 def post_card(q, rel):
-    img = ('<img src="%s" alt="" loading="lazy">' % html.escape(q["image"])) if q["image"] else ('<div class="noimg">%s</div>' % html.escape(q["title"][:48]))
+    img = ('<img src="%s" alt="%s" loading="lazy">' % (html.escape(q["image"]), html.escape("Cover image for the post: " + q["title"]))) if q["image"] else ('<div class="noimg">%s</div>' % html.escape(q["title"][:48]))
     return ('<a class="card" href="%sblog/%s/" data-track="blog_card">%s<div class="card-body"><p class="post-meta"><time datetime="%s">%s</time><span>%d min read</span></p><h2>%s</h2><p>%s</p></div></a>'
             % (rel, q["slug"], img, q["date"], nice_date(q["date"]), max(1, round(q["words"] / 220)), html.escape(q["title"]), html.escape(q["excerpt"])))
+BLOG_AUTHOR = CFG.get("blogAuthor") or {}
+def post_author(q):
+    """A named person on every post. A post's own author wins when it is a person; otherwise blogAuthor from site-config.json."""
+    if q["author"] and q["author"] not in (BRAND, FUL["name"], CFG.get("legalName")): return {"@type": "Person", "name": q["author"]}
+    if BLOG_AUTHOR.get("name"):
+        a = {"@type": "Person", "name": BLOG_AUTHOR["name"], "jobTitle": BLOG_AUTHOR.get("jobTitle"), "url": BLOG_AUTHOR.get("url"), "worksFor": {"@type": "Organization", "name": BRAND}}
+        return {k: v for k, v in a.items() if v}
+    return {"@type": "Organization", "name": BRAND}
 def blog_common(out, rel, path, title, desc, image, lds, route, extra_noindex=False):
     desc = trim_desc(desc)
     return (out.replace("{{TITLE}}", html.escape(title)).replace("{{DESC}}", html.escape(desc)).replace("{{BRAND}}", html.escape(BRAND))
@@ -544,11 +629,14 @@ def blog_index(dest_parts, posts, tag=None):
     title = ("Posts tagged %s | %s" % (tag, BRAND)) if tag else ("Electrician Exam Prep Blog | %s" % BRAND)
     desc = ("Posts tagged %s from the %s electrician exam prep blog." % (tag, BRAND)) if tag else ("Study tips, NEC code changes, state licensing updates and exam strategy from %s. New posts every month." % BRAND)
     h1 = ("Posts tagged \u201c%s\u201d" % tag) if tag else "The Electrician Exam Prep Blog"
-    lead = ("%d post%s." % (len(posts), "" if len(posts) == 1 else "s")) if tag else "Study strategies, code changes, licensing news and the questions we hear every day on the phone. Written by the people who write the exam prep."
+    lead = ("%d post%s." % (len(posts), "" if len(posts) == 1 else "s")) if tag else fit_words([
+        "The %s blog has %d posts on passing the journeyman and master electrician exams." % (BRAND, len(posts)),
+        "They cover six-week study plans, tabbing and navigating the %s NEC, calculations such as voltage drop, box fill and dwelling loads, exam-day pacing, and state licensing rules." % years[0],
+        "Each post links to the matching state packages.", "New posts also go out in the RSS feed."], where="blog")
     feat, rest = (posts[0], posts[1:]) if posts and not tag else (None, posts)
     feat_html = ""
     if feat:
-        fimg = ('<img src="%s" alt="">' % html.escape(feat["image"])) if feat["image"] else ""
+        fimg = ('<img src="%s" alt="%s">' % (html.escape(feat["image"]), html.escape("Cover image for the post: " + feat["title"]))) if feat["image"] else ""
         feat_html = ('<a class="feature%s" href="%sblog/%s/" data-track="blog_featured">%s<div><span class="pc-tier">Latest</span><h2>%s</h2><p>%s</p><p class="post-meta"><time datetime="%s">%s</time><span>%d min read</span></p></div></a>'
                      % ("" if fimg else " noimg", rel, feat["slug"], fimg, html.escape(feat["title"]), html.escape(feat["excerpt"]), feat["date"], nice_date(feat["date"]), max(1, round(feat["words"] / 220))))
     tagf = ('<nav class="tagbar" aria-label="Topics"><a class="tag" href="%sblog/"%s>All</a>%s</nav>' % (rel, "" if tag else ' aria-current="page"', "".join('<a class="tag" href="%sblog/tag/%s/"%s>%s</a>' % (rel, blogkit.slugify(t), ' aria-current="page"' if tag == t else "", html.escape(t)) for t in all_tags))) if all_tags else ""
@@ -567,7 +655,7 @@ def blog_index(dest_parts, posts, tag=None):
         "Topics: %s." % ", ".join(all_tags[:8]) if all_tags else "Topics cover study strategy, NEC navigation and state licensing rules.",
         "Every post links to the matching state packages, built on the %s National Electrical Code." % years[0],
         "New posts appear in the RSS feed at /blog/feed.xml the moment they are published."])
-    out = out.replace("{{BLOG_FAQ_HTML}}", "".join('<details%s><summary>%s</summary><p>%s</p></details>' % (" open" if i == 0 else "", html.escape(q), html.escape(a)) for i, (q, a) in enumerate(bfaq)))
+    out = out.replace("{{BLOG_FAQ_HTML}}", faq_details_html(bfaq[:3]) + '</div></section>\n  <section class="blog-start" aria-labelledby="h-bfaq2">\n    <h2 id="h-bfaq2">What do people ask about packages, registration and delivery?</h2>\n    <div class="faq" style="margin:0;max-width:none">' + faq_details_html(bfaq[3:], open_first=False))
     out = out.replace("{{TAKEAWAYS_HTML}}", btk).replace("{{INTRO_HTML}}", intro).replace("{{H1}}", html.escape(h1)).replace("{{LEAD}}", html.escape(lead)).replace("{{TAG_FILTER}}", tagf).replace("{{FEATURED_HTML}}", feat_html).replace("{{CARDS_HTML}}", cards).replace("{{EMPTY_HTML}}", empty)
     d = os.path.join(ROOT, *dest_parts); os.makedirs(d, exist_ok=True); open(os.path.join(d, "index.html"), "w", encoding="utf-8").write(anchor_ids(out))
     if SITE and not tag: urls.append(absurl(path))  # tag pages are thin by nature: noindex, not in the sitemap
@@ -589,19 +677,27 @@ for q in POSTS + PAGES:
     related = [r for r in POSTS if r["slug"] != q["slug"] and (set(r["tags"]) & set(q["tags"]))][:3] or [r for r in POSTS if r["slug"] != q["slug"]][:3]
     rel_html = ('<section class="related-posts" aria-labelledby="h-more"><h2 id="h-more">Keep reading</h2><div class="post-grid">%s</div></section>' % "".join(post_card(r, rel) for r in related)) if related else ""
     tags_html = ('<nav class="tagbar" aria-label="Topics">%s</nav>' % "".join('<a class="tag" href="%sblog/tag/%s/">%s</a>' % (rel, blogkit.slugify(t), html.escape(t)) for t in q["tags"])) if q["tags"] else ""
+    q = dict(q, html=split_long_sections(q["html"], "electrician exam"))
     hero = ('<figure class="hero"><img src="%s" alt="%s" fetchpriority="high"></figure>' % (html.escape(q["image"]), html.escape(q["title"]))) if q["image"] and ('src="%s"' % q["image"]) not in q["html"] else ""
     lds = [crumbs_ld([("Home", ""), ("Blog", "blog/"), (q["title"], path)]),
            {"@context": "https://schema.org", "@type": "BlogPosting", "headline": q["title"][:110], "description": q["excerpt"], "image": [q["image"]] if q["image"] else None, "datePublished": q["date"], "dateModified": q["updated"],
-            "author": {"@type": "Organization" if not q["author"] or q["author"] == BRAND else "Person", "name": q["author"] or BRAND}, "publisher": {"@type": "Organization", "name": BRAND, "logo": {"@type": "ImageObject", "url": CFG.get("logo")}},
+            "author": post_author(q), "publisher": {"@type": "Organization", "name": BRAND, "logo": {"@type": "ImageObject", "url": CFG.get("logo")}},
             "mainEntityOfPage": url, "url": url, "wordCount": q["words"], "keywords": ", ".join(q["tags"]) or None, "articleSection": "Electrician Exam Prep", "inLanguage": "en-US"}]
     lds[1] = {k: v for k, v in lds[1].items() if v}
+    own_faq = q.get("faq") or []
+    general_faq = [(qq, a % FUL["name"] if "%s" in a else a) for qq, a in BLOG_FAQ]
+    post_faq = own_faq if len(own_faq) >= 6 else own_faq + [x for x in general_faq if x[0] not in {y[0] for y in own_faq}]
+    _extra = post_faq[len(own_faq):]
+    post_faq_html = "" if len(own_faq) >= 6 else (('<section class="post-faq" aria-labelledby="h-post-faq"><h2 id="h-post-faq">What else do candidates ask about the electrician exam?</h2><div class="faq">%s</div></section>' % faq_details_html(_extra[:3], open_first=False))
+                                                + (('<section class="post-faq" aria-labelledby="h-post-faq2"><h2 id="h-post-faq2">What do candidates ask about practice questions, registration and delivery?</h2><div class="faq">%s</div></section>' % faq_details_html(_extra[3:], open_first=False)) if _extra[3:] else ""))
+    lds.append(faq_ld(post_faq[:12]))
     ptitle = q.get("meta_title") or (q["title"] if len(q["title"]) + len(BRAND) + 3 > 60 else "%s | %s" % (q["title"], BRAND))
     pdesc = q.get("meta_description") or q["excerpt"]
     if is_page: lds[0] = crumbs_ld([("Home", ""), (q["title"], path)]); lds[1]["@type"] = "Article"
     out = blog_common(btpl, rel, path, ptitle, pdesc, q["image"] or CFG.get("logo"), lds, {"depth": 2, "blog": True, "post": q["slug"]})
-    if is_page: out = out.replace('<a href="{{REL}}blog/">Blog</a><span>/</span>', "").replace('<p class="post-meta">', '<p class="post-meta" hidden>')
-    out = (out.replace("{{H1}}", html.escape(q["title"])).replace("{{TITLE_SHORT}}", html.escape(q["title"][:60] + ("…" if len(q["title"]) > 60 else ""))).replace("{{EXCERPT}}", html.escape(q["excerpt"]))
-           .replace("{{DATE}}", q["date"]).replace("{{UPDATED}}", q["updated"]).replace("{{DATE_NICE}}", nice_date(q["date"])).replace("{{AUTHOR_HTML}}", ('<span>%s</span>' % html.escape(q["author"])) if q["author"] else "")
+    if is_page: out = out.replace('<a href="{{REL}}blog/">Blog</a><span>/</span>', "").replace('<div class="post-meta">', '<div class="post-meta" hidden>')
+    out = (out.replace("{{H1}}", html.escape(q["title"])).replace("{{TITLE_SHORT}}", html.escape(q["title"][:60] + ("…" if len(q["title"]) > 60 else ""))).replace("{{EXCERPT}}", html.escape(q["excerpt"])).replace("{{ANSWER}}", html.escape(q.get("answer") or q["excerpt"])).replace("{{POST_FAQ_HTML}}", post_faq_html)
+           .replace("{{DATE}}", q["date"]).replace("{{UPDATED}}", q["updated"]).replace("{{DATE_NICE}}", nice_date(q["date"])).replace("{{AUTHOR_HTML}}", ('<span>By %s</span>' % html.escape(post_author(q)["name"])) if post_author(q).get("@type") == "Person" else (('<span>%s</span>' % html.escape(q["author"])) if q["author"] else ""))
            .replace("{{READ_MIN}}", str(max(1, round(q["words"] / 220)))).replace("{{TAGS_HTML}}", tags_html).replace("{{HERO_HTML}}", hero).replace("{{TAKEAWAYS_HTML}}", takeaways_html(q.get("takeaways") or [])).replace("{{BODY_HTML}}", q["html"])
            .replace("{{URL_ENC}}", quote(url, safe="")).replace("{{TITLE_ENC}}", quote(q["title"], safe="")).replace("{{MORE_LINK}}", more_link)
            .replace("{{CTA_KICKER}}", html.escape(cta_kicker)).replace("{{CTA_TITLE}}", html.escape(cta_title)).replace("{{CTA_TEXT}}", html.escape(cta_text)).replace("{{CTA_URL}}", cta_url).replace("{{CTA_LABEL}}", html.escape(cta_label))
@@ -660,6 +756,19 @@ def state_faqs():
 STATE_FAQS = state_faqs()
 def faq_details(items, open_first=True):
     return '<div class="faq">%s</div>' % "".join('<details%s><summary>%s</summary><p>%s</p></details>' % (" open" if open_first and i == 0 else "", html.escape(q), html.escape(a)) for i, (q, a) in enumerate(items))
+def faq_chunks(sid, name, items, open_first=True, limit=360):
+    """FAQ sections stay under 400 words: a long topic is split into several sections, each with its own heading."""
+    groups, cur, n = [], [], 0
+    for q, a in items:
+        w = len((q + " " + a).split())
+        if cur and n + w > limit: groups.append(cur); cur, n = [], 0
+        cur.append((q, a)); n += w
+    if cur: groups.append(cur)
+    out = []
+    for i, g in enumerate(groups):
+        nm = name if i == 0 else "%s (part %d)" % (name.rstrip("?"), i + 1) + ("?" if name.endswith("?") else "")
+        out.append((sid if i == 0 else "%s-%d" % (sid, i + 1), nm, len(g), faq_details(g, open_first and i == 0)))
+    return out
 def faq_page(parts, title, h1, lead, sections, pairs_for_schema, crumbs, takeaways, cta, related_html, more_link=""):
     rel = "../" * len(parts); path = "/".join(parts) + "/"
     jump = "".join('<a class="tag" href="#%s">%s <small>%d</small></a>' % (sid, html.escape(name), n) for sid, name, n in [(sid, name, n) for sid, name, n, _ in sections])
@@ -687,15 +796,16 @@ for (st, lv), items in sorted(STATE_FAQS.items(), key=lambda kv: (kv[0][0] == GE
     pairs = [(i["q"], i["a"]) for i in items]
     other = "Master" if lv == "Journeyman" else "Journeyman"
     # group loosely by topic for scannability
-    buckets = [("exam", "The exam", lambda q: re.search(r"open book|question|portion|score|pass|time|minutes|hours|structure|format|administer|vendor|psi|prometric|pearson|schedul|retake|fail", q, re.I)),
-               ("license", "Licensing and experience", lambda q: re.search(r"licens|regulat|board|experience|hours|apprentice|apply|application|eligib|reciproc|renew|continuing|contractor|supervis|permit", q, re.I)),
-               ("code", "Code book and materials", lambda q: re.search(r"nec|code|edition|book|reference|calculat|allowed|bring|write|highlight", q, re.I))]
+    NM = name.capitalize() if st == GENERAL else st
+    buckets = [("exam", "What is the %s %s electrician exam like?" % (NM, lv.lower()), lambda q: re.search(r"open book|question|portion|score|pass|time|minutes|hours|structure|format|administer|vendor|psi|prometric|pearson|schedul|retake|fail", q, re.I)),
+               ("license", "How do you get a %s %s electrician license?" % (NM, lv.lower()), lambda q: re.search(r"licens|regulat|board|experience|hours|apprentice|apply|application|eligib|reciproc|renew|continuing|contractor|supervis|permit", q, re.I)),
+               ("code", "Which code book and materials are allowed on the %s exam?" % NM, lambda q: re.search(r"nec|code|edition|book|reference|calculat|allowed|bring|write|highlight", q, re.I))]
     used, sections = set(), []
     for sid, sname, test in buckets:
         sel = [(q, a) for (q, a) in pairs if (q, a) not in used and test(q)]
-        if sel: sections.append((sid, sname, len(sel), faq_details(sel))); used.update(sel)
+        if sel: sections += faq_chunks(sid, sname, sel); used.update(sel)
     rest = [(q, a) for (q, a) in pairs if (q, a) not in used]
-    if rest: sections.append(("more", "More questions", len(rest), faq_details(rest, False)))
+    if rest: sections += faq_chunks("more", "What else do %s %s candidates ask?" % (NM, lv.lower()), rest, False)
     tk = ["%d questions and answers about the %s %s electrician exam and license, compiled from our %s package descriptions." % (len(pairs), name, lv.lower(), lv.lower()),
           next((a for q, a in pairs if re.search(r"open book", q, re.I)), "Check the candidate bulletin for the edition of the NEC your exam is written to."),
           next((a for q, a in pairs if re.search(r"regulat|licens.*(board|through)|who (issues|handles|administers)", q, re.I)), "Licensing rules come from the state board; the questions below name it."),
@@ -706,16 +816,22 @@ for (st, lv), items in sorted(STATE_FAQS.items(), key=lambda kv: (kv[0][0] == GE
     related = related.replace("packages</a>", " FAQ</a>", 1)
     faq_page(parts, "%s %s Electrician Exam FAQ (%d answers)" % ("Any-State" if st == GENERAL else st, lv, len(pairs)) if len("%s %s Electrician Exam FAQ (%d answers)" % (st, lv, len(pairs))) <= 60 else "%s %s Electrician Exam FAQ" % (st, lv),
              "%s %s electrician exam: frequently asked questions" % (name.capitalize() if st == GENERAL else st, lv.lower()),
-             "%d answers about the %s %s electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. Filter the list or jump to a section." % (len(pairs), name, lv.lower()),
+             fit_words(["The %s %s electrician exam FAQ has %d answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores." % (NM, lv.lower(), len(pairs)),
+                        "The answers come from our %s %s package descriptions and are refreshed whenever the store changes." % (NM, lv.lower()),
+                        "Filter the list or jump to a section.", "Your state board has the final word on your own application."], where="faq/%s/%s" % (slug(st), lv.lower())),
              sections, pairs, [("Home", ""), ("FAQ", "faq/"), ("%s %s" % (name.capitalize() if st == GENERAL else st, lv), "faq/%s/%s/" % (slug(st), lv.lower()))], tk, cta, related,
              '<a href="%s%s/%s/%s/">%s %s packages</a>' % (rel, slug(st), lv.lower(), years[0], html.escape(name.capitalize() if st == GENERAL else st), lv.lower()))
 # hub
-gen_sections = [(c["slug"], c["name"], len(c["items"]), faq_details([(q, a.replace("1 Exam Prep", FUL["name"])) for q, a in c["items"]])) for c in GEN_FAQ]
+GEN_Q = {"licensing": "How do you get an electrician license?", "exam": "What is on the electrician exam?", "studying": "How should you study for the electrician exam?", "code-book": "How do you use the code book on the exam?",
+         "calculations": "Which calculations are on the electrician exam?", "exam-day": "What happens on exam day?", "after": "What happens after the exam?", "packages": "How do the packages and orders work?"}
+gen_sections = [x for c in GEN_FAQ for x in faq_chunks(c["slug"], GEN_Q.get(c["slug"], c["name"]), [(q, a.replace("1 Exam Prep", FUL["name"])) for q, a in c["items"]])]
 gen_pairs = [(q, a) for c in GEN_FAQ for q, a in c["items"]]
 state_list = "".join('<li><a href="%s/%s/">%s</a><span><a href="%s/journeyman/">Journeyman %d</a><a href="%s/master/">Master %d</a></span></li>' % (slug(st), "journeyman", "Any state (general)" if st == GENERAL else st, slug(st), len(STATE_FAQS.get((st, "Journeyman"), [])), slug(st), len(STATE_FAQS.get((st, "Master"), []))) for st in STATES + [GENERAL] if (st, "Journeyman") in STATE_FAQS or (st, "Master") in STATE_FAQS)
-gen_sections.append(("states", "State by state", total_state_q, '<p class="faq-count">%d state-specific answers across %d pages. Each page covers who issues the license, the open-book rules, the NEC edition, experience and the exam format for that state and level.</p><ul class="faq-states">%s</ul>' % (total_state_q, len(STATE_FAQS), state_list)))
+gen_sections.append(("states", "Where are the state-by-state answers?", total_state_q, '<p class="faq-count">%d state-specific answers across %d pages. Each page covers who issues the license, the open-book rules, the NEC edition, experience and the exam format for that state and level.</p><ul class="faq-states">%s</ul>' % (total_state_q, len(STATE_FAQS), state_list)))
 faq_page(["faq"], "Electrician Exam FAQ: %d Answers | %s" % (len(gen_pairs) + total_state_q, BRAND) if len("Electrician Exam FAQ: %d Answers | %s" % (len(gen_pairs) + total_state_q, BRAND)) <= 60 else "Electrician Exam FAQ: %d Answers" % (len(gen_pairs) + total_state_q),
-         "Electrician exam FAQ", "%d answers about journeyman and master electrician exams: getting licensed, the exam itself, studying, the code book, calculations, exam day and what comes after, plus %d state-specific answers for all 50 states." % (len(gen_pairs) + total_state_q, total_state_q),
+         "Electrician exam FAQ", fit_words(["The electrician exam FAQ has %d answers about journeyman and master electrician exams: getting licensed, the exam itself, studying, the code book, calculations, exam day and what comes after." % len(gen_pairs),
+                                           "Another %d state-specific answers cover all 50 states, one page per state and level." % total_state_q,
+                                           "Most states ask for about 8,000 hours of experience and pass at 70 to 75 percent."], where="faq"),
          gen_sections, gen_pairs, [("Home", ""), ("FAQ", "faq/")],
          ["%d questions answered on this page, nationwide, and %d more on the state pages linked at the bottom." % (len(gen_pairs), total_state_q),
           "Most states need about 8,000 hours of supervised experience for the journeyman exam and set the pass mark at 70 to 75 percent.",

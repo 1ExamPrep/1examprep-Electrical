@@ -1,7 +1,7 @@
 ---
 title: Tennessee Master Super Combo (2026 NEC)
 url: https://passyourmasterelectricianexam.com/tennessee/master/2026/super-combo/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: The 2026 Tennessee Master Electrician + Electrician Calculations Study Guides + Flash Cards & National Electrical Code + Tabs Super Combo is designed for.
 ---
@@ -13,6 +13,7 @@ Tennessee · Master · 2026 NEC
 # Super Combo
 
 2026 Tennessee Master Electrician + Electrician Calculations Study Guides + Flash Cards & National Electrical Code + Tabs Super Combo
+The Tennessee Master Super Combo package costs $349.95, down from $395.00. The box holds 5 items: Tennessee Master Electrician Study Guide; Electrician Calculations Study Guide; Master Electrician Exam Flash Cards; National Electrical Code paperback; Pre-printed NEC tabs. Every item is built on the 2026 National Electrical Code, and the study guide has 12 practice exams and 2 full-length finals.
 
 $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.com/cart/46213822251065:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $349.95 (was $395.00) Save 11% [Buy now — go to checkout](https://1examprep.co
 - 1 optional add-on can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Super Combo
 
@@ -45,7 +46,9 @@ The 2026 Tennessee Master Electrician + Electrician Calculations Study Guides + 
 
 Tennessee electrical licensing preparation requires more than field experience alone. Candidates need to understand general electrical knowledge, electrical installation requirements, building code requirements, services, feeders, branch circuits, overcurrent protection, grounding and bonding, conductors, cables, raceways, boxes, hazardous locations, special occupancies, special equipment, low-voltage systems, alarms, signaling systems, communications, lighting, signs, general-use equipment, OSHA safety, NFPA 70E safety, motors, transformers, generators, and electrical calculations. A strong study routine should help candidates review these subjects, practice calculations, improve code navigation, and reinforce important concepts through repetition.
 
-This Super Combo supports that preparation from several directions. The 2026 Tennessee Master Electrician Study Guide helps organize Tennessee electrical contractor and master-level exam preparation around NEC-based topics, trade knowledge, licensing concepts, and exam-style review. The 2026 Electrician Calculations Study Guide gives focused attention to electrical math, load calculations, conductor sizing, branch circuit work, service and feeder calculations, box fill, raceway fill, motor calculations, transformer calculations, voltage drop, and related problem-solving. The National Electrical Code 2026 paperback with tabs helps candidates build familiarity with NEC structure and article navigation during study. The 2026 Master Electrician Flash Cards provide a quick-review tool for reinforcing formulas, definitions, terminology, and important electrical concepts.
+## What else is in the Tennessee Master Super Combo?
+
+The Super Combo supports that preparation from several directions. The 2026 Tennessee Master Electrician Study Guide helps organize Tennessee electrical contractor and master-level exam preparation around NEC-based topics, trade knowledge, licensing concepts, and exam-style review. The 2026 Electrician Calculations Study Guide gives focused attention to electrical math, load calculations, conductor sizing, branch circuit work, service and feeder calculations, box fill, raceway fill, motor calculations, transformer calculations, voltage drop, and related problem-solving. The National Electrical Code 2026 paperback with tabs helps candidates build familiarity with NEC structure and article navigation during study. The 2026 Master Electrician Flash Cards provide a quick-review tool for reinforcing formulas, definitions, terminology, and important electrical concepts.
 
 For many electricians, the challenge is not understanding electrical work in the field. The challenge is applying that knowledge in the format of a timed licensing examination. A question may test a code rule, a calculation method, a wiring method, a service requirement, a grounding and bonding topic, a conductor rule, a raceway requirement, a hazardous location rule, a motor concept, a low-voltage system, a safety requirement, or a contractor business responsibility. This Super Combo helps candidates study with a more structured system instead of relying on scattered notes, random practice, or last-minute code reading.
 
@@ -66,6 +69,8 @@ The Tennessee CE – Electrical Contractor examination is listed with 100 questi
 
 The CE – Electrical Contractor content outline includes General Knowledge and Electrical Installation Requirements, Building Code Requirements, Services, Feeders, and Branch Circuits, Overcurrent Protection, Grounding and Bonding, Conductors and Cables, Raceways and Boxes, Hazardous Locations, Special Occupancies, and Special Equipment, Low Voltage, Alarms, Signaling Systems, and Communications, Lighting, Signs and General Use Equipment, OSHA and NFPA 70E Safety, and Motors, Transformers, and Generators.
 
+## What else is in the Tennessee Master Super Combo?
+
 Tennessee also requires the Business and Law Management examination for contractor licensing. The Business and Law Management exam is listed with 50 questions, a required passing score of 73 percent, which equals 37 correct items, and 140 minutes of testing time. Its content outline includes licensing requirements, estimating and bidding, business organization and financial management, tax laws, labor laws, project management and lien law, contracts, risk management, and environmental and safety topics.
 
 The same person is not required to take both the Business and Law exam and the trade exam for a contractor license application. Tennessee allows the qualifying agent process to be used for the entity obtaining the license, and up to two people may take each exam for the company. The qualifying agent may be an owner, full-time employee, or officer, with additional authorization required when the person does not have ownership.
@@ -80,6 +85,8 @@ Reference rules are strict. Candidates are responsible for bringing their own ap
 
 The Tennessee CE – Electrical Contractor reference list includes the National Electrical Code or National Electrical Code Handbook, NFPA 70E or NFPA 70E Handbook, International Building Code, OSHA construction regulations, and Ugly’s Electrical References. For code questions, the exam is based only on the code edition listed in the exam bulletin for the scheduled exam. Candidates should align final exam-room preparation with the current Tennessee exam provider instructions and the code edition listed for their examination date.
 
+## What else is in the Tennessee Master Super Combo?
+
 The Tennessee Business and Law Management examination is also identified as open book. The listed reference for that exam is the Contractors’ Guide to Business, Law and Project Management – Tennessee Edition. Business and law candidates must also follow reference rules for highlighting, underlining, indexing, permanent tabs, written notes, and loose or attached papers.
 
 The National Electrical Code 2026 paperback with tabs included in this Super Combo supports open book preparation by helping candidates study the structure of the NEC before exam day. Tabs help organize the code book and make it easier to move between major articles during study. Tabs are most useful when paired with repeated lookup exercises, practice questions, and calculation work. The goal is to build a mental map of the NEC so you can recognize where information is likely to be found and move through the book with more confidence.
@@ -93,6 +100,8 @@ A practical Tennessee licensing path begins by confirming the correct license cl
 The contractor licensing process begins with examination planning. Contractor applicants are required to take the Tennessee Business and Law exam, and the trade exam is required for classifications that require technical testing. Electrical candidates preparing for the CE classification should plan for both the electrical trade exam and the Business and Law exam unless they qualify for an accepted waiver route.
 
 After the required exam path is identified, the qualifying agent registers for the applicable examinations through the current exam provider. Beginning July 1, 2026, new contractor exam scheduling is handled through Prov, while PSI continues to administer previously scheduled appointments during the transition period. Candidates who are already scheduled with PSI for an exam date after July 1 may keep the existing PSI appointment or schedule through Prov instead.
+
+## What else is in the Tennessee Master Super Combo?
 
 After passing the required examinations, the applicant completes the Tennessee contractor license application process through the Board. Tennessee contractor licensing involves the business entity as well as the qualifying agent. The qualifying agent is the person designated to take the examination for the entity obtaining the license and may be an owner, full-time employee, or officer. If the qualifying agent does not have ownership, the Power of Attorney form is used as part of the process.
 
@@ -130,6 +139,8 @@ A strong Tennessee electrical contractor study plan should include NEC study, ca
 For NEC study, start by learning the structure of the code book. Review article organization, definitions, tables, notes, exceptions, and cross-references. Practice moving from a question to the correct article and reading the surrounding language carefully. Many electrical exam questions are missed because a candidate finds a related section but overlooks a condition, exception, table note, or specific wording.
 
 For calculations, write out each step. Electrical calculation mistakes often happen when a candidate skips a conversion, uses the wrong table, applies the wrong value, or confuses branch circuit, feeder, service, motor, transformer, generator, raceway fill, box fill, voltage drop, or overcurrent protection requirements. The 2026 Electrician Calculations Study Guide gives candidates a dedicated way to practice these skills repeatedly.
+
+## What else is in the Tennessee Master Super Combo?
 
 For safety preparation, review OSHA construction safety topics and NFPA 70E workplace electrical safety concepts. The Tennessee CE – Electrical Contractor content outline includes OSHA and NFPA 70E safety, so candidates should include safety review in the study schedule instead of focusing only on NEC lookup questions.
 
@@ -187,7 +198,7 @@ The content outline includes general knowledge and electrical installation requi
 
 ### FAQ: Who should use this Super Combo?
 
-This Super Combo is designed for electricians preparing for Tennessee master electrician or electrical contractor study based on the 2026 NEC, especially candidates who want study guides, calculation practice, a tabbed NEC book, and flash cards in one organized package.
+The Super Combo is designed for electricians preparing for Tennessee master electrician or electrical contractor study based on the 2026 NEC, especially candidates who want study guides, calculation practice, a tabbed NEC book, and flash cards in one organized package.
 
 ## Other Tennessee Master packages
 
@@ -205,7 +216,7 @@ This Super Combo is designed for electricians preparing for Tennessee master ele
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Super Combo?
 
 ### Which NEC edition is this based on?
 
@@ -222,6 +233,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: South Carolina Journeyman Study Guide + Flash Cards
 url: https://passyourmasterelectricianexam.com/south-carolina/journeyman/2026/study-guide-flash-cards/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: 2026 South Carolina Journeyman Electrician Exam Prep and Study Guide + Flash Card Combo: 12 Practice Exams + 2 Full Final Exams: Trusted by 50k Electricians.
 ---
@@ -13,6 +13,7 @@ South Carolina · Journeyman · 2026 NEC
 # Study Guide + Flash Cards
 
 2026 South Carolina Journeyman Electrician Exam Prep and Study Guide + Flash Card Combo: 12 Practice Exams +2 Full Final Exams
+The South Carolina Journeyman Study Guide + Flash Cards package costs $99.95, down from $125.00. The box holds 2 items: South Carolina Journeyman Electrician Exam Prep and Study Guide: 12 practice exams + 2 full final exams; Journeyman Electrician Exam Flash Cards.
 
 $99.95 (was $125.00) Save 20% [Buy now — go to checkout](https://1examprep.com/cart/45947338915897:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $99.95 (was $125.00) Save 20% [Buy now — go to checkout](https://1examprep.com
 - 2 optional add-ons can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Study Guide + Flash Cards
 
@@ -124,6 +125,8 @@ The 2026 South Carolina Journeyman Electrician Exam Prep and Study Guide + Flash
 
 **Full final exams** help students practice longer review sessions. The 2 full final exams can be used after completing topic review and several practice exams. Students should take these final exams in a focused setting, track time, review missed answers, and return to weaker topics before test day.
 
+## What else is in the South Carolina Journeyman Study Guide + Flash Cards?
+
 **Flash cards** support active recall. Journeyman electrician flash cards help students review definitions, calculations, electrical theory, wiring methods, conductors, materials, equipment, services, feeders, branch circuits, grounding and bonding, motors, controls, special occupancies, special equipment, communication systems, safety concepts, and code terminology in a faster format.
 
 **Wiring Methods and Materials** should receive significant study time because it is the largest listed subject area for the South Carolina Journeyman Electrician exam. Students should study conductors, raceways, cables, boxes, fittings, installation conditions, wiring methods, equipment connections, and related NEC rules.
@@ -150,7 +153,7 @@ Students who use the combo consistently can build a stronger preparation rhythm.
 
 ### Who is this South Carolina Journeyman Electrician combo for?
 
-This combo is for students preparing for South Carolina journeyman electrician certification who want a study guide, 12 practice exams, 2 full final exams, and flash cards in one preparation package.
+The South Carolina Journeyman Study Guide + Flash Cards is for students preparing for South Carolina journeyman electrician certification who want a study guide, 12 practice exams, 2 full final exams, and flash cards in one preparation package.
 
 ### What is included in this combo?
 
@@ -175,6 +178,8 @@ The passing score for the South Carolina Journeyman Electrician certification ex
 ### What topics should I study for the South Carolina Journeyman Electrician exam?
 
 Students should study Communication Systems, Equipment for General Use, General Electrical Theory and Principles, Motors and Controls, Plan Reading, Special Conditions, Special Equipment, Special Occupancies, Wiring and Protection, and Wiring Methods and Materials.
+
+## More questions about the South Carolina Journeyman Study Guide + Flash Cards
 
 ### What references should I study?
 
@@ -212,7 +217,7 @@ No. This is an exam-prep product. Candidates must follow the current South Carol
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Study Guide + Flash Cards?
 
 ### Which NEC edition is this based on?
 
@@ -229,6 +234,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

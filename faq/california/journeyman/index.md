@@ -1,16 +1,16 @@
 ---
 title: California Journeyman Electrician Exam FAQ (21 answers)
 url: https://passyourmasterelectricianexam.com/faq/california/journeyman/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
-description: 21 answers about the California journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure.
+description: The California journeyman electrician exam FAQ has 21 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours.
 ---
 
 [Home](https://passyourmasterelectricianexam.com/) /[FAQ](https://passyourmasterelectricianexam.com/faq/) /California Journeyman
 
 # California journeyman electrician exam: frequently asked questions
 
-21 answers about the California journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. Filter the list or jump to a section.
+The California journeyman electrician exam FAQ has 21 answers about the exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and passing scores. The answers come from our California journeyman package descriptions and are refreshed whenever the store changes.
 
 ## Key takeaways
 
@@ -19,11 +19,11 @@ description: 21 answers about the California journeyman electrician exam and lic
 - California electrician certification is administered by the Department of Industrial Relations, Division of Labor Standards Enforcement, Electrician Certification Unit.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
-The exam 9Licensing and experience 2Code book and materials 1More questions 9
+What is the California journeyman electrician exam like? 9How do you get a California journeyman electrician license? 2Which code book and materials are allowed on the California exam? 1What else do California journeyman candidates ask? 9
 
-## The exam
+## What is the California journeyman electrician exam like?
 
 ### Is the California General Electrician exam open book?
 
@@ -61,7 +61,7 @@ The California General Electrician certification exam is commonly listed with a 
 
 The California General Electrician certification exam is commonly listed with a 70% passing score.
 
-## Licensing and experience
+## How do you get a California journeyman electrician license?
 
 ### Does California require continuing education for renewal?
 
@@ -71,13 +71,13 @@ Yes. California electrician certification must be renewed every three years, and
 
 No. California General Electrician certification applies to the individual electrician. A C-10 Electrical Contractor license is a separate contractor license issued through the Contractors State License Board.
 
-## Code book and materials
+## Which code book and materials are allowed on the California exam?
 
 ### Can I bring my own NEC book to the California exam?
 
 No. The testing center provides the approved reference materials used during the examination, and candidates may not bring or use their own reference materials.
 
-## More questions
+## What else do California journeyman candidates ask?
 
 ### What subjects are covered on the California General Electrician exam?
 
@@ -145,6 +145,8 @@ Packages built on the 2026 NEC, from the study guide alone to the Ultimate Combo
 - [All blog posts](https://passyourmasterelectricianexam.com/blog/)
 - [Every state and level](https://passyourmasterelectricianexam.com/#states)
 - [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 

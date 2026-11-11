@@ -6,6 +6,8 @@ excerpt: What counts toward the experience requirement, how to prove it, what th
 tags: licensing, journeyman
 level: Journeyman
 takeaways: Most states ask for about 8,000 hours of supervised electrical work, often with a classroom component, before you may sit the journeyman exam. | Hours are proved with employer affidavits, apprenticeship completion records or pay records; start collecting them a year before you need them. | Approval typically takes four to eight weeks, and your eligibility usually stays valid for about a year, so apply as soon as you qualify and study in the meantime. | Buying study material does not start the application; the board does, and only the board can authorise a test date.
+answer: Most states require about 8,000 hours of supervised electrical work, roughly four years full time, before the journeyman exam. Many also want 576 to 900 classroom hours. Prove the hours with signed employer affidavits backed by W-2s or pay stubs, apply to your state board early, and study while the approval moves through the queue.
+metaTitle: Apprentice to Journeyman: Documenting Hours and Applying
 ---
 The exam gets the attention, but plenty of qualified electricians lose months on the step before it: proving they have the hours. Boards do not take your word for it, employers close or forget, and an application missing one signature goes to the back of the queue. Here is how the process usually runs and how to keep it moving.
 

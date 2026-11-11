@@ -1,7 +1,7 @@
 ---
 title: Indiana Master Study Guide + Flash Cards (2026 NEC)
 url: https://passyourmasterelectricianexam.com/indiana/master/2026/study-guide-flash-cards/
-updated: 2026-10-29
+updated: 2026-11-11
 site: Pass Your Electrician Exam
 description: Prepare for Indiana master-level electrical exam content with a structured study guide and flash card combo built for electricians who want serious practice.
 ---
@@ -13,6 +13,7 @@ Indiana · Master · 2026 NEC
 # Study Guide + Flash Cards
 
 2026 Indiana Master Electrician Exam Prep and Study Guide + Flash Card Combo: 12 Practice Exams +2 Full Final Exams
+The Indiana Master Study Guide + Flash Cards package costs $99.95, down from $125.00. The box holds 2 items: Indiana Master Electrician Exam Prep and Study Guide: 12 practice exams + 2 full final exams; Master Electrician Exam Flash Cards. Every item is built on the 2026 National Electrical Code, and the study guide has 12 practice exams and 2 full-length finals.
 
 $99.95 (was $125.00) Save 20% [Buy now — go to checkout](https://1examprep.com/cart/45947402682425:1?attributes%5BSite%5D=passyourmasterelectricianexam.com&ref=passyourmasterelectricianexam.com)
 
@@ -27,7 +28,7 @@ $99.95 (was $125.00) Save 20% [Buy now — go to checkout](https://1examprep.com
 - 2 optional add-ons can be chosen at checkout, and the price updates when you pick one.
 - Online kits arrive by email; books ship from our fulfillment center, 1 Exam Prep. Buying does not grant exam eligibility, which comes from the state licensing board.
 
-Updated October 29, 2026 · prices checked against the 1 Exam Prep store
+Updated November 11, 2026 · prices checked against the 1 Exam Prep store
 
 ## What's in the Study Guide + Flash Cards
 
@@ -41,6 +42,8 @@ Updated October 29, 2026 · prices checked against the 1 Exam Prep store
 Prepare for Indiana master-level electrical exam content with a structured study guide and flash card combo built for electricians who want serious practice, stronger code knowledge, and better exam-day confidence. This 2026 Indiana Master Electrician Exam Prep and Study Guide + Flash Card Combo includes 12 practice exams, 2 full final exams, and flash card review based on the 2026 National Electrical Code. It is designed to help you review general electrical knowledge, plan reading, services, service equipment, feeders, branch circuits, conductors, wiring methods, materials, equipment, devices, control devices, motors, generators, special occupancies, electrical calculations, and code navigation.
 
 Indiana electrical licensing is different from states that issue one single statewide master electrician license through a central electrical board. In Indiana, electrician licensing and electrical contractor qualification are commonly handled at the local city, county, or municipal level. Many Indiana electricians prepare for master electrician, electrical contractor, or equivalent local licensing exams based on the National Electrical Code and the requirements of the jurisdiction where they plan to work, pull permits, supervise electrical installations, or qualify a contracting business.
+
+## What else is in the Indiana Master Study Guide + Flash Cards?
 
 For students and electricians using the term “Indiana Master Electrician,” this product is built for master-level NEC-based exam preparation. It is especially useful for candidates preparing for local Indiana master electrician exams, electrical contractor exams, municipal licensing exams, or ICC-style Master Electrician exams accepted by a local authority. Because local rules can vary, candidates should follow the application, exam, reference, and licensing requirements set by the Indiana city or county where they are applying.
 
@@ -124,6 +127,8 @@ Feeders, branch circuits, and conductors are also central to master-level prepar
 
 Wiring methods and materials should be reviewed consistently. Study raceway installations, underground wiring methods, boxes, enclosures, cabinets, panelboards, switchboards, flexible cords, cables, clearances, guarding, support rules, and installation limitations. These practical field topics can become challenging when a question requires precise code application.
 
+## What else is in the Indiana Master Study Guide + Flash Cards?
+
 Equipment, devices, control devices, motors, generators, special occupancies, special equipment, and special conditions should also be included in the study plan. Review luminaires, receptacles, switches, appliances, utilization equipment, heating and cooling equipment, disconnects, controllers, motors, generators, pools, RV parks, emergency systems, fire alarm systems, and similar special installations.
 
 Use the 12 practice exams as your main repetition tool. After each practice exam, review every missed question. Identify the topic, return to the NEC-based material, and understand why the correct answer is best. Do not only memorize the answer. Learn the concept behind it so you can answer similar questions written in a different way.
@@ -152,7 +157,7 @@ Indiana does not operate as one single statewide master electrician licensing sy
 
 ### FAQ: What is included with this product?
 
-This combo includes an Indiana master electrician exam prep and study guide, 12 practice exams, 2 full final exams, and flash card review materials.
+The Indiana Master Study Guide + Flash Cards includes an Indiana master electrician exam prep and study guide, 12 practice exams, 2 full final exams, and flash card review materials.
 
 ### FAQ: Is this product based on the 2026 National Electrical Code?
 
@@ -173,6 +178,8 @@ Time limits vary by local authority. A common ICC Master Electrician format allo
 ### FAQ: What score is required to pass?
 
 Passing scores vary by jurisdiction and exam provider. Some master electrician exam formats require 75%, while local authorities may set their own passing requirements.
+
+## More questions about the Indiana Master Study Guide + Flash Cards
 
 ### FAQ: What topics should I study for Indiana master-level electrical exams?
 
@@ -214,7 +221,7 @@ No. This is an exam preparation product. Candidates must still follow the local 
 ### Also on this site
 [All blog posts](https://passyourmasterelectricianexam.com/blog/) · [Every state and level](https://passyourmasterelectricianexam.com/#states) · [Compare the five packages](https://passyourmasterelectricianexam.com/#compare)
 
-## Before you buy
+## What do people ask before buying the Study Guide + Flash Cards?
 
 ### Which NEC edition is this based on?
 
@@ -231,6 +238,20 @@ Online kits and courses are delivered by email after purchase. Books and code bo
 ### Does buying make me eligible to test?
 
 No. Eligibility, experience hours and exam approval come from your state licensing board. This package gets you ready for the test itself.
+
+### Is the electrician exam open book?
+
+Nearly every state exam is open book for the code portion. The code book you bring must be the edition named in your state's candidate bulletin, and most boards allow permanent tabs and highlighting but not loose notes.
+
+### How long should I study with this package?
+
+Most candidates do well with six to eight weeks at about 90 minutes a day, split between finding answers in the code book, working calculations and sitting timed practice exams in the last two weeks.
+
+### Who processes and ships the order?
+
+Orders are processed, shipped and supported by our fulfillment center, 1 Exam Prep. Call (877) 775-9400 with questions about an order or about which package fits your exam.
+
+Sources: [NFPA 70, the National Electrical Code](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70), published by the National Fire Protection Association. Exam rules, experience hours and approval to test come from each state licensing board and its candidate bulletin.
 
 ---
 
