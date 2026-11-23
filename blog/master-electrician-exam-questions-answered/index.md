@@ -102,6 +102,19 @@ The board issues the license after the vendor reports your pass. In some states 
 
 Most states renew every one to three years and require continuing education, commonly four to 16 hours per cycle. When a state adopts a new NEC edition, the hours usually include a code update course. Missing a renewal means late fees and, after a grace period, you may have to test again. Put the renewal date on your calendar the day the license arrives, and take your hours early in the cycle so a busy season does not push you past the deadline.
 
+## Where can you read about other licenses?
+
+Licensing rules change from state to state and trade to trade, so we answer the most searched questions for each one in its own post. If you work across state lines or hold more than one trade license, these companion posts cover the other exams our sites prepare you for:
+
+- [Texas contractor license: 15 questions answered](https://passyourtexascontractorexam.com/blog/texas-contractor-license-questions-answered/)
+- [Virginia contractor license: 15 questions answered](https://passyourvirginiacontractorexam.com/blog/virginia-contractor-license-questions-answered/)
+- [Nevada contractor license: 15 questions answered](https://passyournevadacontractorexam.com/blog/nevada-contractor-license-questions-answered/)
+- [Mississippi contractor license: 15 questions answered](https://passyourmississippicontractorexam.com/blog/mississippi-contractor-license-questions-answered/)
+- [Florida contractor exam: 15 questions answered](https://passyourfloridacontractorexam.com/blog/florida-contractor-exam-questions-answered/)
+- [Plumbing license exam: 15 questions answered](https://passyourplumbingexam.com/blog/plumbing-license-exam-questions-answered/)
+- [HVAC license exam: 15 questions answered](https://passyourhvacexam.com/blog/hvac-license-exam-questions-answered/)
+- [NASCLA exam: 15 questions answered](https://passyournasclaexam.com/blog/nascla-exam-questions-answered/)
+
 ## Frequently asked questions
 
 Quick answers to a few more questions people ask about the exam and license.
