@@ -1,7 +1,7 @@
 ---
 title: Motor Circuits on the Exam: Why Candidates Miss Them
 url: https://passyourmasterelectricianexam.com/blog/motor-circuits-on-the-exam-why-candidates-miss-them/
-updated: 2026-11-20
+updated: 2026-11-23
 site: Pass Your Electrician Exam
 description: Motor questions use table currents for some things and nameplate currents for others, and the percentages change by device. The four-step method, a worked.
 ---
@@ -22,7 +22,7 @@ Motor questions use table currents for some things and nameplate currents for ot
 - Branch-circuit short-circuit protection uses the percentages in Table 430.52, with the next standard size up allowed by the exception.
 - A 10 horsepower 230 volt three-phase motor needs 35 ampere conductors (10 AWG at 75 degrees) and may have a 70 ampere inverse-time breaker.
 
-Updated November 20, 2026 · prices checked against the 1 Exam Prep store
+Updated November 23, 2026 · prices checked against the 1 Exam Prep store
 
 Article 430 breaks the habit most electricians bring to the exam: that one current number drives everything. For motors, two numbers matter, they come from different places, and each part of the circuit uses its own percentage. Once that is clear the questions are mechanical.
 
@@ -86,6 +86,14 @@ Every package starts with the state exam prep study guide, built on the 2026 Nat
 ## Keep reading
 
 [
+Master Electrician Exam: 15 Questions People Ask
+
+November 23, 2026 8 min read
+
+## Master Electrician Exam: 15 Questions People Ask, Answered
+
+How hard is the master electrician exam, how many questions are on it, how long it takes and how many hours you need first. Straight answers to the 15 questions electricians search most. Each answer is short, plain and checked against the official board and exam sources.
+](https://passyourmasterelectricianexam.com/blog/master-electrician-exam-questions-answered/) · [
 What to Expect on Electrician Exam Day, From Che
 
 October 17, 2026 4 min read
@@ -101,15 +109,7 @@ October 16, 2026 4 min read
 ## How to Study for the Journeyman Electrician Exam: A 6-Week Plan
 
 Most people fail the journeyman exam on time, not knowledge. Here is a six-week plan that trains you to find answers in the code book fast, with a calculations block every week.
-](https://passyourmasterelectricianexam.com/blog/how-to-study-for-the-journeyman-electrician-exam/) · [
-How the Journeyman Electrician Exam Is Structure
-
-October 16, 2026 4 min read
-
-## How the Journeyman Electrician Exam Is Structured
-
-Question counts, time limits, the content outline, how the pass mark works, and which code articles carry most of the weight on a typical state journeyman exam.
-](https://passyourmasterelectricianexam.com/blog/how-the-journeyman-electrician-exam-is-structured/)
+](https://passyourmasterelectricianexam.com/blog/how-to-study-for-the-journeyman-electrician-exam/)
 
 ---
 

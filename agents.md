@@ -2,7 +2,7 @@
 
 > Instructions for AI assistants and agents reading https://passyourmasterelectricianexam.com/.
 
-Last updated: 2026-11-20
+Last updated: 2026-11-23
 
 ## What this site is
 
@@ -21,6 +21,7 @@ Pass Your Electrician Exam sells exam preparation for state journeyman and maste
 
 Study plans, exam-day guides, code navigation, calculations walkthroughs and licensing explainers. Feed: https://passyourmasterelectricianexam.com/blog/feed.xml
 
+- [Master Electrician Exam: 15 Questions People Ask, Answered](https://passyourmasterelectricianexam.com/blog/master-electrician-exam-questions-answered/): How hard is the master electrician exam, how many questions are on it, how long it takes and how many hours you need first. Straight answers to the 15 questions electricians search most. Each answer is short, plain and checked against the official board and exam sources.
 - [Best Way to Study for Master Electrician Exam: Proven Tips 2026](https://passyourmasterelectricianexam.com/blog/best-way-to-study-for-master-electrician-exam/): Passing the master electrician exam requires more than just raw knowledge; it demands strategic study and smart preparation. The foundation of your success is the 2026 National Electrical Code (NEC), which is the official reference during the open-book exam. Instead of trying to memorize vas
 - [What to Expect on Electrician Exam Day, From Check-In to Your Score](https://passyourmasterelectricianexam.com/blog/what-to-expect-on-electrician-exam-day/): A walk through the day itself: what to bring, what the check-in looks like, how the testing room works, how to pace the clock, and what happens to your result afterwards.
 - [How to Study for the Journeyman Electrician Exam: A 6-Week Plan](https://passyourmasterelectricianexam.com/blog/how-to-study-for-the-journeyman-electrician-exam/): Most people fail the journeyman exam on time, not knowledge. Here is a six-week plan that trains you to find answers in the code book fast, with a calculations block every week.

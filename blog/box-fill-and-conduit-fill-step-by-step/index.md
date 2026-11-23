@@ -1,7 +1,7 @@
 ---
 title: Box Fill and Conduit Fill, Step by Step
 url: https://passyourmasterelectricianexam.com/blog/box-fill-and-conduit-fill-step-by-step/
-updated: 2026-11-20
+updated: 2026-11-23
 site: Pass Your Electrician Exam
 description: The two fill calculations on every exam, worked from the tables that govern them: how to count conductors in a box under 314.16, and how to size a raceway.
 ---
@@ -22,7 +22,7 @@ The two fill calculations on every exam, worked from the tables that govern them
 - Conduit fill is 40 percent for three or more conductors per Chapter 9 Table 1; add Table 5 conductor areas and pick the raceway from Table 4.
 - Annex C gives the same answer as Tables 4 and 5 when all conductors are one size and type, and is faster.
 
-Updated November 20, 2026 · prices checked against the 1 Exam Prep store
+Updated November 23, 2026 · prices checked against the 1 Exam Prep store
 
 Fill questions are gifts if you know the two tables and the counting rules, and a time sink if you try to reason them out from scratch. Here is each one as a procedure.
 
@@ -86,6 +86,14 @@ Every package starts with the state exam prep study guide, built on the 2026 Nat
 ## Keep reading
 
 [
+Master Electrician Exam: 15 Questions People Ask
+
+November 23, 2026 8 min read
+
+## Master Electrician Exam: 15 Questions People Ask, Answered
+
+How hard is the master electrician exam, how many questions are on it, how long it takes and how many hours you need first. Straight answers to the 15 questions electricians search most. Each answer is short, plain and checked against the official board and exam sources.
+](https://passyourmasterelectricianexam.com/blog/master-electrician-exam-questions-answered/) · [
 How to Study for the Journeyman Electrician Exam
 
 October 16, 2026 4 min read
@@ -101,15 +109,7 @@ October 14, 2026 3 min read
 ## Open-Book Exam: How to Use the Code Book Under a Clock
 
 Open book is where most candidates lose. A method for deciding what to look up, how to get to the right section in seconds, and how to read an exception without missing the condition.
-](https://passyourmasterelectricianexam.com/blog/open-book-exam-how-to-use-the-code-book-under-a-clock/) · [
-How to Tab Your NEC for the Electrician Exam
-
-October 13, 2026 3 min read
-
-## How to Tab Your NEC for the Electrician Exam
-
-Which articles and tables deserve a tab, how to place them so they stay useful, what the testing centres allow, and why doing it yourself is part of the study.
-](https://passyourmasterelectricianexam.com/blog/how-to-tab-your-nec-for-the-electrician-exam/)
+](https://passyourmasterelectricianexam.com/blog/open-book-exam-how-to-use-the-code-book-under-a-clock/)
 
 ---
 

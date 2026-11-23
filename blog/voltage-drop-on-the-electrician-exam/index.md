@@ -1,7 +1,7 @@
 ---
 title: Voltage Drop on the Electrician Exam: Formula, Traps and a Worked Example
 url: https://passyourmasterelectricianexam.com/blog/voltage-drop-on-the-electrician-exam/
-updated: 2026-11-20
+updated: 2026-11-23
 site: Pass Your Electrician Exam
 description: The two voltage-drop formulas, where the constants come from, the 3 and 5 percent recommendations, and a worked example that shows why the obvious conductor.
 ---
@@ -22,7 +22,7 @@ The two voltage-drop formulas, where the constants come from, the 3 and 5 percen
 - The code recommends no more than 3 percent on a branch circuit and 5 percent total; questions use those limits to ask which conductor to install.
 - The common trap is doubling the length when the formula already includes the return path.
 
-Updated November 20, 2026 · prices checked against the 1 Exam Prep store
+Updated November 23, 2026 · prices checked against the 1 Exam Prep store
 
 Voltage drop questions look like arithmetic and are really about reading. The formula is short, the constants are given or in a table, and the trap is always in the setup: one-way or round-trip length, single or three phase, copper or aluminium, and which limit the question is holding you to.
 
@@ -91,6 +91,14 @@ Every package starts with the state exam prep study guide, built on the 2026 Nat
 ## Keep reading
 
 [
+Master Electrician Exam: 15 Questions People Ask
+
+November 23, 2026 8 min read
+
+## Master Electrician Exam: 15 Questions People Ask, Answered
+
+How hard is the master electrician exam, how many questions are on it, how long it takes and how many hours you need first. Straight answers to the 15 questions electricians search most. Each answer is short, plain and checked against the official board and exam sources.
+](https://passyourmasterelectricianexam.com/blog/master-electrician-exam-questions-answered/) · [
 How to Study for the Journeyman Electrician Exam
 
 October 16, 2026 4 min read
@@ -106,15 +114,7 @@ October 14, 2026 3 min read
 ## Open-Book Exam: How to Use the Code Book Under a Clock
 
 Open book is where most candidates lose. A method for deciding what to look up, how to get to the right section in seconds, and how to read an exception without missing the condition.
-](https://passyourmasterelectricianexam.com/blog/open-book-exam-how-to-use-the-code-book-under-a-clock/) · [
-How to Tab Your NEC for the Electrician Exam
-
-October 13, 2026 3 min read
-
-## How to Tab Your NEC for the Electrician Exam
-
-Which articles and tables deserve a tab, how to place them so they stay useful, what the testing centres allow, and why doing it yourself is part of the study.
-](https://passyourmasterelectricianexam.com/blog/how-to-tab-your-nec-for-the-electrician-exam/)
+](https://passyourmasterelectricianexam.com/blog/open-book-exam-how-to-use-the-code-book-under-a-clock/)
 
 ---
 

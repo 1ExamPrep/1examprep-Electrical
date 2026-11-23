@@ -1,7 +1,7 @@
 ---
 title: The Calculations You Must Be Able to Do Before Exam Day
 url: https://passyourmasterelectricianexam.com/blog/electrician-exam-calculations-checklist/
-updated: 2026-11-20
+updated: 2026-11-23
 site: Pass Your Electrician Exam
 description: A checklist of the eight calculation families on journeyman and master exams, what each one needs from the code book, and the mistake that costs the most.
 ---
@@ -22,7 +22,7 @@ A checklist of the eight calculation families on journeyman and master exams, wh
 - Work each family until you can do a problem without the study guide, then mix them under a timer.
 - Keep a one-page formula sheet and rewrite it from memory at the start of every session.
 
-Updated November 20, 2026 · prices checked against the 1 Exam Prep store
+Updated November 23, 2026 · prices checked against the 1 Exam Prep store
 
 Calculations are a quarter of a journeyman exam and up to a third of a master exam, and they are where scores separate. Not because the maths is hard, but because each problem needs the right table and the right rule, in the right order, under a clock. Here are the families, what each needs, and where candidates go wrong.
 
@@ -121,6 +121,14 @@ Every package starts with the state exam prep study guide, built on the 2026 Nat
 ## Keep reading
 
 [
+Master Electrician Exam: 15 Questions People Ask
+
+November 23, 2026 8 min read
+
+## Master Electrician Exam: 15 Questions People Ask, Answered
+
+How hard is the master electrician exam, how many questions are on it, how long it takes and how many hours you need first. Straight answers to the 15 questions electricians search most. Each answer is short, plain and checked against the official board and exam sources.
+](https://passyourmasterelectricianexam.com/blog/master-electrician-exam-questions-answered/) · [
 What to Expect on Electrician Exam Day, From Che
 
 October 17, 2026 4 min read
@@ -136,15 +144,7 @@ October 16, 2026 4 min read
 ## How to Study for the Journeyman Electrician Exam: A 6-Week Plan
 
 Most people fail the journeyman exam on time, not knowledge. Here is a six-week plan that trains you to find answers in the code book fast, with a calculations block every week.
-](https://passyourmasterelectricianexam.com/blog/how-to-study-for-the-journeyman-electrician-exam/) · [
-How the Journeyman Electrician Exam Is Structure
-
-October 16, 2026 4 min read
-
-## How the Journeyman Electrician Exam Is Structured
-
-Question counts, time limits, the content outline, how the pass mark works, and which code articles carry most of the weight on a typical state journeyman exam.
-](https://passyourmasterelectricianexam.com/blog/how-the-journeyman-electrician-exam-is-structured/)
+](https://passyourmasterelectricianexam.com/blog/how-to-study-for-the-journeyman-electrician-exam/)
 
 ---
 

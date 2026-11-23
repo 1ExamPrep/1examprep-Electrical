@@ -1,7 +1,7 @@
 ---
 title: Dwelling Load Calculations: Standard Method vs Optional Method
 url: https://passyourmasterelectricianexam.com/blog/dwelling-load-calculations-standard-vs-optional/
-updated: 2026-11-20
+updated: 2026-11-23
 site: Pass Your Electrician Exam
 description: The two ways to size a dwelling service under Article 220, worked side by side on the same house, with the demand factors each one uses and the places the.
 ---
@@ -22,7 +22,7 @@ The two ways to size a dwelling service under Article 220, worked side by side o
 - Optional: all loads at nameplate, first 10 kVA at 100 percent and the remainder at 40 percent, plus the larger of heating or cooling.
 - The question tells you which method to use; if it says optional, do not apply the 35 percent lighting factor.
 
-Updated November 20, 2026 · prices checked against the 1 Exam Prep store
+Updated November 23, 2026 · prices checked against the 1 Exam Prep store
 
 Every journeyman exam has at least one dwelling calculation and master exams have several. There are two methods, they live in different parts of Article 220, and the exam checks whether you can keep them apart. Here they are on the same house.
 
@@ -89,6 +89,14 @@ Every package starts with the state exam prep study guide, built on the 2026 Nat
 ## Keep reading
 
 [
+Master Electrician Exam: 15 Questions People Ask
+
+November 23, 2026 8 min read
+
+## Master Electrician Exam: 15 Questions People Ask, Answered
+
+How hard is the master electrician exam, how many questions are on it, how long it takes and how many hours you need first. Straight answers to the 15 questions electricians search most. Each answer is short, plain and checked against the official board and exam sources.
+](https://passyourmasterelectricianexam.com/blog/master-electrician-exam-questions-answered/) · [
 What to Expect on Electrician Exam Day, From Che
 
 October 17, 2026 4 min read
@@ -104,15 +112,7 @@ October 16, 2026 4 min read
 ## How to Study for the Journeyman Electrician Exam: A 6-Week Plan
 
 Most people fail the journeyman exam on time, not knowledge. Here is a six-week plan that trains you to find answers in the code book fast, with a calculations block every week.
-](https://passyourmasterelectricianexam.com/blog/how-to-study-for-the-journeyman-electrician-exam/) · [
-How the Journeyman Electrician Exam Is Structure
-
-October 16, 2026 4 min read
-
-## How the Journeyman Electrician Exam Is Structured
-
-Question counts, time limits, the content outline, how the pass mark works, and which code articles carry most of the weight on a typical state journeyman exam.
-](https://passyourmasterelectricianexam.com/blog/how-the-journeyman-electrician-exam-is-structured/)
+](https://passyourmasterelectricianexam.com/blog/how-to-study-for-the-journeyman-electrician-exam/)
 
 ---
 
