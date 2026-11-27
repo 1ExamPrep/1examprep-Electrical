@@ -546,3 +546,6 @@ footer{padding:2.5rem 0;color:var(--muted);font-size:.88rem}
 }
 @media (max-height:560px) and (min-width:721px){ .srch-box.ai-on .ai-big{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))} }
 @media (min-width:1400px){ .srch-box.ai-on{width:880px} }
+
+/* reviews page */
+.reviews-embed{margin:18px 0 24px;min-height:120px}.reviews-embed iframe{display:block;width:100%;min-width:100%;border:0}.reviews-fallback{font-size:.95em;opacity:.8}

@@ -176,6 +176,9 @@ def footer(rel, year0):
             '<p class="fine"><strong>%s</strong> &copy; <span data-year>%s</span> &middot; %s Prices and availability come from the fulfillment store and were last checked <time datetime="%s">%s</time>; the price at checkout is the one that applies. Not affiliated with any state licensing board or testing vendor. Purchasing does not grant exam eligibility or a license.</p></div></footer>'
             % (rel or "./", "{{WORDMARK}}", html.escape(CFG.get("tagline", "")), CFG["phoneTel"], html.escape(CFG["phone"]), CFG["email"], CFG["email"], quick, rel or "./", rel or "./", rel or "./", rel or "./", rel, rel, rel, soc, html.escape(BRAND), TODAY[:4], html.escape(FUL.get("note") or ("Orders are processed and shipped by %s, our fulfillment center." % FUL["name"])), TODAY, nice_day(TODAY)))
 
+_footer_base = footer
+def footer(rel, year0):
+    return _footer_base(rel, year0).replace('faq/">FAQ</a></li>', 'faq/">FAQ</a></li><li><a href="%sreviews/">Customer reviews</a></li>' % rel, 1)
 def slug(state): return "general" if state == GENERAL else state.lower().replace(" ", "-")
 def words(text):
     out = []
@@ -726,6 +729,19 @@ faq_page(["faq"], "Electrician Exam FAQ: %d Answers | %s" % (len(gen_pairs) + to
          ("Ready to study?", "Pick your state and level, then choose a package.", "Every package starts with the state study guide, 12 practice exams and 2 full-length finals, built on the %s National Electrical Code." % years[0], "../#packs", "Pick my package"),
          '<section class="related-pages" style="background:transparent;padding:0;margin-top:2.5rem"><div class="wrap" style="padding:0"><h2 style="font-size:1.3rem;text-transform:none">Keep reading</h2><div class="rp-cols"><div><h3>Guides</h3><ul><li><a href="../blog/">Blog: study plans and code navigation</a></li><li><a href="../#compare">Compare the five packages</a></li><li><a href="../#states">Every state and level</a></li></ul></div></div></div></section>')
 print("FAQ: %d general + %d state-specific answers on %d pages" % (len(gen_pairs), total_state_q, len(STATE_FAQS) + 1))
+
+# --- /reviews/: Google reviews + Shopper Approved (widgets injected by shared/search.js, no iframe or body script in the HTML) ---
+sys.path.insert(0, os.path.join(ROOT, "tools")); import reviewskit as rk
+_rc = rk.content(BRAND, "electrician exam", CFG["phone"], CFG["phoneTel"], CFG["email"], faq_url="../faq/", contact_url="tel:" + CFG["phoneTel"], home_url="../")
+_rsecs = [(i, h, 0, b) for i, h, b in _rc["sections"]] + [("reviews-faq", "What do people ask about our reviews?", 0, faq_details(_rc["faq"]))]
+_rsrc = ('<section class="sources" aria-labelledby="h-sources"><h2 id="h-sources">Sources</h2><ul>%s</ul><p class="upd">Reviews load live from Google and Shopper Approved; page updated <time datetime="%s">%s</time>.</p></section>'
+         % ("".join('<li><a href="%s" rel="noopener" target="_blank">%s</a></li>' % (html.escape(u), html.escape(n)) for n, u in _rc["sources"]), TODAY, nice_day(TODAY)))
+faq_page(["reviews"], _rc["title"], _rc["h1"], _rc["lead"], _rsecs, _rc["faq"], [("Home", ""), ("Reviews", "reviews/")], _rc["takeaways"],
+         ("Ready to study?", "Pick your state and level, then choose a package.", "Every package starts with the state study guide, 12 practice exams and 2 full-length finals.", "../#packs", "Pick my package"),
+         _rsrc)
+_rp = os.path.join(ROOT, "reviews", "index.html"); _rh = open(_rp, encoding="utf-8").read()
+_rh = re.sub(r'<nav class="tagbar"[^>]*>.*?</nav>', "", _rh, count=1, flags=re.S)  # no topic jump bar on this page
+open(_rp, "w", encoding="utf-8").write(_rh)
 
 # --- icons + manifest ---
 fav = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#1b1f3b"/><path d="M36 8 18 36h12l-4 20 20-30H34z" fill="#ff5a1f"/></svg>'
