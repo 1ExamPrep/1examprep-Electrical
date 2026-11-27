@@ -1,7 +1,7 @@
 ---
 title: Kentucky Master Electrician Exam FAQ (19 answers)
 url: https://passyourmasterelectricianexam.com/faq/kentucky/master/
-updated: 2026-11-23
+updated: 2026-11-27
 site: Pass Your Electrician Exam
 description: 19 answers about the Kentucky master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
 ---
@@ -19,7 +19,7 @@ description: 19 answers about the Kentucky master electrician exam and license: 
 - Kentucky electrical licensing examinations are administered through Prov, Inc. for the Commonwealth of Kentucky Electrical Licensing Division.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated November 23, 2026 · prices checked against the 1 Exam Prep store
+Updated November 27, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 6Licensing and experience 4Code book and materials 7More questions 2
 

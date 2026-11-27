@@ -1,7 +1,7 @@
 ---
 title: Illinois Master Electrician Exam FAQ (15 answers)
 url: https://passyourmasterelectricianexam.com/faq/illinois/master/
-updated: 2026-11-23
+updated: 2026-11-27
 site: Pass Your Electrician Exam
 description: 15 answers about the Illinois master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
 ---
@@ -19,7 +19,7 @@ description: 15 answers about the Illinois master electrician exam and license: 
 - Licensing rules come from the state board; the questions below name it.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated November 23, 2026 · prices checked against the 1 Exam Prep store
+Updated November 27, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 2Licensing and experience 5Code book and materials 4More questions 4
 

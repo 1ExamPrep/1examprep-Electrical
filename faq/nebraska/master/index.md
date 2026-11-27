@@ -1,7 +1,7 @@
 ---
 title: Nebraska Master Electrician Exam FAQ (24 answers)
 url: https://passyourmasterelectricianexam.com/faq/nebraska/master/
-updated: 2026-11-23
+updated: 2026-11-27
 site: Pass Your Electrician Exam
 description: 24 answers about the Nebraska master electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure and.
 ---
@@ -19,7 +19,7 @@ description: 24 answers about the Nebraska master electrician exam and license: 
 - Electrical licensing in Nebraska is administered by the Nebraska State Electrical Division under the authority of the Nebraska State Electrical Board.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated November 23, 2026 · prices checked against the 1 Exam Prep store
+Updated November 27, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 8Licensing and experience 9Code book and materials 4More questions 3
 

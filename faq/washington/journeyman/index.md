@@ -1,7 +1,7 @@
 ---
 title: Washington Journeyman Electrician Exam FAQ (27 answers)
 url: https://passyourmasterelectricianexam.com/faq/washington/journeyman/
-updated: 2026-11-23
+updated: 2026-11-27
 site: Pass Your Electrician Exam
 description: 27 answers about the Washington journeyman electrician exam and license: who issues it, open-book rules, the NEC edition, experience hours, exam structure.
 ---
@@ -19,7 +19,7 @@ description: 27 answers about the Washington journeyman electrician exam and lic
 - PSI administers Washington electrical certification examinations under contract with the Washington State Department of Labor & Industries.
 - Prep packages for this exam start at $99.95; every one includes the state study guide with 12 practice exams and 2 finals.
 
-Updated November 23, 2026 · prices checked against the 1 Exam Prep store
+Updated November 27, 2026 · prices checked against the 1 Exam Prep store
 
 The exam 8Licensing and experience 4Code book and materials 7More questions 8
 

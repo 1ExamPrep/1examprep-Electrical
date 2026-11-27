@@ -1,7 +1,7 @@
 ---
 title: Electrician Exam Prep Blog | Pass Your Electrician Exam
 url: https://passyourmasterelectricianexam.com/blog/
-updated: 2026-11-23
+updated: 2026-11-27
 site: Pass Your Electrician Exam
 description: Study tips, NEC code changes, state licensing updates and exam strategy from Pass Your Electrician Exam. New posts every month.
 ---
@@ -11,7 +11,7 @@ description: Study tips, NEC code changes, state licensing updates and exam stra
 # The Electrician Exam Prep Blog
 
 Study strategies, code changes, licensing news and the questions we hear every day on the phone. Written by the people who write the exam prep.
-[All](https://passyourmasterelectricianexam.com/blog/) · [calculations](https://passyourmasterelectricianexam.com/blog/tag/calculations/) · [electrician license](https://passyourmasterelectricianexam.com/blog/tag/electrician-license/) · [exam day](https://passyourmasterelectricianexam.com/blog/tag/exam-day/) · [exam format](https://passyourmasterelectricianexam.com/blog/tag/exam-format/) · [journeyman](https://passyourmasterelectricianexam.com/blog/tag/journeyman/) · [licensing](https://passyourmasterelectricianexam.com/blog/tag/licensing/) · [master](https://passyourmasterelectricianexam.com/blog/tag/master/) · [master electrician exam](https://passyourmasterelectricianexam.com/blog/tag/master-electrician-exam/) · [NEC](https://passyourmasterelectricianexam.com/blog/tag/nec/) · [nec](https://passyourmasterelectricianexam.com/blog/tag/nec/) · [study tips](https://passyourmasterelectricianexam.com/blog/tag/study-tips/)
+[All](https://passyourmasterelectricianexam.com/blog/) · [calculations](https://passyourmasterelectricianexam.com/blog/tag/calculations/) · [electrician license](https://passyourmasterelectricianexam.com/blog/tag/electrician-license/) · [exam day](https://passyourmasterelectricianexam.com/blog/tag/exam-day/) · [exam format](https://passyourmasterelectricianexam.com/blog/tag/exam-format/) · [journeyman](https://passyourmasterelectricianexam.com/blog/tag/journeyman/) · [licensing](https://passyourmasterelectricianexam.com/blog/tag/licensing/) · [master](https://passyourmasterelectricianexam.com/blog/tag/master/) · [master electrician exam](https://passyourmasterelectricianexam.com/blog/tag/master-electrician-exam/) · [nec](https://passyourmasterelectricianexam.com/blog/tag/nec/) · [NEC](https://passyourmasterelectricianexam.com/blog/tag/nec/) · [study tips](https://passyourmasterelectricianexam.com/blog/tag/study-tips/)
 
 ## Key takeaways
 
@@ -20,7 +20,7 @@ Study strategies, code changes, licensing news and the questions we hear every d
 - Every post links to the matching state packages, built on the 2026 National Electrical Code.
 - New posts appear in the RSS feed at /blog/feed.xml the moment they are published.
 
-Updated November 23, 2026 · prices checked against the 1 Exam Prep store
+Updated November 27, 2026 · prices checked against the 1 Exam Prep store
 
 Most people who fail a licensing exam do not fail on knowledge. They run out of time in the code book, misread an exception, or walk in with the wrong edition. These posts are about the parts of passing that the study guide cannot do for you: how to tab and navigate the 2026 NEC, how to pace a timed exam, what each state board actually asks for, and what changes between code cycles.
 

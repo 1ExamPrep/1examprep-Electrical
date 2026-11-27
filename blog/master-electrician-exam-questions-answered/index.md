@@ -1,7 +1,7 @@
 ---
 title: Master Electrician Exam: 15 Common Questions Answered
 url: https://passyourmasterelectricianexam.com/blog/master-electrician-exam-questions-answered/
-updated: 2026-11-23
+updated: 2026-11-27
 site: Pass Your Electrician Exam
 description: Master electrician exam answers: how to apply, schedule and pass, how hard it is, question counts, time limits, experience hours, the NEC and renewal.
 ---
@@ -22,7 +22,7 @@ How hard is the master electrician exam, how many questions are on it, how long 
 - Most states want a journeyman license plus one to four more years of experience before the master exam.
 - Time, not knowledge, is why most candidates fail, so timed practice and a tabbed code book matter most.
 
-Updated November 23, 2026 · prices checked against the 1 Exam Prep store
+Updated November 27, 2026 · prices checked against the 1 Exam Prep store
 
 The master electrician exam is an open-book, multiple-choice test on the National Electrical Code edition your state has adopted. Most states require a journeyman license and one to four more years of experience before you can sit for it. The pass mark is usually 70 to 75 percent. Here are the 15 questions electricians search most.
 
